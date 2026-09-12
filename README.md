@@ -1,9 +1,9 @@
 # Veille créative hebdomadaire
 
 Site statique généré par `build.py` (Python 3, bibliothèque standard uniquement).
-Le dossier `docs/` est la sortie publiée. Chaque push sur `main` redéploie le site.
+Le dossier `docs/` est la sortie publiée par GitHub Pages (Settings → Pages → main, /docs). Chaque push sur `main` redéploie le site.
 
-URL : https://veille-karlpetzold.netlify.app
+URL : https://krlpz-dev.github.io/veille/
 
 ## Structure
 
