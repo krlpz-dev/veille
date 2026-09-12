@@ -1,0 +1,198 @@
+{
+ "edition": "03",
+ "date": "2026-08-28",
+ "intro": "Treize entrées, une par rubrique. Cette semaine, trois pépites hors actualité portent le craft, l'illustration et la philosophie. Le reste couvre les sept derniers jours.",
+ "entrees": [
+  {
+   "rubrique": "direction-artistique",
+   "titre": "McDonald's UK et Xbox font passer la nourriture de Halo et Fallout au menu réel",
+   "type": "actualite",
+   "source_nom": "Creative Review",
+   "source_url": "https://www.creativereview.co.uk/mcdonalds-side-missions-xbox-campaign/",
+   "images": [
+    "https://creativereview.imgix.net/uploads/2026/08/2_SideMissions_AV.png?auto=compress%2Cformat&crop=faces%2Centropy%2Cedges&fit=crop&q=60&w=1920&h=1080",
+    "https://creativereview.imgix.net/uploads/2026/08/1_SideMissions_AV.png?auto=compress%2Cformat&crop=faces%2Centropy%2Cedges&fit=crop&q=60&w=1920&h=1080",
+    "https://creativereview.imgix.net/uploads/2026/08/4_SideMissions_Cosplay.jpg?auto=compress%2Cformat&crop=faces%2Centropy%2Cedges&fit=crop&q=60&w=2000&h=1125",
+    "https://creativereview.imgix.net/uploads/2026/08/5_SideMissions_InGameFoodJustGotRealOOH.jpg?auto=compress%2Cformat&crop=faces%2Centropy%2Cedges&fit=crop&q=60&w=2000&h=1125"
+   ],
+   "contexte_html": "<a href=\"https://www.creativereview.co.uk/mcdonalds-side-missions-xbox-campaign/\" target=\"_blank\" rel=\"noopener\">Creative Review</a> revient le 25 août sur l'extension de Side Missions, la plateforme gaming de McDonald's UK, cette fois avec Xbox, World of Warcraft, Fallout et Candy Crush. Le dispositif inverse le placement de produit habituel puisque la nourriture fictive des jeux passe au menu réel, les Moa Nuggets de <a href=\"https://www.xbox.com/en-GB/games/halo-campaign-evolved\" target=\"_blank\" rel=\"noopener\">Halo: Campaign Evolved</a> devenant des McNuggets poivre noir et ail, le Blamco de Fallout 76 des bouchées au fromage. La décision de direction artistique tient dans le traitement des arches, redessinées à chaque fois dans la langue visuelle de la licence au lieu d'être posées en surimpression. Le film de soixante secondes, réalisé par Romain Chassaing pour <a href=\"https://academyfilms.com/\" target=\"_blank\" rel=\"noopener\">Academy</a> et créé par Leo UK, s'ouvre à l'intérieur de Halo, où des marines abandonnent leur mission pour un détour par le comptoir, avant un prolongement en faux leaks de créateurs, tests en cosplay et contreparties in-game.",
+   "learning": "Quand une marque accepte d'être redessinée dans la grammaire visuelle d'un jeu au lieu d'y plaquer son logo, elle cesse d'être un annonceur et devient un décor jouable."
+  },
+  {
+   "rubrique": "mode",
+   "titre": "Globe-Trotter remet en vente des valises anciennes restaurées à l'atelier et fait de la réparation une ligne de produit",
+   "type": "actualite",
+   "source_nom": "Hypebeast",
+   "source_url": "https://hypebeast.com/2026/8/globe-trotter-the-restoration-edit-second-drop-release-info",
+   "images": [
+    "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F08%2F28%2Fglobe-trotter-the-restoration-edit-second-drop-release-info-1.jpg?q=90&w=1600&cbr=1&fit=max",
+    "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F08%2F28%2Fglobe-trotter-the-restoration-edit-second-drop-release-info-2.jpg?q=90&w=1600&cbr=1&fit=max",
+    "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F08%2F28%2Fglobe-trotter-the-restoration-edit-second-drop-release-info-3.jpg?q=90&w=1600&cbr=1&fit=max",
+    "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F08%2F28%2Fglobe-trotter-the-restoration-edit-second-drop-release-info-4.jpg?q=90&w=1600&cbr=1&fit=max"
+   ],
+   "contexte_html": "<a href=\"https://www.globe-trotter.com/\" target=\"_blank\" rel=\"noopener\">Globe-Trotter</a> a mis en ligne le 28 août le deuxième volet de sa Renewed Collection, des valises anciennes reprises une par une dans son atelier du Hertfordshire. La remise en état suit les gestes de montage d'origine de la maison, en fibre vulcanisée, le matériau <a href=\"https://www.globe-trotter.com/pages/about\" target=\"_blank\" rel=\"noopener\">breveté en 1901</a>, renforcée de cuir à tannage végétal, et s'interdit d'effacer la patine, les étiquettes de compagnies aériennes disparues et les accidents de surface. Seules la quincaillerie et la structure sont refaites, si bien que chaque pièce sort unique, avec ses doublures et ses sangles contrastées, et se vend comme une pièce à part entière plutôt que comme une seconde main. Le premier volet est parti d'un coup et un troisième chapitre, The Archive, est annoncé d'ici la fin de l'année, ce qui fait passer un service de réparation au statut de <a href=\"https://hypebeast.com/2026/8/globe-trotter-the-restoration-edit-second-drop-release-info\" target=\"_blank\" rel=\"noopener\">catégorie commerciale</a>.",
+   "learning": "Une maison qui sait encore réparer ce qu'elle a fabriqué possède un stock que personne ne peut copier."
+  },
+  {
+   "rubrique": "luxe",
+   "titre": "Estúdio Campana enveloppe un pop-up Tiffany à São Paulo d'une peau en osier tressée à la main",
+   "type": "actualite",
+   "source_nom": "Dezeen",
+   "source_url": "https://www.dezeen.com/2026/08/22/tiffany-co-pop-up-jk-iguatemi-mall-sao-paulo-estudio-campana/",
+   "images": [
+    "https://static.dezeen.com/uploads/2026/08/tiffany-co-sao-paulo_estudio-campana_dezeen_hero1-852x479.jpg",
+    "https://static.dezeen.com/uploads/2026/08/tiffany-co-sao-paulo_estudio-campana_dezeen_2364_col_1-852x639.jpg",
+    "https://static.dezeen.com/uploads/2026/08/tiffany-co-sao-paulo_estudio-campana_dezeen_2364_col_2-852x639.jpg",
+    "https://static.dezeen.com/uploads/2026/08/tiffany-co-sao-paulo_estudio-campana_dezeen_2364_col_7-852x1136.jpg"
+   ],
+   "contexte_html": "Le 22 août, <a href=\"https://www.dezeen.com/tag/campana-brothers/\" target=\"_blank\" rel=\"noopener\">Estúdio Campana</a> a livré au centre JK Iguatemi de São Paulo un pop-up <a href=\"https://www.dezeen.com/tag/tiffany-co/\" target=\"_blank\" rel=\"noopener\">Tiffany &amp; Co</a> entièrement enveloppé d'osier synthétique tressé à la main, teinté du bleu de la maison et strié de fauve à l'horizontale. La façade ondule puis se replie au-dessus de la porte en arche pour loger la corniche lumineuse, ce qui fait du tressage un élément structurant du dessin et non un habillage posé sur une boîte. À l'intérieur, pierre beige, panneautage tambour et vitrines surélevées sur piètement métallique laissent la matière tressée revenir sur les tabourets, exécutés à la main selon le même point que la peau extérieure, et l'arche est reprise à l'identique pour le salon de vente semi-privé du fond. Le calendrier est net : pendant que le retail de volume durcit son décor, béton apparent et gradins de brique <a href=\"https://www.dezeen.com/2026/08/20/aim-architecture-zara-flagship-shanghai/\" target=\"_blank\" rel=\"noopener\">chez Zara à Shanghai deux jours plus tôt</a>, le luxe achète du geste manuel et de la texture.",
+   "learning": "Une maison ne prouve plus son territoire avec du marbre importé mais avec une technique locale qu'elle sait tenir à l'échelle d'une façade."
+  },
+  {
+   "rubrique": "craft",
+   "titre": "Mokume-gane, le laminé multi-métal des garnitures de sabre d'Edo, repris par Tiffany dans les années 1870",
+   "type": "pepite",
+   "source_nom": "The Metropolitan Museum of Art",
+   "source_url": "https://www.metmuseum.org/perspectives/metalworking-mokume-gane",
+   "images": [
+    "https://cdn.sanity.io/images/cctd4ker/production/764a4bf366cafc8028c801d6d1339d4d1089b0fa-5120x2880.jpg?w=1920&q=75&auto=format",
+    "https://cdn.sanity.io/images/cctd4ker/production/c2c41752974b75059c626def20d79980c82be9ad-5120x5120.jpg?w=1920&q=75&fit=clip&auto=format",
+    "https://cdn.sanity.io/images/cctd4ker/production/28b41ddc368dd90a8b434a87051087923b1c2cac-1620x1080.jpg?w=1920&q=75&fit=max&auto=format",
+    "https://cdn.sanity.io/images/cctd4ker/production/67581242b0aab2a1e826313128126bad5b537621-1517x1080.jpg?w=1920&q=75&fit=max&auto=format"
+   ],
+   "contexte_html": "Le <a href=\"https://www.metmuseum.org/perspectives/metalworking-mokume-gane\" target=\"_blank\" rel=\"noopener\">mokume-gane</a> empile des feuillets d'argent, de cuivre et d'alliages or-cuivre, les abrase, les serre sous presse, les enduit de borax et les soude par diffusion au four sans jamais les fondre. Le motif n'est pas dessiné en surface, il est déjà dans l'épaisseur, et l'artisan décide seulement où percer et jusqu'où laminer pour le faire remonter. Né dans les garnitures de sabre de l'époque d'Edo, le procédé arrive à New York dans les années 1870 quand <a href=\"https://www.metmuseum.org/perspectives/metalworking-introduction\" target=\"_blank\" rel=\"noopener\">Edward C. Moore, directeur du design chez Tiffany &amp; Co.</a>, achète des objets japonais pour documenter son atelier, lequel commence par truquer l'effet en incrustations soudées avant de maîtriser le vrai laminé. La série <a href=\"https://www.metmuseum.org/perspectives/series/materials-and-techniques/metalworking\" target=\"_blank\" rel=\"noopener\">Materials and Techniques</a> du Met filme chaque étape et tient la ligne jusqu'au vase martelé en 2019 par <a href=\"https://www.metmuseum.org/art/collection/search/839551\" target=\"_blank\" rel=\"noopener\">Tamagawa Norio</a>, trésor national vivant.",
+   "learning": "À l'âge de la copie instantanée, la seule surface inimitable est celle qui vient de l'épaisseur."
+  },
+  {
+   "rubrique": "architecture",
+   "titre": "À Hirosaki, 1 800 volontaires tirent à la corde un donjon de bois vers son emplacement d'origine",
+   "type": "actualite",
+   "source_nom": "Dezeen",
+   "source_url": "https://www.dezeen.com/2026/08/27/hirosaki-castle-volunteer-relocation-japan/",
+   "images": [
+    "https://static.dezeen.com/uploads/2026/08/hirosaki-castle-volunteer-relocation-japan_dezeen_2364_hero_0.jpg",
+    "https://static.dezeen.com/uploads/2026/08/hirosaki-castle-volunteer-relocation-japan_dezeen_2364_hero_1-852x479.jpg",
+    "https://static.dezeen.com/uploads/2026/08/hirosaki-castle-volunteer-relocation-japan_dezeen_2364_col_2-852x568.jpg",
+    "https://static.dezeen.com/uploads/2026/08/hirosaki-castle-volunteer-relocation-japan_dezeen_2364_col_0-852x1287.jpg"
+   ],
+   "contexte_html": "Le donjon de <a href=\"https://en.japantravel.com/aomori/hirosaki-castle-to-be-relocated/20359\" target=\"_blank\" rel=\"noopener\">Hirosaki</a>, trois niveaux de bois édifiés en 1810 et l'un des douze donjons féodaux encore debout au Japon, a avancé d'un peu plus de deux mètres les 22 et 23 août, tiré sur des cordes de 30 mètres par environ 1 800 personnes en groupes tournants de 80. La méthode est le hikiya : l'édifice est soulevé d'un bloc, posé sur rouleaux et déplacé sans aucun démontage, procédé déjà employé en 2015 pour l'écarter de 78 mètres et dégager le mur de pierre fissuré par le séisme de 1983, remonté en décembre 2024. La ville a converti le chantier en objet de visite, avec <a href=\"https://dentsu-ho.com/en/articles/3410\" target=\"_blank\" rel=\"noopener\">échafaudages historiques reconstitués et accès public au site en activité</a>, la traction manuelle devant couvrir cinq mètres au total avant que les 73 mètres restants soient repris à la machine d'ici la fin de l'année. <a href=\"https://www.dezeen.com/2026/08/27/hirosaki-castle-volunteer-relocation-japan/\" target=\"_blank\" rel=\"noopener\">Dezeen</a> et <a href=\"https://www.smithsonianmag.com/smart-news/1800-people-pull-a-400-ton-japanese-castle-keep-back-toward-its-original-location-after-a-decade-of-restoration-work-180989401/\" target=\"_blank\" rel=\"noopener\">Smithsonian</a> comptent 8 000 candidatures pour 1 800 places, la réouverture étant visée en 2033.",
+   "learning": "Déplacer un bâtiment intact plutôt que le démonter est la compétence que la réhabilitation va s'arracher dans les dix ans qui viennent."
+  },
+  {
+   "rubrique": "scenographie",
+   "titre": "Au Houghton Festival, une tour en chaume de 5,5 mètres construite pour être démontée et remontée chaque année",
+   "type": "actualite",
+   "source_nom": "Dezeen",
+   "source_url": "https://www.dezeen.com/2026/08/24/water-tower-thatch-cella-collective-mitre-mondays-houghton-festival/",
+   "images": [
+    "https://static.dezeen.com/uploads/2026/08/water-tower-thatch-installation-cella-collective-mitre-mondays-houghton-festival_dezeen_2364_hero_0-852x479.jpg",
+    "https://static.dezeen.com/uploads/2026/08/water-tower-thatch-installation-cella-collective-mitre-mondays-houghton-festival_dezeen_2364_col_6-852x639.jpg",
+    "https://static.dezeen.com/uploads/2026/08/water-tower-thatch-installation-cella-collective-mitre-mondays-houghton-festival_dezeen_2364_col_5-852x1136.jpg",
+    "https://static.dezeen.com/uploads/2026/08/water-tower-thatch-installation-cella-collective-mitre-mondays-houghton-festival_dezeen_2364_col_2-852x1136.jpg"
+   ],
+   "contexte_html": "Le collectif <a href=\"https://cellacollective.com/\" target=\"_blank\" rel=\"noopener\">Cella Collective</a> et l'atelier Mitre &amp; Mondays ont dressé au <a href=\"https://www.houghtonfestival.co.uk/visual-arts/\" target=\"_blank\" rel=\"noopener\">Houghton Festival</a>, en Norfolk, une tour de 5,5 mètres à ossature bois entièrement habillée de chaume, couronnée d'un anneau de roseau et percée de quatre ouvertures aux parois biaises qui font office de seuils et de cadrages. La référence est locale et assumée : le château d'eau construit en 1772 pour <a href=\"https://www.houghtonhall.com/\" target=\"_blank\" rel=\"noopener\">Houghton Hall</a>, dont la silhouette est reprise mais retournée en abri traversant, avec bancs filant depuis les parois intérieures et oculus circulaire en toiture. Le roseau provient de coupes d'entretien de roselières, et la pose a été confiée aux chaumiers Wayne Halfpenny et Steve Kelly, l'équipe reconnaissant que le calepinage s'est décidé en marchant, par essais successifs sur place plutôt que sur plan. L'ouvrage a été conçu dès l'origine pour être démonté après les quatre jours de festival, stocké puis remonté lors des éditions suivantes, ce que <a href=\"https://www.dezeen.com/2026/08/24/water-tower-thatch-cella-collective-mitre-mondays-houghton-festival/\" target=\"_blank\" rel=\"noopener\">Dezeen</a> documente avec les images de chantier de Henry Woide.",
+   "learning": "Une scénographie qui se remonte l'année suivante quitte la ligne des frais de production pour rejoindre celle des actifs."
+  },
+  {
+   "rubrique": "photographie",
+   "titre": "Louis Porter photographie depuis dix ans les pages de la London Library et en tire un livre de 416 pages",
+   "type": "actualite",
+   "source_nom": "British Journal of Photography",
+   "source_url": "https://www.1854.photography/2026/08/in-the-studio-with-louis-porter/",
+   "images": [
+    "https://www.1854.photography/wp-content/uploads/2026/06/AZ_BJP58_LouisPorter_250226_023.jpg",
+    "https://www.1854.photography/wp-content/uploads/2026/06/AZ_BJP58_LouisPorter_250226_051.jpg",
+    "https://www.1854.photography/wp-content/uploads/2026/06/AZ_BJP58_LouisPorter_250226_072.jpg",
+    "https://www.1854.photography/wp-content/uploads/2026/06/AZ_BJP58_LouisPorter_250226_084.jpg"
+   ],
+   "contexte_html": "Le 24 août, <a href=\"https://www.1854.photography/2026/08/in-the-studio-with-louis-porter/\" target=\"_blank\" rel=\"noopener\">British Journal of Photography</a> a publié une visite d'atelier de <a href=\"https://louisporter.com/\" target=\"_blank\" rel=\"noopener\">Louis Porter</a> dont le studio n'est pas un studio : c'est la London Library, où il emprunte une dizaine de volumes deux fois par semaine et photographie leurs pages depuis dix ans. De ce protocole est sorti <a href=\"https://www.perimeterbooks.com/products/louis-porter-search-engine\" target=\"_blank\" rel=\"noopener\">Search Engine</a>, 416 pages au format 10,5 x 15,5 cm chez Perimeter Editions, reliure OTA, qui reproduit des fiches de catalogue tirées du rayon Science &amp; Miscellaneous et rangées par ordre alphabétique de sujet, si bien que Sleep voisine avec Smuggling. Le classement fait ici tout le travail de composition, et Porter en tire une méthode transposable : intervenir sur des images qui existent déjà plutôt que d'en produire de nouvelles, comme dans <a href=\"https://thephotographersgallery.org.uk/whats-on/book-launch-talk-signing-louis-porter-search-engine\" target=\"_blank\" rel=\"noopener\">la présentation qu'en a faite The Photographers' Gallery</a>. Il connaît pourtant la chimie, ayant tiré calotypes, cyanotypes et papiers salés à partir d'œufs, de lait et d'amidon de pomme de terre lors d'une résidence à la papeterie Awagami.",
+   "learning": "Quand les images existent déjà par milliards, l'acte photographique se déplace de la prise de vue vers le classement."
+  },
+  {
+   "rubrique": "film",
+   "titre": "Le relevé des caméras des séries nommées aux Emmy 2026 confirme le passage du haut de gamme télé au grand capteur",
+   "type": "actualite",
+   "source_nom": "Y.M.Cinema Magazine",
+   "source_url": "https://ymcinema.com/2026/08/26/cameras-behind-emmy-nominated-series-2026/",
+   "images": [
+    "https://ymcinema.com/wp-content/uploads/2026/08/Emmy-2026-Cameras-Large-Format-Takes-the-Lead-With-ALEXA-265-Sony-FX3-FX6-and-FX9.001.webp",
+    "https://ymcinema.com/wp-content/uploads/2026/08/Camera-chart.001.webp",
+    "https://ymcinema.com/wp-content/uploads/2025/08/Camera-chart.001.webp"
+   ],
+   "contexte_html": "<a href=\"https://ymcinema.com/2026/08/26/cameras-behind-emmy-nominated-series-2026/\" target=\"_blank\" rel=\"noopener\">Y.M.Cinema</a> a publié le 26 août le relevé des caméras et optiques de dix-huit séries nommées aux Emmy 2026 : neuf productions sur ARRI, six sur Sony, deux sur RED, une sur Canon, l'ALEXA 265 présente sur trois titres et une acquisition 65 mm sur Euphoria. Le grand capteur n'est plus un signe extérieur de prestige mais le réglage par défaut du haut de gamme, et le prix du boîtier ne dit plus rien du niveau de la production, puisque le Sony FX3 apparaît sur deux séries nommées aux côtés de drones DJI, d'une Freefly EMBER et d'une Fujifilm ETERNA. Le même déplacement traverse le cinéma, où la <a href=\"https://ymcinema.com/2026/08/25/tom-cruise-vistavision-65mm-imax-film-cameras/\" target=\"_blank\" rel=\"noopener\">VistaVision et le 65 mm</a> reviennent comme décisions de fabrication et non comme citations, pendant que le numéro d'août d'<a href=\"https://theasc.com/news/inside-august-2026-american-cinematographer/\" target=\"_blank\" rel=\"noopener\">American Cinematographer</a> consacre son dossier technique aux outils d'éclairage et aux schémas de plateau plutôt qu'aux formats. La question posée aux chefs opérateurs a changé de nature : non plus quel capteur choisir, mais quelle combinaison hétérogène de boîtiers tenir dans une même continuité d'image.",
+   "learning": "Le matériel ne hiérarchise plus les images, seule la cohérence du regard qui assemble des outils devenus interchangeables le fait encore."
+  },
+  {
+   "rubrique": "fantasy",
+   "titre": "Le fonds Sidney Sime, 800 œuvres d'un maître édouardien de l'imaginaire léguées à une salle des fêtes du Surrey",
+   "type": "pepite",
+   "source_nom": "Museum Crush",
+   "source_url": "https://museumcrush.org/the-forgotten-gallery-in-surrey-holding-the-dark-and-sinister-paintings-of-sidney-h-sime/",
+   "images": [
+    "https://museumcrush.org/wp-content/uploads/2019/05/SRY_SSG_A_68.jpg",
+    "https://museumcrush.org/wp-content/uploads/2019/05/SRY_SSG_A_2.jpg",
+    "https://museumcrush.org/wp-content/uploads/2019/05/SRY_SSG_A_7.jpg",
+    "https://museumcrush.org/wp-content/uploads/2019/05/SRY_SSG_A19.jpg"
+   ],
+   "contexte_html": "Sidney Sime (1865-1941) a fixé la grammaire visuelle du merveilleux noir vingt ans avant Lovecraft, avec plus de soixante-quinze planches pour Lord Dunsany à partir de 1905, plume nerveuse, aplats japonisants hérités de l'estampe et de Beardsley, blancs réservés qui font tenir des architectures impossibles sans une ligne de perspective. À la mort de sa veuve, plus de 800 peintures, dessins, lettres et carnets ont été légués à un comité de village du Surrey, et le fonds est aujourd'hui visible dans <a href=\"https://sidneysimegallery.org.uk/\" target=\"_blank\" rel=\"noopener\">une galerie construite pour lui, accolée au Memorial Hall de Worplesdon</a>, restaurée grâce à une subvention de 42 000 livres du National Lottery Heritage Fund. Sime a quitté l'illustration commerciale après 1918, quand le marché anglais s'est détourné de la fantasy, et a fini en peignant de grands formats à l'huile et en croquant les habitués du pub local, trente-six caricatures qui font partie du même fonds ; le <a href=\"https://www.heathrobinsonmuseum.org/whats-on/sidney-sime-artist-and-philosopher/\" target=\"_blank\" rel=\"noopener\">Heath Robinson Museum</a> lui a consacré une rétrospective en 2024. Le corpus se travaille en ligne : <a href=\"https://archive.org/details/bogey-beasts_sidney-sime\" target=\"_blank\" rel=\"noopener\">Bogey Beasts (1923)</a> est intégralement numérisé sur Internet Archive, et <a href=\"https://victorianweb.org/art/illustration/sime/index.html\" target=\"_blank\" rel=\"noopener\">Victorian Web</a> documente le versant technique, glacis translucides et pigments broyés à la main.",
+   "learning": "Un corpus ne survit pas parce qu'il est bon, il survit parce que quelqu'un a gardé les originaux et financé la numérisation."
+  },
+  {
+   "rubrique": "gaming",
+   "titre": "Asmodee confie son édition mondiale à la patronne d'Exploding Kittens alors que 72 % de son chiffre vient encore de la distribution",
+   "type": "actualite",
+   "source_nom": "BoardGameWire",
+   "source_url": "https://boardgamewire.com/index.php/2026/08/25/exploding-kittens-ceo-carly-mcginnis-takes-charge-of-asmodees-global-publishing-operation-jean-sebastien-de-barros-exits/",
+   "images": [
+    "https://boardgamewire.com/wp-content/uploads/2026/08/Carly-McGinnis-Jean-Sebastian-de-Barros-Asmodee.png",
+    "https://boardgamewire.com/wp-content/uploads/2026/02/Netflix-x-Ticket-to-Ride-cover-1024x384-1.jpg",
+    "https://boardgamewire.com/wp-content/uploads/2023/06/Exploding-Kittens-1024x576.jpg"
+   ],
+   "contexte_html": "Le 25 août, <a href=\"https://corporate.asmodee.com/\" target=\"_blank\" rel=\"noopener\">Asmodee</a> a nommé Carly McGinnis, jusqu'ici CEO d'<a href=\"https://www.explodingkittens.com/\" target=\"_blank\" rel=\"noopener\">Exploding Kittens</a>, directrice produit et EVP édition, avec Catan, Ticket to Ride, 7 Wonders et Dobble sous sa responsabilité, en remplacement de Jean-Sébastien de Barros parti après neuf ans. Les chiffres pèsent plus que le mouvement lui-même : 1,68 milliard d'euros sur l'exercice clos en mars 2026, dont plus de 72 % réalisés en distribution et non en édition propre, avec des ventes de jeux de plateau en recul de 5,8 % avant un rebond de 1,8 % sur avril-juin. Le groupe va donc chercher une compétence de fabricant de marque plutôt qu'un gestionnaire de catalogue, McGinnis ayant transformé une campagne Kickstarter en franchise avec série animée, déclinaisons mobiles et 60 millions de boîtes écoulées. La trajectoire est cohérente avec le reste, droits écran exclusifs cédés à Netflix sur Ticket to Ride et Catan et rachat d'ATM Gaming pour tenir le segment party game, comme le détaille <a href=\"https://boardgamewire.com/\" target=\"_blank\" rel=\"noopener\">BoardGameWire</a>.",
+   "learning": "Détenir un catalogue ne suffit plus, ce qui se paie aujourd'hui c'est la capacité à transformer une boîte en franchise exploitable sur trente ans."
+  },
+  {
+   "rubrique": "ui",
+   "titre": "Smashing Magazine propose une méthode de conception de tableaux de bord qui traite la densité comme une variable de design",
+   "type": "actualite",
+   "source_nom": "Smashing Magazine",
+   "source_url": "https://www.smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
+   "images": [
+    "https://files.smashing.media/articles/rethinking-data-visualisation-ux-approach-dashboards/density-as-a-variable.png",
+    "https://files.smashing.media/articles/rethinking-data-visualisation-ux-approach-dashboards/francis-anscombe-quartet.png",
+    "https://files.smashing.media/articles/rethinking-data-visualisation-ux-approach-dashboards/bar-char-vs-radar.png",
+    "https://files.smashing.media/articles/rethinking-data-visualisation-ux-approach-dashboards/visual-capitalist-history-pandemics.png"
+   ],
+   "contexte_html": "Le 26 août, <a href=\"https://www.smashingmagazine.com/category/design/\" target=\"_blank\" rel=\"noopener\">Smashing Magazine</a> a mis en ligne un texte de <a href=\"https://www.smashingmagazine.com/author/meriem-benhabiles/\" target=\"_blank\" rel=\"noopener\">Meriem Benhabiles</a> qui déplace la question du dashboard hors du choix de graphique : l'essentiel se joue avant, dans la définition de la question opérationnelle, du lecteur et de la décision attendue. La <a href=\"https://www.smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/\" target=\"_blank\" rel=\"noopener\">démonstration</a> attaque le réflexe de simplification systématique, la densité n'étant pas un défaut à corriger mais un paramètre à calibrer, élevée pour l'analyste en diagnostic, synthétique pour le dirigeant en arbitrage rapide. L'argument s'appuie sur le <a href=\"https://www.sjsu.edu/faculty/gerstman/StatPrimer/anscombe1973.pdf\" target=\"_blank\" rel=\"noopener\">quartet d'Anscombe</a> pour rappeler que des séries statistiquement identiques racontent des choses opposées une fois tracées, puis sur une refonte de plateforme RH où le radar à huit dimensions révèle des écarts de compétence qu'aucun histogramme ne faisait apparaître. Le geste utile y est un comparateur côte à côte, apparu en cours de projet et devenu la fonction la plus employée.",
+   "learning": "Un tableau de bord ne se juge pas à sa lisibilité mais au nombre de décisions qu'il déclenche."
+  },
+  {
+   "rubrique": "ia",
+   "titre": "Une campagne bourbon produite sans tournage, avec des chefs opérateurs maintenus en consultants",
+   "type": "actualite",
+   "source_nom": "LBBOnline",
+   "source_url": "https://lbbonline.com/news/ai-generative-production-director-campaign-valentine-bourbon",
+   "images": [
+    "https://d3q27bh1u24u2o.cloudfront.net/news/2026-08/smoke-oakum.-lFU9JbV.png",
+    "https://d2clgeqocjw7k2.cloudfront.net/6a8da3f91b0307ac66d2603f/frame_0000.png"
+   ],
+   "contexte_html": "<a href=\"https://lbbonline.com/companies/SmokeandOakum\" target=\"_blank\" rel=\"noopener\">Smoke&amp;Oakum</a> a sorti le 25 août une campagne pour la distillerie <a href=\"https://valentinedistilling.com/\" target=\"_blank\" rel=\"noopener\">Valentine</a> sans jour de tournage, à l'exception d'un plan produit filmé en pratique. Le réalisateur <a href=\"https://lbbonline.com/people/adam-witten\" target=\"_blank\" rel=\"noopener\">Adam Witten</a> résume la méthode par une formule opérante : le process est génératif, la sortie ne l'est pas. Des chefs opérateurs ont été gardés en consultants sur la lumière et le cadrage pendant la phase générative, le montage, l'étalonnage et le sound design restant tenus par des professionnels, et le personnage a été repris en itérations jusqu'à sortir de la caricature. L'argument n'est pas le coût : sans ce pipeline, <a href=\"https://lbbonline.com/work/177644\" target=\"_blank\" rel=\"noopener\">ce film</a> n'aurait tout simplement jamais été proposé à un annonceur régional.",
+   "learning": "Le verrou du génératif n'est plus la qualité de l'image, c'est de savoir quels métiers de plateau garder autour d'elle."
+  },
+  {
+   "rubrique": "philosophie",
+   "titre": "Ars notoria, la promesse médiévale d'un savoir instantané et les figures censées le délivrer",
+   "type": "pepite",
+   "source_nom": "The Public Domain Review",
+   "source_url": "https://publicdomainreview.org/essay/ars-notoria/",
+   "images": [
+    "https://pdr-assets.b-cdn.net/essays/ars-notoria/dedupmrg1191555822_IE4927965_FL5355234-edit.jpg?width=1200&height=765",
+    "https://pdr-assets.b-cdn.net/essays/ars-notoria/ars-notoria-yale-5.jpg?width=1200&height=765",
+    "https://pdr-assets.b-cdn.net/essays/ars-notoria/ars-notoria-yale-3.jpg?width=1200&height=765",
+    "https://pdr-assets.b-cdn.net/essays/ars-notoria/ars-notoria-yale-6.jpg?width=1200&height=765"
+   ],
+   "contexte_html": "Le <a href=\"https://publicdomainreview.org/\" target=\"_blank\" rel=\"noopener\">Public Domain Review</a> publie un <a href=\"https://publicdomainreview.org/essay/ars-notoria/\" target=\"_blank\" rel=\"noopener\">essai d'Anne Lawrence-Mathers</a> sur l'<a href=\"https://en.wikipedia.org/wiki/Ars_Notoria\" target=\"_blank\" rel=\"noopener\">Ars notoria</a>, manuel latin du XIIIe siècle qui promettait de compresser tout le cursus universitaire, grammaire, rhétorique, dialectique, médecine, musique, théologie, en quelques mois de pratique réglée. Le dispositif ne repose pas sur un texte à comprendre mais sur des figures, les notae, combinaisons de formes géométriques et de suites de lettres illisibles que le pratiquant devait fixer selon un protocole daté, compté et répété, quatorze jours pour la grammaire, vingt-quatre récitations par image. L'essai établit que ces figures fonctionnent comme des icônes et non comme des illustrations, elles ne représentent rien, elles sont supposées agir, ce qui explique le soin extrême de leur exécution manuscrite et la condamnation théologique qui les a visées sans jamais interrompre leur copie. La démonstration s'appuie sur le cas de <a href=\"https://en.wikipedia.org/wiki/John_of_Morigny\" target=\"_blank\" rel=\"noopener\">Jean de Morigny</a>, bénédictin qui pratiqua la méthode, la jugea productrice de visions incontrôlables et la réécrivit.",
+   "learning": "La promesse d'un savoir sans apprentissage a huit siècles, et elle a toujours reposé sur la force de conviction de son interface plutôt que sur ce qu'elle délivre."
+  }
+ ]
+}

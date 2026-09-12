@@ -1,0 +1,409 @@
+{
+  "edition": "01",
+  "date_iso": "2026-08-08",
+  "date_label": "Vendredi 8 août 2026",
+  "periode": "25 juillet au 8 août 2026",
+  "chapeau": "Dix territoires, quarante entrées. Trois actualités et une pépite hors actualité par rubrique. Un enseignement transversal en fin de chaque bloc.",
+  "categories": [
+    {
+      "id": "direction-artistique",
+      "label": "Direction artistique & campagnes",
+      "accent": "#c9a24a",
+      "learning": "Les quatre cas ramènent au même levier : la reconnaissance de marque passe par une forme, un comportement ou une matière, jamais par le message. Un contour de bouteille découpé dans un panneau, un crocodile doté d'une grammaire de gestes, une animation image par image, une illustration pulp sur une boîte de tableur, tous produisent un actif que la concurrence ne peut pas recopier en changeant un mot d'accroche. À l'heure où produire une image devient quasi gratuit, l'arbitrage utile n'est plus entre fait main et généré, mais entre ce qui construit un répertoire cumulable saison après saison et ce qui reste une exécution jetable.",
+      "items": [
+        {
+          "titre": "Pepsi découpe ses panneaux d'affichage à la silhouette de sa nouvelle bouteille",
+          "type": "actualite",
+          "source_nom": "La Réclame",
+          "source_url": "https://lareclame.fr/pepsi-bouteille-339794",
+          "image_url": "https://lareclame.fr/wp-content/uploads/2026/08/pepsi-panneaux-bouteille-silhouette-1.jpeg.webp",
+          "contexte": "Pour le lancement mondial de sa bouteille Manta, Pepsi a fait produire par l'agence australienne Special des panneaux dont le format épouse la courbe du packaging, publiés le 5 août. Le support cesse d'être un cadre neutre pour devenir lui-même l'actif distinctif, la marque étant identifiable avant tout logo et toute accroche. La logique est celle du contour reconnaissable à distance et en vision périphérique, appliquée à un média encore massivement standardisé. Le coût de production hors norme est ici la condition même de l'effet."
+        },
+        {
+          "titre": "Lacoste fait de son crocodile un personnage, dans un registre d'animation japonaise des années 80",
+          "type": "actualite",
+          "source_nom": "La Réclame",
+          "source_url": "https://lareclame.fr/lacoste-animation-rayantakhedmit-339825",
+          "image_url": "https://lareclame.fr/wp-content/uploads/2026/08/top-lacoste-anime.webp",
+          "contexte": "Publié le 6 août, ce volet estival illustré par Rayan Takhedmit avec le studio Les Monstres prolonge une série où l'emblème quitte le statut de signe apposé pour devenir protagoniste : transat, poste de sauveteur, aileron émergeant dans les vagues. La direction artistique emprunte explicitement au vocabulaire de l'animation japonaise, registre chromatique et trait compris, ce qui déplace la marque vers une culture graphique fréquentée par ses cibles sans passer par une collaboration licenciée. Le dispositif est cumulatif : chaque saison ajoute une situation au répertoire du personnage. Le crocodile gagne une grammaire comportementale, actif bien plus difficile à copier qu'un logo."
+        },
+        {
+          "titre": "ChaChaanTeng conçoit l'identité d'un distributeur de sandwichs à partir de l'expérience physique du produit",
+          "type": "actualite",
+          "source_nom": "It's Nice That",
+          "source_url": "https://www.itsnicethat.com/articles/chachaanteng-heinz-mayo-graphic-design-project-300726",
+          "image_url": "https://admin.itsnicethat.com/images/BVaOVboZvSXCjUzOLAKBRf-3SzA=/280357/width-1440/chachaanteng-heinz-mayo-graphic-design-itsnicethat-6.jpg",
+          "contexte": "Le studio londonien, avec Hot Sauce et l'animatrice Leah Putnam, a dessiné l'identité complète de l'auto-mayo-mat pour Heinz. Le vocabulaire visuel croise la culture du jidohanbaiki japonais, l'esthétique konbini et le design américain mid-century, décliné sur la machine, les affiches, le packaging et le merchandising. L'animation de vingt-cinq secondes est réalisée image par image, choix revendiqué par la directrice du studio Wei Prior comme réponse frontale au contenu jetable et au slop généré. L'intérêt tient moins au ton rétro qu'à la méthode : l'identité part de l'objet physique, pas d'un logo décliné ensuite."
+        },
+        {
+          "titre": "Atari, 1979 à 1981 : quand l'illustration devait produire le spectacle que la machine ne pouvait pas afficher",
+          "type": "pepite",
+          "source_nom": "We Are the Mutants",
+          "source_url": "https://wearethemutants.com/2017/09/20/atari-400800-box-and-manual-artwork-1979-1981/",
+          "image_url": "https://wearethemutants.com/wp-content/uploads/2017/09/we-are-the-mutants-atari-family.jpg",
+          "contexte": "Cette archive documente les couvertures de logiciels Atari signées Cliff Spohn, qui fixe le style maison dès 1977, Rick Guidice, illustrateur des colonies spatiales pour la NASA, Steve Hendricks et Michel Allaire. La technique dite d'expressionnisme réaliste, bords flous et textures lavées héritées du pulp, sert à dramatiser des produits sans aucun spectacle intrinsèque : un tableur, un système d'exploitation, un module de programmation. Les signes de statut de la classe moyenne y sont méthodiquement plantés, fougères, pipe, lampe à bras articulé, bague en diamant, pour vendre une position sociale plutôt qu'une fonctionnalité. L'écart assumé entre l'image promise et les quelques pixels réels reste le cas d'école le plus net de l'imaginaire porté entièrement par la direction artistique."
+        }
+      ]
+    },
+    {
+      "id": "fantasy",
+      "label": "Fantasy art & illustration",
+      "accent": "#9b7ec9",
+      "learning": "Dans un marché saturé d'images génératives homogènes, la valeur remonte vers ce qui est attribuable : le geste simulé fidèlement, le corpus de références choisi hors des banques attendues, la décision de placement assumée à la main. Un brief de direction artistique gagne à nommer explicitement sa source d'imaginaire, un fonds oublié plutôt qu'un moodboard Pinterest, et à réserver l'intervention humaine aux étapes où la variation fait sens. C'est cette traçabilité du parti pris, plus que la qualité brute du rendu, qui devient défendable devant un client.",
+      "items": [
+        {
+          "titre": "Un concept artist construit ses personnages à partir de la photographie de mode de rue japonaise",
+          "type": "actualite",
+          "source_nom": "ImagineFX / Creative Bloq",
+          "source_url": "https://www.creativebloq.com/art/digital-art/how-street-fashion-photography-inspired-this-video-game-concept-artists-character-designs",
+          "image_url": "https://cdn.mos.cms.futurecdn.net/pLJxJ4ZRYeFPmah6FghFMQ.jpg",
+          "contexte": "Entretien du 25 juillet avec Pavel Hristov, concept artist freelance du jeu vidéo, qui puise sa méthode dans les magazines de street fashion plutôt que dans les banques de références fantasy habituelles. Sa règle de travail consiste à chercher l'instant candide et imparfait plutôt que la pose héroïque idéalisée, ce qui déplace la valeur du personnage vers la vraisemblance sociale. Il alerte sur la conjonction IA, changements algorithmiques de visibilité et précarisation, tout en jugeant les débouchés indépendants plus ouverts qu'avant. Le corpus de référence choisi devient ici le vrai différenciateur."
+        },
+        {
+          "titre": "Rebelle 8.3 mise sur la simulation fidèle de la brosse plutôt que sur la génération",
+          "type": "actualite",
+          "source_nom": "Creative Bloq",
+          "source_url": "https://www.creativebloq.com/art/digital-art-software/rebelle-8-3-proves-the-future-of-digital-painting-isnt-ai-its-making-brushes-feel-real",
+          "image_url": "https://cdn.mos.cms.futurecdn.net/mvo3TZvdBoXsZMkfVGT9TC.jpg",
+          "contexte": "Publiée le 31 juillet, la version 8.3 d'Escape Motions renforce la simulation de soies, introduit une variation chromatique par poil et par tampon, un outil de sélection interactif et un bord plumeux irrégulier. L'export de heightmap impasto en EXR 16 bits ouvre la peinture numérique aux pipelines 3D et compositing, ce qui en fait un pont concret entre illustration et production temps réel. Le positionnement éditorial est explicite : l'avantage concurrentiel se joue sur la crédibilité du geste, pas sur l'automatisation du rendu."
+        },
+        {
+          "titre": "Fabriquer plumes et cheveux d'une harpie sous XGen et Unreal Engine 5.5, étape par étape",
+          "type": "actualite",
+          "source_nom": "80 Level",
+          "source_url": "https://80.lv/articles/how-to-create-hair-and-feathers-for-an-owl-harpy-character",
+          "image_url": "https://cdn.80.lv/api/upload/meta/49641/images/6a7541fb6de23/contain_1200x630.jpg",
+          "contexte": "Publié le 7 août, ce making of d'Eugenia Zanina décompose une chaîne complète : plan d'UV et de matériaux avant production, retopologie animation sous Maya, trois sets de tuiles 2K, texturage PBR sous Substance 3D Painter. Les plumes sont générées par guides XGen déformés un à un, puis converties en cartes placées à la main via GS Curve Tools, l'artiste assumant le placement comme un acte de composition et non de technique. Un shader custom sous UE5.5 exploite le node TwoSidedSign pour différencier types de plumes et faces. Cas d'école du passage d'un concept fantasy à un asset temps réel exploitable."
+        },
+        {
+          "titre": "Sidney Sime, qui a fixé la grammaire visuelle du monde secondaire avant Tolkien, dort dans une salle communale du Surrey",
+          "type": "pepite",
+          "source_nom": "Sidney H. Sime Gallery, Worplesdon",
+          "source_url": "https://sidneysimegallery.org.uk/about/simes-life/",
+          "image_url": "https://sidneysimegallery.org.uk/wp-content/uploads/2021/02/sime-gallery-fantasies21-1-679x1024.jpg",
+          "contexte": "Sime (1865-1941), ancien galibot des mines du Yorkshire passé par la Liverpool School of Art, illustre les récits de Lord Dunsany dans The Idler, The Strand et Pall Mall Magazine. Son noir et blanc joue de silhouettes architecturales impossibles, de ciels traités comme des motifs et d'échelles délibérément fausses, procédés que la fantasy contemporaine a largement absorbés sans citer la source. Devenu reclus après 1914, il bascule vers des huiles apocalyptiques restées quasi invisibles, et sa veuve lègue près de huit cents œuvres à une salle communale de Surrey. Corpus idéal pour sortir des références Frazetta et Alan Lee."
+        }
+      ]
+    },
+    {
+      "id": "photographie",
+      "label": "Photographie",
+      "accent": "#6fa3bd",
+      "learning": "La valeur ne se situe plus dans la prise de vue mais dans le tri, le montage et le cadrage narratif d'un stock déjà existant, qu'il s'agisse d'une collection norvégienne, d'un million de négatifs de rebut ou d'un flux de mèmes. Corollaire opérationnel : l'institution muséale accélère son cycle de légitimation au point de se synchroniser sur les calendriers marketing, ce qui ouvre un espace réel de co-construction pour une marque exigeante. La compétence à internaliser est celle d'éditeur d'archives, pas de producteur d'images supplémentaires.",
+      "items": [
+        {
+          "titre": "Dulwich montre un siècle de photographie américaine vue par des immigrés et des outsiders",
+          "type": "actualite",
+          "source_nom": "Dulwich Picture Gallery",
+          "source_url": "https://www.dulwichpicturegallery.org.uk/about-us/press/portrait-of-a-city-a-century-of-american-photography-press/",
+          "image_url": "https://assets.dulwich-gallery.substrakt.net/images/Saul_Leiter_Harlem_1960._Chromogenic_print.width-1600.jpg",
+          "contexte": "Ouverte le 28 juillet et visible jusqu'au 4 octobre, l'exposition réunit plus de cent tirages de Stieglitz, Hine, Evans, Weegee, Levitt, Leiter, deCarava, Arbus, Model ou Mary Ellen Mark, prêtés par la Savings Bank Foundation DNB norvégienne, fonds peu vu en Europe de l'Ouest. Le commissaire Alexander Moore construit son récit autour d'un biais assumé, celui du regard d'immigrés sur la ville américaine, ce qui déplace le canon de la street photography vers une question d'assimilation et de position sociale. L'accrochage fait remonter des noms sous-exposés comme Rebecca Lepkoff ou Arthur Leipzig aux côtés des figures installées."
+        },
+        {
+          "titre": "La National Portrait Gallery patrimonialise un portrait de Charli xcx deux ans après sa prise de vue",
+          "type": "actualite",
+          "source_nom": "The Art Newspaper",
+          "source_url": "https://www.theartnewspaper.com/2026/07/27/music-fashion-film-photography-charli-xcx-image-acquired-by-londons-national-portrait-gallery",
+          "image_url": "https://cdn.sanity.io/images/cxgd3urn/production/166d06c8be8ecb7d3b540e7ee8ea78b0e453f109-3085x3816.jpg",
+          "contexte": "Annoncée le 27 juillet, l'acquisition porte sur un noir et blanc de 2024 signé Harley Weir, entré dans la salle 33 consacrée aux figures qui façonnent la culture contemporaine. Elle s'inscrit dans le programme Collecting the Now, doté d'un million de livres par la Bukhman Foundation, qui accélère volontairement le délai entre production d'une image et sa patrimonialisation. Le calendrier, calé sur la sortie d'album de juillet, brouille la frontière entre acquisition muséale et temps promotionnel. Cas d'école de la façon dont une institution devient un canal de légitimation culturelle en quasi temps réel."
+        },
+        {
+          "titre": "Le créateur anonyme de @photographers_struggle_memes sort du silence sans sortir de l'anonymat",
+          "type": "actualite",
+          "source_nom": "British Journal of Photography",
+          "source_url": "https://www.1854.photography/2026/08/the-struggle-is-real-the-anonymous-creator-behind-a-cult-instagram-account/",
+          "image_url": "https://www.1854.photography/wp-content/uploads/2026/06/Screenshot-2026-01-06-at-17.18.49.jpg",
+          "contexte": "Publié le 3 août, l'entretien donne la parole à un photographe européen qui tient depuis janvier 2021 un compte de mèmes sur la précarité du métier, et qui reste anonyme précisément pour pouvoir critiquer commanditaires et rédactions sans représailles. Avec près de dix mille abonnés, le compte fonctionne comme un espace de parole syndicale déguisé en humour noir, autour d'une devise revendiquée : si le mème n'est pas assez bon, c'est qu'il n'est pas assez proche de la vérité. Le sujet n'est pas la blague mais le déplacement du discours professionnel vers un format natif des plateformes."
+        },
+        {
+          "titre": "Beijing Silvermine : un million de négatifs chinois rachetés au kilo à une usine de recyclage",
+          "type": "pepite",
+          "source_nom": "Aperture",
+          "source_url": "https://aperture.org/editorial/an-eccentric-time-capsule-of-everyday-china/",
+          "image_url": "https://aperture.org/wp-content/uploads/2026/06/Silvermine-Grid-1024x671.jpg",
+          "contexte": "Depuis dix-sept ans, le Français Thomas Sauvin rachète auprès d'un chiffonnier travaillant pour une usine de recyclage du nitrate d'argent les négatifs jetés par les Pékinois, constituant un corpus de plus d'un million d'images anonymes. La période couverte, 1985 à 2005, correspond exactement à la fenêtre entre la démocratisation de la pellicule et l'arrivée du smartphone, ce qui en fait un enregistrement dense de la transformation économique chinoise vu depuis l'album de famille. Sauvin ne se pose pas en photographe mais en éditeur de données visuelles, avec des objets d'édition très construits comme Until Death Do Us Part, livre glissé dans un paquet de cigarettes. Sa rétrospective à Fotografiska Shanghai était présentée en tiroirs et tirages 10x15 plutôt qu'en accrochage muséal."
+        }
+      ]
+    },
+    {
+      "id": "film",
+      "label": "Film & motion",
+      "accent": "#c47a72",
+      "learning": "La contrainte choisie en amont fabrique le style, à condition de budgéter le pipeline de rattrapage qu'elle impose : l'iPhone oblige à recréer ses propres artefacts, la 2D pilote impose un maillage sur mesure, la tête déportée impose une chaîne de retour vidéo. Le geste éditorial n'est jamais l'outil seul, mais la règle physique qu'on en tire : contre-jour obligatoire sur la Lune, contour du trait laissé visible, format élargi pour gagner du capteur. Pour un pitch, c'est la règle qu'il faut vendre, pas le logiciel.",
+      "items": [
+        {
+          "titre": "28 Years Later a été tourné sur des grappes de 8 puis 20 iPhone montées sur Technocrane",
+          "type": "actualite",
+          "source_nom": "befores & afters",
+          "source_url": "https://beforesandafters.com/2026/08/07/what-it-took-to-film-with-iphones-on-28-years-later/",
+          "image_url": "https://beforesandafters.com/wp-content/uploads/2026/08/DF-03963.jpg",
+          "contexte": "Anthony Dod Mantle raconte le passage tardif en 2.76:1, décidé cinq semaines après le début de la prépa pour exploiter davantage de surface du capteur. Les chefs machinistes Terry Williams et David Reeves ont fabriqué des rigs de huit puis vingt téléphones, avec optiques sphériques et anamorphiques adaptées, y compris des vintages bricolées qui vignettent. Côté post, Union VFX a dû désactiver la stabilisation interne pour tracker, composer en 4:2:0 plutôt qu'en 4:4:4, puis recréer artefacts de compression, grain et vignettage sur les plans truqués. Rien n'a été bricolé en douce : tout est passé par un partenariat direct avec Apple et Blackmagic."
+        },
+        {
+          "titre": "DNEG impose le contre-jour sur la Lune et reproduit les défauts des anamorphiques soviétiques",
+          "type": "actualite",
+          "source_nom": "The Art of VFX",
+          "source_url": "https://www.artofvfx.com/star-city-chris-keller-vfx-supervisor-dneg/",
+          "image_url": "https://www.artofvfx.com/wp-content/uploads/2026/08/StarCity_DNEG_ITW_04A.jpg",
+          "contexte": "Chris Keller détaille 131 plans sur 21 séquences et six épisodes en huit mois, pour l'alunissage soviétique, les lancements, les amarrages orbitaux et un sous-marin numérique. Sa règle d'éclairage est contre-intuitive : le sol lunaire doit être pris à contre-jour, un éclairage frontal ne produisant qu'un gris plat et sans relief. La Terre combine des formations nuageuses relevées sur des photos ISS et du volumétrique Houdini rendu dans Terragen, avec Cesium pour les terrains rapides, afin d'éviter l'effet patchwork. Le studio a développé des outils 2D dédiés pour raccorder au rendu des objectifs d'époque, et modélisé quatre états successifs du Soyuz en rentrée."
+        },
+        {
+          "titre": "Sur ChikaBOOM, la 2D dessinée pilote la 3D et le trait reste visible au rendu final",
+          "type": "actualite",
+          "source_nom": "Motionographer",
+          "source_url": "https://motionographer.com/2026/07/27/practice-makes-magic-the-human-hands-behind-chikaboom/",
+          "image_url": "https://s35726.pcdn.co/wp-content/uploads/2026/07/Chikaboom-Still-1.jpg",
+          "contexte": "Sur ce court présenté à Tribeca, le réalisateur c. Craig et les studios Asteria et Everyday Mischief ont construit un pipeline hybride où l'animation 2D pilote la 3D et non l'inverse. Le lead 2D Hoss Wheeler dessine les performances du personnage image par image, puis un maillage génératif vient s'enrouler autour de ce trait, dont les contours restent volontairement visibles. La direction artistique s'appuie sur Hannah Beachler au design de production et sur deux directeurs photo distincts, l'un pour le layout, l'autre pour la lumière. La position revendiquée est simple : rendre la main humaine lisible dans chaque plan plutôt que la lisser."
+        },
+        {
+          "titre": "La Louma, née d'un service militaire français en 1970, a séparé l'opérateur de sa caméra",
+          "type": "pepite",
+          "source_nom": "Loumasystems",
+          "source_url": "https://louma.co.uk/about/",
+          "image_url": "https://louma.co.uk/wp-content/uploads/2019/02/3-Winners-300x182.jpg",
+          "contexte": "Jean-Marie Lavalou et Alain Masseron conçoivent le principe au service cinématographique des armées, en fixant une caméra au bout d'une perche pour filmer dans un sous-marin. Associée au video assist et à l'ingénierie de David Samuelson à Londres, l'idée devient la première tête télécommandée du cinéma, testée sur Le Locataire de Polanski en 1976 puis exportée sur 1941 de Spielberg. Le nom vient de la contraction de LOU et MA, et l'invention vaut un Oscar technique aux trois hommes en 2005. Tout le vocabulaire contemporain du mouvement, remote heads, Technocrane, Bolt, descend de cette rupture : le cadreur cesse d'être une contrainte de poids et d'encombrement dans le champ."
+        }
+      ]
+    },
+    {
+      "id": "ia",
+      "label": "IA & création",
+      "accent": "#6fbd97",
+      "learning": "Le coût de l'image générée s'effondre au moment précis où le coût du droit d'usage monte : FLUX 3 met vingt secondes sonorisées à quelques dollars, Munich rappelle qu'un corpus non licencié reste une dette exigible partout où les sorties circulent. Pour un studio IA en agence, la marge ne se joue donc plus sur le rendu mais sur ce qui l'encadre : provenance des données, système de règles réutilisable par la marque, garanties contractuelles opposables. C'est exactement la leçon d'AARON, où la valeur tenait au modèle de décision entretenu sur des décennies et non au dessin sorti du traceur.",
+      "items": [
+        {
+          "titre": "FLUX 3 Video passe en disponibilité générale : 20 secondes avec audio natif à partir de 0,06 dollar la seconde",
+          "type": "actualite",
+          "source_nom": "The Decoder",
+          "source_url": "https://the-decoder.com/black-forest-labs-makes-flux-3-video-generally-available-and-claims-it-beats-seedance-2-0/",
+          "image_url": "https://the-decoder.com/wp-content/uploads/2026/08/flux_3_video-1200x675.png",
+          "contexte": "Annoncé le 25 juillet en accès restreint, le modèle de Black Forest Labs est passé en disponibilité générale début août. Il produit des clips jusqu'à vingt secondes avec audio et dialogue synchronisés dans plus de quatorze langues, en HD et Full HD, avec texte vers vidéo, image vers vidéo, vidéo vers vidéo et keyframe vers vidéo dans une seule architecture. La grille va de 0,06 dollar la seconde en brouillon HD à 0,53 dollar en vidéo vers vidéo Full HD, audio compris, soit environ 3,40 dollars pour vingt secondes en pleine HD. BFL revendique un Elo de 1135 en texte vers vidéo devant Seedance 2.0, et 93 % de préférence humaine face à Luma Ray 3.2."
+        },
+        {
+          "titre": "Munich juge que l'entraînement de Suno sur le répertoire GEMA constitue une contrefaçon",
+          "type": "actualite",
+          "source_nom": "Forbes",
+          "source_url": "https://www.forbes.com/sites/virginieberger/2026/08/05/suno-lost-to-gema-why-the-ruling-should-worry-ai-music-companies/",
+          "image_url": "https://imageio.forbes.com/specials-images/imageserve/6a722121f98b0d420398ae65/Copyright-Dispute-Between-Gema-and-Suno/0x0.jpg?width=960",
+          "contexte": "La décision du 31 juillet porte sur six titres que les avocats de GEMA ont regénérés quasi à l'identique par simple prompt, et Suno a reconnu s'être entraîné sur ce répertoire sans le payer. Le point structurant est la compétence : le tribunal applique le droit allemand à un entraînement réalisé aux États-Unis dès lors que les sorties servent des utilisateurs européens, ce qui expose tout fournisseur ayant des clients dans l'Union. Suno est condamné à communiquer les revenus attachés aux six œuvres, base de calcul des dommages à venir. L'entreprise est valorisée 5,4 milliards de dollars et affronte en parallèle aux États-Unis des demandes pouvant atteindre 150 000 dollars par œuvre."
+        },
+        {
+          "titre": "Chez WPP, la production est la seule activité en croissance et le marché applaudit",
+          "type": "actualite",
+          "source_nom": "WPP",
+          "source_url": "https://www.wpp.com/en/news/2026-interim-results",
+          "image_url": "https://cdn.wpp.com/image/upload/f_auto/q_auto/v1785859903/xc1keidumeg0z43jbzfw.png",
+          "contexte": "Résultats semestriels publiés le 6 août : revenu hors coûts refacturés à 4,745 milliards de livres, en baisse de 4,7 % à périmètre comparable, marge à 8,4 %. WPP Production est la seule unité en croissance, à plus 1,6 %, portée par la plateforme Open qui automatise la création à haut volume, la production et l'activation média. La direction confirme la phase 1 du plan Elevate28, la fusion en une société intégrée avec le lancement de WPP Creative le 1er juillet, et 500 millions de livres d'économies visées d'ici 2028. Le titre a bondi d'environ 25 % en séance, le plus fort gain journalier depuis l'introduction en bourse de 1995."
+        },
+        {
+          "titre": "AARON, le programme de dessin qu'Harold Cohen a entretenu pendant cinquante ans",
+          "type": "pepite",
+          "source_nom": "Whitney Museum of American Art",
+          "source_url": "https://whitney.org/exhibitions/harold-cohen-aaron",
+          "image_url": "https://whitneymedia.org/assets/image/829164/large_RS73495_Harold-Cohen-AARON-for-KCat-2021_web.jpg",
+          "contexte": "Peintre londonien reconnu, Harold Cohen (1928-2016) commence à programmer à UC San Diego à la fin des années 1960 et baptise AARON au début des années 1970, le plus ancien programme d'intelligence artificielle dédié à la création d'images. Il construit lui-même les traceurs et machines à peindre qui exécutent les instructions, et décrit son travail comme une collaboration avec le programme plutôt qu'une automatisation. Le Whitney lui a consacré une rétrospective sous le commissariat de Christiane Paul, en le resituant explicitement face à DALL-E et Midjourney. L'enseignement tient dans l'objet livré : Cohen ne vendait pas une image, il entretenait un système de règles esthétiques dont les sorties n'étaient que la trace."
+        }
+      ]
+    },
+    {
+      "id": "philosophie",
+      "label": "Philosophie",
+      "accent": "#a8a196",
+      "learning": "Les quatre textes convergent sur un même déplacement : la création n'est pas la maîtrise d'une matière passive par une intention souveraine, mais une relation où quelque chose résiste et impose ses exigences. Martel et Souriau la nomment du côté de l'œuvre, Zambrano du côté de l'informe à mettre en forme, Klimchynskaya montre à l'inverse ce qui se perd quand on réduit le monde à un problème résoluble. L'enjeu pratique est de réhabiliter la résistance du matériau comme source de qualité, à l'heure où l'outil promet exactement l'inverse.",
+      "items": [
+        {
+          "titre": "L'art n'est pas une invention humaine, c'est lui qui a inventé l'humain",
+          "type": "actualite",
+          "source_nom": "Aeon",
+          "source_url": "https://aeon.co/essays/humans-did-not-invent-art-it-was-the-other-way-around",
+          "image_url": "https://images.aeonmedia.co/images/9dd5b35c-261c-4106-8a9b-53f732aab9b8/essay-hi-res-quilt-nmah-89-10656-000001.jpg",
+          "contexte": "J. F. Martel part d'un fait négligé de l'art pariétal : la figure humaine y est presque absente pendant des millénaires. Il en tire que nos ancêtres ne se représentaient pas eux-mêmes mais enregistraient la natura naturans, la nature en train de se faire, et que la conscience de soi est un effet tardif de cette pratique, non sa cause. D'où sa distinction centrale entre une beauté d'ordre comptable, mesurable, et une beauté extatique qui ne se mesure pas. Sa conclusion vise directement le travail de commande : l'art asservi à une utilité, une pédagogie ou une morale devient artifice, et son inutilité constitutive est précisément ce qui lui donne accès au réel."
+        },
+        {
+          "titre": "La science-fiction d'ingénieur n'est pas apolitique, son apolitisme est le symptôme",
+          "type": "actualite",
+          "source_nom": "Los Angeles Review of Books",
+          "source_url": "https://lareviewofbooks.org/article/andy-weir-project-hail-mary-jules-verne-science/",
+          "image_url": "https://cdn.lareviewofbooks.org/unsafe/fit-in/3840x0/filters:format(jpeg):quality(75)/https%3A%2F%2Fassets.lareviewofbooks.org%2Fuploads%2Fproject%20hail%20mary.jpg",
+          "contexte": "Andy Weir revendique une fiction sans politique, faite de problèmes techniques et de solutions vérifiables. Anastasia Klimchynskaya montre que cette exactitude est elle-même une idéologie : le récit du génie solitaire qui résout, hérité de Verne, reconduit le programme baconien de la nature comme adversaire à dominer, avec son arrière-plan national et impérial. Plus la résolution technique occupe tout le cadre, moins la question de savoir qui décide et pour qui reste formulable. La critique vaut pour toute culture d'innovation qui se croit neutre parce qu'elle est efficace."
+        },
+        {
+          "titre": "María Zambrano : les dieux ne précèdent pas le sacré, ils en sont la mise en forme tardive",
+          "type": "actualite",
+          "source_nom": "En attendant Nadeau",
+          "source_url": "https://www.en-attendant-nadeau.fr/2026/08/03/le-divin-avant-les-dieux/",
+          "image_url": "https://www.en-attendant-nadeau.fr/wp-content/uploads/2026/08/Grande_Bible_historiale_completee_a_.Des_Moulins_btv1b10464806q_14.jpg",
+          "contexte": "Marc Lebiez rend compte de L'homme et le divin, où Zambrano renverse l'ordre habituel. La situation première est celle d'un trop-plein angoissant qui exige d'être formulé, et Cronos, le temps qui dévore, en est la première figure avant les olympiens. La conséquence méthodologique est forte : nommer n'est pas décrire un donné, c'est stabiliser une pression informe qui, sans cela, reste invivable. Zambrano tient ensemble philosophie et poésie non par éclectisme mais parce que sa raison poétique est le seul organe capable d'approcher ce qui n'a pas encore de forme."
+        },
+        {
+          "titre": "L'instauration de Souriau, ou l'œuvre à faire qui ne se laisse ni inventer ni découvrir",
+          "type": "pepite",
+          "source_nom": "Bruno Latour, sur Étienne Souriau",
+          "source_url": "https://www.bruno-latour.fr/sites/default/files/downloads/98-SOURIAU-GRAHAM-GB.pdf",
+          "image_url": "",
+          "contexte": "Souriau publie en 1943 un texte resté confidentiel jusqu'à sa réédition par Stengers et Latour, où il forge le verbe instaurer contre les deux récits disponibles de la création. L'artiste ne construit pas ex nihilo et ne dévoile pas davantage une forme déjà là : l'œuvre à faire existe sur un mode propre, celui d'un être inachevé qui adresse des exigences et sanctionne les fausses pistes. Latour retient la formule décisive : c'est une instauration, un risque pris, une découverte, une invention totale, les trois à la fois. Le statut de l'auteur s'en trouve déplacé, il devient responsable devant l'œuvre plutôt que propriétaire d'une intention, ce qui offre un cadre inhabituellement précis pour penser la création assistée par machine."
+        }
+      ]
+    },
+    {
+      "id": "ui",
+      "label": "UI & design d'interface",
+      "accent": "#8592c9",
+      "learning": "La valeur du design s'est déplacée de l'exécution vers l'explicitation du jugement. Un principe formulé abstraitement, qu'il s'adresse à un agent IA ou à une équipe distribuée, se dégrade en conformité décorative ; seul l'ancrage dans la tâche réelle et dans des exemples canoniques validés produit des décisions tenables. Concrètement : documenter les systèmes par cas d'usage nommés et références approuvées, pas par règles génériques, et traiter le vocabulaire visuel de l'IA comme un choix de positionnement plutôt qu'un défaut d'usine.",
+      "items": [
+        {
+          "titre": "Pourquoi un agent IA produit invariablement de grosses icônes grises",
+          "type": "actualite",
+          "source_nom": "Yesenia Perez-Cruz",
+          "source_url": "https://yeseniaperezcruz.substack.com/p/the-plateau-of-sad-gray-icons",
+          "image_url": "https://substackcdn.com/image/fetch/$s_!IVNF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb2acb0f-87c6-4a38-afe9-0724c5202e9c_1172x729.png",
+          "contexte": "Publié le 31 juillet, ce retour d'expérience part d'un prototype de produit de paie construit avec Claude Code, où l'agent produit invariablement de grosses icônes posées dans des conteneurs gris. Le principe abstrait ajouté d'abord, une couleur doit porter du sens sinon c'est de la décoration, est mal interprété par la machine, qui se met à tout signaler sans jamais trancher. Ce qui fonctionne enfin : définir les surfaces par le travail réel qui s'y déroule, s'orienter, localiser, éditer en masse, lire, et fournir des exemples produits canoniques plutôt que des règles. La conclusion vise les design systems, qui doivent devenir bidirectionnels pour que l'agent cite au lieu d'inventer."
+        },
+        {
+          "titre": "Inventaire des conventions visuelles naissantes des produits IA",
+          "type": "actualite",
+          "source_nom": "Jim Nielsen",
+          "source_url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+          "image_url": "https://cdn.jim-nielsen.com/blog/2026/ai-aesthetics-tiny-icons.png",
+          "contexte": "Le 29 juillet, Jim Nielsen dresse l'inventaire de ce qui est déjà devenu une grammaire formelle : texte diffusé caractère par caractère, effets de miroitement pour signaler l'attente, icônes minuscules, palettes crème et beige, accents orange, retour des serifs en interface. Il documente chaque motif par des captures animées, sans verser dans la théorie. Sa question est de savoir lesquels de ces signes resteront attachés à l'IA et lesquels contamineront le logiciel en général, comme les dégradés du web 2.0 en leur temps. Utile pour décider si l'on adopte ou refuse ce vocabulaire dans une recommandation client."
+        },
+        {
+          "titre": "Aucun terme n'a remplacé UX, selon une enquête auprès de 604 professionnels",
+          "type": "actualite",
+          "source_nom": "Nielsen Norman Group",
+          "source_url": "https://www.nngroup.com/articles/no-new-name-ux/",
+          "image_url": "https://media.nngroup.com/media/editor/2026/07/29/use-of-specific-keywords.png",
+          "contexte": "Publiée le 31 juillet, l'étude soumet aux répondants une description de l'activité sans jamais prononcer le mot, afin de capter le vocabulaire spontané. UX apparaît dans 47,8 % des réponses, user dans 22,4 %, tandis que experience design et human-centered design recueillent respectivement quatre et cinq mentions. Le glissement vers product existe mais reste sociologiquement marqué : 38 % des product managers l'emploient contre 10 % des praticiens UX. La conclusion invite à cesser les rebaptêmes internes et à investir plutôt dans la démonstration de valeur."
+        },
+        {
+          "titre": "Designing the Star User Interface, 1982 : huit principes toujours valables quarante-quatre ans après",
+          "type": "pepite",
+          "source_nom": "Byte, avril 1982",
+          "source_url": "https://www.guidebookgallery.org/articles/designingthestaruserinterface",
+          "image_url": "",
+          "contexte": "Signé Smith, Irby, Kimball, Verplank et Harslem chez Xerox, ce texte expose la doctrine du Xerox Star bien avant le Macintosh : modèle conceptuel familier emprunté au bureau, voir et pointer plutôt que mémoriser, WYSIWYG, commandes universelles appliquées à tout objet, cohérence, simplicité, absence de modes, adaptabilité par l'utilisateur. Bill Verplank y est le contributeur le moins cité alors qu'il a formalisé une bonne part du raisonnement sur les compromis entre cohérences concurrentes. Le passage sur les modes et sur la charge mémoire se lit comme une critique anticipée des interfaces conversationnelles actuelles, où tout redevient invisible et modal."
+        }
+      ]
+    },
+    {
+      "id": "gaming",
+      "label": "Gaming & worldbuilding",
+      "accent": "#cd8659",
+      "learning": "Les trois actualités décrivent le même mouvement de concentration : la valeur se déplace vers les franchises installées et la distribution, pas vers les nouveautés en propre. Pour vendre de la créa à un éditeur en 2026, mieux vaut formuler une proposition qui augmente la profondeur d'un monde déjà rentable plutôt qu'un concept neuf à évangéliser. Et la pépite rappelle l'argument qui tient devant un comité d'investissement : une fiction dense en amont réduit le coût de toutes les décisions créatives en aval, du trailer au packaging.",
+      "items": [
+        {
+          "titre": "EA sort de la bourse : 55 milliards de dollars, 18 de dette, 700 millions d'économies annoncées aux créanciers",
+          "type": "actualite",
+          "source_nom": "Electronic Arts",
+          "source_url": "https://www.ea.com/news/ea-announces-completion-of-acquisition",
+          "image_url": "https://media.contentapi.ea.com/content/dam/news/www-ea/common/news-assets/eacom-news-featured-image-shapes-inverted.png.adapt.crop16x9.575p.png",
+          "contexte": "L'opération s'est close le 4 août à 210 dollars par action, et le titre a cessé d'être coté au Nasdaq. Le PIF saoudien, Silver Lake et Affinity Partners prennent le contrôle d'un groupe qui a réalisé environ 7,5 milliards de dollars de revenus nets sur l'exercice 2026, Andrew Wilson restant président et directeur général. Le montage embarque dix-huit milliards de dette, et la presse spécialisée rapporte 700 millions de dollars d'économies annuelles annoncées aux créanciers, dont 170 millions d'efficacités organisationnelles. Pour une agence, cela signifie des cycles de validation plus courts mais des arbitrages plus durs, orientés franchises établies et sport."
+        },
+        {
+          "titre": "Asmodee à 422 millions d'euros au trimestre, mais le catalogue édité en propre ne progresse que de 1,8 %",
+          "type": "actualite",
+          "source_nom": "BoardGameWire",
+          "source_url": "https://boardgamewire.com/index.php/2026/08/04/asmodees-quarterly-net-sales-soar-again-to-over-e422m-board-game-revenue-jump-hints-at-us-retail-recovery/",
+          "image_url": "https://boardgamewire.com/wp-content/uploads/2025/10/asmodee-logo.png",
+          "contexte": "Publié le 4 août, le résultat montre une croissance de 20,9 % sur un an et un rebond de 16 % des jeux de plateau, attribué à la normalisation des stocks des détaillants américains. L'écart est net entre la distribution tierce, qui tire la machine, et les titres publiés en propre, en hausse de seulement 1,8 %. Star Wars Unlimited, Catan, Dobble et Lord of the Rings: Fate of the Fellowship portent la performance, tandis que la campagne Zombicide a dépassé trois millions d'euros pour plus de onze mille contributeurs. Le groupe intègre par ailleurs ATM Gaming, racheté jusqu'à 250 millions d'euros en mars."
+        },
+        {
+          "titre": "Rockstar tient le silence sur GTA VI jusqu'à un point de bascule très tardif",
+          "type": "actualite",
+          "source_nom": "GAMINGbible",
+          "source_url": "https://www.gamingbible.com/news/gta-6-gameplay-reveal-rockstar-august-2026-754326-20260730",
+          "image_url": "https://resizer.ladbiblegroup.com/ogimage/v3/assets/bltbc1876152fcd9f07/blt3e01916d43b17fd0/6a6b5951d0a0e8a229def3f1/gta6gameplay.jpg",
+          "contexte": "Take-Two a confirmé que la campagne démarrerait à l'été 2026, et le troisième trailer, attendu en août, devrait montrer du gameplay pour la première fois, à trois mois et demi d'une sortie fixée au 19 novembre. Le contraste est instructif : aucune saturation média, aucun affichage massif, un silence tenu jusqu'à un point de bascule très tardif pour un lancement de cette ampleur. Rockstar mise sur la rareté du signal plutôt que sur la fréquence, posture inverse de celle de la quasi-totalité des éditeurs. À surveiller comme contre-programmation possible autour de la gamescom de Cologne."
+        },
+        {
+          "titre": "Disco Elysium : un monde né d'une campagne sur table et d'un roman, écrit des années avant le jeu",
+          "type": "pepite",
+          "source_nom": "Game Developer",
+          "source_url": "https://www.gamedeveloper.com/design/dev-interview-robert-kurvitz",
+          "image_url": "http://i.imgur.com/E9XNXGA.jpg",
+          "contexte": "Robert Kurvitz décrit la méthode : écrire d'abord une fiction longue, puis la dilater en un monstre à mille bras de vérifications de compétences et de choix, plutôt que d'habiller un système de jeu avec du texte. Le monde d'Elysium préexiste au jeu de plusieurs années, nourri par une campagne sur table entre amis puis par un roman, ce qui explique la densité de sa géographie politique et de son vocabulaire. Le parti pris visuel suit la même logique de source unique, avec une référence assumée aux peintres réalistes russes comme Répine, des normal maps peintes à la main et un shader propriétaire. La leçon tient en une phrase : la cohérence d'un monde ne vient pas d'une charte, elle vient d'une fiction assez épaisse pour qu'on puisse en couper les trois quarts."
+        }
+      ]
+    },
+    {
+      "id": "craft",
+      "label": "Craft & matière",
+      "accent": "#b8956a",
+      "learning": "Les quatre cas déplacent la valeur du matériau fini vers le protocole qui le produit : coque coulée plutôt que masse, dormance plutôt que mort, silice native plutôt que vernis, forme en bois plutôt que chapeau. En direction artistique, cela invite à traiter l'outil et la contrainte de sourcing comme des éléments de langage visible, pas comme des coulisses à masquer. En production, documenter le geste, le rayon d'approvisionnement et la réversibilité du montage devient un livrable au même titre que l'objet, et souvent le seul argument défendable dans le temps.",
+      "items": [
+        {
+          "titre": "Une robe en mycélium vivant qui se répare et change de propriétés par co-culture",
+          "type": "actualite",
+          "source_nom": "Dezeen",
+          "source_url": "https://www.dezeen.com/2026/08/05/dress-living-mycelium-renew-repair/",
+          "image_url": "https://static.dezeen.com/uploads/2026/08/shenzen-institute-advanced-technology-programmable-fungal-platform-dress_dezeen_2364_hero.jpg",
+          "contexte": "Les Shenzhen Institutes of Advanced Technology, sous la direction de Ke Li, ont mis au point une plateforme fongique programmable à base de Cordyceps militaris, séchée à 45 degrés pour placer le matériau en dormance métabolique plutôt que de le tuer. La réparation s'obtient en appliquant une solution nutritive à base d'eau de pomme de terre et de mycélium frais sur la déchirure, les cellules recolonisant la brèche. Des propriétés supplémentaires s'ajoutent par co-culture, la levure de bière apportant un bleu pigmentaire et Aspergillus niger une résistance aux UV, sans ingénierie génétique. Le prototype a été réalisé avec le studio berlinois Peelsphere, YouYang Song signant l'esthétique."
+        },
+        {
+          "titre": "Le 19M expose les chapeaux de Maison Michel en montrant la forme en bois plutôt que l'objet fini",
+          "type": "actualite",
+          "source_nom": "le19M",
+          "source_url": "https://www.le19m.com/fr/magazine/metamorphoses-chapeaux-maison-michel-septembre-decembre-2026",
+          "image_url": "https://res.cloudinary.com/apac-clienteling/image/upload/s--i2HpA1ry--/c_crop,h_3547,w_3545,x_0,y_618/c_scale,w_1000/f_auto/q_auto/v1/LE19M/PRD/37d28695-3ab7-42ea-a973-d7b5bb7c7962/maison-michel-c-alix-marnat-10.jpg",
+          "contexte": "Annoncée le 29 juillet, l'exposition Métamorphoses se tient à la Galerie du 19M à Aubervilliers du 23 septembre au 13 décembre, en accès gratuit. Le parcours articule quatre savoir-faire distincts et rarement montrés ensemble, formiers, chapeliers, couseuses de paille et modistes, avec le bois de tilleul tourné en formes, le feutre, les rubans et les voilettes comme matières de départ. Les pièces couvrent bérets, bibis, casquettes, canotiers, capelines et fédoras, ainsi que des créations de défilés haute couture. Le geste éditorial est de rendre visible la forme en bois, outil habituellement invisible, comme matrice de la silhouette."
+        },
+        {
+          "titre": "Une table entièrement fabriquée dans un rayon de quarante miles, notice de montage comprise",
+          "type": "actualite",
+          "source_nom": "Dezeen",
+          "source_url": "https://www.dezeen.com/2026/08/06/harvest-moon-table-charles-holland-cat-rossi-local-works/",
+          "image_url": "https://static.dezeen.com/uploads/2026/08/harvest-moon-table-charles-holland-cat-rossi-local-works_dezeen_2364_hero_22-852x479.jpg",
+          "contexte": "L'architecte Charles Holland, l'historienne du design Catharine Rossi et le studio Local Works se sont imposé une contrainte de sourcing radicale autour de Canterbury, matériaux comme outillage. Le plateau est une coque de craie coulée, à effet terrazzo, autour d'un cadre en châtaignier renforcé par des armatures en bois de pommier, ce qui déplace la craie d'un rôle de masse vers un rôle de peau. Les piètements réemploient des branches et des pommiers déracinés, assemblés par chevilles de châtaignier, ficelle de bottelage et sangles de palette agricoles, dont les couleurs vives servent de code de montage autant que de contraste. Le projet est publié avec sa notice, ses dessins techniques, une partition musicale et un guide de banquet, la documentation faisant partie de l'objet."
+        },
+        {
+          "titre": "La marqueterie de paille de seigle, dont la brillance ne vient d'aucun vernis",
+          "type": "pepite",
+          "source_nom": "Ateliers Lison de Caunes",
+          "source_url": "https://www.lisondecaunes.com/ateliers/",
+          "image_url": "https://www.lisondecaunes.com/wp-content/uploads/materiaux-2.jpg",
+          "contexte": "La technique utilise une paille de seigle cultivée et récoltée traditionnellement en Bourgogne, séchée puis teintée, chaque tige étant fendue en deux, encollée sur sa face mate et aplatie au plioir sur un support bois, métal ou verre. Sa brillance ne vient d'aucun vernis ajouté mais d'un dépôt de silice naturel qui assure résistance et imperméabilité, la seule vulnérabilité étant la sensibilité des teintures aux ultraviolets. Le matériau connaît son apogée dans les années 1920 avec Jean-Michel Frank et André Groult, grand-père de Lison de Caunes, Jean Royère étant le dernier décorateur à l'employer après guerre avant un long oubli. La reprise contemporaine tient à un point rare : une surface réfléchissante obtenue par un geste additif brin par brin, et non par un traitement de finition."
+        }
+      ]
+    },
+    {
+      "id": "scenographie",
+      "label": "Scénographie & expérience",
+      "accent": "#7fbdb0",
+      "learning": "La puissance vient du dispositif d'écoute et de regard, pas du décor. Un miroir fracturé, une chambre sonore au centre d'un plateau ouvert, une paroi que le public complète lui-même, une coque conçue pour spatialiser huit minutes de son, tous produisent un effet supérieur à leur coût de fabrication, parce qu'ils font travailler le visiteur et le lieu existant plutôt que d'ajouter de la matière. Pour un sommet de marque, la règle opérationnelle est de définir d'abord un seul point de bascule sensoriel dans le parcours, puis de laisser le reste ouvert, traversable et en lumière assumée.",
+      "items": [
+        {
+          "titre": "Une Traviata dans un miroir géant fracturé posé sur le lac de Constance",
+          "type": "actualite",
+          "source_nom": "Bregenzer Festspiele",
+          "source_url": "https://bregenzerfestspiele.com/en/music-theatre/la-traviata",
+          "image_url": "https://bregenzerfestspiele.com/s3fs-public/styles/x450/public/2026-07/latraviata_fp-anjakoehler-anjakoehler_260128.webp",
+          "contexte": "Créée le 22 juillet sur la plus grande scène lacustre du monde, cette Traviata est mise en scène par Damiano Michieletto avec une scénographie de Paolo Fantin, des lumières d'Alessandro Carletti et une vidéo de Roland Horvath. Le dispositif repose sur un miroir monumental éclaté en surfaces réfléchissantes, complété d'horloges brisées surdimensionnées, de passerelles sur l'eau et de structures circulaires lumineuses qui transposent l'ouvrage dans les années 1920. L'objet remarquable est l'usage du décor comme surface de projection mentale : le public voit simultanément les interprètes, leur reflet fragmenté et le paysage réel du lac, la tombée du jour servant de transition dramaturgique gratuite. Le son est spatialisé sur l'ensemble du bassin, ce qui rend intime une jauge de plusieurs milliers de places."
+        },
+        {
+          "titre": "À Arles, trois séquences ouvertes en lumière naturelle autour d'une seule chambre sonore fermée",
+          "type": "actualite",
+          "source_nom": "En revenant de l'expo",
+          "source_url": "https://www.enrevenantdelexpo.com/2026/07/29/ctrl-nouvelles-fonctions-des-images-rencontres-arles-2026/",
+          "image_url": "https://i0.wp.com/www.enrevenantdelexpo.com/wp-content/uploads/2026/07/CTRL.-Nouvelles-fonctions-des-images-Rencontres-dArles-2026-25.jpg",
+          "contexte": "Coproduite par les Rencontres d'Arles et l'École nationale supérieure de la photographie, CTRL. Nouvelles fonctions des images occupe le plateau de l'ENSP du 29 juillet au 4 octobre, sous la direction de Nicolas Giraud. Le parcours est structuré en trois séquences ouvertes séparées par de hautes cimaises, sans couloir ni sas, ce qui laisse le regard traverser l'ensemble du plateau. Au centre, un volume clos isole l'installation sonore de Wolfgang Tillmans et fonctionne comme point de bascule sensoriel. La façade vitrée reste exploitée en lumière naturelle et cadre le paysage arlésien comme contre-champ permanent, l'éclairage artificiel étant réduit au minimum."
+        },
+        {
+          "titre": "Un pavillon dont les murs sont remplis par les visiteurs, bûche après bûche",
+          "type": "actualite",
+          "source_nom": "Dezeen",
+          "source_url": "https://www.dezeen.com/2026/07/30/nanhai-buddha-pavilion-dodesign/",
+          "image_url": "https://static.dezeen.com/uploads/2026/07/nanhai-buddha-pavilion-dodesign-china-hero_dezeen_2364_col_1.jpg",
+          "contexte": "Publié le 30 juillet, le Nanhai Buddha Pavilion de l'agence DoDesign abrite un sanctuaire Ming sur une colline boisée de Chongqing, avec des poteaux en acier noir, une toiture plate en bois et des murs autoportants faits de grilles de tiges métalliques. Environ quatre mille bûches de cèdre ont été découpées, dont la moitié seulement a été mise en place : les visiteurs sont invités à poser et à réagencer les autres, si bien que l'enveloppe évolue en permanence. Des lanterneaux au centre et en bande périphérique dosent la lumière zénithale et font varier la porosité visuelle des parois selon leur degré de remplissage. Le dispositif transforme le remplissage d'une paroi en rituel, et fait du chantier inachevé le contenu même de la visite."
+        },
+        {
+          "titre": "Pavillon Philips, 1958 : une marque qui n'expose aucun produit et diffuse huit minutes de son sur 325 haut-parleurs",
+          "type": "pepite",
+          "source_nom": "ArchDaily",
+          "source_url": "https://www.archdaily.com/157658/ad-classics-expo-58-philips-pavilion-le-corbusier-and-iannis-xenakis",
+          "image_url": "https://images.adsttc.com/media/images/55e8/9924/46fe/9fbb/ef00/00b0/large_jpg/image-28-2.jpg",
+          "contexte": "Commandé par Philips pour l'Exposition universelle de Bruxelles, le pavillon est conçu par Le Corbusier avec Iannis Xenakis, alors chargé de la structure, sous la forme d'un assemblage de neuf paraboloïdes hyperboliques en béton. L'intérieur n'expose aucun produit : il diffuse le Poème électronique d'Edgard Varèse, spatialisé sur environ 325 haut-parleurs encastrés dans les parois et pilotés en trajectoires par des opérateurs, avec Concret PH de Xenakis en musique de transit. La marque y est représentée non par des objets mais par une expérience de huit minutes, la coque servant simultanément de signal urbain et de salle d'écoute. Démoli dès janvier 1959, il reste la référence fondatrice de l'événementiel de marque qui vend une capacité technologique plutôt qu'un catalogue."
+        }
+      ]
+    }
+  ]
+}

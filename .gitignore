@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+_ancien/
+_to_delete/
+.secrets/
+public/

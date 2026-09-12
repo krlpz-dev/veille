@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Veille créative n°02 · 09.08.2026</title>
+<meta name="description" content="Treize territoires, treize entrées. Une seule par thématique, la meilleure. Un enseignement en une phrase pour chacune.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#0a0a0b; --bg-2:#111113; --ink:#f4f4f0; --muted:#8b8b85;
+  --line:rgba(255,255,255,.13); --accent:#D9FF3D;
+  --serif:'Unbounded','Outfit','Helvetica Neue',sans-serif;
+  --sans:'Inter','Helvetica Neue',Arial,sans-serif;
+  --pad:clamp(20px,5vw,72px);
+}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-weight:500;font-size:15px;line-height:1.62;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+::selection{background:var(--accent);color:#000}
+.kicker{font-size:10.5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.grain{position:fixed;inset:0;pointer-events:none;z-index:60;opacity:.05;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/><feColorMatrix type='saturate' values='0'/></filter><rect width='240' height='240' filter='url(%23n)' opacity='0.5'/></svg>");background-size:240px;mix-blend-mode:overlay}
+.bar{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;
+  justify-content:space-between;gap:16px;padding:14px var(--pad);
+  background:linear-gradient(to bottom,rgba(10,10,11,.92),rgba(10,10,11,0));
+  backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px)}
+.bar__id{font-size:10.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--ink);text-decoration:none;opacity:.85;transition:opacity .3s}
+.bar__id:hover{opacity:1}
+.btn{display:inline-block;font-size:10px;font-weight:600;letter-spacing:.2em;
+  text-transform:uppercase;text-decoration:none;padding:9px 15px;border-radius:2px;
+  border:1px solid var(--accent);color:var(--accent);
+  background:color-mix(in srgb,var(--accent) 30%,transparent);
+  transition:background .35s ease,color .35s ease,transform .35s ease}
+.btn:hover{background:var(--accent);color:#0a0a0b;transform:translateY(-1px)}
+.progress{position:fixed;top:0;left:0;height:2px;width:0;background:var(--accent);z-index:70;
+  transition:width .12s linear}
+.hide-s{display:inline}
+footer{padding:clamp(48px,9vh,104px) var(--pad);border-top:1px solid var(--line);
+  display:flex;flex-wrap:wrap;gap:14px 26px;justify-content:space-between;align-items:center}
+@media (max-width:680px){
+  .hide-s{display:none}
+  .bar{padding:11px 16px}
+  .bar__id{font-size:9.5px;letter-spacing:.14em}
+  .btn{padding:8px 11px;font-size:9px;letter-spacing:.13em;white-space:nowrap}
+}
+.reveal{opacity:0;transform:translateY(26px);
+  transition:opacity 1s cubic-bezier(.22,.7,.24,1),transform 1s cubic-bezier(.22,.7,.24,1)}
+.reveal.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none;transition:none}
+}
+
+main{scroll-snap-type:y proximity}
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;
+  padding:0 var(--pad) clamp(38px,7vh,86px);overflow:hidden;scroll-snap-align:start}
+.hero__img{position:absolute;inset:0;z-index:0}
+.hero__img img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.16) brightness(.62);
+  transform:scale(1.06);animation:drift 22s ease-out forwards}
+@keyframes drift{to{transform:scale(1)}}
+.hero__veil{position:absolute;inset:0;z-index:1;
+  background:radial-gradient(120% 90% at 20% 100%,rgba(10,10,11,.35),rgba(10,10,11,.94) 72%),
+             linear-gradient(to top,rgba(10,10,11,.98),rgba(10,10,11,.2) 55%,rgba(10,10,11,.72))}
+.hero__in{position:relative;z-index:2;max-width:1180px;width:100%}
+.hero__no{font-family:var(--serif);font-weight:800;font-size:11px;letter-spacing:.32em;
+  color:var(--accent);margin:0 0 18px}
+.hero h1{font-family:var(--serif);font-weight:900;letter-spacing:-.02em;line-height:.92;
+  font-size:clamp(38px,8.2vw,116px);margin:0 0 22px;text-transform:uppercase}
+.hero__meta{display:flex;flex-wrap:wrap;gap:10px 22px;margin-bottom:22px}
+.hero__deck{max-width:62ch;font-size:15px;color:#cfcfc8;margin:0}
+.hero__scroll{position:absolute;left:var(--pad);bottom:14px;z-index:2;font-size:9.5px;
+  letter-spacing:.24em;text-transform:uppercase;color:var(--muted);animation:blink 3.2s infinite}
+@keyframes blink{0%,100%{opacity:.35}50%{opacity:.9}}
+
+.sommaire{padding:clamp(64px,12vh,140px) var(--pad);border-top:1px solid var(--line);
+  scroll-snap-align:start}
+.sommaire__in{max-width:1180px;margin:0 auto}
+.sommaire p.intro{font-size:clamp(17px,2.1vw,25px);line-height:1.42;max-width:32ch;
+  font-family:var(--serif);font-weight:400;margin:18px 0 clamp(38px,6vh,64px)}
+.som__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  column-gap:clamp(24px,5vw,80px)}
+.som__row{display:flex;gap:14px;align-items:baseline;padding:11px 0;border-top:1px solid var(--line);
+  text-decoration:none;transition:padding-left .35s ease}
+.som__row:hover{padding-left:8px}
+.som__n{font-family:var(--serif);font-size:10px;font-weight:600;color:var(--muted);min-width:22px}
+.som__t{font-size:14px;font-weight:500;flex:1}
+.som__r{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
+  text-align:right;white-space:nowrap}
+.som__row:hover .som__t{color:var(--accent)}
+
+.entry{min-height:100svh;display:grid;align-items:center;
+  grid-template-columns:minmax(0,.86fr) minmax(0,1fr);
+  gap:clamp(28px,4.5vw,74px);padding:clamp(72px,11vh,124px) var(--pad);
+  border-top:1px solid var(--line);scroll-snap-align:start}
+.media{display:grid;gap:8px;width:100%;aspect-ratio:3/4;max-height:78vh;margin:0 auto}
+.media--1{grid-template-rows:1fr}
+.media--2{grid-template-rows:1.75fr 1fr}
+.media--3{grid-template-rows:1.75fr 1fr;grid-template-columns:1fr 1fr}
+.media--3 .shot:first-child{grid-column:1 / -1}
+.shot{position:relative;overflow:hidden;background:var(--bg-2)}
+.shot img{width:100%;height:100%;object-fit:cover;transform:scale(1.03);
+  transition:transform 1.4s cubic-bezier(.22,.7,.24,1)}
+.shot:hover img{transform:scale(1.08)}
+.txt{max-width:56ch}
+.tag{display:flex;align-items:center;gap:10px;margin-bottom:20px;flex-wrap:wrap}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--rc)}
+.tag__r{font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--rc)}
+.tag__n{font-family:var(--serif);font-size:10px;font-weight:600;color:var(--muted);margin-left:auto}
+.pepite{font-size:9px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
+  color:#0a0a0b;background:var(--rc);padding:3px 8px;border-radius:2px}
+.entry h2{font-family:var(--serif);font-weight:800;letter-spacing:-.015em;line-height:1.08;
+  font-size:clamp(23px,2.9vw,40px);margin:0 0 22px}
+.ctx{font-size:15px;line-height:1.68;color:#d6d6d0;margin:0 0 26px}
+.ctx a{color:var(--ink);text-decoration:none;background-image:linear-gradient(var(--rc),var(--rc));
+  background-size:100% 1px;background-repeat:no-repeat;background-position:0 100%;
+  padding-bottom:1px;transition:background-size .4s ease,color .3s ease}
+.ctx a:hover{color:var(--rc);background-size:100% 2px}
+.ctx em{font-style:italic;color:#eaeae4}
+.learn{border-left:2px solid var(--rc);padding:2px 0 2px 16px;margin:0 0 24px}
+.learn p{margin:0;font-family:var(--serif);font-weight:400;font-size:clamp(15px,1.6vw,20px);
+  line-height:1.34;color:var(--ink)}
+.src{display:inline-flex;align-items:center;gap:9px;font-size:10px;font-weight:600;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--muted);text-decoration:none;
+  transition:color .3s ease,gap .3s ease}
+.src:hover{color:var(--rc);gap:14px}
+
+@media (max-width:1080px){
+  .entry{grid-template-columns:1fr;gap:30px;align-items:start}
+  .media{aspect-ratio:4/3;max-height:none}
+  .media--3{grid-template-rows:1.5fr 1fr}
+  .txt{max-width:none}
+  body{font-size:15.5px}
+  .ctx{font-size:15.5px}
+}
+@media (max-width:680px){
+  .som__grid{grid-template-columns:1fr}
+  .som__r{display:none}
+  .media{aspect-ratio:3/4;gap:6px}
+  .hero{padding-bottom:64px}
+  .entry{padding-top:88px;padding-bottom:56px}
+  main{scroll-snap-type:none}
+}
+</style>
+</head>
+<body>
+<div class="progress"></div>
+<div class="grain"></div>
+<header class="bar">
+  <a class="bar__id" href="index.html">Veille créative<span class="hide-s"> · Karl Petzold</span></a>
+  <a class="btn" href="index.html">Toutes les éditions</a>
+</header>
+<main>
+  <section class="hero">
+    <div class="hero__img"><img src="https://www.creativeboom.com/upload/articles/b4/b4f4ac79ec81ed09d513445a03773e54f316ce0f_1280.png" alt="" referrerpolicy="no-referrer"></div>
+    <div class="hero__veil"></div>
+    <div class="hero__in">
+      <p class="hero__no">Édition n°02</p>
+      <h1>VEILLE 09.08.2026</h1>
+      <div class="hero__meta"><span class="kicker">dimanche 9 août 2026</span><span class="kicker">Treize entrées</span></div>
+      <p class="hero__deck">Treize territoires, treize entrées. Une seule par thématique, la meilleure. Un enseignement en une phrase pour chacune.</p>
+    </div>
+    <span class="hero__scroll">Défiler</span>
+  </section>
+  <section class="sommaire">
+    <div class="sommaire__in">
+      <span class="kicker">Au sommaire</span>
+      <p class="intro">Treize territoires, treize entrées. Une seule par thématique, la meilleure. Un enseignement en une phrase pour chacune.</p>
+      <div class="som__grid"><a class="som__row reveal" href="#direction-artistique"><span class="som__n">01</span><span class="som__t">Johnson Banks remplace le soldat de plastique vert par des enfants moulés dans la même matière</span><span class="som__r">Direction artistique &amp; campagnes</span></a><a class="som__row reveal" href="#mode"><span class="som__n">02</span><span class="som__t">À Copenhague, Nicklas Skovgaard fait entrer ses mannequins une à une en Ford Mustang décapotable</span><span class="som__r">Mode</span></a><a class="som__row reveal" href="#luxe"><span class="som__n">03</span><span class="som__t">Un façonnier textile normand trois fois centenaire reprend la maison de maroquinerie Moreau Paris</span><span class="som__r">Luxe</span></a><a class="som__row reveal" href="#craft"><span class="som__n">04</span><span class="som__t">Deux fours de potiers romains dégagés en Autriche, et près de cent autres détectés sous les champs</span><span class="som__r">Craft &amp; matière</span></a><a class="som__row reveal" href="#architecture"><span class="som__n">05</span><span class="som__t">Le Centre Canadien d&#x27;Architecture regarde Álvaro Siza par la ville et non par le bâtiment</span><span class="som__r">Architecture</span></a><a class="som__row reveal" href="#scenographie"><span class="som__n">06</span><span class="som__t">À Hyderabad, un pavillon événementiel de 1 500 m² bâti entièrement en matériaux de chantier récupérés</span><span class="som__r">Scénographie &amp; expérience</span></a><a class="som__row reveal" href="#photographie"><span class="som__n">07</span><span class="som__t">Cape Light remasterisé, ou comment Joel Meyerowitz a troqué le Leica pour une chambre 8x10 en 1976</span><span class="som__r">Photographie</span></a><a class="som__row reveal" href="#film"><span class="som__n">08</span><span class="som__t">Sur Stranger Things, Wētā FX rajeunit le jeune Will en CG plutôt qu&#x27;en IA, et le maquillage de Vecna passe de neuf heures à deux</span><span class="som__r">Film &amp; motion</span></a><a class="som__row reveal" href="#fantasy"><span class="som__n">09</span><span class="som__t">Au musée des Beaux-Arts de Dole, deux cents concept arts de studios français accrochés au milieu des collections anciennes</span><span class="som__r">Fantasy art &amp; illustration</span></a><a class="som__row reveal" href="#gaming"><span class="som__n">10</span><span class="som__t">Stone Librande a documenté SimCity avec plus de cent designs tenant chacun sur une seule page</span><span class="som__r">Gaming &amp; worldbuilding</span></a><a class="som__row reveal" href="#ui"><span class="som__n">11</span><span class="som__t">L&#x27;IA ayant rendu l&#x27;exécution gratuite, il ne reste au designer que sa conviction</span><span class="som__r">UI &amp; design d&#x27;interface</span></a><a class="som__row reveal" href="#ia"><span class="som__n">12</span><span class="som__t">NVIDIA fait entrer le protocole MCP dans Houdini, Unreal, Blender et Creative Cloud : les agents pilotent le logiciel, pas le pixel</span><span class="som__r">IA &amp; création</span></a><a class="som__row reveal" href="#philosophie"><span class="som__n">13</span><span class="som__t">Relire la querelle des deux cultures de 1959 : ce que Leavis reprochait à Snow n&#x27;était pas la science</span><span class="som__r">Philosophie</span></a></div>
+    </div>
+  </section>
+  
+<section class="entry" id="direction-artistique" style="--rc:#c9a24a">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://www.creativeboom.com/upload/articles/b4/b4f4ac79ec81ed09d513445a03773e54f316ce0f_1280.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.creativeboom.com/upload/articles/99/9992a4bc7e9671345fac914ad8b6cb9a3f13d3d9_944.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.creativeboom.com/upload/articles/ea/ea82005f2a43d5a6036e759cef459f64d556a9dd_944.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Direction artistique &amp; campagnes</span><span class="tag__n">01</span></div>
+    <h2 class="reveal">Johnson Banks remplace le soldat de plastique vert par des enfants moulés dans la même matière</h2>
+    <div class="ctx reveal">Pour <a href="https://www.iwm.org.uk/events/childhood-in-war" target="_blank" rel="noopener">Childhood in War</a>, ouverte le 31 juillet à l'Imperial War Museum de Londres et visible jusqu'en février 2027, <a href="https://www.johnsonbanks.co.uk/" target="_blank" rel="noopener">Johnson Banks</a> prend l'objet le plus banal du jeu de guerre, le petit soldat de plastique vert, et y substitue des enfants moulés dans le même plastique et la même pose figée. Tout le système d'affichage tient sur cette seule permutation plutôt que sur la photographie d'archive recadrée, réflexe habituel de la communication muséale, et il fonctionne parce que le vert armée reste reconnaissable à l'instant où la posture cesse de l'être. La scénographie de <a href="https://www.nissenrichardsstudio.com/" target="_blank" rel="noopener">Nissen Richards Studio</a> prolonge le motif en volume, entre wagon d'évacués et cuisine de guerre froide. Une direction artistique qui produit son propre sujet au lieu d'habiller un contenu existant.</div>
+    <div class="learn reveal"><p>Quand l&#x27;image devient infinie et gratuite, l&#x27;avantage revient à celui qui trouve l&#x27;objet que personne n&#x27;avait pensé à retourner.</p></div>
+    <div class="reveal"><a class="src" href="https://www.creativeboom.com/news/johnson-banks-reimagines-the-green-toy-soldier-for-iwm-londons-childhood-in-war/" target="_blank" rel="noopener">Creative Boom <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="mode" style="--rc:#a3ad72">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://bricksmagazine.co.uk/wp-content/uploads/2026/08/SS27-Copenhagen-Fashion-Week-Nicklas-Skovgaard-Runway-4x5-James-Cochrane-50-1-1024x683.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://i0.wp.com/bricksmagazine.co.uk/wp-content/uploads/2026/08/SS27-Copenhagen-Fashion-Week-Nicklas-Skovgaard-Runway-4x5-James-Cochrane-1-1.jpg?resize=819%2C1024&amp;ssl=1" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://i0.wp.com/bricksmagazine.co.uk/wp-content/uploads/2026/08/SS27-Copenhagen-Fashion-Week-Nicklas-Skovgaard-Runway-4x5-James-Cochrane-7-1.jpg?resize=819%2C1024&amp;ssl=1" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Mode</span><span class="tag__n">02</span></div>
+    <h2 class="reveal">À Copenhague, Nicklas Skovgaard fait entrer ses mannequins une à une en Ford Mustang décapotable</h2>
+    <div class="ctx reveal">Du 3 au 7 août, la <a href="https://copenhagenfashionweek.com/brand/nicklas-skovgaard" target="_blank" rel="noopener">Copenhagen Fashion Week</a> fêtait ses vingt ans, et c'est <a href="https://nicklasskovgaard.com/" target="_blank" rel="noopener">Nicklas Skovgaard</a> qui a signé le geste le plus construit avec sa treizième collection, Les Skovgaardettes. Le créateur convoque les girl groups des années soixante : vichy, taffetas craquant, jupes corolle et pastels floraux taillés en volumes sculptés, où le textile porte le récit plutôt que la silhouette. La scénographie tient dans un dispositif d'entrée, chaque mannequin déposée une à une par une Ford Mustang décapotable de collection, tandis que le groupe True Blue jouait en direct, un montage que <a href="https://www.russh.com/copenhagen-fashion-week-ss27-show-highlights/" target="_blank" rel="noopener">RUSSH</a> a retenu comme le moment fort de la semaine. Formé à Copenhague et distingué par le prix Wessel and Vett en 2025, Skovgaard fabrique en made to order et prouve qu'une maison de quelques personnes peut produire une image plus mémorable qu'un budget de groupe.</div>
+    <div class="learn reveal"><p>Quand tout le monde filme, l&#x27;idée de mise en scène vaut plus cher que le décor.</p></div>
+    <div class="reveal"><a class="src" href="https://bricksmagazine.co.uk/2026/08/07/the-copenhagen-fashion-week-ss27-collections-not-to-miss/" target="_blank" rel="noopener">BRICKS Magazine <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="luxe" style="--rc:#b57a8c">
+  <div class="media media--2 reveal"><div class="shot"><img src="https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000,format=auto/m/53c9/9ebe/5b27/f2e7/aadc/1957/8d48/1c34/ced5/737f/737f.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000,format=auto/m/6031/ae72/fa37/853e/5a92/972e/f1c6/127c/174e/5ca2/5ca2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Luxe</span><span class="tag__n">03</span></div>
+    <h2 class="reveal">Un façonnier textile normand trois fois centenaire reprend la maison de maroquinerie Moreau Paris</h2>
+    <div class="ctx reveal">Le tribunal de commerce de Paris a validé le 29 juillet la reprise de <a href="https://moreau-paris.com/" target="_blank" rel="noopener">Moreau Paris</a>, maison de toile monogrammée fondée en 1882 par le fils de Louis Moreau, ébéniste de Napoléon Ier, par Cardinal Invest, la holding du <a href="https://www.ets-lecuyer.com/" target="_blank" rel="noopener">Groupe Lécuyer</a>. Le groupe normand, propriété de la famille Odend'hal, aligne trois siècles de textile technique et environ 800 salariés entre le tissage et le tressage de Flers, la confection et la personnalisation de Lisieux et l'atelier de bagagerie SAMCO en Tunisie, soit une chaîne intégrée du fil au sac fini. Moreau, dix millions d'euros de ventes au détail, une production italienne et une croissance de 30 pour cent au Japon entre 2022 et 2025, passe ainsi sous le contrôle direct d'un fabricant et non d'un fonds ou d'un groupe de marques. Comme le détaille <a href="https://us.fashionnetwork.com/news/Moreau-paris-comes-under-the-umbrella-of-groupe-lecuyer-s-holding-company,1858142.html" target="_blank" rel="noopener">FashionNetwork</a>, le sous-traitant récupère ici la marque, la marge et le récit qu'il fabriquait jusqu'à présent pour les autres.</div>
+    <div class="learn reveal"><p>Celui qui tient l&#x27;outil finira par tenir la marque.</p></div>
+    <div class="reveal"><a class="src" href="https://us.fashionnetwork.com/news/Moreau-paris-comes-under-the-umbrella-of-groupe-lecuyer-s-holding-company,1858142.html" target="_blank" rel="noopener">FashionNetwork <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="craft" style="--rc:#b8956a">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://archaeologymag.com/wp-content/uploads/roman-workshop-kilns-austria-2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://archaeologymag.com/wp-content/uploads/roman-workshop-kilns-austria-1.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://archaeologymag.com/wp-content/uploads/roman-workshop-kilns-austria-4.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Craft &amp; matière</span><span class="tag__n">04</span></div>
+    <h2 class="reveal">Deux fours de potiers romains dégagés en Autriche, et près de cent autres détectés sous les champs</h2>
+    <div class="ctx reveal">À Burg, dans le Burgenland, une fouille-école dirigée par Basema Hamarneh pour l'<a href="https://klass-archaeologie.univie.ac.at/en/" target="_blank" rel="noopener">Institut d'archéologie classique de l'Université de Vienne</a> a dégagé deux fours de potiers à quarante centimètres sous la surface, alors que la prospection géomagnétique en signale une centaine d'autres encore enfouis. Le site, actif du milieu du Ier au milieu du IIe siècle, livre les fosses d'extraction d'argile, les fosses de travail et les fosses de rebut qui reconstituent une chaîne opératoire entière, de la terre prélevée au vase manqué. Le <a href="https://www.univie.ac.at/aktuelles/press-room/pressemeldungen/detail/beispiellose-ausgrabung-von-toepferoefen-aus-der-roemerzeit-im-burgenland" target="_blank" rel="noopener">communiqué de l'Université de Vienne</a> souligne la rareté du corpus, avec des vases complets et une masse de ratés de cuisson dont les déformations documentent les températures, les défauts d'enfournement et les gestes que les pièces réussies dissimulent. La présence de sigillée importée aux côtés de la production locale, à seize kilomètres de l'ancienne Savaria, désigne un atelier calibré pour un marché large et non pour son voisinage.</div>
+    <div class="learn reveal"><p>Ce sont les ratés de cuisson, jamais les pièces réussies, qui conservent la mémoire exacte du geste.</p></div>
+    <div class="reveal"><a class="src" href="https://archaeologymag.com/2026/08/roman-pottery-workshop-with-kilns-austria/" target="_blank" rel="noopener">Archaeology News Online Magazine <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="architecture" style="--rc:#8d9aa3">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://images.adsttc.com/media/images/6a75/95d8/ac8b/af01/892c/af9f/medium_jpg/cca-presents-new-exhibition-exploring-alvaro-sizas-approach-to-city-making_4.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://images.adsttc.com/media/images/6a75/95fc/ac8b/af01/892c/afa7/medium_jpg/cca-presents-new-exhibition-exploring-alvaro-sizas-approach-to-city-making_2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://images.adsttc.com/media/images/6a75/95e5/ac8b/af01/892c/afa1/medium_jpg/cca-presents-new-exhibition-exploring-alvaro-sizas-approach-to-city-making_5.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Architecture</span><span class="tag__n">05</span></div>
+    <h2 class="reveal">Le Centre Canadien d&#x27;Architecture regarde Álvaro Siza par la ville et non par le bâtiment</h2>
+    <div class="ctx reveal">Le <a href="https://www.cca.qc.ca/en/events/102435/the-fortune-of-the-city-is-that-it-has-never-been-perfect" target="_blank" rel="noopener">Centre Canadien d'Architecture</a> déplace le regard porté sur Álvaro Siza, du bâtiment isolé vers le quartier, la topographie et l'infrastructure, avec un titre emprunté à l'architecte lui-même : la chance de la ville, c'est de n'avoir jamais été parfaite. Giovanna Borasi puise dans le <a href="https://www.cca.qc.ca/en/archives/447183/alvaro-siza-fonds" target="_blank" rel="noopener">fonds Siza</a> conservé à Montréal, plus de cent cinquante projets de 1948 à 2012, du Chiado reconstruit à Lisbonne à la Quinta da Malagueira d'Évora, et confronte ces dessins à des tirages de Gabriele Basilico et Balthazar Korab. L'institution a parallèlement ouvert au public la <a href="https://www.cca.qc.ca/en/events/102187/online-transcription-siza-sketchbooks" target="_blank" rel="noopener">transcription collaborative des carnets de Siza</a>, annotés en portugais, français, italien et anglais. La thèse tient en une question de méthode : transformer une ville sans détruire ce qui existe déjà.</div>
+    <div class="learn reveal"><p>L&#x27;imperfection n&#x27;est pas un défaut à corriger, c&#x27;est la seule réserve d&#x27;avenir qu&#x27;un lieu conserve.</p></div>
+    <div class="reveal"><a class="src" href="https://www.archdaily.com/1182366/cca-presents-new-exhibition-exploring-alvaro-sizas-approach-to-city-making" target="_blank" rel="noopener">ArchDaily <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="scenographie" style="--rc:#7fbdb0">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://static.dezeen.com/uploads/2026/08/the-reclaimed-pavilion-kanan-modi-associates-india-hero_dezeen_2364_col_0.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.dezeen.com/uploads/2026/08/the-reclaimed-pavilion-kanan-modi-associates-india_dezeen_2364_col_4-852x847.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.dezeen.com/uploads/2026/08/the-reclaimed-pavilion-kanan-modi-associates-india_dezeen_2364_col_12-852x1136.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Scénographie &amp; expérience</span><span class="tag__n">06</span></div>
+    <h2 class="reveal">À Hyderabad, un pavillon événementiel de 1 500 m² bâti entièrement en matériaux de chantier récupérés</h2>
+    <div class="ctx reveal">Le studio <a href="https://kananmodi.in/" target="_blank" rel="noopener">Kanan Modi Associates</a> a livré The Reclaimed Pavilion, un lieu temporaire qui sert à la fois d'espace de travail, de salle d'événements et d'appartement témoin. La structure est faite de gabions remplis de gravats de chantier, de briques moulées dans la terre d'excavation, de tôles ondulées récupérées et d'une ossature d'échafaudages repeints en rouge, coiffée de voiles de jute tendus en zigzag. Le <a href="https://www.dezeen.com/2026/08/05/reclaimed-pavilion-kanan-modi-associates-india/" target="_blank" rel="noopener">parcours documenté par Dezeen</a> s'organise en séquence linéaire : réception pavée de briques claires avec fosse encaissée, bassin en L le long de la façade sud-ouest, gradins en acier, puis plaza nord, les murs de gabions découpant les zones de rassemblement autour d'un plan d'eau central. Les images sont signées <a href="https://www.instagram.com/fernandogguerra/?hl=en" target="_blank" rel="noopener">Fernando Guerra</a>.</div>
+    <div class="learn reveal"><p>L&#x27;éphémère cesse d&#x27;être un gaspillage assumé quand le chantier devient la carrière du décor.</p></div>
+    <div class="reveal"><a class="src" href="https://www.dezeen.com/2026/08/05/reclaimed-pavilion-kanan-modi-associates-india/" target="_blank" rel="noopener">Dezeen <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="photographie" style="--rc:#6fa3bd">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://www.blind-magazine.com/wp-content/uploads/2026/08/doorway-to-the-sea-provincetown-1982-scaled.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.blind-magazine.com/wp-content/uploads/2026/08/wilson-cottage-wellfleet-1976-scaled.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.blind-magazine.com/wp-content/uploads/2026/08/truro-1976-scaled.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Photographie</span><span class="pepite">Pépite</span><span class="tag__n">07</span></div>
+    <h2 class="reveal">Cape Light remasterisé, ou comment Joel Meyerowitz a troqué le Leica pour une chambre 8x10 en 1976</h2>
+    <div class="ctx reveal">En 1976, <a href="https://huxleyparlour.com/artists/joel-meyerowitz/" target="_blank" rel="noopener">Joel Meyerowitz</a> lâche le Leica et la rue pour une chambre Deardorff de 1938, vingt kilos sur le dos, un Ektar 250 mm et du Vericolor II Type L à 80 ASA, avec des poses qui vont d'une demi-seconde à f/90 en plein jour jusqu'à dix minutes en fin de journée. Ce n'est pas un changement de matériel mais un changement de régime perceptif, la lenteur du dépoli imposant de décider la lumière avant de la voir apparaître, et c'est ce qui produit la couleur atmosphérique de Cape Light, publié en 1978 et vendu à plus de 150 000 exemplaires. <a href="https://aperture.org/press-release/aperture-releases-50th-anniversary-edition-of-joel-meyerowitz-cape-light/" target="_blank" rel="noopener">Aperture</a> vient d'en sortir une édition anniversaire de 112 pages et 40 images, négatifs entièrement rescannés et remasterisés, ce qui rejoue la question de savoir quelle version d'une photographie fait autorité, celle du tirage d'époque ou celle du fichier d'aujourd'hui. <a href="https://www.blind-magazine.com/en/news/fifty-years-ago-joel-meyerowitz-tipped-into-the-light/" target="_blank" rel="noopener">Blind</a> détaille le protocole technique de cette bascule, cinquante ans après.</div>
+    <div class="learn reveal"><p>Quand fabriquer une image ne coûte plus rien, la seule décision qui vaut encore est le temps qu&#x27;on accepte d&#x27;y engager.</p></div>
+    <div class="reveal"><a class="src" href="https://www.blind-magazine.com/en/news/fifty-years-ago-joel-meyerowitz-tipped-into-the-light/" target="_blank" rel="noopener">Blind Magazine <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="film" style="--rc:#c47a72">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://www.fxguide.com/wp-content/uploads/2026/07/onsetwires-830x414.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.fxguide.com/wp-content/uploads/2026/07/masterwide-830x406.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.fxguide.com/wp-content/uploads/2026/07/progression-830x155.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Film &amp; motion</span><span class="tag__n">08</span></div>
+    <h2 class="reveal">Sur Stranger Things, Wētā FX rajeunit le jeune Will en CG plutôt qu&#x27;en IA, et le maquillage de Vecna passe de neuf heures à deux</h2>
+    <div class="ctx reveal">Dans un entretien publié le 3 août par <a href="https://www.fxguide.com/fxpodcasts/vecna-demogorgons-and-young-will-inside-the-vfx-of-stranger-things-s5/" target="_blank" rel="noopener">fxguide</a>, la superviseure des effets visuels Betsy Paterson détaille la fabrication de la saison 5. Pour rajeunir Will, <a href="https://www.wetafx.co.nz/" target="_blank" rel="noopener">Wētā FX</a> a écarté le remplacement facial par IA au profit d'un visage entièrement CG, nourri des rushes, des prises alternatives et des chutes de la saison 1, avec pastilles de tracking sur le jeune comédien, deux caméras témoins fixées sur la caméra principale et quatre autres réparties autour du décor de forêt. Le maquillage prothétique de Vecna, qui immobilisait Jamie Campbell Bower huit à neuf heures en saison 4, a été ramené à environ deux heures, le corps étant remplacé numériquement avec un minimum de marqueurs pour préserver la présence du visage joué. <a href="https://www.ilm.com/" target="_blank" rel="noopener">ILM</a> a pris en charge une partie des Demogorgons et les environnements de l'Upside Down, la règle de plateau restant de tout faire en réel jusqu'au point où cela devient impossible.</div>
+    <div class="learn reveal"><p>À l&#x27;heure où l&#x27;IA propose de tout remplacer, le geste de studio devient de garder l&#x27;acteur dans le plan et une main humaine derrière chaque pixel.</p></div>
+    <div class="reveal"><a class="src" href="https://www.fxguide.com/fxpodcasts/vecna-demogorgons-and-young-will-inside-the-vfx-of-stranger-things-s5/" target="_blank" rel="noopener">fxguide <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="fantasy" style="--rc:#9b7ec9">
+  <div class="media media--2 reveal"><div class="shot"><img src="https://www.numero39.com/wp-content/uploads/2026/07/expo-dole.webp" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.numero39.com/wp-content/uploads/2026/07/steelrising-spiders-scaled.webp" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Fantasy art &amp; illustration</span><span class="pepite">Pépite</span><span class="tag__n">09</span></div>
+    <h2 class="reveal">Au musée des Beaux-Arts de Dole, deux cents concept arts de studios français accrochés au milieu des collections anciennes</h2>
+    <div class="ctx reveal">Le <a href="https://www.doledujura.fr/musee-des-beaux-arts/" target="_blank" rel="noopener">musée des Beaux-Arts de Dole</a> accroche plus de deux cents concept arts, encres, aquarelles et peintures numériques dans les salles mêmes de ses collections anciennes, en accès libre jusqu'au 27 septembre. Le commissariat est signé Marine Macq, fondatrice de la <a href="https://www.galeriegamma.com/exposition-peindre-le-jeu-video" target="_blank" rel="noopener">galerie GAMMA</a> et autrice chez <a href="https://www.editionspixnlove.com/" target="_blank" rel="noopener">Pix'n Love</a>, qui documente depuis plusieurs années la scène francophone du concept art. Arkane Lyon, Spiders, DON'T NOD, Amanita Design et <a href="https://www.sandfall.co/" target="_blank" rel="noopener">Sandfall Interactive</a> y montrent les images fondatrices de Dishonored, Steelrising, Jusant, Creaks et Clair Obscur, celles produites avant tout code. Le geste est moins nostalgique que stratégique : il installe l'image préparatoire de jeu vidéo dans l'appareil légitimant du musée.</div>
+    <div class="learn reveal"><p>Quand la production d&#x27;images devient instantanée, c&#x27;est l&#x27;intention peinte en amont qui prend de la valeur.</p></div>
+    <div class="reveal"><a class="src" href="https://www.numero39.com/a-dole-aux-origines-peintes-du-jeu-video/" target="_blank" rel="noopener">Numéro 39 <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="gaming" style="--rc:#cd8659">
+  <div class="media media--2 reveal"><div class="shot"><img src="https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blt7714a378f87652bb/6a7613cff0b0970b89a7b318/simcity_2013_screenshot_city.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blt4e64ffc5231f3477/6a7612d513d9fdd0c12fbca5/Screenshot_2026-08-05_at_5.33.41_PM.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Gaming &amp; worldbuilding</span><span class="tag__n">10</span></div>
+    <h2 class="reveal">Stone Librande a documenté SimCity avec plus de cent designs tenant chacun sur une seule page</h2>
+    <div class="ctx reveal">Le 7 août, Game Developer publie un entretien avec <a href="https://en.wikipedia.org/wiki/Stone_Librande" target="_blank" rel="noopener">Stone Librande</a>, directeur créatif de <a href="https://en.wikipedia.org/wiki/SimCity_(2013_video_game)" target="_blank" rel="noopener">SimCity</a>, qui revient sur son pari de documenter un jeu entier sans bible de design. Pendant trois ans et demi de production, il a produit plus de cent diagrammes tenant chacun sur une seule page, imprimés grand format et affichés dans le studio pour que l'équipe se les approprie. Il avait exposé la méthode dans sa conférence <a href="https://gdcvault.com/play/1017708/Simulating-a-City-One-Page" target="_blank" rel="noopener">Simulating a City, One Page at a Time</a> au GDC 2013, et détaille aujourd'hui où la contrainte a cédé, notamment devant les tableurs d'équilibrage économique. Ses équipes consultaient encore ces pages des années plus tard, ce qu'aucun document de deux cents pages n'obtient jamais.</div>
+    <div class="learn reveal"><p>Quand produire mille pages ne coûte plus rien, tenir en une seule redevient la seule preuve qu&#x27;une idée existe vraiment.</p></div>
+    <div class="reveal"><a class="src" href="https://www.gamedeveloper.com/design/pushing-the-limits-in-simulating-a-city-one-page-at-a-time" target="_blank" rel="noopener">Game Developer <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="ui" style="--rc:#8592c9">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://microsoft.design/wp-content/uploads/2026/08/Hero-CC-3.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://microsoft.design/wp-content/uploads/2026/08/thread-2-1.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://microsoft.design/wp-content/uploads/2026/08/Making-a-private-fire.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">UI &amp; design d&#x27;interface</span><span class="tag__n">11</span></div>
+    <h2 class="reveal">L&#x27;IA ayant rendu l&#x27;exécution gratuite, il ne reste au designer que sa conviction</h2>
+    <div class="ctx reveal">Publié le 5 août sur <a href="https://microsoft.design/" target="_blank" rel="noopener">Microsoft Design</a>, <a href="https://microsoft.design/articles/the-naked-designer" target="_blank" rel="noopener">The Naked Designer</a> de Matthew Santone part d'un constat sec : le soin apporté au pixel ne signale plus la compétence, puisque n'importe quel modèle le produit en quelques secondes. L'auteur s'appuie sur <a href="https://www.poetryfoundation.org/articles/69390/the-philosophy-of-composition" target="_blank" rel="noopener">The Philosophy of Composition</a> d'Edgar Allan Poe pour séparer l'exécution de l'intention, et décrit le piège de la productivité qui sert de paravent à l'absence de point de vue. Sa question de clôture est plus dure qu'un manifeste : à quand remonte la dernière chose que vous avez faite qui comptait pour quelqu'un d'autre que vous. Le texte prolonge le débat ouvert quelques jours plus tôt par <a href="https://www.smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/" target="_blank" rel="noopener">Andy Budd sur Smashing Magazine</a>.</div>
+    <div class="learn reveal"><p>Quand la fabrication ne coûte plus rien, la seule rareté qui reste est d&#x27;avoir quelque chose à dire.</p></div>
+    <div class="reveal"><a class="src" href="https://microsoft.design/articles/the-naked-designer" target="_blank" rel="noopener">Microsoft Design <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="ia" style="--rc:#6fbd97">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://blogs.nvidia.com/wp-content/uploads/2026/07/mcp-main-feature-1680x948.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://blogs.nvidia.com/wp-content/uploads/2026/07/boris-fx-silhouette.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://blogs.nvidia.com/wp-content/uploads/2026/07/SIGGRAPH-2026-Keynote-21-1680x945.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">IA &amp; création</span><span class="tag__n">12</span></div>
+    <h2 class="reveal">NVIDIA fait entrer le protocole MCP dans Houdini, Unreal, Blender et Creative Cloud : les agents pilotent le logiciel, pas le pixel</h2>
+    <div class="ctx reveal">Au <a href="https://s2026.siggraph.org/" target="_blank" rel="noopener">SIGGRAPH 2026</a> de Los Angeles, <a href="https://blogs.nvidia.com/blog/siggraph-news-2026/" target="_blank" rel="noopener">NVIDIA</a> a détaillé l'arrivée du protocole MCP dans sept environnements de création : <a href="https://www.sidefx.com/" target="_blank" rel="noopener">SideFX Houdini 22</a> via le workflow APEX Script, Unreal Engine, Blender, Boris FX Silhouette, Foundry Griptape, Affinity by Canva et <a href="https://news.adobe.com/" target="_blank" rel="noopener">Adobe</a> sur Firefly, Express et Creative Cloud. La bascule est nette : les agents ne produisent pas d'images, ils inspectent une scène, signalent les textures manquantes, valident la gestion colorimétrique, préparent des variantes d'export et génèrent des playblasts pour les dailies. Silhouette laisse un assistant construire des arbres de nœuds et éditer formes et keyframes, tandis que Blender expose simplement son API Python en langage naturel. Dans le même train d'annonces, un détecteur de vidéo synthétique est crédité de 92 % de précision sur vidéo non compressée et de 82 % à 50 % de compression.</div>
+    <div class="learn reveal"><p>La vraie industrialisation ne consiste plus à générer des images, mais à laisser des agents tenir la chaîne de production.</p></div>
+    <div class="reveal"><a class="src" href="https://blogs.nvidia.com/blog/siggraph-news-2026/" target="_blank" rel="noopener">NVIDIA Blog <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="philosophie" style="--rc:#a8a196">
+  
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Philosophie</span><span class="tag__n">13</span></div>
+    <h2 class="reveal">Relire la querelle des deux cultures de 1959 : ce que Leavis reprochait à Snow n&#x27;était pas la science</h2>
+    <div class="ctx reveal">Dans <a href="https://aeon.co/essays/at-the-heart-of-the-snow-leavis-two-cultures-clash" target="_blank" rel="noopener">Aeon</a>, Sam Dresser refuse de lire l'affrontement entre C. P. Snow et F. R. Leavis comme un duel entre sciences et lettres. Ce que Leavis visait dans <a href="https://en.wikipedia.org/wiki/The_Two_Cultures" target="_blank" rel="noopener">The Two Cultures</a>, c'est une disposition d'esprit, le technologico-benthamisme, soit la conviction que la pensée analytique et réductrice constitue la voie la plus sûre vers la vérité et le bien-être, avec sa préférence pour l'utilité, la donnée et l'objectivable. À cette posture, l'ancien directeur de <a href="https://en.wikipedia.org/wiki/Scrutiny_(journal)" target="_blank" rel="noopener">Scrutiny</a> opposait la vie, terme qu'il tenait pour indéfinissable par principe, excès créateur que la grande littérature rend sensible sans jamais le formuler. Dresser conclut avec William James que le litige oppose des tempéraments et non des arguments, et qu'il ne se tranche pas.</div>
+    <div class="learn reveal"><p>Les outils que nous adoptons installent un tempérament avant d&#x27;installer une méthode.</p></div>
+    <div class="reveal"><a class="src" href="https://aeon.co/essays/at-the-heart-of-the-snow-leavis-two-cultures-clash" target="_blank" rel="noopener">Aeon <span>&#8599;</span></a></div>
+  </div>
+</section>
+</main>
+<footer>
+  <span class="kicker">Veille créative · édition n°02 · dimanche 9 août 2026</span>
+  <a class="btn" href="index.html">Toutes les éditions</a>
+</footer>
+<script>
+(function(){
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('on'); io.unobserve(e.target);} });
+  },{rootMargin:'0px 0px -12% 0px',threshold:.06});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  var bar=document.querySelector('.progress');
+  if(bar){
+    var tick=function(){
+      var h=document.documentElement.scrollHeight-window.innerHeight;
+      bar.style.width=(h>0?(window.scrollY/h)*100:0)+'%';
+    };
+    window.addEventListener('scroll',tick,{passive:true});
+    window.addEventListener('resize',tick); tick();
+  }
+})();
+</script>
+</body>
+</html>

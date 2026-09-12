@@ -1,0 +1,268 @@
+{
+  "edition": "02",
+  "date_iso": "2026-08-09",
+  "date_label": "Dimanche 9 août 2026",
+  "periode": "31 juillet au 9 août 2026",
+  "chapeau": "Treize territoires, treize entrées. Une seule par thématique, la meilleure. Un enseignement en une phrase pour chacune.",
+  "categories": [
+    {
+      "id": "direction-artistique",
+      "label": "Direction artistique & campagnes",
+      "accent": "#c9a24a",
+      "items": [
+        {
+          "titre": "Johnson Banks remplace le soldat de plastique vert par des enfants moulés dans la même matière",
+          "type": "actualite",
+          "source_nom": "Creative Boom",
+          "source_url": "https://www.creativeboom.com/news/johnson-banks-reimagines-the-green-toy-soldier-for-iwm-londons-childhood-in-war/",
+          "images": [
+            "https://www.creativeboom.com/upload/articles/b4/b4f4ac79ec81ed09d513445a03773e54f316ce0f_1280.png",
+            "https://www.creativeboom.com/upload/articles/99/9992a4bc7e9671345fac914ad8b6cb9a3f13d3d9_944.png",
+            "https://www.creativeboom.com/upload/articles/ea/ea82005f2a43d5a6036e759cef459f64d556a9dd_944.png"
+          ],
+          "contexte_html": "Pour <a href=\"https://www.iwm.org.uk/events/childhood-in-war\" target=\"_blank\" rel=\"noopener\">Childhood in War</a>, ouverte le 31 juillet à l'Imperial War Museum de Londres et visible jusqu'en février 2027, <a href=\"https://www.johnsonbanks.co.uk/\" target=\"_blank\" rel=\"noopener\">Johnson Banks</a> prend l'objet le plus banal du jeu de guerre, le petit soldat de plastique vert, et y substitue des enfants moulés dans le même plastique et la même pose figée. Tout le système d'affichage tient sur cette seule permutation plutôt que sur la photographie d'archive recadrée, réflexe habituel de la communication muséale, et il fonctionne parce que le vert armée reste reconnaissable à l'instant où la posture cesse de l'être. La scénographie de <a href=\"https://www.nissenrichardsstudio.com/\" target=\"_blank\" rel=\"noopener\">Nissen Richards Studio</a> prolonge le motif en volume, entre wagon d'évacués et cuisine de guerre froide. Une direction artistique qui produit son propre sujet au lieu d'habiller un contenu existant.",
+          "learning": "Quand l'image devient infinie et gratuite, l'avantage revient à celui qui trouve l'objet que personne n'avait pensé à retourner."
+        }
+      ]
+    },
+    {
+      "id": "mode",
+      "label": "Mode",
+      "accent": "#a3ad72",
+      "items": [
+        {
+          "titre": "À Copenhague, Nicklas Skovgaard fait entrer ses mannequins une à une en Ford Mustang décapotable",
+          "type": "actualite",
+          "source_nom": "BRICKS Magazine",
+          "source_url": "https://bricksmagazine.co.uk/2026/08/07/the-copenhagen-fashion-week-ss27-collections-not-to-miss/",
+          "images": [
+            "https://bricksmagazine.co.uk/wp-content/uploads/2026/08/SS27-Copenhagen-Fashion-Week-Nicklas-Skovgaard-Runway-4x5-James-Cochrane-50-1-1024x683.jpg",
+            "https://i0.wp.com/bricksmagazine.co.uk/wp-content/uploads/2026/08/SS27-Copenhagen-Fashion-Week-Nicklas-Skovgaard-Runway-4x5-James-Cochrane-1-1.jpg?resize=819%2C1024&ssl=1",
+            "https://i0.wp.com/bricksmagazine.co.uk/wp-content/uploads/2026/08/SS27-Copenhagen-Fashion-Week-Nicklas-Skovgaard-Runway-4x5-James-Cochrane-7-1.jpg?resize=819%2C1024&ssl=1",
+            "https://i0.wp.com/bricksmagazine.co.uk/wp-content/uploads/2026/08/SS27-Copenhagen-Fashion-Week-Nicklas-Skovgaard-Runway-4x5-James-Cochrane-27-1.jpg?resize=819%2C1024&ssl=1"
+          ],
+          "contexte_html": "Du 3 au 7 août, la <a href=\"https://copenhagenfashionweek.com/brand/nicklas-skovgaard\" target=\"_blank\" rel=\"noopener\">Copenhagen Fashion Week</a> fêtait ses vingt ans, et c'est <a href=\"https://nicklasskovgaard.com/\" target=\"_blank\" rel=\"noopener\">Nicklas Skovgaard</a> qui a signé le geste le plus construit avec sa treizième collection, Les Skovgaardettes. Le créateur convoque les girl groups des années soixante : vichy, taffetas craquant, jupes corolle et pastels floraux taillés en volumes sculptés, où le textile porte le récit plutôt que la silhouette. La scénographie tient dans un dispositif d'entrée, chaque mannequin déposée une à une par une Ford Mustang décapotable de collection, tandis que le groupe True Blue jouait en direct, un montage que <a href=\"https://www.russh.com/copenhagen-fashion-week-ss27-show-highlights/\" target=\"_blank\" rel=\"noopener\">RUSSH</a> a retenu comme le moment fort de la semaine. Formé à Copenhague et distingué par le prix Wessel and Vett en 2025, Skovgaard fabrique en made to order et prouve qu'une maison de quelques personnes peut produire une image plus mémorable qu'un budget de groupe.",
+          "learning": "Quand tout le monde filme, l'idée de mise en scène vaut plus cher que le décor."
+        }
+      ]
+    },
+    {
+      "id": "luxe",
+      "label": "Luxe",
+      "accent": "#b57a8c",
+      "items": [
+        {
+          "titre": "Un façonnier textile normand trois fois centenaire reprend la maison de maroquinerie Moreau Paris",
+          "type": "actualite",
+          "source_nom": "FashionNetwork",
+          "source_url": "https://us.fashionnetwork.com/news/Moreau-paris-comes-under-the-umbrella-of-groupe-lecuyer-s-holding-company,1858142.html",
+          "images": [
+            "https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000,format=auto/m/53c9/9ebe/5b27/f2e7/aadc/1957/8d48/1c34/ced5/737f/737f.jpg",
+            "https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000,format=auto/m/6031/ae72/fa37/853e/5a92/972e/f1c6/127c/174e/5ca2/5ca2.jpg"
+          ],
+          "contexte_html": "Le tribunal de commerce de Paris a validé le 29 juillet la reprise de <a href=\"https://moreau-paris.com/\" target=\"_blank\" rel=\"noopener\">Moreau Paris</a>, maison de toile monogrammée fondée en 1882 par le fils de Louis Moreau, ébéniste de Napoléon Ier, par Cardinal Invest, la holding du <a href=\"https://www.ets-lecuyer.com/\" target=\"_blank\" rel=\"noopener\">Groupe Lécuyer</a>. Le groupe normand, propriété de la famille Odend'hal, aligne trois siècles de textile technique et environ 800 salariés entre le tissage et le tressage de Flers, la confection et la personnalisation de Lisieux et l'atelier de bagagerie SAMCO en Tunisie, soit une chaîne intégrée du fil au sac fini. Moreau, dix millions d'euros de ventes au détail, une production italienne et une croissance de 30 pour cent au Japon entre 2022 et 2025, passe ainsi sous le contrôle direct d'un fabricant et non d'un fonds ou d'un groupe de marques. Comme le détaille <a href=\"https://us.fashionnetwork.com/news/Moreau-paris-comes-under-the-umbrella-of-groupe-lecuyer-s-holding-company,1858142.html\" target=\"_blank\" rel=\"noopener\">FashionNetwork</a>, le sous-traitant récupère ici la marque, la marge et le récit qu'il fabriquait jusqu'à présent pour les autres.",
+          "learning": "Celui qui tient l'outil finira par tenir la marque."
+        }
+      ]
+    },
+    {
+      "id": "craft",
+      "label": "Craft & matière",
+      "accent": "#b8956a",
+      "items": [
+        {
+          "titre": "Deux fours de potiers romains dégagés en Autriche, et près de cent autres détectés sous les champs",
+          "type": "actualite",
+          "source_nom": "Archaeology News Online Magazine",
+          "source_url": "https://archaeologymag.com/2026/08/roman-pottery-workshop-with-kilns-austria/",
+          "images": [
+            "https://archaeologymag.com/wp-content/uploads/roman-workshop-kilns-austria-2.jpg",
+            "https://archaeologymag.com/wp-content/uploads/roman-workshop-kilns-austria-1.jpg",
+            "https://archaeologymag.com/wp-content/uploads/roman-workshop-kilns-austria-4.jpg"
+          ],
+          "contexte_html": "À Burg, dans le Burgenland, une fouille-école dirigée par Basema Hamarneh pour l'<a href=\"https://klass-archaeologie.univie.ac.at/en/\" target=\"_blank\" rel=\"noopener\">Institut d'archéologie classique de l'Université de Vienne</a> a dégagé deux fours de potiers à quarante centimètres sous la surface, alors que la prospection géomagnétique en signale une centaine d'autres encore enfouis. Le site, actif du milieu du Ier au milieu du IIe siècle, livre les fosses d'extraction d'argile, les fosses de travail et les fosses de rebut qui reconstituent une chaîne opératoire entière, de la terre prélevée au vase manqué. Le <a href=\"https://www.univie.ac.at/aktuelles/press-room/pressemeldungen/detail/beispiellose-ausgrabung-von-toepferoefen-aus-der-roemerzeit-im-burgenland\" target=\"_blank\" rel=\"noopener\">communiqué de l'Université de Vienne</a> souligne la rareté du corpus, avec des vases complets et une masse de ratés de cuisson dont les déformations documentent les températures, les défauts d'enfournement et les gestes que les pièces réussies dissimulent. La présence de sigillée importée aux côtés de la production locale, à seize kilomètres de l'ancienne Savaria, désigne un atelier calibré pour un marché large et non pour son voisinage.",
+          "learning": "Ce sont les ratés de cuisson, jamais les pièces réussies, qui conservent la mémoire exacte du geste."
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "label": "Architecture",
+      "accent": "#8d9aa3",
+      "items": [
+        {
+          "titre": "Le Centre Canadien d'Architecture regarde Álvaro Siza par la ville et non par le bâtiment",
+          "type": "actualite",
+          "source_nom": "ArchDaily",
+          "source_url": "https://www.archdaily.com/1182366/cca-presents-new-exhibition-exploring-alvaro-sizas-approach-to-city-making",
+          "images": [
+            "https://images.adsttc.com/media/images/6a75/95d8/ac8b/af01/892c/af9f/medium_jpg/cca-presents-new-exhibition-exploring-alvaro-sizas-approach-to-city-making_4.jpg",
+            "https://images.adsttc.com/media/images/6a75/95fc/ac8b/af01/892c/afa7/medium_jpg/cca-presents-new-exhibition-exploring-alvaro-sizas-approach-to-city-making_2.jpg",
+            "https://images.adsttc.com/media/images/6a75/95e5/ac8b/af01/892c/afa1/medium_jpg/cca-presents-new-exhibition-exploring-alvaro-sizas-approach-to-city-making_5.jpg",
+            "https://images.adsttc.com/media/images/6a75/95ea/ac8b/af01/892c/afa2/medium_jpg/cca-presents-new-exhibition-exploring-alvaro-sizas-approach-to-city-making_1.jpg"
+          ],
+          "contexte_html": "Le <a href=\"https://www.cca.qc.ca/en/events/102435/the-fortune-of-the-city-is-that-it-has-never-been-perfect\" target=\"_blank\" rel=\"noopener\">Centre Canadien d'Architecture</a> déplace le regard porté sur Álvaro Siza, du bâtiment isolé vers le quartier, la topographie et l'infrastructure, avec un titre emprunté à l'architecte lui-même : la chance de la ville, c'est de n'avoir jamais été parfaite. Giovanna Borasi puise dans le <a href=\"https://www.cca.qc.ca/en/archives/447183/alvaro-siza-fonds\" target=\"_blank\" rel=\"noopener\">fonds Siza</a> conservé à Montréal, plus de cent cinquante projets de 1948 à 2012, du Chiado reconstruit à Lisbonne à la Quinta da Malagueira d'Évora, et confronte ces dessins à des tirages de Gabriele Basilico et Balthazar Korab. L'institution a parallèlement ouvert au public la <a href=\"https://www.cca.qc.ca/en/events/102187/online-transcription-siza-sketchbooks\" target=\"_blank\" rel=\"noopener\">transcription collaborative des carnets de Siza</a>, annotés en portugais, français, italien et anglais. La thèse tient en une question de méthode : transformer une ville sans détruire ce qui existe déjà.",
+          "learning": "L'imperfection n'est pas un défaut à corriger, c'est la seule réserve d'avenir qu'un lieu conserve."
+        }
+      ]
+    },
+    {
+      "id": "scenographie",
+      "label": "Scénographie & expérience",
+      "accent": "#7fbdb0",
+      "items": [
+        {
+          "titre": "À Hyderabad, un pavillon événementiel de 1 500 m² bâti entièrement en matériaux de chantier récupérés",
+          "type": "actualite",
+          "source_nom": "Dezeen",
+          "source_url": "https://www.dezeen.com/2026/08/05/reclaimed-pavilion-kanan-modi-associates-india/",
+          "images": [
+            "https://static.dezeen.com/uploads/2026/08/the-reclaimed-pavilion-kanan-modi-associates-india-hero_dezeen_2364_col_0.jpg",
+            "https://static.dezeen.com/uploads/2026/08/the-reclaimed-pavilion-kanan-modi-associates-india_dezeen_2364_col_4-852x847.jpg",
+            "https://static.dezeen.com/uploads/2026/08/the-reclaimed-pavilion-kanan-modi-associates-india_dezeen_2364_col_12-852x1136.jpg",
+            "https://static.dezeen.com/uploads/2026/08/the-reclaimed-pavilion-kanan-modi-associates-india_dezeen_2364_col_18-852x800.jpg"
+          ],
+          "contexte_html": "Le studio <a href=\"https://kananmodi.in/\" target=\"_blank\" rel=\"noopener\">Kanan Modi Associates</a> a livré The Reclaimed Pavilion, un lieu temporaire qui sert à la fois d'espace de travail, de salle d'événements et d'appartement témoin. La structure est faite de gabions remplis de gravats de chantier, de briques moulées dans la terre d'excavation, de tôles ondulées récupérées et d'une ossature d'échafaudages repeints en rouge, coiffée de voiles de jute tendus en zigzag. Le <a href=\"https://www.dezeen.com/2026/08/05/reclaimed-pavilion-kanan-modi-associates-india/\" target=\"_blank\" rel=\"noopener\">parcours documenté par Dezeen</a> s'organise en séquence linéaire : réception pavée de briques claires avec fosse encaissée, bassin en L le long de la façade sud-ouest, gradins en acier, puis plaza nord, les murs de gabions découpant les zones de rassemblement autour d'un plan d'eau central. Les images sont signées <a href=\"https://www.instagram.com/fernandogguerra/?hl=en\" target=\"_blank\" rel=\"noopener\">Fernando Guerra</a>.",
+          "learning": "L'éphémère cesse d'être un gaspillage assumé quand le chantier devient la carrière du décor."
+        }
+      ]
+    },
+    {
+      "id": "photographie",
+      "label": "Photographie",
+      "accent": "#6fa3bd",
+      "items": [
+        {
+          "titre": "Cape Light remasterisé, ou comment Joel Meyerowitz a troqué le Leica pour une chambre 8x10 en 1976",
+          "type": "pepite",
+          "source_nom": "Blind Magazine",
+          "source_url": "https://www.blind-magazine.com/en/news/fifty-years-ago-joel-meyerowitz-tipped-into-the-light/",
+          "images": [
+            "https://www.blind-magazine.com/wp-content/uploads/2026/08/doorway-to-the-sea-provincetown-1982-scaled.jpg",
+            "https://www.blind-magazine.com/wp-content/uploads/2026/08/wilson-cottage-wellfleet-1976-scaled.jpg",
+            "https://www.blind-magazine.com/wp-content/uploads/2026/08/truro-1976-scaled.jpg",
+            "https://www.blind-magazine.com/wp-content/uploads/2026/08/provincetown-1977-scaled.jpg"
+          ],
+          "contexte_html": "En 1976, <a href=\"https://huxleyparlour.com/artists/joel-meyerowitz/\" target=\"_blank\" rel=\"noopener\">Joel Meyerowitz</a> lâche le Leica et la rue pour une chambre Deardorff de 1938, vingt kilos sur le dos, un Ektar 250 mm et du Vericolor II Type L à 80 ASA, avec des poses qui vont d'une demi-seconde à f/90 en plein jour jusqu'à dix minutes en fin de journée. Ce n'est pas un changement de matériel mais un changement de régime perceptif, la lenteur du dépoli imposant de décider la lumière avant de la voir apparaître, et c'est ce qui produit la couleur atmosphérique de Cape Light, publié en 1978 et vendu à plus de 150 000 exemplaires. <a href=\"https://aperture.org/press-release/aperture-releases-50th-anniversary-edition-of-joel-meyerowitz-cape-light/\" target=\"_blank\" rel=\"noopener\">Aperture</a> vient d'en sortir une édition anniversaire de 112 pages et 40 images, négatifs entièrement rescannés et remasterisés, ce qui rejoue la question de savoir quelle version d'une photographie fait autorité, celle du tirage d'époque ou celle du fichier d'aujourd'hui. <a href=\"https://www.blind-magazine.com/en/news/fifty-years-ago-joel-meyerowitz-tipped-into-the-light/\" target=\"_blank\" rel=\"noopener\">Blind</a> détaille le protocole technique de cette bascule, cinquante ans après.",
+          "learning": "Quand fabriquer une image ne coûte plus rien, la seule décision qui vaut encore est le temps qu'on accepte d'y engager."
+        }
+      ]
+    },
+    {
+      "id": "film",
+      "label": "Film & motion",
+      "accent": "#c47a72",
+      "items": [
+        {
+          "titre": "Sur Stranger Things, Wētā FX rajeunit le jeune Will en CG plutôt qu'en IA, et le maquillage de Vecna passe de neuf heures à deux",
+          "type": "actualite",
+          "source_nom": "fxguide",
+          "source_url": "https://www.fxguide.com/fxpodcasts/vecna-demogorgons-and-young-will-inside-the-vfx-of-stranger-things-s5/",
+          "images": [
+            "https://www.fxguide.com/wp-content/uploads/2026/07/onsetwires-830x414.jpg",
+            "https://www.fxguide.com/wp-content/uploads/2026/07/masterwide-830x406.jpg",
+            "https://www.fxguide.com/wp-content/uploads/2026/07/progression-830x155.jpg",
+            "https://www.fxguide.com/wp-content/uploads/2026/07/running-830x407.jpg"
+          ],
+          "contexte_html": "Dans un entretien publié le 3 août par <a href=\"https://www.fxguide.com/fxpodcasts/vecna-demogorgons-and-young-will-inside-the-vfx-of-stranger-things-s5/\" target=\"_blank\" rel=\"noopener\">fxguide</a>, la superviseure des effets visuels Betsy Paterson détaille la fabrication de la saison 5. Pour rajeunir Will, <a href=\"https://www.wetafx.co.nz/\" target=\"_blank\" rel=\"noopener\">Wētā FX</a> a écarté le remplacement facial par IA au profit d'un visage entièrement CG, nourri des rushes, des prises alternatives et des chutes de la saison 1, avec pastilles de tracking sur le jeune comédien, deux caméras témoins fixées sur la caméra principale et quatre autres réparties autour du décor de forêt. Le maquillage prothétique de Vecna, qui immobilisait Jamie Campbell Bower huit à neuf heures en saison 4, a été ramené à environ deux heures, le corps étant remplacé numériquement avec un minimum de marqueurs pour préserver la présence du visage joué. <a href=\"https://www.ilm.com/\" target=\"_blank\" rel=\"noopener\">ILM</a> a pris en charge une partie des Demogorgons et les environnements de l'Upside Down, la règle de plateau restant de tout faire en réel jusqu'au point où cela devient impossible.",
+          "learning": "À l'heure où l'IA propose de tout remplacer, le geste de studio devient de garder l'acteur dans le plan et une main humaine derrière chaque pixel."
+        }
+      ]
+    },
+    {
+      "id": "fantasy",
+      "label": "Fantasy art & illustration",
+      "accent": "#9b7ec9",
+      "items": [
+        {
+          "titre": "Au musée des Beaux-Arts de Dole, deux cents concept arts de studios français accrochés au milieu des collections anciennes",
+          "type": "pepite",
+          "source_nom": "Numéro 39",
+          "source_url": "https://www.numero39.com/a-dole-aux-origines-peintes-du-jeu-video/",
+          "images": [
+            "https://www.numero39.com/wp-content/uploads/2026/07/expo-dole.webp",
+            "https://www.numero39.com/wp-content/uploads/2026/07/steelrising-spiders-scaled.webp"
+          ],
+          "contexte_html": "Le <a href=\"https://www.doledujura.fr/musee-des-beaux-arts/\" target=\"_blank\" rel=\"noopener\">musée des Beaux-Arts de Dole</a> accroche plus de deux cents concept arts, encres, aquarelles et peintures numériques dans les salles mêmes de ses collections anciennes, en accès libre jusqu'au 27 septembre. Le commissariat est signé Marine Macq, fondatrice de la <a href=\"https://www.galeriegamma.com/exposition-peindre-le-jeu-video\" target=\"_blank\" rel=\"noopener\">galerie GAMMA</a> et autrice chez <a href=\"https://www.editionspixnlove.com/\" target=\"_blank\" rel=\"noopener\">Pix'n Love</a>, qui documente depuis plusieurs années la scène francophone du concept art. Arkane Lyon, Spiders, DON'T NOD, Amanita Design et <a href=\"https://www.sandfall.co/\" target=\"_blank\" rel=\"noopener\">Sandfall Interactive</a> y montrent les images fondatrices de Dishonored, Steelrising, Jusant, Creaks et Clair Obscur, celles produites avant tout code. Le geste est moins nostalgique que stratégique : il installe l'image préparatoire de jeu vidéo dans l'appareil légitimant du musée.",
+          "learning": "Quand la production d'images devient instantanée, c'est l'intention peinte en amont qui prend de la valeur."
+        }
+      ]
+    },
+    {
+      "id": "gaming",
+      "label": "Gaming & worldbuilding",
+      "accent": "#cd8659",
+      "items": [
+        {
+          "titre": "Stone Librande a documenté SimCity avec plus de cent designs tenant chacun sur une seule page",
+          "type": "actualite",
+          "source_nom": "Game Developer",
+          "source_url": "https://www.gamedeveloper.com/design/pushing-the-limits-in-simulating-a-city-one-page-at-a-time",
+          "images": [
+            "https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blt7714a378f87652bb/6a7613cff0b0970b89a7b318/simcity_2013_screenshot_city.png",
+            "https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blt4e64ffc5231f3477/6a7612d513d9fdd0c12fbca5/Screenshot_2026-08-05_at_5.33.41_PM.png"
+          ],
+          "contexte_html": "Le 7 août, Game Developer publie un entretien avec <a href=\"https://en.wikipedia.org/wiki/Stone_Librande\" target=\"_blank\" rel=\"noopener\">Stone Librande</a>, directeur créatif de <a href=\"https://en.wikipedia.org/wiki/SimCity_(2013_video_game)\" target=\"_blank\" rel=\"noopener\">SimCity</a>, qui revient sur son pari de documenter un jeu entier sans bible de design. Pendant trois ans et demi de production, il a produit plus de cent diagrammes tenant chacun sur une seule page, imprimés grand format et affichés dans le studio pour que l'équipe se les approprie. Il avait exposé la méthode dans sa conférence <a href=\"https://gdcvault.com/play/1017708/Simulating-a-City-One-Page\" target=\"_blank\" rel=\"noopener\">Simulating a City, One Page at a Time</a> au GDC 2013, et détaille aujourd'hui où la contrainte a cédé, notamment devant les tableurs d'équilibrage économique. Ses équipes consultaient encore ces pages des années plus tard, ce qu'aucun document de deux cents pages n'obtient jamais.",
+          "learning": "Quand produire mille pages ne coûte plus rien, tenir en une seule redevient la seule preuve qu'une idée existe vraiment."
+        }
+      ]
+    },
+    {
+      "id": "ui",
+      "label": "UI & design d'interface",
+      "accent": "#8592c9",
+      "items": [
+        {
+          "titre": "L'IA ayant rendu l'exécution gratuite, il ne reste au designer que sa conviction",
+          "type": "actualite",
+          "source_nom": "Microsoft Design",
+          "source_url": "https://microsoft.design/articles/the-naked-designer",
+          "images": [
+            "https://microsoft.design/wp-content/uploads/2026/08/Hero-CC-3.png",
+            "https://microsoft.design/wp-content/uploads/2026/08/thread-2-1.png",
+            "https://microsoft.design/wp-content/uploads/2026/08/Making-a-private-fire.png"
+          ],
+          "contexte_html": "Publié le 5 août sur <a href=\"https://microsoft.design/\" target=\"_blank\" rel=\"noopener\">Microsoft Design</a>, <a href=\"https://microsoft.design/articles/the-naked-designer\" target=\"_blank\" rel=\"noopener\">The Naked Designer</a> de Matthew Santone part d'un constat sec : le soin apporté au pixel ne signale plus la compétence, puisque n'importe quel modèle le produit en quelques secondes. L'auteur s'appuie sur <a href=\"https://www.poetryfoundation.org/articles/69390/the-philosophy-of-composition\" target=\"_blank\" rel=\"noopener\">The Philosophy of Composition</a> d'Edgar Allan Poe pour séparer l'exécution de l'intention, et décrit le piège de la productivité qui sert de paravent à l'absence de point de vue. Sa question de clôture est plus dure qu'un manifeste : à quand remonte la dernière chose que vous avez faite qui comptait pour quelqu'un d'autre que vous. Le texte prolonge le débat ouvert quelques jours plus tôt par <a href=\"https://www.smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/\" target=\"_blank\" rel=\"noopener\">Andy Budd sur Smashing Magazine</a>.",
+          "learning": "Quand la fabrication ne coûte plus rien, la seule rareté qui reste est d'avoir quelque chose à dire."
+        }
+      ]
+    },
+    {
+      "id": "ia",
+      "label": "IA & création",
+      "accent": "#6fbd97",
+      "items": [
+        {
+          "titre": "NVIDIA fait entrer le protocole MCP dans Houdini, Unreal, Blender et Creative Cloud : les agents pilotent le logiciel, pas le pixel",
+          "type": "actualite",
+          "source_nom": "NVIDIA Blog",
+          "source_url": "https://blogs.nvidia.com/blog/siggraph-news-2026/",
+          "images": [
+            "https://blogs.nvidia.com/wp-content/uploads/2026/07/mcp-main-feature-1680x948.jpg",
+            "https://blogs.nvidia.com/wp-content/uploads/2026/07/boris-fx-silhouette.png",
+            "https://blogs.nvidia.com/wp-content/uploads/2026/07/SIGGRAPH-2026-Keynote-21-1680x945.jpg",
+            "https://blogs.nvidia.com/wp-content/uploads/2026/07/SIGGRAPH-2026-Keynote-14-1680x945.jpg"
+          ],
+          "contexte_html": "Au <a href=\"https://s2026.siggraph.org/\" target=\"_blank\" rel=\"noopener\">SIGGRAPH 2026</a> de Los Angeles, <a href=\"https://blogs.nvidia.com/blog/siggraph-news-2026/\" target=\"_blank\" rel=\"noopener\">NVIDIA</a> a détaillé l'arrivée du protocole MCP dans sept environnements de création : <a href=\"https://www.sidefx.com/\" target=\"_blank\" rel=\"noopener\">SideFX Houdini 22</a> via le workflow APEX Script, Unreal Engine, Blender, Boris FX Silhouette, Foundry Griptape, Affinity by Canva et <a href=\"https://news.adobe.com/\" target=\"_blank\" rel=\"noopener\">Adobe</a> sur Firefly, Express et Creative Cloud. La bascule est nette : les agents ne produisent pas d'images, ils inspectent une scène, signalent les textures manquantes, valident la gestion colorimétrique, préparent des variantes d'export et génèrent des playblasts pour les dailies. Silhouette laisse un assistant construire des arbres de nœuds et éditer formes et keyframes, tandis que Blender expose simplement son API Python en langage naturel. Dans le même train d'annonces, un détecteur de vidéo synthétique est crédité de 92 % de précision sur vidéo non compressée et de 82 % à 50 % de compression.",
+          "learning": "La vraie industrialisation ne consiste plus à générer des images, mais à laisser des agents tenir la chaîne de production."
+        }
+      ]
+    },
+    {
+      "id": "philosophie",
+      "label": "Philosophie",
+      "accent": "#a8a196",
+      "items": [
+        {
+          "titre": "Relire la querelle des deux cultures de 1959 : ce que Leavis reprochait à Snow n'était pas la science",
+          "type": "actualite",
+          "source_nom": "Aeon",
+          "source_url": "https://aeon.co/essays/at-the-heart-of-the-snow-leavis-two-cultures-clash",
+          "images": [],
+          "contexte_html": "Dans <a href=\"https://aeon.co/essays/at-the-heart-of-the-snow-leavis-two-cultures-clash\" target=\"_blank\" rel=\"noopener\">Aeon</a>, Sam Dresser refuse de lire l'affrontement entre C. P. Snow et F. R. Leavis comme un duel entre sciences et lettres. Ce que Leavis visait dans <a href=\"https://en.wikipedia.org/wiki/The_Two_Cultures\" target=\"_blank\" rel=\"noopener\">The Two Cultures</a>, c'est une disposition d'esprit, le technologico-benthamisme, soit la conviction que la pensée analytique et réductrice constitue la voie la plus sûre vers la vérité et le bien-être, avec sa préférence pour l'utilité, la donnée et l'objectivable. À cette posture, l'ancien directeur de <a href=\"https://en.wikipedia.org/wiki/Scrutiny_(journal)\" target=\"_blank\" rel=\"noopener\">Scrutiny</a> opposait la vie, terme qu'il tenait pour indéfinissable par principe, excès créateur que la grande littérature rend sensible sans jamais le formuler. Dresser conclut avec William James que le litige oppose des tempéraments et non des arguments, et qu'il ne se tranche pas.",
+          "learning": "Les outils que nous adoptons installent un tempérament avant d'installer une méthode."
+        }
+      ]
+    }
+  ]
+}

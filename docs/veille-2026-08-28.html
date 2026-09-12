@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Veille créative n°03 · 28.08.2026</title>
+<meta name="description" content="Treize entrées, une par rubrique. Cette semaine, trois pépites hors actualité portent le craft, l&#x27;illustration et la philosophie. Le reste couvre les sept derniers jours.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#0a0a0b; --bg-2:#111113; --ink:#f4f4f0; --muted:#8b8b85;
+  --line:rgba(255,255,255,.13); --accent:#D9FF3D;
+  --serif:'Unbounded','Outfit','Helvetica Neue',sans-serif;
+  --sans:'Inter','Helvetica Neue',Arial,sans-serif;
+  --pad:clamp(20px,5vw,72px);
+}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-weight:500;font-size:15px;line-height:1.62;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+::selection{background:var(--accent);color:#000}
+.kicker{font-size:10.5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.grain{position:fixed;inset:0;pointer-events:none;z-index:60;opacity:.05;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/><feColorMatrix type='saturate' values='0'/></filter><rect width='240' height='240' filter='url(%23n)' opacity='0.5'/></svg>");background-size:240px;mix-blend-mode:overlay}
+.bar{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;
+  justify-content:space-between;gap:16px;padding:14px var(--pad);
+  background:linear-gradient(to bottom,rgba(10,10,11,.92),rgba(10,10,11,0));
+  backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px)}
+.bar__id{font-size:10.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--ink);text-decoration:none;opacity:.85;transition:opacity .3s}
+.bar__id:hover{opacity:1}
+.btn{display:inline-block;font-size:10px;font-weight:600;letter-spacing:.2em;
+  text-transform:uppercase;text-decoration:none;padding:9px 15px;border-radius:2px;
+  border:1px solid var(--accent);color:var(--accent);
+  background:color-mix(in srgb,var(--accent) 30%,transparent);
+  transition:background .35s ease,color .35s ease,transform .35s ease}
+.btn:hover{background:var(--accent);color:#0a0a0b;transform:translateY(-1px)}
+.progress{position:fixed;top:0;left:0;height:2px;width:0;background:var(--accent);z-index:70;
+  transition:width .12s linear}
+.hide-s{display:inline}
+footer{padding:clamp(48px,9vh,104px) var(--pad);border-top:1px solid var(--line);
+  display:flex;flex-wrap:wrap;gap:14px 26px;justify-content:space-between;align-items:center}
+@media (max-width:680px){
+  .hide-s{display:none}
+  .bar{padding:11px 16px}
+  .bar__id{font-size:9.5px;letter-spacing:.14em}
+  .btn{padding:8px 11px;font-size:9px;letter-spacing:.13em;white-space:nowrap}
+}
+.reveal{opacity:0;transform:translateY(26px);
+  transition:opacity 1s cubic-bezier(.22,.7,.24,1),transform 1s cubic-bezier(.22,.7,.24,1)}
+.reveal.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none;transition:none}
+}
+
+main{scroll-snap-type:y proximity}
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;
+  padding:0 var(--pad) clamp(38px,7vh,86px);overflow:hidden;scroll-snap-align:start}
+.hero__img{position:absolute;inset:0;z-index:0}
+.hero__img img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.16) brightness(.62);
+  transform:scale(1.06);animation:drift 22s ease-out forwards}
+@keyframes drift{to{transform:scale(1)}}
+.hero__veil{position:absolute;inset:0;z-index:1;
+  background:radial-gradient(120% 90% at 20% 100%,rgba(10,10,11,.35),rgba(10,10,11,.94) 72%),
+             linear-gradient(to top,rgba(10,10,11,.98),rgba(10,10,11,.2) 55%,rgba(10,10,11,.72))}
+.hero__in{position:relative;z-index:2;max-width:1180px;width:100%}
+.hero__no{font-family:var(--serif);font-weight:800;font-size:11px;letter-spacing:.32em;
+  color:var(--accent);margin:0 0 18px}
+.hero h1{font-family:var(--serif);font-weight:900;letter-spacing:-.02em;line-height:.92;
+  font-size:clamp(38px,8.2vw,116px);margin:0 0 22px;text-transform:uppercase}
+.hero__meta{display:flex;flex-wrap:wrap;gap:10px 22px;margin-bottom:22px}
+.hero__deck{max-width:62ch;font-size:15px;color:#cfcfc8;margin:0}
+.hero__scroll{position:absolute;left:var(--pad);bottom:14px;z-index:2;font-size:9.5px;
+  letter-spacing:.24em;text-transform:uppercase;color:var(--muted);animation:blink 3.2s infinite}
+@keyframes blink{0%,100%{opacity:.35}50%{opacity:.9}}
+
+.sommaire{padding:clamp(64px,12vh,140px) var(--pad);border-top:1px solid var(--line);
+  scroll-snap-align:start}
+.sommaire__in{max-width:1180px;margin:0 auto}
+.sommaire p.intro{font-size:clamp(17px,2.1vw,25px);line-height:1.42;max-width:32ch;
+  font-family:var(--serif);font-weight:400;margin:18px 0 clamp(38px,6vh,64px)}
+.som__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  column-gap:clamp(24px,5vw,80px)}
+.som__row{display:flex;gap:14px;align-items:baseline;padding:11px 0;border-top:1px solid var(--line);
+  text-decoration:none;transition:padding-left .35s ease}
+.som__row:hover{padding-left:8px}
+.som__n{font-family:var(--serif);font-size:10px;font-weight:600;color:var(--muted);min-width:22px}
+.som__t{font-size:14px;font-weight:500;flex:1}
+.som__r{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
+  text-align:right;white-space:nowrap}
+.som__row:hover .som__t{color:var(--accent)}
+
+.entry{min-height:100svh;display:grid;align-items:center;
+  grid-template-columns:minmax(0,.86fr) minmax(0,1fr);
+  gap:clamp(28px,4.5vw,74px);padding:clamp(72px,11vh,124px) var(--pad);
+  border-top:1px solid var(--line);scroll-snap-align:start}
+.media{display:grid;gap:8px;width:100%;aspect-ratio:3/4;max-height:78vh;margin:0 auto}
+.media--1{grid-template-rows:1fr}
+.media--2{grid-template-rows:1.75fr 1fr}
+.media--3{grid-template-rows:1.75fr 1fr;grid-template-columns:1fr 1fr}
+.media--3 .shot:first-child{grid-column:1 / -1}
+.shot{position:relative;overflow:hidden;background:var(--bg-2)}
+.shot img{width:100%;height:100%;object-fit:cover;transform:scale(1.03);
+  transition:transform 1.4s cubic-bezier(.22,.7,.24,1)}
+.shot:hover img{transform:scale(1.08)}
+.txt{max-width:56ch}
+.tag{display:flex;align-items:center;gap:10px;margin-bottom:20px;flex-wrap:wrap}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--rc)}
+.tag__r{font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--rc)}
+.tag__n{font-family:var(--serif);font-size:10px;font-weight:600;color:var(--muted);margin-left:auto}
+.pepite{font-size:9px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
+  color:#0a0a0b;background:var(--rc);padding:3px 8px;border-radius:2px}
+.entry h2{font-family:var(--serif);font-weight:800;letter-spacing:-.015em;line-height:1.08;
+  font-size:clamp(23px,2.9vw,40px);margin:0 0 22px}
+.ctx{font-size:15px;line-height:1.68;color:#d6d6d0;margin:0 0 26px}
+.ctx a{color:var(--ink);text-decoration:none;background-image:linear-gradient(var(--rc),var(--rc));
+  background-size:100% 1px;background-repeat:no-repeat;background-position:0 100%;
+  padding-bottom:1px;transition:background-size .4s ease,color .3s ease}
+.ctx a:hover{color:var(--rc);background-size:100% 2px}
+.ctx em{font-style:italic;color:#eaeae4}
+.learn{border-left:2px solid var(--rc);padding:2px 0 2px 16px;margin:0 0 24px}
+.learn p{margin:0;font-family:var(--serif);font-weight:400;font-size:clamp(15px,1.6vw,20px);
+  line-height:1.34;color:var(--ink)}
+.src{display:inline-flex;align-items:center;gap:9px;font-size:10px;font-weight:600;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--muted);text-decoration:none;
+  transition:color .3s ease,gap .3s ease}
+.src:hover{color:var(--rc);gap:14px}
+
+@media (max-width:1080px){
+  .entry{grid-template-columns:1fr;gap:30px;align-items:start}
+  .media{aspect-ratio:4/3;max-height:none}
+  .media--3{grid-template-rows:1.5fr 1fr}
+  .txt{max-width:none}
+  body{font-size:15.5px}
+  .ctx{font-size:15.5px}
+}
+@media (max-width:680px){
+  .som__grid{grid-template-columns:1fr}
+  .som__r{display:none}
+  .media{aspect-ratio:3/4;gap:6px}
+  .hero{padding-bottom:64px}
+  .entry{padding-top:88px;padding-bottom:56px}
+  main{scroll-snap-type:none}
+}
+</style>
+</head>
+<body>
+<div class="progress"></div>
+<div class="grain"></div>
+<header class="bar">
+  <a class="bar__id" href="index.html">Veille créative<span class="hide-s"> · Karl Petzold</span></a>
+  <a class="btn" href="index.html">Toutes les éditions</a>
+</header>
+<main>
+  <section class="hero">
+    <div class="hero__img"><img src="https://creativereview.imgix.net/uploads/2026/08/2_SideMissions_AV.png?auto=compress%2Cformat&amp;crop=faces%2Centropy%2Cedges&amp;fit=crop&amp;q=60&amp;w=1920&amp;h=1080" alt="" referrerpolicy="no-referrer"></div>
+    <div class="hero__veil"></div>
+    <div class="hero__in">
+      <p class="hero__no">Édition n°03</p>
+      <h1>VEILLE 28.08.2026</h1>
+      <div class="hero__meta"><span class="kicker">vendredi 28 août 2026</span><span class="kicker">Treize entrées</span></div>
+      <p class="hero__deck">Treize entrées, une par rubrique. Cette semaine, trois pépites hors actualité portent le craft, l&#x27;illustration et la philosophie. Le reste couvre les sept derniers jours.</p>
+    </div>
+    <span class="hero__scroll">Défiler</span>
+  </section>
+  <section class="sommaire">
+    <div class="sommaire__in">
+      <span class="kicker">Au sommaire</span>
+      <p class="intro">Treize entrées, une par rubrique. Cette semaine, trois pépites hors actualité portent le craft, l&#x27;illustration et la philosophie. Le reste couvre les sept derniers jours.</p>
+      <div class="som__grid"><a class="som__row reveal" href="#direction-artistique"><span class="som__n">01</span><span class="som__t">McDonald&#x27;s UK et Xbox font passer la nourriture de Halo et Fallout au menu réel</span><span class="som__r">Direction artistique &amp; campagnes</span></a><a class="som__row reveal" href="#mode"><span class="som__n">02</span><span class="som__t">Globe-Trotter remet en vente des valises anciennes restaurées à l&#x27;atelier et fait de la réparation une ligne de produit</span><span class="som__r">Mode</span></a><a class="som__row reveal" href="#luxe"><span class="som__n">03</span><span class="som__t">Estúdio Campana enveloppe un pop-up Tiffany à São Paulo d&#x27;une peau en osier tressée à la main</span><span class="som__r">Luxe</span></a><a class="som__row reveal" href="#craft"><span class="som__n">04</span><span class="som__t">Mokume-gane, le laminé multi-métal des garnitures de sabre d&#x27;Edo, repris par Tiffany dans les années 1870</span><span class="som__r">Craft &amp; matière</span></a><a class="som__row reveal" href="#architecture"><span class="som__n">05</span><span class="som__t">À Hirosaki, 1 800 volontaires tirent à la corde un donjon de bois vers son emplacement d&#x27;origine</span><span class="som__r">Architecture</span></a><a class="som__row reveal" href="#scenographie"><span class="som__n">06</span><span class="som__t">Au Houghton Festival, une tour en chaume de 5,5 mètres construite pour être démontée et remontée chaque année</span><span class="som__r">Scénographie &amp; expérience</span></a><a class="som__row reveal" href="#photographie"><span class="som__n">07</span><span class="som__t">Louis Porter photographie depuis dix ans les pages de la London Library et en tire un livre de 416 pages</span><span class="som__r">Photographie</span></a><a class="som__row reveal" href="#film"><span class="som__n">08</span><span class="som__t">Le relevé des caméras des séries nommées aux Emmy 2026 confirme le passage du haut de gamme télé au grand capteur</span><span class="som__r">Film &amp; motion</span></a><a class="som__row reveal" href="#fantasy"><span class="som__n">09</span><span class="som__t">Le fonds Sidney Sime, 800 œuvres d&#x27;un maître édouardien de l&#x27;imaginaire léguées à une salle des fêtes du Surrey</span><span class="som__r">Fantasy art &amp; illustration</span></a><a class="som__row reveal" href="#gaming"><span class="som__n">10</span><span class="som__t">Asmodee confie son édition mondiale à la patronne d&#x27;Exploding Kittens alors que 72 % de son chiffre vient encore de la distribution</span><span class="som__r">Gaming &amp; worldbuilding</span></a><a class="som__row reveal" href="#ui"><span class="som__n">11</span><span class="som__t">Smashing Magazine propose une méthode de conception de tableaux de bord qui traite la densité comme une variable de design</span><span class="som__r">UI &amp; design d&#x27;interface</span></a><a class="som__row reveal" href="#ia"><span class="som__n">12</span><span class="som__t">Une campagne bourbon produite sans tournage, avec des chefs opérateurs maintenus en consultants</span><span class="som__r">IA &amp; création</span></a><a class="som__row reveal" href="#philosophie"><span class="som__n">13</span><span class="som__t">Ars notoria, la promesse médiévale d&#x27;un savoir instantané et les figures censées le délivrer</span><span class="som__r">Philosophie</span></a></div>
+    </div>
+  </section>
+  
+<section class="entry" id="direction-artistique" style="--rc:#c9a24a">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://creativereview.imgix.net/uploads/2026/08/2_SideMissions_AV.png?auto=compress%2Cformat&amp;crop=faces%2Centropy%2Cedges&amp;fit=crop&amp;q=60&amp;w=1920&amp;h=1080" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://creativereview.imgix.net/uploads/2026/08/1_SideMissions_AV.png?auto=compress%2Cformat&amp;crop=faces%2Centropy%2Cedges&amp;fit=crop&amp;q=60&amp;w=1920&amp;h=1080" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://creativereview.imgix.net/uploads/2026/08/4_SideMissions_Cosplay.jpg?auto=compress%2Cformat&amp;crop=faces%2Centropy%2Cedges&amp;fit=crop&amp;q=60&amp;w=2000&amp;h=1125" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Direction artistique &amp; campagnes</span><span class="tag__n">01</span></div>
+    <h2 class="reveal">McDonald&#x27;s UK et Xbox font passer la nourriture de Halo et Fallout au menu réel</h2>
+    <div class="ctx reveal"><a href="https://www.creativereview.co.uk/mcdonalds-side-missions-xbox-campaign/" target="_blank" rel="noopener">Creative Review</a> revient le 25 août sur l'extension de Side Missions, la plateforme gaming de McDonald's UK, cette fois avec Xbox, World of Warcraft, Fallout et Candy Crush. Le dispositif inverse le placement de produit habituel puisque la nourriture fictive des jeux passe au menu réel, les Moa Nuggets de <a href="https://www.xbox.com/en-GB/games/halo-campaign-evolved" target="_blank" rel="noopener">Halo: Campaign Evolved</a> devenant des McNuggets poivre noir et ail, le Blamco de Fallout 76 des bouchées au fromage. La décision de direction artistique tient dans le traitement des arches, redessinées à chaque fois dans la langue visuelle de la licence au lieu d'être posées en surimpression. Le film de soixante secondes, réalisé par Romain Chassaing pour <a href="https://academyfilms.com/" target="_blank" rel="noopener">Academy</a> et créé par Leo UK, s'ouvre à l'intérieur de Halo, où des marines abandonnent leur mission pour un détour par le comptoir, avant un prolongement en faux leaks de créateurs, tests en cosplay et contreparties in-game.</div>
+    <div class="learn reveal"><p>Quand une marque accepte d&#x27;être redessinée dans la grammaire visuelle d&#x27;un jeu au lieu d&#x27;y plaquer son logo, elle cesse d&#x27;être un annonceur et devient un décor jouable.</p></div>
+    <div class="reveal"><a class="src" href="https://www.creativereview.co.uk/mcdonalds-side-missions-xbox-campaign/" target="_blank" rel="noopener">Creative Review <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="mode" style="--rc:#a3ad72">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F08%2F28%2Fglobe-trotter-the-restoration-edit-second-drop-release-info-1.jpg?q=90&amp;w=1600&amp;cbr=1&amp;fit=max" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F08%2F28%2Fglobe-trotter-the-restoration-edit-second-drop-release-info-2.jpg?q=90&amp;w=1600&amp;cbr=1&amp;fit=max" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F08%2F28%2Fglobe-trotter-the-restoration-edit-second-drop-release-info-3.jpg?q=90&amp;w=1600&amp;cbr=1&amp;fit=max" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Mode</span><span class="tag__n">02</span></div>
+    <h2 class="reveal">Globe-Trotter remet en vente des valises anciennes restaurées à l&#x27;atelier et fait de la réparation une ligne de produit</h2>
+    <div class="ctx reveal"><a href="https://www.globe-trotter.com/" target="_blank" rel="noopener">Globe-Trotter</a> a mis en ligne le 28 août le deuxième volet de sa Renewed Collection, des valises anciennes reprises une par une dans son atelier du Hertfordshire. La remise en état suit les gestes de montage d'origine de la maison, en fibre vulcanisée, le matériau <a href="https://www.globe-trotter.com/pages/about" target="_blank" rel="noopener">breveté en 1901</a>, renforcée de cuir à tannage végétal, et s'interdit d'effacer la patine, les étiquettes de compagnies aériennes disparues et les accidents de surface. Seules la quincaillerie et la structure sont refaites, si bien que chaque pièce sort unique, avec ses doublures et ses sangles contrastées, et se vend comme une pièce à part entière plutôt que comme une seconde main. Le premier volet est parti d'un coup et un troisième chapitre, The Archive, est annoncé d'ici la fin de l'année, ce qui fait passer un service de réparation au statut de <a href="https://hypebeast.com/2026/8/globe-trotter-the-restoration-edit-second-drop-release-info" target="_blank" rel="noopener">catégorie commerciale</a>.</div>
+    <div class="learn reveal"><p>Une maison qui sait encore réparer ce qu&#x27;elle a fabriqué possède un stock que personne ne peut copier.</p></div>
+    <div class="reveal"><a class="src" href="https://hypebeast.com/2026/8/globe-trotter-the-restoration-edit-second-drop-release-info" target="_blank" rel="noopener">Hypebeast <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="luxe" style="--rc:#b57a8c">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://static.dezeen.com/uploads/2026/08/tiffany-co-sao-paulo_estudio-campana_dezeen_hero1-852x479.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.dezeen.com/uploads/2026/08/tiffany-co-sao-paulo_estudio-campana_dezeen_2364_col_1-852x639.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.dezeen.com/uploads/2026/08/tiffany-co-sao-paulo_estudio-campana_dezeen_2364_col_2-852x639.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Luxe</span><span class="tag__n">03</span></div>
+    <h2 class="reveal">Estúdio Campana enveloppe un pop-up Tiffany à São Paulo d&#x27;une peau en osier tressée à la main</h2>
+    <div class="ctx reveal">Le 22 août, <a href="https://www.dezeen.com/tag/campana-brothers/" target="_blank" rel="noopener">Estúdio Campana</a> a livré au centre JK Iguatemi de São Paulo un pop-up <a href="https://www.dezeen.com/tag/tiffany-co/" target="_blank" rel="noopener">Tiffany &amp; Co</a> entièrement enveloppé d'osier synthétique tressé à la main, teinté du bleu de la maison et strié de fauve à l'horizontale. La façade ondule puis se replie au-dessus de la porte en arche pour loger la corniche lumineuse, ce qui fait du tressage un élément structurant du dessin et non un habillage posé sur une boîte. À l'intérieur, pierre beige, panneautage tambour et vitrines surélevées sur piètement métallique laissent la matière tressée revenir sur les tabourets, exécutés à la main selon le même point que la peau extérieure, et l'arche est reprise à l'identique pour le salon de vente semi-privé du fond. Le calendrier est net : pendant que le retail de volume durcit son décor, béton apparent et gradins de brique <a href="https://www.dezeen.com/2026/08/20/aim-architecture-zara-flagship-shanghai/" target="_blank" rel="noopener">chez Zara à Shanghai deux jours plus tôt</a>, le luxe achète du geste manuel et de la texture.</div>
+    <div class="learn reveal"><p>Une maison ne prouve plus son territoire avec du marbre importé mais avec une technique locale qu&#x27;elle sait tenir à l&#x27;échelle d&#x27;une façade.</p></div>
+    <div class="reveal"><a class="src" href="https://www.dezeen.com/2026/08/22/tiffany-co-pop-up-jk-iguatemi-mall-sao-paulo-estudio-campana/" target="_blank" rel="noopener">Dezeen <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="craft" style="--rc:#b8956a">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://cdn.sanity.io/images/cctd4ker/production/764a4bf366cafc8028c801d6d1339d4d1089b0fa-5120x2880.jpg?w=1920&amp;q=75&amp;auto=format" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://cdn.sanity.io/images/cctd4ker/production/c2c41752974b75059c626def20d79980c82be9ad-5120x5120.jpg?w=1920&amp;q=75&amp;fit=clip&amp;auto=format" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://cdn.sanity.io/images/cctd4ker/production/28b41ddc368dd90a8b434a87051087923b1c2cac-1620x1080.jpg?w=1920&amp;q=75&amp;fit=max&amp;auto=format" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Craft &amp; matière</span><span class="pepite">Pépite</span><span class="tag__n">04</span></div>
+    <h2 class="reveal">Mokume-gane, le laminé multi-métal des garnitures de sabre d&#x27;Edo, repris par Tiffany dans les années 1870</h2>
+    <div class="ctx reveal">Le <a href="https://www.metmuseum.org/perspectives/metalworking-mokume-gane" target="_blank" rel="noopener">mokume-gane</a> empile des feuillets d'argent, de cuivre et d'alliages or-cuivre, les abrase, les serre sous presse, les enduit de borax et les soude par diffusion au four sans jamais les fondre. Le motif n'est pas dessiné en surface, il est déjà dans l'épaisseur, et l'artisan décide seulement où percer et jusqu'où laminer pour le faire remonter. Né dans les garnitures de sabre de l'époque d'Edo, le procédé arrive à New York dans les années 1870 quand <a href="https://www.metmuseum.org/perspectives/metalworking-introduction" target="_blank" rel="noopener">Edward C. Moore, directeur du design chez Tiffany &amp; Co.</a>, achète des objets japonais pour documenter son atelier, lequel commence par truquer l'effet en incrustations soudées avant de maîtriser le vrai laminé. La série <a href="https://www.metmuseum.org/perspectives/series/materials-and-techniques/metalworking" target="_blank" rel="noopener">Materials and Techniques</a> du Met filme chaque étape et tient la ligne jusqu'au vase martelé en 2019 par <a href="https://www.metmuseum.org/art/collection/search/839551" target="_blank" rel="noopener">Tamagawa Norio</a>, trésor national vivant.</div>
+    <div class="learn reveal"><p>À l&#x27;âge de la copie instantanée, la seule surface inimitable est celle qui vient de l&#x27;épaisseur.</p></div>
+    <div class="reveal"><a class="src" href="https://www.metmuseum.org/perspectives/metalworking-mokume-gane" target="_blank" rel="noopener">The Metropolitan Museum of Art <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="architecture" style="--rc:#8d9aa3">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://static.dezeen.com/uploads/2026/08/hirosaki-castle-volunteer-relocation-japan_dezeen_2364_hero_0.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.dezeen.com/uploads/2026/08/hirosaki-castle-volunteer-relocation-japan_dezeen_2364_hero_1-852x479.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.dezeen.com/uploads/2026/08/hirosaki-castle-volunteer-relocation-japan_dezeen_2364_col_2-852x568.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Architecture</span><span class="tag__n">05</span></div>
+    <h2 class="reveal">À Hirosaki, 1 800 volontaires tirent à la corde un donjon de bois vers son emplacement d&#x27;origine</h2>
+    <div class="ctx reveal">Le donjon de <a href="https://en.japantravel.com/aomori/hirosaki-castle-to-be-relocated/20359" target="_blank" rel="noopener">Hirosaki</a>, trois niveaux de bois édifiés en 1810 et l'un des douze donjons féodaux encore debout au Japon, a avancé d'un peu plus de deux mètres les 22 et 23 août, tiré sur des cordes de 30 mètres par environ 1 800 personnes en groupes tournants de 80. La méthode est le hikiya : l'édifice est soulevé d'un bloc, posé sur rouleaux et déplacé sans aucun démontage, procédé déjà employé en 2015 pour l'écarter de 78 mètres et dégager le mur de pierre fissuré par le séisme de 1983, remonté en décembre 2024. La ville a converti le chantier en objet de visite, avec <a href="https://dentsu-ho.com/en/articles/3410" target="_blank" rel="noopener">échafaudages historiques reconstitués et accès public au site en activité</a>, la traction manuelle devant couvrir cinq mètres au total avant que les 73 mètres restants soient repris à la machine d'ici la fin de l'année. <a href="https://www.dezeen.com/2026/08/27/hirosaki-castle-volunteer-relocation-japan/" target="_blank" rel="noopener">Dezeen</a> et <a href="https://www.smithsonianmag.com/smart-news/1800-people-pull-a-400-ton-japanese-castle-keep-back-toward-its-original-location-after-a-decade-of-restoration-work-180989401/" target="_blank" rel="noopener">Smithsonian</a> comptent 8 000 candidatures pour 1 800 places, la réouverture étant visée en 2033.</div>
+    <div class="learn reveal"><p>Déplacer un bâtiment intact plutôt que le démonter est la compétence que la réhabilitation va s&#x27;arracher dans les dix ans qui viennent.</p></div>
+    <div class="reveal"><a class="src" href="https://www.dezeen.com/2026/08/27/hirosaki-castle-volunteer-relocation-japan/" target="_blank" rel="noopener">Dezeen <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="scenographie" style="--rc:#7fbdb0">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://static.dezeen.com/uploads/2026/08/water-tower-thatch-installation-cella-collective-mitre-mondays-houghton-festival_dezeen_2364_hero_0-852x479.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.dezeen.com/uploads/2026/08/water-tower-thatch-installation-cella-collective-mitre-mondays-houghton-festival_dezeen_2364_col_6-852x639.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.dezeen.com/uploads/2026/08/water-tower-thatch-installation-cella-collective-mitre-mondays-houghton-festival_dezeen_2364_col_5-852x1136.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Scénographie &amp; expérience</span><span class="tag__n">06</span></div>
+    <h2 class="reveal">Au Houghton Festival, une tour en chaume de 5,5 mètres construite pour être démontée et remontée chaque année</h2>
+    <div class="ctx reveal">Le collectif <a href="https://cellacollective.com/" target="_blank" rel="noopener">Cella Collective</a> et l'atelier Mitre &amp; Mondays ont dressé au <a href="https://www.houghtonfestival.co.uk/visual-arts/" target="_blank" rel="noopener">Houghton Festival</a>, en Norfolk, une tour de 5,5 mètres à ossature bois entièrement habillée de chaume, couronnée d'un anneau de roseau et percée de quatre ouvertures aux parois biaises qui font office de seuils et de cadrages. La référence est locale et assumée : le château d'eau construit en 1772 pour <a href="https://www.houghtonhall.com/" target="_blank" rel="noopener">Houghton Hall</a>, dont la silhouette est reprise mais retournée en abri traversant, avec bancs filant depuis les parois intérieures et oculus circulaire en toiture. Le roseau provient de coupes d'entretien de roselières, et la pose a été confiée aux chaumiers Wayne Halfpenny et Steve Kelly, l'équipe reconnaissant que le calepinage s'est décidé en marchant, par essais successifs sur place plutôt que sur plan. L'ouvrage a été conçu dès l'origine pour être démonté après les quatre jours de festival, stocké puis remonté lors des éditions suivantes, ce que <a href="https://www.dezeen.com/2026/08/24/water-tower-thatch-cella-collective-mitre-mondays-houghton-festival/" target="_blank" rel="noopener">Dezeen</a> documente avec les images de chantier de Henry Woide.</div>
+    <div class="learn reveal"><p>Une scénographie qui se remonte l&#x27;année suivante quitte la ligne des frais de production pour rejoindre celle des actifs.</p></div>
+    <div class="reveal"><a class="src" href="https://www.dezeen.com/2026/08/24/water-tower-thatch-cella-collective-mitre-mondays-houghton-festival/" target="_blank" rel="noopener">Dezeen <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="photographie" style="--rc:#6fa3bd">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://www.1854.photography/wp-content/uploads/2026/06/AZ_BJP58_LouisPorter_250226_023.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.1854.photography/wp-content/uploads/2026/06/AZ_BJP58_LouisPorter_250226_051.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.1854.photography/wp-content/uploads/2026/06/AZ_BJP58_LouisPorter_250226_072.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Photographie</span><span class="tag__n">07</span></div>
+    <h2 class="reveal">Louis Porter photographie depuis dix ans les pages de la London Library et en tire un livre de 416 pages</h2>
+    <div class="ctx reveal">Le 24 août, <a href="https://www.1854.photography/2026/08/in-the-studio-with-louis-porter/" target="_blank" rel="noopener">British Journal of Photography</a> a publié une visite d'atelier de <a href="https://louisporter.com/" target="_blank" rel="noopener">Louis Porter</a> dont le studio n'est pas un studio : c'est la London Library, où il emprunte une dizaine de volumes deux fois par semaine et photographie leurs pages depuis dix ans. De ce protocole est sorti <a href="https://www.perimeterbooks.com/products/louis-porter-search-engine" target="_blank" rel="noopener">Search Engine</a>, 416 pages au format 10,5 x 15,5 cm chez Perimeter Editions, reliure OTA, qui reproduit des fiches de catalogue tirées du rayon Science &amp; Miscellaneous et rangées par ordre alphabétique de sujet, si bien que Sleep voisine avec Smuggling. Le classement fait ici tout le travail de composition, et Porter en tire une méthode transposable : intervenir sur des images qui existent déjà plutôt que d'en produire de nouvelles, comme dans <a href="https://thephotographersgallery.org.uk/whats-on/book-launch-talk-signing-louis-porter-search-engine" target="_blank" rel="noopener">la présentation qu'en a faite The Photographers' Gallery</a>. Il connaît pourtant la chimie, ayant tiré calotypes, cyanotypes et papiers salés à partir d'œufs, de lait et d'amidon de pomme de terre lors d'une résidence à la papeterie Awagami.</div>
+    <div class="learn reveal"><p>Quand les images existent déjà par milliards, l&#x27;acte photographique se déplace de la prise de vue vers le classement.</p></div>
+    <div class="reveal"><a class="src" href="https://www.1854.photography/2026/08/in-the-studio-with-louis-porter/" target="_blank" rel="noopener">British Journal of Photography <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="film" style="--rc:#c47a72">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://ymcinema.com/wp-content/uploads/2026/08/Emmy-2026-Cameras-Large-Format-Takes-the-Lead-With-ALEXA-265-Sony-FX3-FX6-and-FX9.001.webp" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://ymcinema.com/wp-content/uploads/2026/08/Camera-chart.001.webp" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://ymcinema.com/wp-content/uploads/2025/08/Camera-chart.001.webp" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Film &amp; motion</span><span class="tag__n">08</span></div>
+    <h2 class="reveal">Le relevé des caméras des séries nommées aux Emmy 2026 confirme le passage du haut de gamme télé au grand capteur</h2>
+    <div class="ctx reveal"><a href="https://ymcinema.com/2026/08/26/cameras-behind-emmy-nominated-series-2026/" target="_blank" rel="noopener">Y.M.Cinema</a> a publié le 26 août le relevé des caméras et optiques de dix-huit séries nommées aux Emmy 2026 : neuf productions sur ARRI, six sur Sony, deux sur RED, une sur Canon, l'ALEXA 265 présente sur trois titres et une acquisition 65 mm sur Euphoria. Le grand capteur n'est plus un signe extérieur de prestige mais le réglage par défaut du haut de gamme, et le prix du boîtier ne dit plus rien du niveau de la production, puisque le Sony FX3 apparaît sur deux séries nommées aux côtés de drones DJI, d'une Freefly EMBER et d'une Fujifilm ETERNA. Le même déplacement traverse le cinéma, où la <a href="https://ymcinema.com/2026/08/25/tom-cruise-vistavision-65mm-imax-film-cameras/" target="_blank" rel="noopener">VistaVision et le 65 mm</a> reviennent comme décisions de fabrication et non comme citations, pendant que le numéro d'août d'<a href="https://theasc.com/news/inside-august-2026-american-cinematographer/" target="_blank" rel="noopener">American Cinematographer</a> consacre son dossier technique aux outils d'éclairage et aux schémas de plateau plutôt qu'aux formats. La question posée aux chefs opérateurs a changé de nature : non plus quel capteur choisir, mais quelle combinaison hétérogène de boîtiers tenir dans une même continuité d'image.</div>
+    <div class="learn reveal"><p>Le matériel ne hiérarchise plus les images, seule la cohérence du regard qui assemble des outils devenus interchangeables le fait encore.</p></div>
+    <div class="reveal"><a class="src" href="https://ymcinema.com/2026/08/26/cameras-behind-emmy-nominated-series-2026/" target="_blank" rel="noopener">Y.M.Cinema Magazine <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="fantasy" style="--rc:#9b7ec9">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://museumcrush.org/wp-content/uploads/2019/05/SRY_SSG_A_68.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://museumcrush.org/wp-content/uploads/2019/05/SRY_SSG_A_2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://museumcrush.org/wp-content/uploads/2019/05/SRY_SSG_A_7.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Fantasy art &amp; illustration</span><span class="pepite">Pépite</span><span class="tag__n">09</span></div>
+    <h2 class="reveal">Le fonds Sidney Sime, 800 œuvres d&#x27;un maître édouardien de l&#x27;imaginaire léguées à une salle des fêtes du Surrey</h2>
+    <div class="ctx reveal">Sidney Sime (1865-1941) a fixé la grammaire visuelle du merveilleux noir vingt ans avant Lovecraft, avec plus de soixante-quinze planches pour Lord Dunsany à partir de 1905, plume nerveuse, aplats japonisants hérités de l'estampe et de Beardsley, blancs réservés qui font tenir des architectures impossibles sans une ligne de perspective. À la mort de sa veuve, plus de 800 peintures, dessins, lettres et carnets ont été légués à un comité de village du Surrey, et le fonds est aujourd'hui visible dans <a href="https://sidneysimegallery.org.uk/" target="_blank" rel="noopener">une galerie construite pour lui, accolée au Memorial Hall de Worplesdon</a>, restaurée grâce à une subvention de 42 000 livres du National Lottery Heritage Fund. Sime a quitté l'illustration commerciale après 1918, quand le marché anglais s'est détourné de la fantasy, et a fini en peignant de grands formats à l'huile et en croquant les habitués du pub local, trente-six caricatures qui font partie du même fonds ; le <a href="https://www.heathrobinsonmuseum.org/whats-on/sidney-sime-artist-and-philosopher/" target="_blank" rel="noopener">Heath Robinson Museum</a> lui a consacré une rétrospective en 2024. Le corpus se travaille en ligne : <a href="https://archive.org/details/bogey-beasts_sidney-sime" target="_blank" rel="noopener">Bogey Beasts (1923)</a> est intégralement numérisé sur Internet Archive, et <a href="https://victorianweb.org/art/illustration/sime/index.html" target="_blank" rel="noopener">Victorian Web</a> documente le versant technique, glacis translucides et pigments broyés à la main.</div>
+    <div class="learn reveal"><p>Un corpus ne survit pas parce qu&#x27;il est bon, il survit parce que quelqu&#x27;un a gardé les originaux et financé la numérisation.</p></div>
+    <div class="reveal"><a class="src" href="https://museumcrush.org/the-forgotten-gallery-in-surrey-holding-the-dark-and-sinister-paintings-of-sidney-h-sime/" target="_blank" rel="noopener">Museum Crush <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="gaming" style="--rc:#cd8659">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://boardgamewire.com/wp-content/uploads/2026/08/Carly-McGinnis-Jean-Sebastian-de-Barros-Asmodee.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://boardgamewire.com/wp-content/uploads/2026/02/Netflix-x-Ticket-to-Ride-cover-1024x384-1.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://boardgamewire.com/wp-content/uploads/2023/06/Exploding-Kittens-1024x576.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Gaming &amp; worldbuilding</span><span class="tag__n">10</span></div>
+    <h2 class="reveal">Asmodee confie son édition mondiale à la patronne d&#x27;Exploding Kittens alors que 72 % de son chiffre vient encore de la distribution</h2>
+    <div class="ctx reveal">Le 25 août, <a href="https://corporate.asmodee.com/" target="_blank" rel="noopener">Asmodee</a> a nommé Carly McGinnis, jusqu'ici CEO d'<a href="https://www.explodingkittens.com/" target="_blank" rel="noopener">Exploding Kittens</a>, directrice produit et EVP édition, avec Catan, Ticket to Ride, 7 Wonders et Dobble sous sa responsabilité, en remplacement de Jean-Sébastien de Barros parti après neuf ans. Les chiffres pèsent plus que le mouvement lui-même : 1,68 milliard d'euros sur l'exercice clos en mars 2026, dont plus de 72 % réalisés en distribution et non en édition propre, avec des ventes de jeux de plateau en recul de 5,8 % avant un rebond de 1,8 % sur avril-juin. Le groupe va donc chercher une compétence de fabricant de marque plutôt qu'un gestionnaire de catalogue, McGinnis ayant transformé une campagne Kickstarter en franchise avec série animée, déclinaisons mobiles et 60 millions de boîtes écoulées. La trajectoire est cohérente avec le reste, droits écran exclusifs cédés à Netflix sur Ticket to Ride et Catan et rachat d'ATM Gaming pour tenir le segment party game, comme le détaille <a href="https://boardgamewire.com/" target="_blank" rel="noopener">BoardGameWire</a>.</div>
+    <div class="learn reveal"><p>Détenir un catalogue ne suffit plus, ce qui se paie aujourd&#x27;hui c&#x27;est la capacité à transformer une boîte en franchise exploitable sur trente ans.</p></div>
+    <div class="reveal"><a class="src" href="https://boardgamewire.com/index.php/2026/08/25/exploding-kittens-ceo-carly-mcginnis-takes-charge-of-asmodees-global-publishing-operation-jean-sebastien-de-barros-exits/" target="_blank" rel="noopener">BoardGameWire <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="ui" style="--rc:#8592c9">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://files.smashing.media/articles/rethinking-data-visualisation-ux-approach-dashboards/density-as-a-variable.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://files.smashing.media/articles/rethinking-data-visualisation-ux-approach-dashboards/francis-anscombe-quartet.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://files.smashing.media/articles/rethinking-data-visualisation-ux-approach-dashboards/bar-char-vs-radar.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">UI &amp; design d&#x27;interface</span><span class="tag__n">11</span></div>
+    <h2 class="reveal">Smashing Magazine propose une méthode de conception de tableaux de bord qui traite la densité comme une variable de design</h2>
+    <div class="ctx reveal">Le 26 août, <a href="https://www.smashingmagazine.com/category/design/" target="_blank" rel="noopener">Smashing Magazine</a> a mis en ligne un texte de <a href="https://www.smashingmagazine.com/author/meriem-benhabiles/" target="_blank" rel="noopener">Meriem Benhabiles</a> qui déplace la question du dashboard hors du choix de graphique : l'essentiel se joue avant, dans la définition de la question opérationnelle, du lecteur et de la décision attendue. La <a href="https://www.smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/" target="_blank" rel="noopener">démonstration</a> attaque le réflexe de simplification systématique, la densité n'étant pas un défaut à corriger mais un paramètre à calibrer, élevée pour l'analyste en diagnostic, synthétique pour le dirigeant en arbitrage rapide. L'argument s'appuie sur le <a href="https://www.sjsu.edu/faculty/gerstman/StatPrimer/anscombe1973.pdf" target="_blank" rel="noopener">quartet d'Anscombe</a> pour rappeler que des séries statistiquement identiques racontent des choses opposées une fois tracées, puis sur une refonte de plateforme RH où le radar à huit dimensions révèle des écarts de compétence qu'aucun histogramme ne faisait apparaître. Le geste utile y est un comparateur côte à côte, apparu en cours de projet et devenu la fonction la plus employée.</div>
+    <div class="learn reveal"><p>Un tableau de bord ne se juge pas à sa lisibilité mais au nombre de décisions qu&#x27;il déclenche.</p></div>
+    <div class="reveal"><a class="src" href="https://www.smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/" target="_blank" rel="noopener">Smashing Magazine <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="ia" style="--rc:#6fbd97">
+  <div class="media media--2 reveal"><div class="shot"><img src="https://d3q27bh1u24u2o.cloudfront.net/news/2026-08/smoke-oakum.-lFU9JbV.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://d2clgeqocjw7k2.cloudfront.net/6a8da3f91b0307ac66d2603f/frame_0000.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">IA &amp; création</span><span class="tag__n">12</span></div>
+    <h2 class="reveal">Une campagne bourbon produite sans tournage, avec des chefs opérateurs maintenus en consultants</h2>
+    <div class="ctx reveal"><a href="https://lbbonline.com/companies/SmokeandOakum" target="_blank" rel="noopener">Smoke&amp;Oakum</a> a sorti le 25 août une campagne pour la distillerie <a href="https://valentinedistilling.com/" target="_blank" rel="noopener">Valentine</a> sans jour de tournage, à l'exception d'un plan produit filmé en pratique. Le réalisateur <a href="https://lbbonline.com/people/adam-witten" target="_blank" rel="noopener">Adam Witten</a> résume la méthode par une formule opérante : le process est génératif, la sortie ne l'est pas. Des chefs opérateurs ont été gardés en consultants sur la lumière et le cadrage pendant la phase générative, le montage, l'étalonnage et le sound design restant tenus par des professionnels, et le personnage a été repris en itérations jusqu'à sortir de la caricature. L'argument n'est pas le coût : sans ce pipeline, <a href="https://lbbonline.com/work/177644" target="_blank" rel="noopener">ce film</a> n'aurait tout simplement jamais été proposé à un annonceur régional.</div>
+    <div class="learn reveal"><p>Le verrou du génératif n&#x27;est plus la qualité de l&#x27;image, c&#x27;est de savoir quels métiers de plateau garder autour d&#x27;elle.</p></div>
+    <div class="reveal"><a class="src" href="https://lbbonline.com/news/ai-generative-production-director-campaign-valentine-bourbon" target="_blank" rel="noopener">LBBOnline <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="philosophie" style="--rc:#a8a196">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://pdr-assets.b-cdn.net/essays/ars-notoria/dedupmrg1191555822_IE4927965_FL5355234-edit.jpg?width=1200&amp;height=765" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://pdr-assets.b-cdn.net/essays/ars-notoria/ars-notoria-yale-5.jpg?width=1200&amp;height=765" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://pdr-assets.b-cdn.net/essays/ars-notoria/ars-notoria-yale-3.jpg?width=1200&amp;height=765" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Philosophie</span><span class="pepite">Pépite</span><span class="tag__n">13</span></div>
+    <h2 class="reveal">Ars notoria, la promesse médiévale d&#x27;un savoir instantané et les figures censées le délivrer</h2>
+    <div class="ctx reveal">Le <a href="https://publicdomainreview.org/" target="_blank" rel="noopener">Public Domain Review</a> publie un <a href="https://publicdomainreview.org/essay/ars-notoria/" target="_blank" rel="noopener">essai d'Anne Lawrence-Mathers</a> sur l'<a href="https://en.wikipedia.org/wiki/Ars_Notoria" target="_blank" rel="noopener">Ars notoria</a>, manuel latin du XIIIe siècle qui promettait de compresser tout le cursus universitaire, grammaire, rhétorique, dialectique, médecine, musique, théologie, en quelques mois de pratique réglée. Le dispositif ne repose pas sur un texte à comprendre mais sur des figures, les notae, combinaisons de formes géométriques et de suites de lettres illisibles que le pratiquant devait fixer selon un protocole daté, compté et répété, quatorze jours pour la grammaire, vingt-quatre récitations par image. L'essai établit que ces figures fonctionnent comme des icônes et non comme des illustrations, elles ne représentent rien, elles sont supposées agir, ce qui explique le soin extrême de leur exécution manuscrite et la condamnation théologique qui les a visées sans jamais interrompre leur copie. La démonstration s'appuie sur le cas de <a href="https://en.wikipedia.org/wiki/John_of_Morigny" target="_blank" rel="noopener">Jean de Morigny</a>, bénédictin qui pratiqua la méthode, la jugea productrice de visions incontrôlables et la réécrivit.</div>
+    <div class="learn reveal"><p>La promesse d&#x27;un savoir sans apprentissage a huit siècles, et elle a toujours reposé sur la force de conviction de son interface plutôt que sur ce qu&#x27;elle délivre.</p></div>
+    <div class="reveal"><a class="src" href="https://publicdomainreview.org/essay/ars-notoria/" target="_blank" rel="noopener">The Public Domain Review <span>&#8599;</span></a></div>
+  </div>
+</section>
+</main>
+<footer>
+  <span class="kicker">Veille créative · édition n°03 · vendredi 28 août 2026</span>
+  <a class="btn" href="index.html">Toutes les éditions</a>
+</footer>
+<script>
+(function(){
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('on'); io.unobserve(e.target);} });
+  },{rootMargin:'0px 0px -12% 0px',threshold:.06});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  var bar=document.querySelector('.progress');
+  if(bar){
+    var tick=function(){
+      var h=document.documentElement.scrollHeight-window.innerHeight;
+      bar.style.width=(h>0?(window.scrollY/h)*100:0)+'%';
+    };
+    window.addEventListener('scroll',tick,{passive:true});
+    window.addEventListener('resize',tick); tick();
+  }
+})();
+</script>
+</body>
+</html>
