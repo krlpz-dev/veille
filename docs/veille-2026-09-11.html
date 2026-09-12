@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Veille créative n°05 · 11.09.2026</title>
+<meta name="description" content="Un immeuble londonien de dix étages tient debout sur un exosquelette de pierre sans noyau béton. L&#x27;horlogerie suisse voit 1,3 % de ses volumes produire 75 % de sa croissance en...">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#0a0a0b; --bg-2:#111113; --ink:#f4f4f0; --muted:#8b8b85;
+  --line:rgba(255,255,255,.13); --accent:#D9FF3D;
+  --serif:'Unbounded','Outfit','Helvetica Neue',sans-serif;
+  --sans:'Inter','Helvetica Neue',Arial,sans-serif;
+  --pad:clamp(20px,5vw,72px);
+}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-weight:500;font-size:15px;line-height:1.62;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+::selection{background:var(--accent);color:#000}
+.kicker{font-size:10.5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.grain{position:fixed;inset:0;pointer-events:none;z-index:60;opacity:.05;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/><feColorMatrix type='saturate' values='0'/></filter><rect width='240' height='240' filter='url(%23n)' opacity='0.5'/></svg>");background-size:240px;mix-blend-mode:overlay}
+.bar{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;
+  justify-content:space-between;gap:16px;padding:14px var(--pad);
+  background:linear-gradient(to bottom,rgba(10,10,11,.92),rgba(10,10,11,0));
+  backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px)}
+.bar__id{font-size:10.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--ink);text-decoration:none;opacity:.85;transition:opacity .3s}
+.bar__id:hover{opacity:1}
+.btn{display:inline-block;font-size:10px;font-weight:600;letter-spacing:.2em;
+  text-transform:uppercase;text-decoration:none;padding:9px 15px;border-radius:2px;
+  border:1px solid var(--accent);color:var(--accent);
+  background:color-mix(in srgb,var(--accent) 30%,transparent);
+  transition:background .35s ease,color .35s ease,transform .35s ease}
+.btn:hover{background:var(--accent);color:#0a0a0b;transform:translateY(-1px)}
+.progress{position:fixed;top:0;left:0;height:2px;width:0;background:var(--accent);z-index:70;
+  transition:width .12s linear}
+.hide-s{display:inline}
+footer{padding:clamp(48px,9vh,104px) var(--pad);border-top:1px solid var(--line);
+  display:flex;flex-wrap:wrap;gap:14px 26px;justify-content:space-between;align-items:center}
+@media (max-width:680px){
+  .hide-s{display:none}
+  .bar{padding:11px 16px}
+  .bar__id{font-size:9.5px;letter-spacing:.14em}
+  .btn{padding:8px 11px;font-size:9px;letter-spacing:.13em;white-space:nowrap}
+}
+.reveal{opacity:0;transform:translateY(26px);
+  transition:opacity 1s cubic-bezier(.22,.7,.24,1),transform 1s cubic-bezier(.22,.7,.24,1)}
+.reveal.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none;transition:none}
+}
+
+main{scroll-snap-type:y proximity}
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;
+  padding:0 var(--pad) clamp(38px,7vh,86px);overflow:hidden;scroll-snap-align:start}
+.hero__img{position:absolute;inset:0;z-index:0}
+.hero__img img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.16) brightness(.62);
+  transform:scale(1.06);animation:drift 22s ease-out forwards}
+@keyframes drift{to{transform:scale(1)}}
+.hero__veil{position:absolute;inset:0;z-index:1;
+  background:radial-gradient(120% 90% at 20% 100%,rgba(10,10,11,.35),rgba(10,10,11,.94) 72%),
+             linear-gradient(to top,rgba(10,10,11,.98),rgba(10,10,11,.2) 55%,rgba(10,10,11,.72))}
+.hero__in{position:relative;z-index:2;max-width:1180px;width:100%}
+.hero__no{font-family:var(--serif);font-weight:800;font-size:11px;letter-spacing:.32em;
+  color:var(--accent);margin:0 0 18px}
+.hero h1{font-family:var(--serif);font-weight:900;letter-spacing:-.02em;line-height:.92;
+  font-size:clamp(38px,8.2vw,116px);margin:0 0 22px;text-transform:uppercase}
+.hero__meta{display:flex;flex-wrap:wrap;gap:10px 22px;margin-bottom:22px}
+.hero__deck{max-width:62ch;font-size:15px;color:#cfcfc8;margin:0}
+.hero__scroll{position:absolute;left:var(--pad);bottom:14px;z-index:2;font-size:9.5px;
+  letter-spacing:.24em;text-transform:uppercase;color:var(--muted);animation:blink 3.2s infinite}
+@keyframes blink{0%,100%{opacity:.35}50%{opacity:.9}}
+
+.sommaire{padding:clamp(64px,12vh,140px) var(--pad);border-top:1px solid var(--line);
+  scroll-snap-align:start}
+.sommaire__in{max-width:1180px;margin:0 auto}
+.sommaire p.intro{font-size:clamp(17px,2.1vw,25px);line-height:1.42;max-width:32ch;
+  font-family:var(--serif);font-weight:400;margin:18px 0 clamp(38px,6vh,64px)}
+.som__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  column-gap:clamp(24px,5vw,80px)}
+.som__row{display:flex;gap:14px;align-items:baseline;padding:11px 0;border-top:1px solid var(--line);
+  text-decoration:none;transition:padding-left .35s ease}
+.som__row:hover{padding-left:8px}
+.som__n{font-family:var(--serif);font-size:10px;font-weight:600;color:var(--muted);min-width:22px}
+.som__t{font-size:14px;font-weight:500;flex:1}
+.som__r{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
+  text-align:right;white-space:nowrap}
+.som__row:hover .som__t{color:var(--accent)}
+
+.entry{min-height:100svh;display:grid;align-items:center;
+  grid-template-columns:minmax(0,.86fr) minmax(0,1fr);
+  gap:clamp(28px,4.5vw,74px);padding:clamp(72px,11vh,124px) var(--pad);
+  border-top:1px solid var(--line);scroll-snap-align:start}
+.media{display:grid;gap:8px;width:100%;aspect-ratio:3/4;max-height:78vh;margin:0 auto}
+.media--1{grid-template-rows:1fr}
+.media--2{grid-template-rows:1.75fr 1fr}
+.media--3{grid-template-rows:1.75fr 1fr;grid-template-columns:1fr 1fr}
+.media--3 .shot:first-child{grid-column:1 / -1}
+.shot{position:relative;overflow:hidden;background:var(--bg-2)}
+.shot img{width:100%;height:100%;object-fit:cover;transform:scale(1.03);
+  transition:transform 1.4s cubic-bezier(.22,.7,.24,1)}
+.shot:hover img{transform:scale(1.08)}
+.txt{max-width:56ch}
+.tag{display:flex;align-items:center;gap:10px;margin-bottom:20px;flex-wrap:wrap}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--rc)}
+.tag__r{font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--rc)}
+.tag__n{font-family:var(--serif);font-size:10px;font-weight:600;color:var(--muted);margin-left:auto}
+.pepite{font-size:9px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
+  color:#0a0a0b;background:var(--rc);padding:3px 8px;border-radius:2px}
+.entry h2{font-family:var(--serif);font-weight:800;letter-spacing:-.015em;line-height:1.08;
+  font-size:clamp(23px,2.9vw,40px);margin:0 0 22px}
+.ctx{font-size:15px;line-height:1.68;color:#d6d6d0;margin:0 0 26px}
+.ctx a{color:var(--ink);text-decoration:none;background-image:linear-gradient(var(--rc),var(--rc));
+  background-size:100% 1px;background-repeat:no-repeat;background-position:0 100%;
+  padding-bottom:1px;transition:background-size .4s ease,color .3s ease}
+.ctx a:hover{color:var(--rc);background-size:100% 2px}
+.ctx em{font-style:italic;color:#eaeae4}
+.learn{border-left:2px solid var(--rc);padding:2px 0 2px 16px;margin:0 0 24px}
+.learn p{margin:0;font-family:var(--serif);font-weight:400;font-size:clamp(15px,1.6vw,20px);
+  line-height:1.34;color:var(--ink)}
+.src{display:inline-flex;align-items:center;gap:9px;font-size:10px;font-weight:600;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--muted);text-decoration:none;
+  transition:color .3s ease,gap .3s ease}
+.src:hover{color:var(--rc);gap:14px}
+
+@media (max-width:1080px){
+  .entry{grid-template-columns:1fr;gap:30px;align-items:start}
+  .media{aspect-ratio:4/3;max-height:none}
+  .media--3{grid-template-rows:1.5fr 1fr}
+  .txt{max-width:none}
+  body{font-size:15.5px}
+  .ctx{font-size:15.5px}
+}
+@media (max-width:680px){
+  .som__grid{grid-template-columns:1fr}
+  .som__r{display:none}
+  .media{aspect-ratio:3/4;gap:6px}
+  .hero{padding-bottom:64px}
+  .entry{padding-top:88px;padding-bottom:56px}
+  main{scroll-snap-type:none}
+}
+</style>
+</head>
+<body>
+<div class="progress"></div>
+<div class="grain"></div>
+<header class="bar">
+  <a class="bar__id" href="index.html">Veille créative<span class="hide-s"> · Karl Petzold</span></a>
+  <a class="btn" href="index.html">Toutes les éditions</a>
+</header>
+<main>
+  <section class="hero">
+    <div class="hero__img"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_39FfQeMIWqiQLLKAWDtgFuU9Tem/hf_20260911_194352_a67c62ff-c9aa-4d6c-a628-a13e7349a0ce.png" alt="" referrerpolicy="no-referrer"></div>
+    <div class="hero__veil"></div>
+    <div class="hero__in">
+      <p class="hero__no">Édition n°05</p>
+      <h1>LOAD BEARING</h1>
+      <div class="hero__meta"><span class="kicker">vendredi 11 septembre 2026</span><span class="kicker">Treize entrées</span></div>
+      <p class="hero__deck">Un immeuble londonien de dix étages tient debout sur un exosquelette de pierre sans noyau béton. L&#x27;horlogerie suisse voit 1,3 % de ses volumes produire 75 % de sa croissance en valeur. Maestro Media ouvre sa chaîne d&#x27;édition aux autres éditeurs de jeux, le lendemain du décrochage de CMON.</p>
+    </div>
+    <span class="hero__scroll">Défiler</span>
+  </section>
+  <section class="sommaire">
+    <div class="sommaire__in">
+      <span class="kicker">Au sommaire</span>
+      <p class="intro">Une semaine où la structure reprend la main : la pierre porte, la lumière joue le décor, et la valeur se loge dans le tuyau plutôt que dans l&#x27;objet. Les pépites sont en mode, en scénographie et en film.</p>
+      <div class="som__grid"><a class="som__row reveal" href="#direction-artistique"><span class="som__n">01</span><span class="som__t">Monogramme MCW, Nomad Studio</span><span class="som__r">Direction artistique &amp; campagnes</span></a><a class="som__row reveal" href="#mode"><span class="som__n">02</span><span class="som__t">Alcega, 1589, la coupe en géométrie</span><span class="som__r">Mode</span></a><a class="som__row reveal" href="#luxe"><span class="som__n">03</span><span class="som__t">Horlogerie suisse, polarisation</span><span class="som__r">Luxe</span></a><a class="som__row reveal" href="#craft"><span class="som__n">04</span><span class="som__t">Craft x Tech Tokai au V&amp;A</span><span class="som__r">Craft &amp; matière</span></a><a class="som__row reveal" href="#architecture"><span class="som__n">05</span><span class="som__t">Exosquelette de pierre, Londres</span><span class="som__r">Architecture</span></a><a class="som__row reveal" href="#scenographie"><span class="som__n">06</span><span class="som__t">Le diorama de Daguerre</span><span class="som__r">Scénographie &amp; expérience</span></a><a class="som__row reveal" href="#photographie"><span class="som__n">07</span><span class="som__t">Cibachromes de Saul Leiter</span><span class="som__r">Photographie</span></a><a class="som__row reveal" href="#film"><span class="som__n">08</span><span class="som__t">Les 164 cartes de Norman Dawn</span><span class="som__r">Film &amp; motion</span></a><a class="som__row reveal" href="#fantasy"><span class="som__n">09</span><span class="som__t">Lucas Museum, galerie fantasy</span><span class="som__r">Fantasy art &amp; illustration</span></a><a class="som__row reveal" href="#gaming"><span class="som__n">10</span><span class="som__t">Overture, l&#x27;édition en marque blanche</span><span class="som__r">Gaming &amp; worldbuilding</span></a><a class="som__row reveal" href="#ui"><span class="som__n">11</span><span class="som__t">Du clic à l&#x27;intention</span><span class="som__r">UI &amp; design d&#x27;interface</span></a><a class="som__row reveal" href="#ia"><span class="som__n">12</span><span class="som__t">Silicone contre génératif</span><span class="som__r">IA &amp; création</span></a><a class="som__row reveal" href="#philosophie"><span class="som__n">13</span><span class="som__t">Le surapprentissage créatif</span><span class="som__r">Philosophie</span></a></div>
+    </div>
+  </section>
+  
+<section class="entry" id="direction-artistique" style="--rc:#c9a24a">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://m.itsnicethat.com/original_images/MCW7.png?class=w1440" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://m.itsnicethat.com/original_images/MCW1.png?class=w1080" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://m.itsnicethat.com/original_images/MCW6.png?class=w1080" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Direction artistique &amp; campagnes</span><span class="tag__n">01</span></div>
+    <h2 class="reveal">Nomad dote Manchester City Women d&#x27;un monogramme propre sans toucher au blason du club</h2>
+    <div class="ctx reveal"><p>Le 8 septembre, <a href="https://www.itsnicethat.com/articles/nomad-manchester-city-women-graphic-design-project-080926" target="_blank" rel="noopener">It's Nice That</a> a détaillé le système dessiné par <a href="https://nomadstudio.com/approach" target="_blank" rel="noopener">Nomad Studio</a> pour Manchester City Women, première équipe de Women's Super League à disposer d'une identité distincte de celle du club masculin. La contrainte tenait en une phrase : produire un signe propre sans fracturer la marque mère, dont le blason et le bleu ciel restent le socle contractuel de tous les supports. La réponse est un monogramme MCW aux trois lettres entrelacées en tracé continu, surnommé light trail en interne, traité en bleu ciel, en néon et en chrome selon le support, et adossé à une palette secondaire vert, rose, violet, bleu électrique et jaune qui porte seule la variation, comme l'a confirmé <a href="https://www.mancity.com/citytv/womens/it-takes-a-city-man-city-new-brand-platform-launch-63923971" target="_blank" rel="noopener">l'annonce du club</a> le 3 septembre. Le studio, déjà auteur du logo de la Premier League et de l'architecture de marque de Tottenham, déplace ici la charge expressive du blason vers un élément secondaire déclinable, méthode directement transposable à toute sous-marque coincée entre héritage et besoin de voix propre.</p></div>
+    <div class="learn reveal"><p>Quand le logo maître est intouchable, l&#x27;identité se joue dans le signe secondaire : c&#x27;est là que se fabrique la marge de manoeuvre.</p></div>
+    <div class="reveal"><a class="src" href="https://www.itsnicethat.com/articles/nomad-manchester-city-women-graphic-design-project-080926" target="_blank" rel="noopener">It&#x27;s Nice That <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="mode" style="--rc:#a3ad72">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://www.thinking3d.ac.uk/assets/images/Andrews_img1.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.thinking3d.ac.uk/assets/images/Andrews_img2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.thinking3d.ac.uk/assets/images/Andrews_img4.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Mode</span><span class="pepite">Pépite</span><span class="tag__n">02</span></div>
+    <h2 class="reveal">Juan de Alcega, 1589 : le premier livre de patrons imprimé traite la coupe comme un problème de géométrie</h2>
+    <div class="ctx reveal"><p>Maître tailleur de la cour d'Espagne, Juan de Alcega se fait graver compas et règle à la main, comme un géomètre, et publie en 1580 puis 1589 le premier traité imprimé de coupe : <a href="https://www.thinking3d.ac.uk/alcega/" target="_blank" rel="noopener">135 planches gravées sur bois</a> où chaque vêtement est ramené à des pièces plates posées sur un rectangle qui figure la laize d'étoffe. Le livre ne vend pas un style, il vend un rendement : la troisième partie est une table des métrages nécessaires, et chaque modèle est décliné selon plusieurs largeurs de tissu, parce qu'une erreur de coupe dans un velours ou un brocart coûtait plus cher que son poids en argent. Les planches se lisent en <em>varas</em> castillanes divisées en huitièmes et douzièmes, avec sens du fil, pièces coupées au pli et lettres majuscules indiquant les raccords, un système entièrement reconstituable aujourd'hui comme l'a montré <a href="https://www.curiousfrau.com/2009/04/02/deciphering-juan-de-alcegas-tailors-pattern-book-of-1589/" target="_blank" rel="noopener">ce travail de déchiffrage planche par planche</a>. L'exemplaire numérisé est consultable intégralement via la <a href="https://www.loc.gov/item/2021666766/" target="_blank" rel="noopener">Library of Congress</a>.</p></div>
+    <div class="learn reveal"><p>Quatre siècles avant les algorithmes de placement, la forme du vêtement se décidait déjà dans le plan de coupe, pas dans le croquis.</p></div>
+    <div class="reveal"><a class="src" href="https://www.thinking3d.ac.uk/alcega/" target="_blank" rel="noopener">Thinking 3D, University of St Andrews <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="luxe" style="--rc:#b57a8c">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://www.swissinfo.ch/content/wp-content/uploads/sites/13/2026/09/707782845_highres.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.swissinfo.ch/content/wp-content/uploads/sites/13/2026/06/704557584_highres.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.swissinfo.ch/content/wp-content/uploads/sites/13/2026/07/9bd7a8d458e2ed13d6d2ee9f54b57b152336ff0b-91776932.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Luxe</span><span class="tag__n">03</span></div>
+    <h2 class="reveal">Horlogerie suisse : au premier semestre 2026, 1,3 % des volumes produisent 75 % de la croissance en valeur</h2>
+    <div class="ctx reveal"><p>Le 8 septembre, <a href="https://www.swissinfo.ch/eng/workplace/high-end-boom-masks-swiss-watch-industry-polarisation/92014683" target="_blank" rel="noopener">swissinfo publie l'enquête de Robin Swithinbank</a> sur un semestre horloger suisse trompeur : 12,2 milliards de francs exportés, en repli de 0,6 %, alors que les volumes remontent de 2,3 %. Le détail est plus brutal que le total : l'ultra-luxe, 1,3 % des pièces, capte 75 % de la croissance en valeur, pendant que la tranche 25 000 à 50 000 francs chute de 8,3 % et que le coeur de gamme entre 7 500 et 12 500 francs stagne à 0,5 %. Le parc annuel est passé de 17 millions de montres en 2023 à 14,6 millions en 2025, et de nombreuses marques maintiennent leurs ateliers et leurs horlogers sous le régime suisse de réduction de l'horaire de travail, faute de charge à leur donner. Cette concentration confirme ce que <a href="https://monochrome-watches.com/industry-new-morgan-stanley-top-50-watch-brands-for-2025-rolex-still-leading-the-pack-strong-polarization-of-the-market/" target="_blank" rel="noopener">Morgan Stanley mesurait en février</a> : quatre marques pèsent 55 % du marché, <a href="https://professionalwatches.com/morgan-stanleys-top-20-swiss-watch-company-ranking-for-2026/" target="_blank" rel="noopener">les cinq premières 61 %</a>, et les volumes ont reculé de 51 % depuis le pic de 2011.</p></div>
+    <div class="learn reveal"><p>La surcapacité industrielle devient l&#x27;actif stratégique du luxe : ceux qui gardent leurs ateliers chauds à perte posséderont les gestes que personne ne saura racheter.</p></div>
+    <div class="reveal"><a class="src" href="https://www.swissinfo.ch/eng/workplace/high-end-boom-masks-swiss-watch-industry-polarisation/92014683" target="_blank" rel="noopener">SWI swissinfo.ch <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="craft" style="--rc:#b8956a">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://static.dezeen.com/uploads/2026/08/Craft-x-Tech-Tokai-Project_dezeen_2364_col_0.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://ldf.fra1.cdn.digitaloceanspaces.com/activityimage/10639/image/cropped-xl-5cc17932dcbae8544d3e26e134fbb370.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://assets-cdn.vam.ac.uk/2026/08/20/15/21/30/116256bb-e2ad-4e02-81e9-6e07af2e88cb/craft-x-tech-tokai-project_640.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Craft &amp; matière</span><span class="tag__n">04</span></div>
+    <h2 class="reveal">Le V&amp;A ouvre Craft x Tech Tokai : six ateliers japonais, du shibori d&#x27;Arimatsu au cloisonné shippo, confrontés à six designers</h2>
+    <div class="ctx reveal"><p>Du 12 au 30 septembre, la salle 64b du <a href="https://www.vam.ac.uk/event/ZA6D9ZJXqee/ldf-sept-2026-craft-x-tech" target="_blank" rel="noopener">V&amp;A</a> accueille la deuxième édition du <a href="https://londondesignfestival.com/activities/craft-x-tech-tokai-project" target="_blank" rel="noopener">Craft x Tech Tokai Project</a>, monté par l'ingénieur designer Hideki Yoshimoto avec Maria Cristina Didero au commissariat. Six filières de la région du Tokai sont mises au travail sur des pièces inédites : la céramique de Mino, le papier washi de Mino, la porcelaine bleue sometsuke de Seto, le shibori noué et teint à l'indigo d'Arimatsu Narumi, l'émail cloisonné shippo d'Owari et le tressage de cordes kumihimo d'Iga. Chaque atelier est apparié à un designer extérieur à sa culture d'atelier, Bethan Laura Wood sur le shibori avec Kataginu, Philippe Malouin sur le shippo avec Kasane, Atang Tshikare sur le kumihimo avec Yamollo, Lanzavecchia + Wai sur le washi avec Grid Unwoven. Le dispositif figure parmi les ouvertures retenues par <a href="https://www.dezeen.com/2026/09/03/london-design-festival-2026-highlights/" target="_blank" rel="noopener">Dezeen</a> pour cette édition du festival.</p></div>
+    <div class="learn reveal"><p>Un savoir-faire ne se conserve pas en vitrine, il se maintient en recevant des commandes qu&#x27;il ne sait pas encore exécuter.</p></div>
+    <div class="reveal"><a class="src" href="https://londondesignfestival.com/activities/craft-x-tech-tokai-project" target="_blank" rel="noopener">London Design Festival <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="architecture" style="--rc:#8d9aa3">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://static.dezeen.com/uploads/2026/09/hero-finchley-road-groupwork-webb-yates_dezeen_2364_col_0.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.dezeen.com/uploads/2026/09/finchley-road-groupwork-webb-yates_dezeen_2364_col_9-852x639.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.dezeen.com/uploads/2026/09/finchley-road-groupwork-webb-yates_dezeen_2364_col_2-852x1136.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Architecture</span><span class="tag__n">05</span></div>
+    <h2 class="reveal">Londres : Groupwork et Webb Yates livrent un immeuble de dix étages dont l&#x27;exosquelette en pierre porte seul les charges de vent</h2>
+    <div class="ctx reveal"><p>Livré le 7 septembre au 317 Finchley Road, Petra Heights réunit trois volumes de six, sept et dix étages, soit vingt-deux logements et un socle commercial, tenus par un <a href="https://www.dezeen.com/2026/09/07/stone-high-rise-petra-heights-finchley-road-groupwork-webb-yates/" target="_blank" rel="noopener">exosquelette de 572 colonnes et poutres</a> en basalte sicilien et en larvikite norvégienne, plus de mille tonnes assemblées en poteau-linteau sans une armature ni un voile de contreventement. La rupture avec le <a href="https://www.dezeen.com/2020/03/10/stone-skyscraper-groupwork-amin-taha/" target="_blank" rel="noopener">prototype de tour en pierre publié par l'agence en 2020</a> et avec le 15 Clerkenwell Close tient à un point précis : le noyau béton disparaît, la pierre encaisse aussi la charge de vent, et la cage d'ascenseur arrive en modules préfabriqués posés en un jour et demi. Les poutres les plus longues franchissent cinq mètres, les gaines techniques sont maçonnées en 2 400 blocs, et <a href="https://webbyates.com/projects/finchley-road/" target="_blank" rel="noopener">Webb Yates</a> chiffre l'écart de carbone incorporé à environ 55 % de moins qu'une structure béton habillée de pierre. La carrière de Lundhs, qui n'avait plus fourni de pierre structurelle depuis 1933, a rouvert une filière que le béton armé avait fermée en un siècle.</p></div>
+    <div class="learn reveal"><p>La pierre redevient un calcul de structure et non un placage de façade, et cela change qui décide de la forme du bâtiment.</p></div>
+    <div class="reveal"><a class="src" href="https://www.dezeen.com/2026/09/07/stone-high-rise-petra-heights-finchley-road-groupwork-webb-yates/" target="_blank" rel="noopener">Dezeen <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="scenographie" style="--rc:#7fbdb0">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://peccadille.johannadaniel.fr/wp-content/uploads/2014/02/marlet-le-diorama-vue-du-port-de-boulogne.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://peccadille.johannadaniel.fr/wp-content/uploads/2014/02/vue_chateau_eau_diorama_daguerre.jpeg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://peccadille.johannadaniel.fr/wp-content/uploads/2014/02/diorama-plan.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Scénographie &amp; expérience</span><span class="pepite">Pépite</span><span class="tag__n">06</span></div>
+    <h2 class="reveal">Le diorama de Daguerre : une toile peinte des deux côtés, un décor qui change par la seule lumière</h2>
+    <div class="ctx reveal"><p>Ouvert à Paris en 1822 par Louis Daguerre et Charles Bouton, le Diorama est un bâtiment conçu autour d'un principe unique : des toiles d'environ vingt-quatre mètres sur treize, peintes sur un support translucide avec une perspective calculée au millimètre, devant lesquelles le public est installé sur une plateforme pivotante qui le fait passer d'un tableau à l'autre. L'effet ne vient pas du mouvement du décor mais de la lumière : selon qu'elle frappe la toile par l'avant ou par l'arrière, et modulée par des châssis vitrés et des panneaux teintés, la même surface bascule du plein jour au crépuscule, de la nef intacte à la ruine noyée de brume. En 1834, Daguerre pousse la méthode avec le <a href="https://peccadille.johannadaniel.fr/2014/02/19/le-diorama-de-daguerre/" target="_blank" rel="noopener">double effet</a>, en peignant au verso des détails qui n'apparaissent que sous un éclairage donné, technique dont on retrouve la logique dans les <a href="https://graphicarts.princeton.edu/2015/02/22/daguerres-diorama" target="_blank" rel="noopener">vues d'optique et les séances de trente minutes</a> décrites à l'époque. Après l'incendie de 1839, il se retire à Bry-sur-Marne et peint pour le choeur de l'église une dernière toile monumentale, seule survivante du dispositif, <a href="https://www.19thc-artworldwide.org/spring14/leininger-miller-reviews-daguerre-s-sole-extant-diorama-recently-restored" target="_blank" rel="noopener">restaurée entre 2006 et 2009</a>, le renfort en monofilament polyester ayant été choisi précisément pour ne pas tuer la translucidité qui fait fonctionner l'image.</p></div>
+    <div class="learn reveal"><p>Deux siècles avant les murs de LED, Daguerre avait réglé la question : le décor ne bouge pas, c&#x27;est la lumière qui joue la scène.</p></div>
+    <div class="reveal"><a class="src" href="https://peccadille.johannadaniel.fr/2014/02/19/le-diorama-de-daguerre/" target="_blank" rel="noopener">Orion en aéroplane, carnet d&#x27;histoire de l&#x27;art de Johanna Daniel <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="photographie" style="--rc:#6fa3bd">
+  <div class="media media--2 reveal"><div class="shot"><img src="https://loeildelaphotographie.com/wp-content/uploads/2026/09/saul-leiter-i-sign-painter-1954-i-courtesy-gallery-fifty-one.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://images.squarespace-cdn.com/content/v1/602d38553d9bab5833f90232/9940be9b-9b1a-43d8-8b38-35b04545a4fd/8d7b5794-10e1-46a6-a2eb-7d9ab30c6194.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Photographie</span><span class="tag__n">07</span></div>
+    <h2 class="reveal">Anvers : les premiers Cibachromes de Saul Leiter accrochés face à ses gouaches inédites</h2>
+    <div class="ctx reveal"><p>La <a href="https://www.gallery51.com/exhibition/saul-leiter/" target="_blank" rel="noopener">Gallery Fifty One</a> a ouvert le 5 septembre, jusqu'au 31 octobre, une confrontation directe entre les tirages couleur les plus anciens de Saul Leiter et les gouaches et aquarelles qu'il gardait pour lui. Ces Cibachromes ont été tirés à partir des transparents d'origine, sans internégatif : le procédé par destruction de colorants impose de trancher la densité et la saturation au moment du tirage, et rend les noirs profonds et la subtilité de valeurs que <a href="https://loeildelaphotographie.com/en/gallery-fifty-one-saul-leiter-cibachromes-paintings/" target="_blank" rel="noopener">L'Oeil de la Photographie</a> rapproche de la peinture. Accrochées à côté, les gouaches montrent d'où viennent ces choix chromatiques : estampe japonaise, Bonnard, Vuillard, une gamme travaillée par aplats et par recouvrements avant même de passer par l'objectif. La <a href="https://www.saulleiterfoundation.org/latest-news/fifty-one-cibachromes-paintings" target="_blank" rel="noopener">Saul Leiter Foundation</a> résume la méthode : la peinture n'était pas une discipline séparée, mais une autre manière de voir.</p></div>
+    <div class="learn reveal"><p>Un procédé qui interdit la reprise fabrique un regard : Leiter décidait la couleur devant le sujet, là où nos chaînes de production la remettent indéfiniment à plus tard.</p></div>
+    <div class="reveal"><a class="src" href="https://loeildelaphotographie.com/en/gallery-fifty-one-saul-leiter-cibachromes-paintings/" target="_blank" rel="noopener">The Eye of Photography <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="film" style="--rc:#c47a72">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://sites.utexas.edu/ransomcentermagazine/wp-content/uploads/sites/4401/2019/02/p15878coll15_6_72dpi.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://sites.utexas.edu/ransomcentermagazine/wp-content/uploads/sites/4401/2019/04/p15878coll15_19_72dpi-1.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://sites.utexas.edu/ransomcentermagazine/wp-content/uploads/sites/4401/2019/04/p15878coll15_12_72dpi-1.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Film &amp; motion</span><span class="pepite">Pépite</span><span class="tag__n">08</span></div>
+    <h2 class="reveal">Les 164 fiches d&#x27;effets de Norman Dawn, inventeur du glass shot, sont consultables en ligne au Harry Ransom Center</h2>
+    <div class="ctx reveal"><p>En 1907, sur le tournage de <em>Missions of California</em>, Norman O. Dawn plante une vitre devant l'objectif et peint dessus les clochers manquants d'une mission en ruine, alignés à l'oeil depuis le point de vue exact de la caméra : le glass shot est né, et avec lui la logique du compositing. Pendant quarante ans, Dawn a documenté chacun de ses plans truqués sur des cartons de 40 par 50 centimètres mêlant esquisses à l'huile et au crayon, photogrammes agrandis, chutes de pellicule, photos de plateau et surtout ses relevés de caméra, diaphragme, densité, position de la vitre, comptage d'images pour les caches à double exposition. Le <a href="https://hrc.contentdm.oclc.org/digital/collection/p15878coll15" target="_blank" rel="noopener">Harry Ransom Center</a> a numérisé les 164 cartes, couvrant plus de quatre-vingts films tournés entre 1907 et 1951, et les diffuse en haute définition dans sa <a href="https://www.hrc.utexas.edu/collections/film/" target="_blank" rel="noopener">collection film</a>. Deux articles du <a href="https://sites.utexas.edu/ransomcentermagazine/2019/04/12/early-special-effects/" target="_blank" rel="noopener">Ransom Center Magazine</a> servent de porte d'entrée et décomposent le glass shot et la matte double exposure carte par carte.</p></div>
+    <div class="learn reveal"><p>Dawn n&#x27;a pas seulement inventé le trucage, il a inventé le fait de noter comment il l&#x27;avait fait, et c&#x27;est la note qui a survécu au trucage.</p></div>
+    <div class="reveal"><a class="src" href="https://hrc.contentdm.oclc.org/digital/collection/p15878coll15" target="_blank" rel="noopener">Harry Ransom Center, University of Texas at Austin <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="fantasy" style="--rc:#9b7ec9">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://images.adsttc.com/media/images/6a99/bc4b/1fe7/3101/8863/0356/large_jpg/lucas-museum-of-narrative-art_1.jpg?1788460169" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://news.artnet.com/app/news-upload/2026/09/20.-Courtesy-Lucas-Museum-of-Narrative-Art.-Photo-by-Paul-Salveson-1024x683.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://news.artnet.com/app/news-upload/2026/09/22.-Courtesy-Lucas-Museum-of-Narrative-Art.-Photo-by-Paul-Salveson-1024x683.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Fantasy art &amp; illustration</span><span class="tag__n">09</span></div>
+    <h2 class="reveal">Le Lucas Museum of Narrative Art ouvre le 22 septembre à Los Angeles avec une galerie consacrée à la fantasy</h2>
+    <div class="ctx reveal"><p>Le premier regard sur le bâtiment achevé de MAD Architects a été publié le 4 septembre par <a href="https://www.archdaily.com/1184508/first-look-at-the-completed-lucas-museum-of-narrative-art-opening-september-22-2026" target="_blank" rel="noopener">ArchDaily</a>, à trois semaines de l'ouverture au public : une coque portée par des arches d'acier de 56 mètres, 1 271 panneaux composites uniques, 9 300 mètres carrés de galeries réparties sur plus de trente salles pour 1 300 oeuvres. Le <a href="https://lucasmuseum.org/press/lucas-museum-of-narrative-art-opens-to-the-public-on-september-22-2026" target="_blank" rel="noopener">communiqué du musée</a> place au même niveau d'accrochage Van Gogh, Norman Rockwell, N. C. Wyeth, Maxfield Parrish, Jessie Willcox Smith et Frank Frazetta, dont la couverture de <em>A Princess of Mars</em> est <a href="https://bleedingcool.com/comics/jack-kirby-and-frank-frazetta-join-lucas-museum-of-narrative-art/" target="_blank" rel="noopener">entrée en collection permanente</a> avec des planches de Jack Kirby. La visite décrite par <a href="https://news.artnet.com/art-world/lucas-museum-narrative-art-opens-2806326" target="_blank" rel="noopener">Artnet</a> isole au quatrième étage des sections Fantasy et Comics traitées comme des chapitres d'histoire de l'art, tandis que la galerie Cinema ouvre avec <em>Star Wars in Motion</em>, designs de véhicules, maquettes et illustrations de production tirés des six premiers films.</p></div>
+    <div class="learn reveal"><p>La fantasy n&#x27;attend plus sa légitimation par le musée, c&#x27;est le musée qui vient chercher la sienne chez elle.</p></div>
+    <div class="reveal"><a class="src" href="https://www.archdaily.com/1184508/first-look-at-the-completed-lucas-museum-of-narrative-art-opening-september-22-2026" target="_blank" rel="noopener">ArchDaily <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="gaming" style="--rc:#cd8659">
+  <div class="media media--2 reveal"><div class="shot"><img src="https://boardgamewire.com/wp-content/uploads/2026/09/Overture-by-Maestro-Media.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://boardgamewire.com/wp-content/uploads/2024/01/The-Binding-of-Isaac-Four-Souls-e1706046975258.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Gaming &amp; worldbuilding</span><span class="tag__n">10</span></div>
+    <h2 class="reveal">Maestro Media ouvre sa chaîne de licence, de fabrication et de distribution aux autres éditeurs de jeux de société</h2>
+    <div class="ctx reveal"><p>Le 10 septembre, l'éditeur américain <a href="https://boardgamewire.com/index.php/2026/09/10/maestro-media-opens-its-crowdfunding-manufacturing-retail-infrastructure-to-other-publishers-and-designers/" target="_blank" rel="noopener">Maestro Media</a> a ouvert sous la marque <a href="https://overture.maestromedia.com/" target="_blank" rel="noopener">Overture</a> l'intégralité de sa chaîne d'édition aux designers, ayants droit et éditeurs tiers : négociation de licence, production, fabrication, campagne de financement participatif, vente directe et référencement en magasin, avec quatre formules allant de l'accompagnement en production à la coédition et au rachat du titre. Le socle est mesurable : 16 millions de dollars levés sur seize campagnes, dont près de 60 pour cent apportés par les deux opus de The Binding of Isaac: Four Souls, plus de 400 000 produits expédiés et une quarantaine de licences exploitées, de Clash of Clans au Seigneur des Anneaux. Son fondateur Javon Frazier résume la thèse en deux formules : le plus difficile dans ce métier n'a jamais été les idées mais tout ce qui vient après, et les catalogues qui ne s'écoulent pas souffrent d'un problème de distribution, pas d'un problème de demande. La démonstration par l'absence tombe la veille, quand <a href="https://boardgamewire.com/index.php/2026/09/09/cmon-warns-of-prolonged-structural-downturn-as-it-seeks-up-to-17-5m-from-outside-investors/" target="_blank" rel="noopener">CMON</a> acte un repli structurel durable avec 368 000 dollars en caisse, huit campagnes financées pour 14 millions toujours non livrées et la cession de Zombicide et Blood Rage.</p></div>
+    <div class="learn reveal"><p>La valeur du jeu de société a quitté la boîte pour se loger dans le tuyau qui la fabrique, la finance et la met en rayon.</p></div>
+    <div class="reveal"><a class="src" href="https://boardgamewire.com/index.php/2026/09/10/maestro-media-opens-its-crowdfunding-manufacturing-retail-infrastructure-to-other-publishers-and-designers/" target="_blank" rel="noopener">BoardGameWire <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="ui" style="--rc:#8592c9">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://files.smashing.media/articles/death-button-why-best-interface-is-no-interface/death-button-why-best-interface-is-no-interface.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://files.smashing.media/articles/death-button-why-best-interface-is-no-interface/1-10-click-process-vs-ai-driven-intent-flow.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://files.smashing.media/articles/death-button-why-best-interface-is-no-interface/4-saas-dashboard-ui.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">UI &amp; design d&#x27;interface</span><span class="tag__n">11</span></div>
+    <h2 class="reveal">Smashing Magazine décompose le passage du clic à l&#x27;intention : entrée haut niveau, UI générative, exécution autonome</h2>
+    <div class="ctx reveal"><p>Publié le 9 septembre, l'article de Carrie Webster pour <a href="https://www.smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/" target="_blank" rel="noopener">Smashing Magazine</a> prend au sérieux une bascule que la profession contourne depuis deux ans : si la réservation d'un vol tient en une phrase plutôt qu'en dix clics, le travail de conception ne disparaît pas, il change d'objet. Webster décompose le nouveau socle en trois couches opérantes, l'entrée de haut niveau qui capte l'intention et le contexte plutôt que la micro-action, l'interface générée à la demande selon le besoin du moment, et l'exécution autonome par agent avec annulation immédiate. L'apport n'est pas le constat mais les points de rupture qu'elle isole : l'illusion de contrôle quand l'automatisation devient paternaliste, l'opacité de la décision machine, et le moment précis où il faut réintroduire une confirmation explicite sur une transaction sensible. À lire contre la <a href="https://www.uxtigers.com/post/gui-history" target="_blank" rel="noopener">généalogie du WIMP par Jakob Nielsen</a>, qui rappelle que fenêtres, icônes, menus et pointeur ont mis vingt ans à devenir un vocabulaire stable, et à côté du <a href="https://www.nngroup.com/articles/ai-work-study-guide/" target="_blank" rel="noopener">guide d'étude publié le 4 septembre par le Nielsen Norman Group</a>.</p></div>
+    <div class="learn reveal"><p>Le bouton n&#x27;était pas l&#x27;interface, il était la preuve que l&#x27;utilisateur avait décidé : reste à fabriquer cette preuve autrement.</p></div>
+    <div class="reveal"><a class="src" href="https://www.smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/" target="_blank" rel="noopener">Smashing Magazine <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="ia" style="--rc:#6fbd97">
+  <div class="media media--2 reveal"><div class="shot"><img src="https://d3q27bh1u24u2o.cloudfront.net/news/2026-09/clay-matthews-gigachad-fake-plastic-surgery-caesars-sportsbook.H_49U-Ez.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://d3q27bh1u24u2o.cloudfront.net/wysiwyg/news/2026-09/clay-matthews-gigachad-fake-plastic-surgery-caesars-sportsbook-2.ArgRGr9T.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">IA &amp; création</span><span class="tag__n">12</span></div>
+    <h2 class="reveal">Caesars Sportsbook fait déformer Clay Matthews en prothèses de silicone plutôt qu&#x27;en génératif</h2>
+    <div class="ctx reveal"><p>Pour <a href="https://lbbonline.com/news/clay-matthews-face-work-done-caesars-sportsbook" target="_blank" rel="noopener">We've Had Some Work Done</a>, sortie le 9 septembre, l'agence Fellow Kids et la production hungryman ont confié à Legacy Effects la transformation de Clay Matthews en caricature de lui-même, menton de granit, pommettes taillées, mollets postiches, entièrement en prothèses et en caméra sous la direction de Dave Laden. L'argument de Neal Desai, cofondateur et ECD de Fellow Kids, est de production et non de principe : le marché est saturé d'images génératives interchangeables, et le look a été mis au point avec Legacy avant le tournage pour être validé sur le plateau plutôt qu'arbitré en post. Le calcul derrière ce choix est chiffrable : une seconde de sortie vidéo en API se négociait entre 0,05 et 0,75 dollar en août, et un court génératif comme <em>Air Head</em> a demandé des centaines de générations pour quatre-vingt-dix secondes utiles, soit un ratio de l'ordre de 300 pour 1, <a href="https://www.fxguide.com/quicktakes/the-power-of-on-premises-open-weight-models-for-generative-media/" target="_blank" rel="noopener">comme le détaille fxguide</a>. Le visage impossible étant devenu quasi gratuit, il ne signe plus rien, pendant que l'IA continue d'absorber le volume : Thinkerbell a livré plus de 475 assets hyperlocalisés et 25 films géociblés pour Menulog avec une chaîne maison, <a href="https://lbbonline.com/news/beyond-the-hype-the-best-ai-powered-work-so-far" target="_blank" rel="noopener">recensés par LBB</a>.</p></div>
+    <div class="learn reveal"><p>Le génératif a rendu l&#x27;image truquée gratuite, et c&#x27;est précisément ce qui vient de rendre le silicone cher.</p></div>
+    <div class="reveal"><a class="src" href="https://lbbonline.com/news/clay-matthews-face-work-done-caesars-sportsbook" target="_blank" rel="noopener">LBBOnline <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="philosophie" style="--rc:#a8a196">
+  <div class="media media--2 reveal"><div class="shot"><img src="https://noemamag.imgix.net/2026/09/test1.jpg?fit=crop&amp;fm=pjpg&amp;h=1186&amp;ixlib=php-3.3.1&amp;w=947&amp;wpsize=noema-portrait-hero-image&amp;s=57f32d9be4201ae517c2588009f025cf" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://noemamag.imgix.net/2026/09/CD-for-Noema-Twitter-Card-Vertical-Template-21.png?fm=png&amp;ixlib=php-3.3.1&amp;s=d16d546b9365ed7ceb6630ca5207775d" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Philosophie</span><span class="tag__n">13</span></div>
+    <h2 class="reveal">Afra Wang dans Noema : le surapprentissage créatif, ou pourquoi le bon goût fabriquera la prochaine médiocrité</h2>
+    <div class="ctx reveal"><p>Publié le 9 septembre dans <a href="https://www.noemamag.com/" target="_blank" rel="noopener">Noema</a>, <a href="https://www.noemamag.com/a-new-kind-of-creative-poverty/" target="_blank" rel="noopener">A New Kind Of Creative Poverty</a> emprunte au vocabulaire du machine learning un concept qui décrit mieux la création contemporaine que n'importe quelle catégorie esthétique : le surapprentissage. Quand un système, humain ou statistique, est entraîné à maximiser une récompense et à éviter la sanction, il cesse de produire des propositions et ne produit plus que des continuations acceptables, fluides, immédiatement reconnaissables et strictement prévisibles. <a href="https://afra.work/" target="_blank" rel="noopener">Afra Wang</a>, qui écrit depuis dix ans sur les mécaniques d'innovation entre Pékin et la Silicon Valley, superpose deux régimes que personne ne rapproche : un internet contraint qui appauvrit sa propre langue, et des modèles de langage alignés qui convergent vers la même prose tiède. Sa conclusion vise directement l'industrie créative : le bon goût que la tech érige aujourd'hui en antidote au slop est une fonction de récompense de plus, donc la prochaine moyenne, et Baudelaire est convoqué non comme référence culturelle mais comme cas technique, celui d'un auteur dont la puissance venait du refus explicite de plaire.</p></div>
+    <div class="learn reveal"><p>Le bon goût n&#x27;est pas l&#x27;antidote à la génération automatique, c&#x27;est sa forme la plus achevée : ce qui plaît à tout le monde a déjà été calculé.</p></div>
+    <div class="reveal"><a class="src" href="https://www.noemamag.com/a-new-kind-of-creative-poverty/" target="_blank" rel="noopener">Noema Magazine <span>&#8599;</span></a></div>
+  </div>
+</section>
+</main>
+<footer>
+  <span class="kicker">Veille créative · édition n°05 · vendredi 11 septembre 2026</span>
+  <a class="btn" href="index.html">Toutes les éditions</a>
+</footer>
+<script>
+(function(){
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('on'); io.unobserve(e.target);} });
+  },{rootMargin:'0px 0px -12% 0px',threshold:.06});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  var bar=document.querySelector('.progress');
+  if(bar){
+    var tick=function(){
+      var h=document.documentElement.scrollHeight-window.innerHeight;
+      bar.style.width=(h>0?(window.scrollY/h)*100:0)+'%';
+    };
+    window.addEventListener('scroll',tick,{passive:true});
+    window.addEventListener('resize',tick); tick();
+  }
+})();
+</script>
+</body>
+</html>
