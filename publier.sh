@@ -37,7 +37,7 @@ rm -rf "$CLONE/docs"
 mkdir -p "$CLONE/docs"
 cp "$SRC"/docs/*.html "$CLONE/docs/"
 touch "$CLONE/docs/.nojekyll"
-cp "$SRC"/data-*.json "$SRC"/editions-passees.json "$SRC"/build.py "$SRC"/.gitignore "$SRC"/README.md "$SRC"/DA-SPEC.md "$SRC"/publier.sh "$CLONE/"
+cp "$SRC"/data-*.json "$SRC"/meta-*.json "$SRC"/editions-passees.json "$SRC"/build.py "$SRC"/.gitignore "$SRC"/README.md "$SRC"/DA-SPEC.md "$SRC"/publier.sh "$CLONE/"
 
 cd "$CLONE"
 git config user.email "petzold.karl@gmail.com"
