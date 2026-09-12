@@ -4,3 +4,6 @@ _ancien/
 _to_delete/
 .secrets/
 public/
+*.bak-*
+/index.html
+/veille-*.html
