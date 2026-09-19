@@ -1,0 +1,218 @@
+{
+ "date": "2026-09-18",
+ "meta": {
+  "title_en": "PIECE BY PIECE",
+  "deck_en": "Laika chiffre sept ans d'atelier pour Wildwood : 233 marionnettes, 142 030 visages, 125 000 pièces d'armature usinées. Valve recalibre la grille Discounts and Events de Steam sur les signaux de chaque joueur plutôt que sur les meilleures ventes. Armani confie Emporio et les accessoires à Dario Vitale, premier créateur extérieur de son histoire.",
+  "highlights": [
+   "Wildwood : quand l'image générée ne coûte rien, la valeur remonte vers ce qui se compte.",
+   "Steam : l'exposition quitte le volume de ventes pour la justesse des métadonnées.",
+   "Armani : le test de la transmission commence par la maroquinerie, là où est la marge."
+  ],
+  "topics_fr": [
+   "Les dossiers de fonte Emigre",
+   "Vitale chez Emporio Armani",
+   "Calibre 89, rendre le barème caduc",
+   "La cuve dicte le rivet",
+   "Béton imprimé sous plafond de coût",
+   "Le Grand Bouquet au Grand Palais",
+   "Delta 400, couche antihalo",
+   "Wildwood, 233 marionnettes",
+   "Un Aslan composé par règle du monde",
+   "Steam, la grille personnalisée",
+   "Prototyper pour tester, pas pour montrer",
+   "La cam machine de John Whitney",
+   "Le computisme contre le goût"
+  ],
+  "hero_image": "https://d8j0ntlcm91z4.cloudfront.net/user_39FfQeMIWqiQLLKAWDtgFuU9Tem/hf_20260918_170741_fa043778-57bb-4cb8-a3b5-251158d46767.png",
+  "hero_credit": "Image générée pour cette édition"
+ },
+ "intro": "Une semaine où la preuve se compte : pièces usinées, rivets, plumes, euros au mètre carré, et une visibilité qui bascule du volume vers la justesse. Les pépites sont en direction artistique, en luxe et en IA.",
+ "entrees": [
+  {
+   "rubrique": "direction-artistique",
+   "titre": "Letterform Archive met en ligne les dossiers de production des polices Emigre : epreuves annotees, sorties Fontographer et repentirs manuels",
+   "type": "pepite",
+   "source_nom": "Letterform Archive",
+   "source_url": "https://letterformarchive.org/news/from-the-collection-emigre-font-development-files/",
+   "images": [
+    "https://letterformarchive.org/wp-content/uploads/2026/05/Emigre-process-work-banner-web.jpg",
+    "https://letterformarchive.org/wp-content/uploads/2026/05/emigre-font-process-web.jpg",
+    "https://letterformarchive.org/wp-content/uploads/2026/05/fella-outwest-process-web.jpg",
+    "https://letterformarchive.org/wp-content/uploads/2026/05/lfa_emigre_0112_015_pm-web.jpg"
+   ],
+   "contexte_html": "<p>Le fonds de production de la fonderie Emigre, donné en 2016 à <a href=\"https://letterformarchive.org/\" target=\"_blank\" rel=\"noopener\">Letterform Archive</a>, a été numérisé après deux ans de travail et une sélection est désormais consultable dans l'<a href=\"https://oa.letterformarchive.org/\" target=\"_blank\" rel=\"noopener\">Online Archive</a>. Soixante-quatre dossiers montrent le geste réel des années 1980 et 1990 : dessin sous Fontographer sur Macintosh, sortie papier, correction au stylo sur l'épreuve, retour à l'écran, répété jeu de caractères par jeu de caractères. On y suit la fabrication de <a href=\"https://www.emigre.com/Fonts/Mrs-Eaves\" target=\"_blank\" rel=\"noopener\">Mrs Eaves</a> et d'<a href=\"https://www.emigre.com/Fonts/OutWest\" target=\"_blank\" rel=\"noopener\">OutWest</a>, avec ses photos d'enseignes peintes servant de référence, ainsi que la correspondance qui documente le moment où le dessin de caractères quitte les typographes de métier pour passer aux graphistes. La leçon de méthode est là : une police n'avance pas linéairement, elle avance par corrections modulaires propagées sur tout l'alphabet.</p>",
+   "learning": "Ce qui fait la valeur d'un caractère n'est pas la forme finale mais la trace des arbitrages, et c'est exactement ce que les machines génératives ne produisent pas."
+  },
+  {
+   "rubrique": "mode",
+   "titre": "Armani confie Emporio et les accessoires à Dario Vitale, premier créateur extérieur de son histoire",
+   "type": "actualite",
+   "source_nom": "Hypebeast",
+   "source_url": "https://hypebeast.com/2026/9/dario-vitale-emporio-armani-creative-director-giorgio-armani-accessories-announcement",
+   "images": [
+    "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F16%2Fdario-vitale-emporio-armani-creative-director-giorgio-armani-accessories-announcement-tw.jpg",
+    "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F16%2Fdario-vitale-emporio-armani-creative-director-giorgio-armani-accessories-announcement-001.jpg"
+   ],
+   "contexte_html": "<p>Le 16 septembre, le groupe Armani a nommé <a href=\"https://en.wikipedia.org/wiki/Dario_Vitale\" target=\"_blank\" rel=\"noopener\">Dario Vitale</a> directeur de la création d'Emporio Armani et des accessoires Giorgio Armani, avec effet immédiat, comme l'a rapporté <a href=\"https://hypebeast.com/2026/9/dario-vitale-emporio-armani-creative-director-giorgio-armani-accessories-announcement\" target=\"_blank\" rel=\"noopener\">Hypebeast</a>. C'est la première fois qu'un créateur venu du dehors prend la main sur une ligne de la maison, un an après la mort du fondateur. Vitale arrive de Versace après quatorze ans chez Miu Miu, où il pilotait le prêt-à-porter et l'image auprès de Miuccia Prada, soit un profil de constructeur de produit plus que de styliste de podium. Le périmètre est le vrai signal : en y ajoutant les accessoires, le groupe attaque le terrain de la maroquinerie où ses concurrents font l'essentiel de leur marge, <a href=\"https://us.fashionnetwork.com/news/Dario-vitale-has-been-appointed-the-new-creative-director-of-emporio-armani-and-giorgio-armani-accessories,1867017.html\" target=\"_blank\" rel=\"noopener\">Silvana Armani et Leo Dell'Orco</a> signant le dernier défilé Emporio le 24 septembre avant un premier podium Vitale en automne-hiver 2027.</p>",
+   "learning": "Une maison de créateur ne survit à son créateur que si son style était un système transmissible et non un goût personnel."
+  },
+  {
+   "rubrique": "luxe",
+   "titre": "Patek Philippe Calibre 89 : neuf ans de développement pour clore une querelle de comptage des complications",
+   "type": "pepite",
+   "source_nom": "SJX Watches",
+   "source_url": "https://watchesbysjx.com/2026/06/in-depth-patek-philippe-calibre-89.html",
+   "images": [
+    "https://watchesbysjx.com/wp-content/uploads/2026/06/0-Caliber-89-Cover.jpg",
+    "https://watchesbysjx.com/wp-content/uploads/2026/06/8-Patek-Philippe-Ref.-989-known-as-Caliber-89.-Image-SJX-compositeSothebys.jpg",
+    "https://watchesbysjx.com/wp-content/uploads/2026/06/14-Caliber-89-Tourbillon.-Image-SJX-compositeSothebys.jpg",
+    "https://watchesbysjx.com/wp-content/uploads/2026/06/9-Patent-CH-653-841-for-the-Caliber-89-secular-calendar-mechanism.-Image-SJX-compositeSwiss-patents.jpg"
+   ],
+   "contexte_html": "<p>Carlos Torres reconstitue pour <a href=\"https://watchesbysjx.com/2026/06/in-depth-patek-philippe-calibre-89.html\" target=\"_blank\" rel=\"noopener\">SJX</a> l'origine réelle du Calibre 89, et elle n'est pas commerciale : une bataille d'expertise documentaire menée dans les années 1970 par l'<a href=\"https://afaha.com/liens/\" target=\"_blank\" rel=\"noopener\">AFAHA</a> et le CETEHOR, qui créditaient la Leroy 01 de Besançon de vingt-cinq complications contre vingt-quatre à la Graves Supercomplication de Patek. Philippe Stern lance le chantier en 1979, en pleine contraction de l'horlogerie suisse, et le referme en 1989 avec 1 728 pièces, quatre étages de platines en maillechort, un calendrier séculaire rétrograde et un calcul de la date de Pâques par came, tous deux brevetés. Le choix stratégique est le plus instructif : plutôt que de contester la méthode de décompte, la maison la rend caduque en imposant un écart de trente-trois à vingt-cinq. Le même arbitrage produira dix ans plus tard la <a href=\"https://watchesbysjx.com/2026/07/patek-philippe-star-caliber-2000-in-depth.html\" target=\"_blank\" rel=\"noopener\">Star Caliber 2000</a>, où Stern abandonne la course au nombre pour ne retenir que les complications jugées les plus fascinantes.</p>",
+   "learning": "Quand la métrique qui vous juge est contestée, on ne gagne pas en discutant le barème, on gagne en creusant un écart tel que le barème cesse d'avoir un sens."
+  },
+  {
+   "rubrique": "craft",
+   "titre": "Tom Pearson tire la forme de ses meubles en aluminium des contraintes du bain d'anodisation",
+   "type": "actualite",
+   "source_nom": "Dezeen",
+   "source_url": "https://www.dezeen.com/2026/09/18/tom-pearson-riveting-aluminium-furniture/",
+   "images": [
+    "https://static.dezeen.com/uploads/2026/09/tom-pearson-studio-10000-rivets_dezeen_2364_col_hero-852x479.jpg",
+    "https://static.dezeen.com/uploads/2026/09/tom-pearson-studio-10000-rivets_dezeen_2364_col_1-852x568.jpg",
+    "https://static.dezeen.com/uploads/2026/09/tom-pearson-studio-10000-rivets_dezeen_2364_col_12-852x1278.jpg",
+    "https://static.dezeen.com/uploads/2026/09/tom-pearson-studio-10000-rivets_dezeen_2364_col_9-852x568.jpg"
+   ],
+   "contexte_html": "<p>Tom Pearson présente 10,000 Rivets pendant le <a href=\"https://londondesignfestival.com/\" target=\"_blank\" rel=\"noopener\">London Design Festival</a>, chez <a href=\"https://apoc-store.com/\" target=\"_blank\" rel=\"noopener\">APOC</a>, où tables, étagères et luminaires servent de présentoirs aux vêtements de la boutique. Le rivet n'est pas un parti pris stylistique : les cuves d'acide limitent la taille des tôles et le soudage d'un aluminium déjà anodisé salit la surface, donc l'assemblage mécanique s'impose et devient ornement. Pearson anodise à la main et applique les teintures au pinceau, à l'aérographe et à la pipette, là où un anodiseur industriel vise l'uniformité et traite la goutte comme un défaut. Comme il le résume dans <a href=\"https://www.dezeen.com/2026/09/18/tom-pearson-riveting-aluminium-furniture/\" target=\"_blank\" rel=\"noopener\">l'article de Dezeen</a> du 18 septembre, les formes sont dictées par les contraintes du procédé.</p>",
+   "learning": "Le procédé industriel ne bride pas le dessin, il le signe, à condition d'aller chercher ce que l'usine appelle un raté."
+  },
+  {
+   "rubrique": "architecture",
+   "titre": "Skovsporet : 36 logements étudiants imprimés en béton à Holstebro, sous le plafond de coût du logement social danois",
+   "type": "actualite",
+   "source_nom": "ArchDaily",
+   "source_url": "https://www.archdaily.com/1185029/saga-space-architects-and-3dcp-group-complete-36-unit-3d-printed-student-village-in-denmark",
+   "images": [
+    "https://images.adsttc.com/media/images/6aa7/c9ce/069c/1b01/89fb/72fa/large_jpg/saga-space-architects-and-3dcp-group-complete-36-unit-3d-printed-student-village-in-denmark_5.jpg?1789381124",
+    "https://images.adsttc.com/media/images/6aa7/c9c8/069c/1b01/89fb/72f9/medium_jpg/saga-space-architects-and-3dcp-group-complete-36-unit-3d-printed-student-village-in-denmark_4.jpg?1789381126",
+    "https://images.adsttc.com/media/images/6aa7/c9dc/069c/1b01/89fb/72fd/medium_jpg/saga-space-architects-and-3dcp-group-complete-36-unit-3d-printed-student-village-in-denmark_6.jpg?1789381145",
+    "https://images.adsttc.com/media/images/6aa7/c9c2/c1eb/5301/897f/1a75/medium_jpg/saga-space-architects-and-3dcp-group-complete-36-unit-3d-printed-student-village-in-denmark_1.jpg?1789381123"
+   ],
+   "contexte_html": "<p>À Holstebro, dans l'ouest du Jutland, <a href=\"https://www.saga.dk/projects/skovsporet\" target=\"_blank\" rel=\"noopener\">SAGA Space Architects</a> et MS+ viennent de livrer Skovsporet, 36 logements étudiants de plain-pied sur 1 650 mètres carrés, dont les murs porteurs courbes ont été imprimés en béton par <a href=\"https://www.3dcp.dk/\" target=\"_blank\" rel=\"noopener\">3DCP Group</a>. Le chantier a tenu avec une seule imprimante <a href=\"https://cobod.com/\" target=\"_blank\" rel=\"noopener\">COBOD</a> BOD3 et une équipe de trois personnes : un bâtiment de 275 mètres carrés abritant six logements a été imprimé en cinq jours ouvrés, la courbure des murs n'ayant rien coûté de plus qu'un tracé droit. Le mélange principal est un béton D.fab au ciment bas carbone FUTURECEM, et l'abri vélos a servi de banc d'essai à des éléments imprimés sans ciment au liant MEVOcem. Le chiffre qui compte est ailleurs : 1 880 euros du mètre carré hors honoraires, réseaux et paysage, soit un projet bouclé sous le plafond budgétaire réglementaire danois, avec des loyers à partir de 670 euros pour 50 mètres carrés, comme le détaille <a href=\"https://www.archdaily.com/1185029/saga-space-architects-and-3dcp-group-complete-36-unit-3d-printed-student-village-in-denmark\" target=\"_blank\" rel=\"noopener\">ArchDaily</a>.</p>",
+   "learning": "L'impression béton sort du prototype le jour où elle passe sous un plafond de coût réglementaire, pas le jour où elle produit une jolie courbe."
+  },
+  {
+   "rubrique": "scenographie",
+   "titre": "Uchronia installe Le Grand Bouquet, sculpture florale métallique, sous la rotonde d'Antin du Grand Palais",
+   "type": "actualite",
+   "source_nom": "Dezeen",
+   "source_url": "https://www.dezeen.com/2026/09/11/le-grand-bouquet-uchronia-grand-palais-paris-design-week/",
+   "images": [
+    "https://static.dezeen.com/uploads/2026/09/le-grand-bouquet-uchronia-grand-palais-paris-design-week_dezeen_2364_hero_1.jpg",
+    "https://static.dezeen.com/uploads/2026/09/le-grand-bouquet-uchronia-grand-palais-paris-design-week_dezeen_2364_col_20-852x568.jpg",
+    "https://static.dezeen.com/uploads/2026/09/le-grand-bouquet-uchronia-grand-palais-paris-design-week_dezeen_2364_col_13-852x1277.jpg"
+   ],
+   "contexte_html": "<p>Le studio parisien <a href=\"https://www.dezeen.com/tag/uchronia/\" target=\"_blank\" rel=\"noopener\">Uchronia</a>, fondé par Julien Sebban, occupe la rotonde d'Antin du Grand Palais jusqu'au 20 septembre avec <a href=\"https://www.dezeen.com/2026/09/11/le-grand-bouquet-uchronia-grand-palais-paris-design-week/\" target=\"_blank\" rel=\"noopener\">Le Grand Bouquet</a>, une sculpture métallique aux pétales stylisés posée au centre du sol en mosaïque. Le parti pris scénographique relève de la lecture du bâti plutôt que du contraste : Sebban dit avoir imaginé la pièce comme une extension du bâtiment, comme si les moulures des arcades s'étaient mises à pousser. La structure interne a été réalisée par les métalliers de l'Atelier François Pouenat, la laque brillante par Seigneurie avec les teintes Chromatic de PPG, et les banquettes circulaires du socle par Tréca garnies de soie par la Manufacture Prelle. L'installation s'inscrit dans <a href=\"https://www.dezeen.com/tag/paris-design-week/\" target=\"_blank\" rel=\"noopener\">Paris Design Week</a>, avec un seuil gonflable installé à l'extérieur pour marquer l'entrée.</p>",
+   "learning": "Un monument se remet au présent moins par sa restauration que par le dispositif qu'on y pose, et l'ornement redevient un langage actif dès qu'un atelier sait encore le fabriquer."
+  },
+  {
+   "rubrique": "photographie",
+   "titre": "Ilford dote son Delta 400 en 35 mm d'une couche antihalo et en fait un test de marché en série limitée",
+   "type": "actualite",
+   "source_nom": "Digital Camera World",
+   "source_url": "https://www.digitalcameraworld.com/cameras/film-cameras/ilford-just-made-delta-400-even-better-but-this-sharper-black-and-white-35mm-film-wont-be-around-for-long",
+   "images": [
+    "https://cdn.mos.cms.futurecdn.net/Dy235JWxdyZWoSGTYB3mqL.jpg",
+    "https://cdn.mos.cms.futurecdn.net/Dy235JWxdyZWoSGTYB3mqL-1800-80.jpg",
+    "https://cdn.mos.cms.futurecdn.net/Dy235JWxdyZWoSGTYB3mqL-1200-80.jpg"
+   ],
+   "contexte_html": "<p>Ilford a mis en vente cette semaine une série limitée de <a href=\"https://www.bhphotovideo.com/c/product/1996198-REG/ilford_1182986_delta_400_pro_black.html\" target=\"_blank\" rel=\"noopener\">Delta 400 Professional</a> en 35 mm, coulée sur un support plus transparent et pourvue d'une couche antihalo, une première sur la gamme noir et blanc petit format de la marque. Cette couche absorbe la lumière qui traverse l'émulsion au lieu de la laisser rebondir sur le support et réexposer le film par l'arrière, d'où moins de halos autour des hautes lumières, plus de détail dans les ombres et des scans plus propres, à sensibilité et temps de développement inchangés. <a href=\"https://www.threads.com/@ilfordphoto/post/DdWPKZ6FgsJ/ilford-delta-professional-just-got-a-stunning-limited-edition-makeover-our/\" target=\"_blank\" rel=\"noopener\">Ilford</a> vend ce lot au tarif du Delta 400 courant, uniquement en boutique physique et en quantités volontairement réduites, en assumant qu'il s'agit d'un sondage de demande. Le fabricant a précisé à <a href=\"https://petapixel.com/2026/09/16/ilfords-very-limited-new-black-and-white-35mm-film-is-sharper-and-has-better-dynamic-range/\" target=\"_blank\" rel=\"noopener\">PetaPixel</a> qu'une mise en production permanente se ferait à un prix supérieur, le coût de la couche supplémentaire devant être répercuté.</p>",
+   "learning": "Un industriel qui vend une amélioration technique à prix coûtant pour mesurer la demande ne célèbre pas la nostalgie, il calcule si le support a encore un modèle économique."
+  },
+  {
+   "rubrique": "film",
+   "titre": "Laika ouvre les portes de Wildwood : 233 marionnettes, 142 030 visages de remplacement et un aigle à 3 794 plumes",
+   "type": "actualite",
+   "source_nom": "Animation Scoop",
+   "source_url": "https://www.animationscoop.com/wildwood-set-visit-laika-previews-its-most-ambitious-stop-motion-fantasy-adventure/",
+   "images": [
+    "https://www.animationscoop.com/wp-content/uploads/2026/09/TheGeneral_BTS-Credit_-LAIKA-900.jpg",
+    "https://www.animationscoop.com/wp-content/uploads/2026/09/WILDWOOD-Set-BTS-Credit_-LAIKA-900.jpg",
+    "https://www.animationscoop.com/wp-content/uploads/2026/09/Prue-and-Curtis-Train-Tracks-BTS-Credit_-LAIKA-900.jpg",
+    "https://www.animationscoop.com/wp-content/uploads/2026/09/Alexandra-Hair-BTS-Credit_-LAIKA-900.jpg"
+   ],
+   "contexte_html": "<p>Le 16 septembre, Laika a levé l'embargo sur une visite de son atelier de Hillsboro et détaillé sept ans de fabrication pour <a href=\"https://www.animationscoop.com/wildwood-set-visit-laika-previews-its-most-ambitious-stop-motion-fantasy-adventure/\" target=\"_blank\" rel=\"noopener\">Wildwood</a> : 233 marionnettes dont 83 constructions uniques, 125 000 pièces d'armature usinées, 142 030 visages imprimés en 3D et un record de 1 124 remplacements sur un seul plan. La nouveauté technique tient moins au visage qu'au corps, avec des biceps animables montés sur crin de chapelier et des structures musculaires internes imprimées, qui permettent enfin de tourner une main à l'échelle réelle plutôt qu'à 200 pour cent. L'aigle du film, 86 centimètres pour 1,63 mètre d'envergure, existe en trois versions selon le type de vol, dont une montée sur plateforme six axes, et porte 3 794 plumes habillées une à une sur 16 500 fabriquées. Le champ de bataille à 3 000 combattants repose sur 30 tables acier, des arbres coulés en carton et des extensions numériques d'arbres scannés, avant que le <a href=\"https://designmuseum.org/exhibitions/laika-presents-wildwood-the-exhibition\" target=\"_blank\" rel=\"noopener\">Design Museum</a> n'en expose décors et marionnettes à Londres à partir du 15 octobre, en parallèle de la <a href=\"https://www.cartoonbrew.com/distribution/wildwood-final-trailer-ticket-sales-laika-266671.html\" target=\"_blank\" rel=\"noopener\">sortie Fathom</a>.</p>",
+   "learning": "Quand l'image générée coûte zéro, la valeur remonte vers ce qui existe physiquement et se prouve : 125 000 pièces usinées sont un argument que personne ne copie au prompt."
+  },
+  {
+   "rubrique": "fantasy",
+   "titre": "Greta Gerwig dévoile un Aslan composite, écailles, plumes et fourrure, dont le design assume David Bowie",
+   "type": "actualite",
+   "source_nom": "NarniaWeb",
+   "source_url": "https://www.narniaweb.com/2026/09/first-look-at-aslan-voiced-by-meryl-streep-in-greta-gerwigs-narnia/",
+   "images": [
+    "https://www.narniaweb.com/wp-content/uploads/2026/09/empnov26-narnia-magicians-nephew-aslan-cover-crop.avif",
+    "https://www.narniaweb.com/wp-content/uploads/2026/09/empnov26-narnia-magicians-nephew-aslan-cover-791x1024.avif",
+    "https://www.narniaweb.com/wp-content/uploads/2026/09/empnov26-narnia-tmn-subscriber-cover-790x1024.avif"
+   ],
+   "contexte_html": "<p>Le 17 septembre, <a href=\"https://www.empireonline.com/movies/news/narnia-magicians-nephew-greta-gerwig-rock-opera-fantasy-bowie-exclusive/\" target=\"_blank\" rel=\"noopener\">Empire</a> a publié la première image d'Aslan pour <a href=\"https://www.netflix.com/tudum/articles/narnia-release-date\" target=\"_blank\" rel=\"noopener\">Narnia: The Magician's Nephew</a>, et le parti pris de créature y est énoncé sans détour : un lion composite, écailles de reptile sur le museau, cernes en anneaux de croissance sous les yeux, plumes et fourrure réunies dans le même animal, yeux vairons et face barrée de rouge en référence directe à David Bowie. Greta Gerwig déduit ce registre d'une donnée du texte plutôt que d'une envie graphique : Narnia est un monde chanté par Aslan, donc un monde littéralement fait de musique, ce qui autorise l'opéra rock comme grammaire visuelle. Le déplacement de l'intrigue des années 1900 aux années 1950 entraîne le reste de la direction artistique, jusqu'à une Jadis dont l'armure emprunte au vestiaire disco, comme le détaille <a href=\"https://www.brit.co/narnia-the-magicians-nephew-netflix-first-look/\" target=\"_blank\" rel=\"noopener\">le premier aperçu de Charn</a>. C'est la démonstration qu'un design de créature canonique se renouvelle par une règle interne du monde, pas par un lissage photoréaliste.</p>",
+   "learning": "Une adaptation de fantasy tient quand son parti pris visuel découle d'une règle du monde, pas d'une charte graphique."
+  },
+  {
+   "rubrique": "gaming",
+   "titre": "Valve personnalise la grille Discounts and Events de Steam : la visibilité ne passe plus par le statut de best-seller",
+   "type": "actualite",
+   "source_nom": "80 Level",
+   "source_url": "https://80.lv/articles/steam-quietly-made-a-huge-discoverability-change-for-indie-games",
+   "images": [
+    "https://cdn.80.lv/api/upload/meta/50258/images/6aac7eb974651/contain_1200x630.jpg",
+    "https://cdn.80.lv/api/upload/meta/50258/images/6aac7eb974651/contain_440x220.jpg"
+   ],
+   "contexte_html": "<p>Valve a modifié sans annonce la section <a href=\"https://store.steampowered.com/specials/\" target=\"_blank\" rel=\"noopener\">Discounts and Events</a> de Steam, jusqu'ici occupée par les meilleures ventes, pour la calibrer sur les signaux propres à chaque joueur connecté. <a href=\"https://www.linkedin.com/posts/tim-hooded-horse_steam-recently-made-a-fundamental-change-ugcPost-7505522247613222912-wumj/\" target=\"_blank\" rel=\"noopener\">Tim Bender</a>, patron de Hooded Horse, y voit remonter des titres à moins de cent évaluations, jusqu'à des Gold Box de la fin des années 1980 sous la barre des 300 avis, et Simon Carless, de GameDiscoverCo, confirme que ces emplacements sont désormais adossés aux intérêts individuels plutôt qu'au classement des ventes. Un jeu cité par <a href=\"https://80.lv/articles/steam-quietly-made-a-huge-discoverability-change-for-indie-games\" target=\"_blank\" rel=\"noopener\">80 Level</a> totalise 7 355 visites issues de cette grille sur six mois, dont 7 341 sur le seul dernier mois. La conséquence opérationnelle est directe : les tags, la description et la conversion de la page boutique deviennent le levier d'exposition, à la place du volume de ventes initial qu'il fallait auparavant produire pour exister.</p>",
+   "learning": "La visibilité sur les plateformes se déplace du volume vers la justesse des métadonnées, et ce sont désormais les fiches produit qui font le chiffre."
+  },
+  {
+   "rubrique": "ui",
+   "titre": "Nielsen Norman Group documente le prototypage assisté comme méthode de test des interactions complexes",
+   "type": "actualite",
+   "source_nom": "Nielsen Norman Group",
+   "source_url": "https://www.nngroup.com/articles/test-earlier-with-ai/",
+   "images": [
+    "https://media.nngroup.com/media/articles/opengraph_images/Test_Complex_Interactions_Earlier_with_AI_Prototyping_1_j3hM3sB.png",
+    "https://media.nngroup.com/media/editor/2026/08/26/static-wireframes.jpeg",
+    "https://media.nngroup.com/media/editor/2026/08/26/ai-prototype.png",
+    "https://media.nngroup.com/media/editor/2026/09/03/test-complex-interactions-earlier-with-ai-prototyping-1.png"
+   ],
+   "contexte_html": "<p>Megan Chan publie le 11 septembre chez <a href=\"https://www.nngroup.com/articles/\" target=\"_blank\" rel=\"noopener\">Nielsen Norman Group</a> un protocole en six étapes pour <a href=\"https://www.nngroup.com/articles/test-earlier-with-ai/\" target=\"_blank\" rel=\"noopener\">tester les interactions complexes avant l'implémentation</a>, en construisant des prototypes réellement fonctionnels plutôt que des maquettes cliquables. La discipline est dans l'amont : arrêter les décisions de design explicitement, générer un jeu de données crédible, puis écrire un prompt qui spécifie les contraintes plutôt que l'apparence. Sur l'<a href=\"https://ramp.com/expense-policy-builder\" target=\"_blank\" rel=\"noopener\">éditeur de politique de dépenses de Ramp</a>, trois semaines de prototypage ont révélé que le suivi et l'affichage des modifications embrouillaient les utilisateurs, défaut invisible sur un écran figé, et un filtre universitaire à vingt-sept attributs a produit des retours précis là où le wireframe ne générait que des généralités. Le cas le plus instructif reste l'interface conversationnelle, dont le caractère non déterministe ne se teste qu'en laissant les utilisateurs formuler des demandes imprévues.</p>",
+   "learning": "Le prototype cesse d'être une image de l'interface pour en devenir une version jetable, et la recherche utilisateur passe en amont de la décision au lieu de la valider après coup."
+  },
+  {
+   "rubrique": "ia",
+   "titre": "John Whitney a fabriqué la première machine à contrôle de mouvement dans un calculateur de tir antiaérien",
+   "type": "pepite",
+   "source_nom": "Animation World Network, William Moritz, Digital Harmony: The Life of John Whitney",
+   "source_url": "https://www.awn.com/animationworld/digital-harmony-life-john-whitney-computer-animation-pioneer",
+   "images": [
+    "https://www.awn.com/sites/default/files/styles/large_featured/public/image/featured/748-digital-harmony-life-john-whitney-computer-animation-pioneer.jpg?itok=qxiwGI32",
+    "https://www.awn.com/sites/default/files/styles/inline/public/image/attached/748-moritzwhitney02.jpg?itok=bnEtaUGI",
+    "https://www.awn.com/sites/default/files/styles/inline/public/image/attached/748-moritzwhitney03.gif?itok=ft8qzIm7"
+   ],
+   "contexte_html": "<p>À la fin des années 1950, John Whitney achète au surplus militaire un directeur de tir M5, calculateur analogique de 385 kilos et 11 000 pièces conçu pour pointer la DCA sur des avions en mouvement, et le convertit en banc d'animation, comme le raconte <a href=\"https://www.awn.com/animationworld/digital-harmony-life-john-whitney-computer-animation-pioneer\" target=\"_blank\" rel=\"noopener\">William Moritz</a>. La plateforme fait tourner les cellulos sous un pendule suspendu relié à un réservoir de peinture sous pression de sept mètres de haut, et trace les spirales de Lissajous du <a href=\"https://rhizome.org/editorial/2013/may/9/did-vertigo-introduce-computer-graphics-cinema/\" target=\"_blank\" rel=\"noopener\">générique de Vertigo</a> commandé par Saul Bass. Whitney appelle l'ensemble sa cam machine et invente au passage le contrôle de mouvement : <a href=\"https://rhizome.org/editorial/2008/nov/21/catalog-1961-john-whitney/\" target=\"_blank\" rel=\"noopener\">Catalog</a>, en 1961, n'est au départ qu'une bobine de démonstration commerciale des effets que l'appareil sait produire, devenue une pièce canonique. Il passera ensuite au numérique avec une bourse IBM et formulera dans Digital Harmony une correspondance entre harmonie musicale et mouvement graphique reprise de Rameau, plus de 3 000 éléments de l'oeuvre familiale étant déposés à l'<a href=\"https://www.oscars.org/film-archive/collections/whitney-collection\" target=\"_blank\" rel=\"noopener\">Academy Film Archive</a>.</p>",
+   "learning": "Les instruments créatifs ne sortent jamais du marché créatif, ils sortent d'un matériel conçu pour autre chose et détourné par quelqu'un qui sait déjà ce qu'il veut voir."
+  },
+  {
+   "rubrique": "philosophie",
+   "titre": "Aeon publie l'essai de Liam Spradlin sur le computisme, l'idéologie qui évacue le jugement du design",
+   "type": "actualite",
+   "source_nom": "Aeon",
+   "source_url": "https://aeon.co/essays/if-computers-count-all-the-petals-who-tastes-the-cherries",
+   "images": [
+    "https://images.aeonmedia.co/images/df3de1b9-0cd3-48a0-a054-36d0baf17bbe/essay-v1-.jpg?width=3840&quality=75&format=auto",
+    "https://images.aeonmedia.co/user_image_upload/5231/digesting_duck.jpg?width=3840&quality=75&format=auto",
+    "https://images.aeonmedia.co/user_image_upload/5233/inset-kilian-karger-ah8x65qeklm-unsplash.jpg?width=3840&quality=75&format=auto"
+   ],
+   "contexte_html": "<p>Publié le 17 septembre sur <a href=\"https://aeon.co/\" target=\"_blank\" rel=\"noopener\">Aeon</a>, <a href=\"https://aeon.co/essays/if-computers-count-all-the-petals-who-tastes-the-cherries\" target=\"_blank\" rel=\"noopener\">l'essai de Liam Spradlin</a> nomme computisme la conviction que le réel se ramène à des données discrètes et se gouverne par du code. Designer d'interfaces pour appareils de cuisine connectés, il part d'un cas concret : le geste d'un cuisinier qui tape sa poêle ne se traduit dans aucun paramètre, et l'appareil finit par décider à sa place. Il relit l'histoire du métier à travers les 41 nuances de bleu testées chez Google, le départ de Douglas Bowman, le canard digérateur de Vaucanson et le <a href=\"https://en.wikipedia.org/wiki/Device_paradigm\" target=\"_blank\" rel=\"noopener\">paradigme de l'appareil</a> d'Albert Borgmann, pour montrer comment l'objectivité mécanique a progressivement chassé la décision esthétique de la chaîne de production. La thèse vaut pour les outils génératifs : optimiser la synthèse des préférences revient à déboguer la subjectivité au lieu de l'outiller.</p>",
+   "learning": "Une industrie qui sait compter tous les pétales finit par ne plus employer personne capable de goûter les cerises."
+  }
+ ]
+}

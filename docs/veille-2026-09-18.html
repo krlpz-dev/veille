@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Veille créative n°06 · 18.09.2026</title>
+<meta name="description" content="Laika chiffre sept ans d&#x27;atelier pour Wildwood : 233 marionnettes, 142 030 visages, 125 000 pièces d&#x27;armature usinées. Valve recalibre la grille Discounts and Events de Steam sur...">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#0a0a0b; --bg-2:#111113; --ink:#f4f4f0; --muted:#8b8b85;
+  --line:rgba(255,255,255,.13); --accent:#D9FF3D;
+  --serif:'Unbounded','Outfit','Helvetica Neue',sans-serif;
+  --sans:'Inter','Helvetica Neue',Arial,sans-serif;
+  --pad:clamp(20px,5vw,72px);
+}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-weight:500;font-size:15px;line-height:1.62;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+::selection{background:var(--accent);color:#000}
+.kicker{font-size:10.5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.grain{position:fixed;inset:0;pointer-events:none;z-index:60;opacity:.05;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/><feColorMatrix type='saturate' values='0'/></filter><rect width='240' height='240' filter='url(%23n)' opacity='0.5'/></svg>");background-size:240px;mix-blend-mode:overlay}
+.bar{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;
+  justify-content:space-between;gap:16px;padding:14px var(--pad);
+  background:linear-gradient(to bottom,rgba(10,10,11,.92),rgba(10,10,11,0));
+  backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px)}
+.bar__id{font-size:10.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--ink);text-decoration:none;opacity:.85;transition:opacity .3s}
+.bar__id:hover{opacity:1}
+.btn{display:inline-block;font-size:10px;font-weight:600;letter-spacing:.2em;
+  text-transform:uppercase;text-decoration:none;padding:9px 15px;border-radius:2px;
+  border:1px solid var(--accent);color:var(--accent);
+  background:color-mix(in srgb,var(--accent) 30%,transparent);
+  transition:background .35s ease,color .35s ease,transform .35s ease}
+.btn:hover{background:var(--accent);color:#0a0a0b;transform:translateY(-1px)}
+.progress{position:fixed;top:0;left:0;height:2px;width:0;background:var(--accent);z-index:70;
+  transition:width .12s linear}
+.hide-s{display:inline}
+footer{padding:clamp(48px,9vh,104px) var(--pad);border-top:1px solid var(--line);
+  display:flex;flex-wrap:wrap;gap:14px 26px;justify-content:space-between;align-items:center}
+@media (max-width:680px){
+  .hide-s{display:none}
+  .bar{padding:11px 16px}
+  .bar__id{font-size:9.5px;letter-spacing:.14em}
+  .btn{padding:8px 11px;font-size:9px;letter-spacing:.13em;white-space:nowrap}
+}
+.reveal{opacity:0;transform:translateY(26px);
+  transition:opacity 1s cubic-bezier(.22,.7,.24,1),transform 1s cubic-bezier(.22,.7,.24,1)}
+.reveal.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none;transition:none}
+}
+
+main{scroll-snap-type:y proximity}
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;
+  padding:0 var(--pad) clamp(38px,7vh,86px);overflow:hidden;scroll-snap-align:start}
+.hero__img{position:absolute;inset:0;z-index:0}
+.hero__img img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.16) brightness(.62);
+  transform:scale(1.06);animation:drift 22s ease-out forwards}
+@keyframes drift{to{transform:scale(1)}}
+.hero__veil{position:absolute;inset:0;z-index:1;
+  background:radial-gradient(120% 90% at 20% 100%,rgba(10,10,11,.35),rgba(10,10,11,.94) 72%),
+             linear-gradient(to top,rgba(10,10,11,.98),rgba(10,10,11,.2) 55%,rgba(10,10,11,.72))}
+.hero__in{position:relative;z-index:2;max-width:1180px;width:100%}
+.hero__no{font-family:var(--serif);font-weight:800;font-size:11px;letter-spacing:.32em;
+  color:var(--accent);margin:0 0 18px}
+.hero h1{font-family:var(--serif);font-weight:900;letter-spacing:-.02em;line-height:.92;
+  font-size:clamp(38px,8.2vw,116px);margin:0 0 22px;text-transform:uppercase}
+.hero__meta{display:flex;flex-wrap:wrap;gap:10px 22px;margin-bottom:22px}
+.hero__deck{max-width:62ch;font-size:15px;color:#cfcfc8;margin:0}
+.hero__scroll{position:absolute;left:var(--pad);bottom:14px;z-index:2;font-size:9.5px;
+  letter-spacing:.24em;text-transform:uppercase;color:var(--muted);animation:blink 3.2s infinite}
+@keyframes blink{0%,100%{opacity:.35}50%{opacity:.9}}
+
+.sommaire{padding:clamp(64px,12vh,140px) var(--pad);border-top:1px solid var(--line);
+  scroll-snap-align:start}
+.sommaire__in{max-width:1180px;margin:0 auto}
+.sommaire p.intro{font-size:clamp(17px,2.1vw,25px);line-height:1.42;max-width:32ch;
+  font-family:var(--serif);font-weight:400;margin:18px 0 clamp(38px,6vh,64px)}
+.som__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  column-gap:clamp(24px,5vw,80px)}
+.som__row{display:flex;gap:14px;align-items:baseline;padding:11px 0;border-top:1px solid var(--line);
+  text-decoration:none;transition:padding-left .35s ease}
+.som__row:hover{padding-left:8px}
+.som__n{font-family:var(--serif);font-size:10px;font-weight:600;color:var(--muted);min-width:22px}
+.som__t{font-size:14px;font-weight:500;flex:1}
+.som__r{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
+  text-align:right;white-space:nowrap}
+.som__row:hover .som__t{color:var(--accent)}
+
+.entry{min-height:100svh;display:grid;align-items:center;
+  grid-template-columns:minmax(0,.86fr) minmax(0,1fr);
+  gap:clamp(28px,4.5vw,74px);padding:clamp(72px,11vh,124px) var(--pad);
+  border-top:1px solid var(--line);scroll-snap-align:start}
+.media{display:grid;gap:8px;width:100%;aspect-ratio:3/4;max-height:78vh;margin:0 auto}
+.media--1{grid-template-rows:1fr}
+.media--2{grid-template-rows:1.75fr 1fr}
+.media--3{grid-template-rows:1.75fr 1fr;grid-template-columns:1fr 1fr}
+.media--3 .shot:first-child{grid-column:1 / -1}
+.shot{position:relative;overflow:hidden;background:var(--bg-2)}
+.shot img{width:100%;height:100%;object-fit:cover;transform:scale(1.03);
+  transition:transform 1.4s cubic-bezier(.22,.7,.24,1)}
+.shot:hover img{transform:scale(1.08)}
+.txt{max-width:56ch}
+.tag{display:flex;align-items:center;gap:10px;margin-bottom:20px;flex-wrap:wrap}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--rc)}
+.tag__r{font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--rc)}
+.tag__n{font-family:var(--serif);font-size:10px;font-weight:600;color:var(--muted);margin-left:auto}
+.pepite{font-size:9px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
+  color:#0a0a0b;background:var(--rc);padding:3px 8px;border-radius:2px}
+.entry h2{font-family:var(--serif);font-weight:800;letter-spacing:-.015em;line-height:1.08;
+  font-size:clamp(23px,2.9vw,40px);margin:0 0 22px}
+.ctx{font-size:15px;line-height:1.68;color:#d6d6d0;margin:0 0 26px}
+.ctx a{color:var(--ink);text-decoration:none;background-image:linear-gradient(var(--rc),var(--rc));
+  background-size:100% 1px;background-repeat:no-repeat;background-position:0 100%;
+  padding-bottom:1px;transition:background-size .4s ease,color .3s ease}
+.ctx a:hover{color:var(--rc);background-size:100% 2px}
+.ctx em{font-style:italic;color:#eaeae4}
+.learn{border-left:2px solid var(--rc);padding:2px 0 2px 16px;margin:0 0 24px}
+.learn p{margin:0;font-family:var(--serif);font-weight:400;font-size:clamp(15px,1.6vw,20px);
+  line-height:1.34;color:var(--ink)}
+.src{display:inline-flex;align-items:center;gap:9px;font-size:10px;font-weight:600;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--muted);text-decoration:none;
+  transition:color .3s ease,gap .3s ease}
+.src:hover{color:var(--rc);gap:14px}
+
+@media (max-width:1080px){
+  .entry{grid-template-columns:1fr;gap:30px;align-items:start}
+  .media{aspect-ratio:4/3;max-height:none}
+  .media--3{grid-template-rows:1.5fr 1fr}
+  .txt{max-width:none}
+  body{font-size:15.5px}
+  .ctx{font-size:15.5px}
+}
+@media (max-width:680px){
+  .som__grid{grid-template-columns:1fr}
+  .som__r{display:none}
+  .media{aspect-ratio:3/4;gap:6px}
+  .hero{padding-bottom:64px}
+  .entry{padding-top:88px;padding-bottom:56px}
+  main{scroll-snap-type:none}
+}
+</style>
+</head>
+<body>
+<div class="progress"></div>
+<div class="grain"></div>
+<header class="bar">
+  <a class="bar__id" href="index.html">Veille créative<span class="hide-s"> · Karl Petzold</span></a>
+  <a class="btn" href="index.html">Toutes les éditions</a>
+</header>
+<main>
+  <section class="hero">
+    <div class="hero__img"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_39FfQeMIWqiQLLKAWDtgFuU9Tem/hf_20260918_170741_fa043778-57bb-4cb8-a3b5-251158d46767.png" alt="" referrerpolicy="no-referrer"></div>
+    <div class="hero__veil"></div>
+    <div class="hero__in">
+      <p class="hero__no">Édition n°06</p>
+      <h1>PIECE BY PIECE</h1>
+      <div class="hero__meta"><span class="kicker">vendredi 18 septembre 2026</span><span class="kicker">Treize entrées</span></div>
+      <p class="hero__deck">Laika chiffre sept ans d&#x27;atelier pour Wildwood : 233 marionnettes, 142 030 visages, 125 000 pièces d&#x27;armature usinées. Valve recalibre la grille Discounts and Events de Steam sur les signaux de chaque joueur plutôt que sur les meilleures ventes. Armani confie Emporio et les accessoires à Dario Vitale, premier créateur extérieur de son histoire.</p>
+    </div>
+    <span class="hero__scroll">Défiler</span>
+  </section>
+  <section class="sommaire">
+    <div class="sommaire__in">
+      <span class="kicker">Au sommaire</span>
+      <p class="intro">Une semaine où la preuve se compte : pièces usinées, rivets, plumes, euros au mètre carré, et une visibilité qui bascule du volume vers la justesse. Les pépites sont en direction artistique, en luxe et en IA.</p>
+      <div class="som__grid"><a class="som__row reveal" href="#direction-artistique"><span class="som__n">01</span><span class="som__t">Les dossiers de fonte Emigre</span><span class="som__r">Direction artistique &amp; campagnes</span></a><a class="som__row reveal" href="#mode"><span class="som__n">02</span><span class="som__t">Vitale chez Emporio Armani</span><span class="som__r">Mode</span></a><a class="som__row reveal" href="#luxe"><span class="som__n">03</span><span class="som__t">Calibre 89, rendre le barème caduc</span><span class="som__r">Luxe</span></a><a class="som__row reveal" href="#craft"><span class="som__n">04</span><span class="som__t">La cuve dicte le rivet</span><span class="som__r">Craft &amp; matière</span></a><a class="som__row reveal" href="#architecture"><span class="som__n">05</span><span class="som__t">Béton imprimé sous plafond de coût</span><span class="som__r">Architecture</span></a><a class="som__row reveal" href="#scenographie"><span class="som__n">06</span><span class="som__t">Le Grand Bouquet au Grand Palais</span><span class="som__r">Scénographie &amp; expérience</span></a><a class="som__row reveal" href="#photographie"><span class="som__n">07</span><span class="som__t">Delta 400, couche antihalo</span><span class="som__r">Photographie</span></a><a class="som__row reveal" href="#film"><span class="som__n">08</span><span class="som__t">Wildwood, 233 marionnettes</span><span class="som__r">Film &amp; motion</span></a><a class="som__row reveal" href="#fantasy"><span class="som__n">09</span><span class="som__t">Un Aslan composé par règle du monde</span><span class="som__r">Fantasy art &amp; illustration</span></a><a class="som__row reveal" href="#gaming"><span class="som__n">10</span><span class="som__t">Steam, la grille personnalisée</span><span class="som__r">Gaming &amp; worldbuilding</span></a><a class="som__row reveal" href="#ui"><span class="som__n">11</span><span class="som__t">Prototyper pour tester, pas pour montrer</span><span class="som__r">UI &amp; design d&#x27;interface</span></a><a class="som__row reveal" href="#ia"><span class="som__n">12</span><span class="som__t">La cam machine de John Whitney</span><span class="som__r">IA &amp; création</span></a><a class="som__row reveal" href="#philosophie"><span class="som__n">13</span><span class="som__t">Le computisme contre le goût</span><span class="som__r">Philosophie</span></a></div>
+    </div>
+  </section>
+  
+<section class="entry" id="direction-artistique" style="--rc:#c9a24a">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://letterformarchive.org/wp-content/uploads/2026/05/Emigre-process-work-banner-web.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://letterformarchive.org/wp-content/uploads/2026/05/emigre-font-process-web.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://letterformarchive.org/wp-content/uploads/2026/05/fella-outwest-process-web.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Direction artistique &amp; campagnes</span><span class="pepite">Pépite</span><span class="tag__n">01</span></div>
+    <h2 class="reveal">Letterform Archive met en ligne les dossiers de production des polices Emigre : epreuves annotees, sorties Fontographer et repentirs manuels</h2>
+    <div class="ctx reveal"><p>Le fonds de production de la fonderie Emigre, donné en 2016 à <a href="https://letterformarchive.org/" target="_blank" rel="noopener">Letterform Archive</a>, a été numérisé après deux ans de travail et une sélection est désormais consultable dans l'<a href="https://oa.letterformarchive.org/" target="_blank" rel="noopener">Online Archive</a>. Soixante-quatre dossiers montrent le geste réel des années 1980 et 1990 : dessin sous Fontographer sur Macintosh, sortie papier, correction au stylo sur l'épreuve, retour à l'écran, répété jeu de caractères par jeu de caractères. On y suit la fabrication de <a href="https://www.emigre.com/Fonts/Mrs-Eaves" target="_blank" rel="noopener">Mrs Eaves</a> et d'<a href="https://www.emigre.com/Fonts/OutWest" target="_blank" rel="noopener">OutWest</a>, avec ses photos d'enseignes peintes servant de référence, ainsi que la correspondance qui documente le moment où le dessin de caractères quitte les typographes de métier pour passer aux graphistes. La leçon de méthode est là : une police n'avance pas linéairement, elle avance par corrections modulaires propagées sur tout l'alphabet.</p></div>
+    <div class="learn reveal"><p>Ce qui fait la valeur d&#x27;un caractère n&#x27;est pas la forme finale mais la trace des arbitrages, et c&#x27;est exactement ce que les machines génératives ne produisent pas.</p></div>
+    <div class="reveal"><a class="src" href="https://letterformarchive.org/news/from-the-collection-emigre-font-development-files/" target="_blank" rel="noopener">Letterform Archive <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="mode" style="--rc:#a3ad72">
+  <div class="media media--2 reveal"><div class="shot"><img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F16%2Fdario-vitale-emporio-armani-creative-director-giorgio-armani-accessories-announcement-tw.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F09%2F16%2Fdario-vitale-emporio-armani-creative-director-giorgio-armani-accessories-announcement-001.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Mode</span><span class="tag__n">02</span></div>
+    <h2 class="reveal">Armani confie Emporio et les accessoires à Dario Vitale, premier créateur extérieur de son histoire</h2>
+    <div class="ctx reveal"><p>Le 16 septembre, le groupe Armani a nommé <a href="https://en.wikipedia.org/wiki/Dario_Vitale" target="_blank" rel="noopener">Dario Vitale</a> directeur de la création d'Emporio Armani et des accessoires Giorgio Armani, avec effet immédiat, comme l'a rapporté <a href="https://hypebeast.com/2026/9/dario-vitale-emporio-armani-creative-director-giorgio-armani-accessories-announcement" target="_blank" rel="noopener">Hypebeast</a>. C'est la première fois qu'un créateur venu du dehors prend la main sur une ligne de la maison, un an après la mort du fondateur. Vitale arrive de Versace après quatorze ans chez Miu Miu, où il pilotait le prêt-à-porter et l'image auprès de Miuccia Prada, soit un profil de constructeur de produit plus que de styliste de podium. Le périmètre est le vrai signal : en y ajoutant les accessoires, le groupe attaque le terrain de la maroquinerie où ses concurrents font l'essentiel de leur marge, <a href="https://us.fashionnetwork.com/news/Dario-vitale-has-been-appointed-the-new-creative-director-of-emporio-armani-and-giorgio-armani-accessories,1867017.html" target="_blank" rel="noopener">Silvana Armani et Leo Dell'Orco</a> signant le dernier défilé Emporio le 24 septembre avant un premier podium Vitale en automne-hiver 2027.</p></div>
+    <div class="learn reveal"><p>Une maison de créateur ne survit à son créateur que si son style était un système transmissible et non un goût personnel.</p></div>
+    <div class="reveal"><a class="src" href="https://hypebeast.com/2026/9/dario-vitale-emporio-armani-creative-director-giorgio-armani-accessories-announcement" target="_blank" rel="noopener">Hypebeast <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="luxe" style="--rc:#b57a8c">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://watchesbysjx.com/wp-content/uploads/2026/06/0-Caliber-89-Cover.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://watchesbysjx.com/wp-content/uploads/2026/06/8-Patek-Philippe-Ref.-989-known-as-Caliber-89.-Image-SJX-compositeSothebys.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://watchesbysjx.com/wp-content/uploads/2026/06/14-Caliber-89-Tourbillon.-Image-SJX-compositeSothebys.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Luxe</span><span class="pepite">Pépite</span><span class="tag__n">03</span></div>
+    <h2 class="reveal">Patek Philippe Calibre 89 : neuf ans de développement pour clore une querelle de comptage des complications</h2>
+    <div class="ctx reveal"><p>Carlos Torres reconstitue pour <a href="https://watchesbysjx.com/2026/06/in-depth-patek-philippe-calibre-89.html" target="_blank" rel="noopener">SJX</a> l'origine réelle du Calibre 89, et elle n'est pas commerciale : une bataille d'expertise documentaire menée dans les années 1970 par l'<a href="https://afaha.com/liens/" target="_blank" rel="noopener">AFAHA</a> et le CETEHOR, qui créditaient la Leroy 01 de Besançon de vingt-cinq complications contre vingt-quatre à la Graves Supercomplication de Patek. Philippe Stern lance le chantier en 1979, en pleine contraction de l'horlogerie suisse, et le referme en 1989 avec 1 728 pièces, quatre étages de platines en maillechort, un calendrier séculaire rétrograde et un calcul de la date de Pâques par came, tous deux brevetés. Le choix stratégique est le plus instructif : plutôt que de contester la méthode de décompte, la maison la rend caduque en imposant un écart de trente-trois à vingt-cinq. Le même arbitrage produira dix ans plus tard la <a href="https://watchesbysjx.com/2026/07/patek-philippe-star-caliber-2000-in-depth.html" target="_blank" rel="noopener">Star Caliber 2000</a>, où Stern abandonne la course au nombre pour ne retenir que les complications jugées les plus fascinantes.</p></div>
+    <div class="learn reveal"><p>Quand la métrique qui vous juge est contestée, on ne gagne pas en discutant le barème, on gagne en creusant un écart tel que le barème cesse d&#x27;avoir un sens.</p></div>
+    <div class="reveal"><a class="src" href="https://watchesbysjx.com/2026/06/in-depth-patek-philippe-calibre-89.html" target="_blank" rel="noopener">SJX Watches <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="craft" style="--rc:#b8956a">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://static.dezeen.com/uploads/2026/09/tom-pearson-studio-10000-rivets_dezeen_2364_col_hero-852x479.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.dezeen.com/uploads/2026/09/tom-pearson-studio-10000-rivets_dezeen_2364_col_1-852x568.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.dezeen.com/uploads/2026/09/tom-pearson-studio-10000-rivets_dezeen_2364_col_12-852x1278.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Craft &amp; matière</span><span class="tag__n">04</span></div>
+    <h2 class="reveal">Tom Pearson tire la forme de ses meubles en aluminium des contraintes du bain d&#x27;anodisation</h2>
+    <div class="ctx reveal"><p>Tom Pearson présente 10,000 Rivets pendant le <a href="https://londondesignfestival.com/" target="_blank" rel="noopener">London Design Festival</a>, chez <a href="https://apoc-store.com/" target="_blank" rel="noopener">APOC</a>, où tables, étagères et luminaires servent de présentoirs aux vêtements de la boutique. Le rivet n'est pas un parti pris stylistique : les cuves d'acide limitent la taille des tôles et le soudage d'un aluminium déjà anodisé salit la surface, donc l'assemblage mécanique s'impose et devient ornement. Pearson anodise à la main et applique les teintures au pinceau, à l'aérographe et à la pipette, là où un anodiseur industriel vise l'uniformité et traite la goutte comme un défaut. Comme il le résume dans <a href="https://www.dezeen.com/2026/09/18/tom-pearson-riveting-aluminium-furniture/" target="_blank" rel="noopener">l'article de Dezeen</a> du 18 septembre, les formes sont dictées par les contraintes du procédé.</p></div>
+    <div class="learn reveal"><p>Le procédé industriel ne bride pas le dessin, il le signe, à condition d&#x27;aller chercher ce que l&#x27;usine appelle un raté.</p></div>
+    <div class="reveal"><a class="src" href="https://www.dezeen.com/2026/09/18/tom-pearson-riveting-aluminium-furniture/" target="_blank" rel="noopener">Dezeen <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="architecture" style="--rc:#8d9aa3">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://images.adsttc.com/media/images/6aa7/c9ce/069c/1b01/89fb/72fa/large_jpg/saga-space-architects-and-3dcp-group-complete-36-unit-3d-printed-student-village-in-denmark_5.jpg?1789381124" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://images.adsttc.com/media/images/6aa7/c9c8/069c/1b01/89fb/72f9/medium_jpg/saga-space-architects-and-3dcp-group-complete-36-unit-3d-printed-student-village-in-denmark_4.jpg?1789381126" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://images.adsttc.com/media/images/6aa7/c9dc/069c/1b01/89fb/72fd/medium_jpg/saga-space-architects-and-3dcp-group-complete-36-unit-3d-printed-student-village-in-denmark_6.jpg?1789381145" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Architecture</span><span class="tag__n">05</span></div>
+    <h2 class="reveal">Skovsporet : 36 logements étudiants imprimés en béton à Holstebro, sous le plafond de coût du logement social danois</h2>
+    <div class="ctx reveal"><p>À Holstebro, dans l'ouest du Jutland, <a href="https://www.saga.dk/projects/skovsporet" target="_blank" rel="noopener">SAGA Space Architects</a> et MS+ viennent de livrer Skovsporet, 36 logements étudiants de plain-pied sur 1 650 mètres carrés, dont les murs porteurs courbes ont été imprimés en béton par <a href="https://www.3dcp.dk/" target="_blank" rel="noopener">3DCP Group</a>. Le chantier a tenu avec une seule imprimante <a href="https://cobod.com/" target="_blank" rel="noopener">COBOD</a> BOD3 et une équipe de trois personnes : un bâtiment de 275 mètres carrés abritant six logements a été imprimé en cinq jours ouvrés, la courbure des murs n'ayant rien coûté de plus qu'un tracé droit. Le mélange principal est un béton D.fab au ciment bas carbone FUTURECEM, et l'abri vélos a servi de banc d'essai à des éléments imprimés sans ciment au liant MEVOcem. Le chiffre qui compte est ailleurs : 1 880 euros du mètre carré hors honoraires, réseaux et paysage, soit un projet bouclé sous le plafond budgétaire réglementaire danois, avec des loyers à partir de 670 euros pour 50 mètres carrés, comme le détaille <a href="https://www.archdaily.com/1185029/saga-space-architects-and-3dcp-group-complete-36-unit-3d-printed-student-village-in-denmark" target="_blank" rel="noopener">ArchDaily</a>.</p></div>
+    <div class="learn reveal"><p>L&#x27;impression béton sort du prototype le jour où elle passe sous un plafond de coût réglementaire, pas le jour où elle produit une jolie courbe.</p></div>
+    <div class="reveal"><a class="src" href="https://www.archdaily.com/1185029/saga-space-architects-and-3dcp-group-complete-36-unit-3d-printed-student-village-in-denmark" target="_blank" rel="noopener">ArchDaily <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="scenographie" style="--rc:#7fbdb0">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://static.dezeen.com/uploads/2026/09/le-grand-bouquet-uchronia-grand-palais-paris-design-week_dezeen_2364_hero_1.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.dezeen.com/uploads/2026/09/le-grand-bouquet-uchronia-grand-palais-paris-design-week_dezeen_2364_col_20-852x568.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.dezeen.com/uploads/2026/09/le-grand-bouquet-uchronia-grand-palais-paris-design-week_dezeen_2364_col_13-852x1277.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Scénographie &amp; expérience</span><span class="tag__n">06</span></div>
+    <h2 class="reveal">Uchronia installe Le Grand Bouquet, sculpture florale métallique, sous la rotonde d&#x27;Antin du Grand Palais</h2>
+    <div class="ctx reveal"><p>Le studio parisien <a href="https://www.dezeen.com/tag/uchronia/" target="_blank" rel="noopener">Uchronia</a>, fondé par Julien Sebban, occupe la rotonde d'Antin du Grand Palais jusqu'au 20 septembre avec <a href="https://www.dezeen.com/2026/09/11/le-grand-bouquet-uchronia-grand-palais-paris-design-week/" target="_blank" rel="noopener">Le Grand Bouquet</a>, une sculpture métallique aux pétales stylisés posée au centre du sol en mosaïque. Le parti pris scénographique relève de la lecture du bâti plutôt que du contraste : Sebban dit avoir imaginé la pièce comme une extension du bâtiment, comme si les moulures des arcades s'étaient mises à pousser. La structure interne a été réalisée par les métalliers de l'Atelier François Pouenat, la laque brillante par Seigneurie avec les teintes Chromatic de PPG, et les banquettes circulaires du socle par Tréca garnies de soie par la Manufacture Prelle. L'installation s'inscrit dans <a href="https://www.dezeen.com/tag/paris-design-week/" target="_blank" rel="noopener">Paris Design Week</a>, avec un seuil gonflable installé à l'extérieur pour marquer l'entrée.</p></div>
+    <div class="learn reveal"><p>Un monument se remet au présent moins par sa restauration que par le dispositif qu&#x27;on y pose, et l&#x27;ornement redevient un langage actif dès qu&#x27;un atelier sait encore le fabriquer.</p></div>
+    <div class="reveal"><a class="src" href="https://www.dezeen.com/2026/09/11/le-grand-bouquet-uchronia-grand-palais-paris-design-week/" target="_blank" rel="noopener">Dezeen <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="photographie" style="--rc:#6fa3bd">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://cdn.mos.cms.futurecdn.net/Dy235JWxdyZWoSGTYB3mqL.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://cdn.mos.cms.futurecdn.net/Dy235JWxdyZWoSGTYB3mqL-1800-80.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://cdn.mos.cms.futurecdn.net/Dy235JWxdyZWoSGTYB3mqL-1200-80.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Photographie</span><span class="tag__n">07</span></div>
+    <h2 class="reveal">Ilford dote son Delta 400 en 35 mm d&#x27;une couche antihalo et en fait un test de marché en série limitée</h2>
+    <div class="ctx reveal"><p>Ilford a mis en vente cette semaine une série limitée de <a href="https://www.bhphotovideo.com/c/product/1996198-REG/ilford_1182986_delta_400_pro_black.html" target="_blank" rel="noopener">Delta 400 Professional</a> en 35 mm, coulée sur un support plus transparent et pourvue d'une couche antihalo, une première sur la gamme noir et blanc petit format de la marque. Cette couche absorbe la lumière qui traverse l'émulsion au lieu de la laisser rebondir sur le support et réexposer le film par l'arrière, d'où moins de halos autour des hautes lumières, plus de détail dans les ombres et des scans plus propres, à sensibilité et temps de développement inchangés. <a href="https://www.threads.com/@ilfordphoto/post/DdWPKZ6FgsJ/ilford-delta-professional-just-got-a-stunning-limited-edition-makeover-our/" target="_blank" rel="noopener">Ilford</a> vend ce lot au tarif du Delta 400 courant, uniquement en boutique physique et en quantités volontairement réduites, en assumant qu'il s'agit d'un sondage de demande. Le fabricant a précisé à <a href="https://petapixel.com/2026/09/16/ilfords-very-limited-new-black-and-white-35mm-film-is-sharper-and-has-better-dynamic-range/" target="_blank" rel="noopener">PetaPixel</a> qu'une mise en production permanente se ferait à un prix supérieur, le coût de la couche supplémentaire devant être répercuté.</p></div>
+    <div class="learn reveal"><p>Un industriel qui vend une amélioration technique à prix coûtant pour mesurer la demande ne célèbre pas la nostalgie, il calcule si le support a encore un modèle économique.</p></div>
+    <div class="reveal"><a class="src" href="https://www.digitalcameraworld.com/cameras/film-cameras/ilford-just-made-delta-400-even-better-but-this-sharper-black-and-white-35mm-film-wont-be-around-for-long" target="_blank" rel="noopener">Digital Camera World <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="film" style="--rc:#c47a72">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://www.animationscoop.com/wp-content/uploads/2026/09/TheGeneral_BTS-Credit_-LAIKA-900.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.animationscoop.com/wp-content/uploads/2026/09/WILDWOOD-Set-BTS-Credit_-LAIKA-900.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.animationscoop.com/wp-content/uploads/2026/09/Prue-and-Curtis-Train-Tracks-BTS-Credit_-LAIKA-900.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Film &amp; motion</span><span class="tag__n">08</span></div>
+    <h2 class="reveal">Laika ouvre les portes de Wildwood : 233 marionnettes, 142 030 visages de remplacement et un aigle à 3 794 plumes</h2>
+    <div class="ctx reveal"><p>Le 16 septembre, Laika a levé l'embargo sur une visite de son atelier de Hillsboro et détaillé sept ans de fabrication pour <a href="https://www.animationscoop.com/wildwood-set-visit-laika-previews-its-most-ambitious-stop-motion-fantasy-adventure/" target="_blank" rel="noopener">Wildwood</a> : 233 marionnettes dont 83 constructions uniques, 125 000 pièces d'armature usinées, 142 030 visages imprimés en 3D et un record de 1 124 remplacements sur un seul plan. La nouveauté technique tient moins au visage qu'au corps, avec des biceps animables montés sur crin de chapelier et des structures musculaires internes imprimées, qui permettent enfin de tourner une main à l'échelle réelle plutôt qu'à 200 pour cent. L'aigle du film, 86 centimètres pour 1,63 mètre d'envergure, existe en trois versions selon le type de vol, dont une montée sur plateforme six axes, et porte 3 794 plumes habillées une à une sur 16 500 fabriquées. Le champ de bataille à 3 000 combattants repose sur 30 tables acier, des arbres coulés en carton et des extensions numériques d'arbres scannés, avant que le <a href="https://designmuseum.org/exhibitions/laika-presents-wildwood-the-exhibition" target="_blank" rel="noopener">Design Museum</a> n'en expose décors et marionnettes à Londres à partir du 15 octobre, en parallèle de la <a href="https://www.cartoonbrew.com/distribution/wildwood-final-trailer-ticket-sales-laika-266671.html" target="_blank" rel="noopener">sortie Fathom</a>.</p></div>
+    <div class="learn reveal"><p>Quand l&#x27;image générée coûte zéro, la valeur remonte vers ce qui existe physiquement et se prouve : 125 000 pièces usinées sont un argument que personne ne copie au prompt.</p></div>
+    <div class="reveal"><a class="src" href="https://www.animationscoop.com/wildwood-set-visit-laika-previews-its-most-ambitious-stop-motion-fantasy-adventure/" target="_blank" rel="noopener">Animation Scoop <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="fantasy" style="--rc:#9b7ec9">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://www.narniaweb.com/wp-content/uploads/2026/09/empnov26-narnia-magicians-nephew-aslan-cover-crop.avif" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.narniaweb.com/wp-content/uploads/2026/09/empnov26-narnia-magicians-nephew-aslan-cover-791x1024.avif" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.narniaweb.com/wp-content/uploads/2026/09/empnov26-narnia-tmn-subscriber-cover-790x1024.avif" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Fantasy art &amp; illustration</span><span class="tag__n">09</span></div>
+    <h2 class="reveal">Greta Gerwig dévoile un Aslan composite, écailles, plumes et fourrure, dont le design assume David Bowie</h2>
+    <div class="ctx reveal"><p>Le 17 septembre, <a href="https://www.empireonline.com/movies/news/narnia-magicians-nephew-greta-gerwig-rock-opera-fantasy-bowie-exclusive/" target="_blank" rel="noopener">Empire</a> a publié la première image d'Aslan pour <a href="https://www.netflix.com/tudum/articles/narnia-release-date" target="_blank" rel="noopener">Narnia: The Magician's Nephew</a>, et le parti pris de créature y est énoncé sans détour : un lion composite, écailles de reptile sur le museau, cernes en anneaux de croissance sous les yeux, plumes et fourrure réunies dans le même animal, yeux vairons et face barrée de rouge en référence directe à David Bowie. Greta Gerwig déduit ce registre d'une donnée du texte plutôt que d'une envie graphique : Narnia est un monde chanté par Aslan, donc un monde littéralement fait de musique, ce qui autorise l'opéra rock comme grammaire visuelle. Le déplacement de l'intrigue des années 1900 aux années 1950 entraîne le reste de la direction artistique, jusqu'à une Jadis dont l'armure emprunte au vestiaire disco, comme le détaille <a href="https://www.brit.co/narnia-the-magicians-nephew-netflix-first-look/" target="_blank" rel="noopener">le premier aperçu de Charn</a>. C'est la démonstration qu'un design de créature canonique se renouvelle par une règle interne du monde, pas par un lissage photoréaliste.</p></div>
+    <div class="learn reveal"><p>Une adaptation de fantasy tient quand son parti pris visuel découle d&#x27;une règle du monde, pas d&#x27;une charte graphique.</p></div>
+    <div class="reveal"><a class="src" href="https://www.narniaweb.com/2026/09/first-look-at-aslan-voiced-by-meryl-streep-in-greta-gerwigs-narnia/" target="_blank" rel="noopener">NarniaWeb <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="gaming" style="--rc:#cd8659">
+  <div class="media media--2 reveal"><div class="shot"><img src="https://cdn.80.lv/api/upload/meta/50258/images/6aac7eb974651/contain_1200x630.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://cdn.80.lv/api/upload/meta/50258/images/6aac7eb974651/contain_440x220.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Gaming &amp; worldbuilding</span><span class="tag__n">10</span></div>
+    <h2 class="reveal">Valve personnalise la grille Discounts and Events de Steam : la visibilité ne passe plus par le statut de best-seller</h2>
+    <div class="ctx reveal"><p>Valve a modifié sans annonce la section <a href="https://store.steampowered.com/specials/" target="_blank" rel="noopener">Discounts and Events</a> de Steam, jusqu'ici occupée par les meilleures ventes, pour la calibrer sur les signaux propres à chaque joueur connecté. <a href="https://www.linkedin.com/posts/tim-hooded-horse_steam-recently-made-a-fundamental-change-ugcPost-7505522247613222912-wumj/" target="_blank" rel="noopener">Tim Bender</a>, patron de Hooded Horse, y voit remonter des titres à moins de cent évaluations, jusqu'à des Gold Box de la fin des années 1980 sous la barre des 300 avis, et Simon Carless, de GameDiscoverCo, confirme que ces emplacements sont désormais adossés aux intérêts individuels plutôt qu'au classement des ventes. Un jeu cité par <a href="https://80.lv/articles/steam-quietly-made-a-huge-discoverability-change-for-indie-games" target="_blank" rel="noopener">80 Level</a> totalise 7 355 visites issues de cette grille sur six mois, dont 7 341 sur le seul dernier mois. La conséquence opérationnelle est directe : les tags, la description et la conversion de la page boutique deviennent le levier d'exposition, à la place du volume de ventes initial qu'il fallait auparavant produire pour exister.</p></div>
+    <div class="learn reveal"><p>La visibilité sur les plateformes se déplace du volume vers la justesse des métadonnées, et ce sont désormais les fiches produit qui font le chiffre.</p></div>
+    <div class="reveal"><a class="src" href="https://80.lv/articles/steam-quietly-made-a-huge-discoverability-change-for-indie-games" target="_blank" rel="noopener">80 Level <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="ui" style="--rc:#8592c9">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://media.nngroup.com/media/articles/opengraph_images/Test_Complex_Interactions_Earlier_with_AI_Prototyping_1_j3hM3sB.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://media.nngroup.com/media/editor/2026/08/26/static-wireframes.jpeg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://media.nngroup.com/media/editor/2026/08/26/ai-prototype.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">UI &amp; design d&#x27;interface</span><span class="tag__n">11</span></div>
+    <h2 class="reveal">Nielsen Norman Group documente le prototypage assisté comme méthode de test des interactions complexes</h2>
+    <div class="ctx reveal"><p>Megan Chan publie le 11 septembre chez <a href="https://www.nngroup.com/articles/" target="_blank" rel="noopener">Nielsen Norman Group</a> un protocole en six étapes pour <a href="https://www.nngroup.com/articles/test-earlier-with-ai/" target="_blank" rel="noopener">tester les interactions complexes avant l'implémentation</a>, en construisant des prototypes réellement fonctionnels plutôt que des maquettes cliquables. La discipline est dans l'amont : arrêter les décisions de design explicitement, générer un jeu de données crédible, puis écrire un prompt qui spécifie les contraintes plutôt que l'apparence. Sur l'<a href="https://ramp.com/expense-policy-builder" target="_blank" rel="noopener">éditeur de politique de dépenses de Ramp</a>, trois semaines de prototypage ont révélé que le suivi et l'affichage des modifications embrouillaient les utilisateurs, défaut invisible sur un écran figé, et un filtre universitaire à vingt-sept attributs a produit des retours précis là où le wireframe ne générait que des généralités. Le cas le plus instructif reste l'interface conversationnelle, dont le caractère non déterministe ne se teste qu'en laissant les utilisateurs formuler des demandes imprévues.</p></div>
+    <div class="learn reveal"><p>Le prototype cesse d&#x27;être une image de l&#x27;interface pour en devenir une version jetable, et la recherche utilisateur passe en amont de la décision au lieu de la valider après coup.</p></div>
+    <div class="reveal"><a class="src" href="https://www.nngroup.com/articles/test-earlier-with-ai/" target="_blank" rel="noopener">Nielsen Norman Group <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="ia" style="--rc:#6fbd97">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://www.awn.com/sites/default/files/styles/large_featured/public/image/featured/748-digital-harmony-life-john-whitney-computer-animation-pioneer.jpg?itok=qxiwGI32" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.awn.com/sites/default/files/styles/inline/public/image/attached/748-moritzwhitney02.jpg?itok=bnEtaUGI" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.awn.com/sites/default/files/styles/inline/public/image/attached/748-moritzwhitney03.gif?itok=ft8qzIm7" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">IA &amp; création</span><span class="pepite">Pépite</span><span class="tag__n">12</span></div>
+    <h2 class="reveal">John Whitney a fabriqué la première machine à contrôle de mouvement dans un calculateur de tir antiaérien</h2>
+    <div class="ctx reveal"><p>À la fin des années 1950, John Whitney achète au surplus militaire un directeur de tir M5, calculateur analogique de 385 kilos et 11 000 pièces conçu pour pointer la DCA sur des avions en mouvement, et le convertit en banc d'animation, comme le raconte <a href="https://www.awn.com/animationworld/digital-harmony-life-john-whitney-computer-animation-pioneer" target="_blank" rel="noopener">William Moritz</a>. La plateforme fait tourner les cellulos sous un pendule suspendu relié à un réservoir de peinture sous pression de sept mètres de haut, et trace les spirales de Lissajous du <a href="https://rhizome.org/editorial/2013/may/9/did-vertigo-introduce-computer-graphics-cinema/" target="_blank" rel="noopener">générique de Vertigo</a> commandé par Saul Bass. Whitney appelle l'ensemble sa cam machine et invente au passage le contrôle de mouvement : <a href="https://rhizome.org/editorial/2008/nov/21/catalog-1961-john-whitney/" target="_blank" rel="noopener">Catalog</a>, en 1961, n'est au départ qu'une bobine de démonstration commerciale des effets que l'appareil sait produire, devenue une pièce canonique. Il passera ensuite au numérique avec une bourse IBM et formulera dans Digital Harmony une correspondance entre harmonie musicale et mouvement graphique reprise de Rameau, plus de 3 000 éléments de l'oeuvre familiale étant déposés à l'<a href="https://www.oscars.org/film-archive/collections/whitney-collection" target="_blank" rel="noopener">Academy Film Archive</a>.</p></div>
+    <div class="learn reveal"><p>Les instruments créatifs ne sortent jamais du marché créatif, ils sortent d&#x27;un matériel conçu pour autre chose et détourné par quelqu&#x27;un qui sait déjà ce qu&#x27;il veut voir.</p></div>
+    <div class="reveal"><a class="src" href="https://www.awn.com/animationworld/digital-harmony-life-john-whitney-computer-animation-pioneer" target="_blank" rel="noopener">Animation World Network, William Moritz, Digital Harmony: The Life of John Whitney <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="philosophie" style="--rc:#a8a196">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://images.aeonmedia.co/images/df3de1b9-0cd3-48a0-a054-36d0baf17bbe/essay-v1-.jpg?width=3840&amp;quality=75&amp;format=auto" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://images.aeonmedia.co/user_image_upload/5231/digesting_duck.jpg?width=3840&amp;quality=75&amp;format=auto" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://images.aeonmedia.co/user_image_upload/5233/inset-kilian-karger-ah8x65qeklm-unsplash.jpg?width=3840&amp;quality=75&amp;format=auto" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Philosophie</span><span class="tag__n">13</span></div>
+    <h2 class="reveal">Aeon publie l&#x27;essai de Liam Spradlin sur le computisme, l&#x27;idéologie qui évacue le jugement du design</h2>
+    <div class="ctx reveal"><p>Publié le 17 septembre sur <a href="https://aeon.co/" target="_blank" rel="noopener">Aeon</a>, <a href="https://aeon.co/essays/if-computers-count-all-the-petals-who-tastes-the-cherries" target="_blank" rel="noopener">l'essai de Liam Spradlin</a> nomme computisme la conviction que le réel se ramène à des données discrètes et se gouverne par du code. Designer d'interfaces pour appareils de cuisine connectés, il part d'un cas concret : le geste d'un cuisinier qui tape sa poêle ne se traduit dans aucun paramètre, et l'appareil finit par décider à sa place. Il relit l'histoire du métier à travers les 41 nuances de bleu testées chez Google, le départ de Douglas Bowman, le canard digérateur de Vaucanson et le <a href="https://en.wikipedia.org/wiki/Device_paradigm" target="_blank" rel="noopener">paradigme de l'appareil</a> d'Albert Borgmann, pour montrer comment l'objectivité mécanique a progressivement chassé la décision esthétique de la chaîne de production. La thèse vaut pour les outils génératifs : optimiser la synthèse des préférences revient à déboguer la subjectivité au lieu de l'outiller.</p></div>
+    <div class="learn reveal"><p>Une industrie qui sait compter tous les pétales finit par ne plus employer personne capable de goûter les cerises.</p></div>
+    <div class="reveal"><a class="src" href="https://aeon.co/essays/if-computers-count-all-the-petals-who-tastes-the-cherries" target="_blank" rel="noopener">Aeon <span>&#8599;</span></a></div>
+  </div>
+</section>
+</main>
+<footer>
+  <span class="kicker">Veille créative · édition n°06 · vendredi 18 septembre 2026</span>
+  <a class="btn" href="index.html">Toutes les éditions</a>
+</footer>
+<script>
+(function(){
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('on'); io.unobserve(e.target);} });
+  },{rootMargin:'0px 0px -12% 0px',threshold:.06});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  var bar=document.querySelector('.progress');
+  if(bar){
+    var tick=function(){
+      var h=document.documentElement.scrollHeight-window.innerHeight;
+      bar.style.width=(h>0?(window.scrollY/h)*100:0)+'%';
+    };
+    window.addEventListener('scroll',tick,{passive:true});
+    window.addEventListener('resize',tick); tick();
+  }
+})();
+</script>
+</body>
+</html>
