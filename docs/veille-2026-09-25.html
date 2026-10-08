@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Veille créative n°07 · 25.09.2026</title>
+<meta name="description" content="WPP installe le plateau physique et l&#x27;IA générative dans le même bâtiment à Londres, Apple ouvre une salle de concert conçue pour repartir en masters et en montages multicaméra...">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#0a0a0b; --bg-2:#111113; --ink:#f4f4f0; --muted:#8b8b85;
+  --line:rgba(255,255,255,.13); --accent:#D9FF3D;
+  --serif:'Unbounded','Outfit','Helvetica Neue',sans-serif;
+  --sans:'Inter','Helvetica Neue',Arial,sans-serif;
+  --pad:clamp(20px,5vw,72px);
+}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-weight:500;font-size:15px;line-height:1.62;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+::selection{background:var(--accent);color:#000}
+.kicker{font-size:10.5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.grain{position:fixed;inset:0;pointer-events:none;z-index:60;opacity:.05;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/><feColorMatrix type='saturate' values='0'/></filter><rect width='240' height='240' filter='url(%23n)' opacity='0.5'/></svg>");background-size:240px;mix-blend-mode:overlay}
+.bar{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;
+  justify-content:space-between;gap:16px;padding:14px var(--pad);
+  background:linear-gradient(to bottom,rgba(10,10,11,.92),rgba(10,10,11,0));
+  backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px)}
+.bar__id{font-size:10.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--ink);text-decoration:none;opacity:.85;transition:opacity .3s}
+.bar__id:hover{opacity:1}
+.btn{display:inline-block;font-size:10px;font-weight:600;letter-spacing:.2em;
+  text-transform:uppercase;text-decoration:none;padding:9px 15px;border-radius:2px;
+  border:1px solid var(--accent);color:var(--accent);
+  background:color-mix(in srgb,var(--accent) 30%,transparent);
+  transition:background .35s ease,color .35s ease,transform .35s ease}
+.btn:hover{background:var(--accent);color:#0a0a0b;transform:translateY(-1px)}
+.progress{position:fixed;top:0;left:0;height:2px;width:0;background:var(--accent);z-index:70;
+  transition:width .12s linear}
+.hide-s{display:inline}
+footer{padding:clamp(48px,9vh,104px) var(--pad);border-top:1px solid var(--line);
+  display:flex;flex-wrap:wrap;gap:14px 26px;justify-content:space-between;align-items:center}
+@media (max-width:680px){
+  .hide-s{display:none}
+  .bar{padding:11px 16px}
+  .bar__id{font-size:9.5px;letter-spacing:.14em}
+  .btn{padding:8px 11px;font-size:9px;letter-spacing:.13em;white-space:nowrap}
+}
+.reveal{opacity:0;transform:translateY(26px);
+  transition:opacity 1s cubic-bezier(.22,.7,.24,1),transform 1s cubic-bezier(.22,.7,.24,1)}
+.reveal.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none;transition:none}
+}
+
+main{scroll-snap-type:y proximity}
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;
+  padding:0 var(--pad) clamp(38px,7vh,86px);overflow:hidden;scroll-snap-align:start}
+.hero__img{position:absolute;inset:0;z-index:0}
+.hero__img img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.16) brightness(.62);
+  transform:scale(1.06);animation:drift 22s ease-out forwards}
+@keyframes drift{to{transform:scale(1)}}
+.hero__veil{position:absolute;inset:0;z-index:1;
+  background:radial-gradient(120% 90% at 20% 100%,rgba(10,10,11,.35),rgba(10,10,11,.94) 72%),
+             linear-gradient(to top,rgba(10,10,11,.98),rgba(10,10,11,.2) 55%,rgba(10,10,11,.72))}
+.hero__in{position:relative;z-index:2;max-width:1180px;width:100%}
+.hero__no{font-family:var(--serif);font-weight:800;font-size:11px;letter-spacing:.32em;
+  color:var(--accent);margin:0 0 18px}
+.hero h1{font-family:var(--serif);font-weight:900;letter-spacing:-.02em;line-height:.92;
+  font-size:clamp(38px,8.2vw,116px);margin:0 0 22px;text-transform:uppercase}
+.hero__meta{display:flex;flex-wrap:wrap;gap:10px 22px;margin-bottom:22px}
+.hero__deck{max-width:62ch;font-size:15px;color:#cfcfc8;margin:0}
+.hero__scroll{position:absolute;left:var(--pad);bottom:14px;z-index:2;font-size:9.5px;
+  letter-spacing:.24em;text-transform:uppercase;color:var(--muted);animation:blink 3.2s infinite}
+@keyframes blink{0%,100%{opacity:.35}50%{opacity:.9}}
+
+.sommaire{padding:clamp(64px,12vh,140px) var(--pad);border-top:1px solid var(--line);
+  scroll-snap-align:start}
+.sommaire__in{max-width:1180px;margin:0 auto}
+.sommaire p.intro{font-size:clamp(17px,2.1vw,25px);line-height:1.42;max-width:32ch;
+  font-family:var(--serif);font-weight:400;margin:18px 0 clamp(38px,6vh,64px)}
+.som__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  column-gap:clamp(24px,5vw,80px)}
+.som__row{display:flex;gap:14px;align-items:baseline;padding:11px 0;border-top:1px solid var(--line);
+  text-decoration:none;transition:padding-left .35s ease}
+.som__row:hover{padding-left:8px}
+.som__n{font-family:var(--serif);font-size:10px;font-weight:600;color:var(--muted);min-width:22px}
+.som__t{font-size:14px;font-weight:500;flex:1}
+.som__r{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
+  text-align:right;white-space:nowrap}
+.som__row:hover .som__t{color:var(--accent)}
+
+.entry{min-height:100svh;display:grid;align-items:center;
+  grid-template-columns:minmax(0,.86fr) minmax(0,1fr);
+  gap:clamp(28px,4.5vw,74px);padding:clamp(72px,11vh,124px) var(--pad);
+  border-top:1px solid var(--line);scroll-snap-align:start}
+.media{display:grid;gap:8px;width:100%;aspect-ratio:3/4;max-height:78vh;margin:0 auto}
+.media--1{grid-template-rows:1fr}
+.media--2{grid-template-rows:1.75fr 1fr}
+.media--3{grid-template-rows:1.75fr 1fr;grid-template-columns:1fr 1fr}
+.media--3 .shot:first-child{grid-column:1 / -1}
+.shot{position:relative;overflow:hidden;background:var(--bg-2)}
+.shot img{width:100%;height:100%;object-fit:cover;transform:scale(1.03);
+  transition:transform 1.4s cubic-bezier(.22,.7,.24,1)}
+.shot:hover img{transform:scale(1.08)}
+.txt{max-width:56ch}
+.tag{display:flex;align-items:center;gap:10px;margin-bottom:20px;flex-wrap:wrap}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--rc)}
+.tag__r{font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--rc)}
+.tag__n{font-family:var(--serif);font-size:10px;font-weight:600;color:var(--muted);margin-left:auto}
+.pepite{font-size:9px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
+  color:#0a0a0b;background:var(--rc);padding:3px 8px;border-radius:2px}
+.entry h2{font-family:var(--serif);font-weight:800;letter-spacing:-.015em;line-height:1.08;
+  font-size:clamp(23px,2.9vw,40px);margin:0 0 22px}
+.ctx{font-size:15px;line-height:1.68;color:#d6d6d0;margin:0 0 26px}
+.ctx a{color:var(--ink);text-decoration:none;background-image:linear-gradient(var(--rc),var(--rc));
+  background-size:100% 1px;background-repeat:no-repeat;background-position:0 100%;
+  padding-bottom:1px;transition:background-size .4s ease,color .3s ease}
+.ctx a:hover{color:var(--rc);background-size:100% 2px}
+.ctx em{font-style:italic;color:#eaeae4}
+.learn{border-left:2px solid var(--rc);padding:2px 0 2px 16px;margin:0 0 24px}
+.learn p{margin:0;font-family:var(--serif);font-weight:400;font-size:clamp(15px,1.6vw,20px);
+  line-height:1.34;color:var(--ink)}
+.src{display:inline-flex;align-items:center;gap:9px;font-size:10px;font-weight:600;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--muted);text-decoration:none;
+  transition:color .3s ease,gap .3s ease}
+.src:hover{color:var(--rc);gap:14px}
+
+@media (max-width:1080px){
+  .entry{grid-template-columns:1fr;gap:30px;align-items:start}
+  .media{aspect-ratio:4/3;max-height:none}
+  .media--3{grid-template-rows:1.5fr 1fr}
+  .txt{max-width:none}
+  body{font-size:15.5px}
+  .ctx{font-size:15.5px}
+}
+@media (max-width:680px){
+  .som__grid{grid-template-columns:1fr}
+  .som__r{display:none}
+  .media{aspect-ratio:3/4;gap:6px}
+  .hero{padding-bottom:64px}
+  .entry{padding-top:88px;padding-bottom:56px}
+  main{scroll-snap-type:none}
+}
+</style>
+</head>
+<body>
+<div class="progress"></div>
+<div class="grain"></div>
+<header class="bar">
+  <a class="bar__id" href="index.html">Veille créative<span class="hide-s"> · Karl Petzold</span></a>
+  <a class="btn" href="index.html">Toutes les éditions</a>
+</header>
+<main>
+  <section class="hero">
+    <div class="hero__img"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_39FfQeMIWqiQLLKAWDtgFuU9Tem/hf_20260928_102925_35214b25-fcbc-4567-b9ef-622a02fc9ac6.png" alt="" referrerpolicy="no-referrer"></div>
+    <div class="hero__veil"></div>
+    <div class="hero__in">
+      <p class="hero__no">Édition n°07</p>
+      <h1>MATERIAL EVIDENCE</h1>
+      <div class="hero__meta"><span class="kicker">vendredi 25 septembre 2026</span><span class="kicker">Treize entrées</span></div>
+      <p class="hero__deck">WPP installe le plateau physique et l&#x27;IA générative dans le même bâtiment à Londres, Apple ouvre une salle de concert conçue pour repartir en masters et en montages multicaméra, et Bottega Veneta sort l&#x27;intrecciato du cuir pour le tresser en popeline de soie.</p>
+    </div>
+    <span class="hero__scroll">Défiler</span>
+  </section>
+  <section class="sommaire">
+    <div class="sommaire__in">
+      <span class="kicker">Au sommaire</span>
+      <p class="intro">Une semaine où la fabrication reprend la main sur le discours, du plâtre gravé des maçons gothiques au plateau neutre où les décors arrivent après le tournage. Les pépites sont en architecture, en photographie et en fantasy art.</p>
+      <div class="som__grid"><a class="som__row reveal" href="#direction-artistique"><span class="som__n">01</span><span class="som__t">Une salle de 1939 devient un système graphique</span><span class="som__r">Direction artistique &amp; campagnes</span></a><a class="som__row reveal" href="#mode"><span class="som__n">02</span><span class="som__t">L&#x27;intrecciato quitte le cuir</span><span class="som__r">Mode</span></a><a class="som__row reveal" href="#luxe"><span class="som__n">03</span><span class="som__t">La valve à hélium née de la plongée</span><span class="som__r">Luxe</span></a><a class="som__row reveal" href="#craft"><span class="som__n">04</span><span class="som__t">Papier cousu, acier martelé</span><span class="som__r">Craft &amp; matière</span></a><a class="som__row reveal" href="#architecture"><span class="som__n">05</span><span class="som__t">Tracer à l&#x27;échelle 1 sur le plâtre</span><span class="som__r">Architecture</span></a><a class="som__row reveal" href="#scenographie"><span class="som__n">06</span><span class="som__t">Une salle qui sort des fichiers</span><span class="som__r">Scénographie &amp; expérience</span></a><a class="som__row reveal" href="#photographie"><span class="som__n">07</span><span class="som__t">Le dernier stock de dye transfer</span><span class="som__r">Photographie</span></a><a class="som__row reveal" href="#film"><span class="som__n">08</span><span class="som__t">Un Colorado entièrement reconstruit</span><span class="som__r">Film &amp; motion</span></a><a class="som__row reveal" href="#fantasy"><span class="som__n">09</span><span class="som__t">L&#x27;image avant le texte, en 1912</span><span class="som__r">Fantasy art &amp; illustration</span></a><a class="som__row reveal" href="#gaming"><span class="som__n">10</span><span class="som__t">Physint change d&#x27;éditeur et d&#x27;argumentaire</span><span class="som__r">Gaming &amp; worldbuilding</span></a><a class="som__row reveal" href="#ui"><span class="som__n">11</span><span class="som__t">Dire ou ne pas dire que c&#x27;est de l&#x27;IA</span><span class="som__r">UI &amp; design d&#x27;interface</span></a><a class="som__row reveal" href="#ia"><span class="som__n">12</span><span class="som__t">Le plateau et le modèle sous le même toit</span><span class="som__r">IA &amp; création</span></a><a class="som__row reveal" href="#philosophie"><span class="som__n">13</span><span class="som__t">La métaphore comme instrument de mesure</span><span class="som__r">Philosophie</span></a></div>
+    </div>
+  </section>
+  
+<section class="entry" id="direction-artistique" style="--rc:#c9a24a">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://d3faj0w6aqatyx.cloudfront.net/uploads/2026/09/pNRBoIAMFlapRysZneJjWWlgqk.avif" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://d3faj0w6aqatyx.cloudfront.net/uploads/2026/09/BylrCsggFCxXNjCLajTg9msYyi0.avif" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://d3faj0w6aqatyx.cloudfront.net/uploads/2026/09/d5i5ZxOCQ4exxgjNsXVKBck20U.avif" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Direction artistique &amp; campagnes</span><span class="tag__n">01</span></div>
+    <h2 class="reveal">Smiling Wolf fonde la nouvelle identité du Liverpool Philharmonic sur le plâtre Art déco de sa salle de 1939</h2>
+    <div class="ctx reveal">Le studio liverpuldien <a href="https://www.smilingwolf.co.uk/" target="_blank" rel="noopener">Smiling Wolf</a> a livré le 24 septembre une refonte du Liverpool Philharmonic qui remplace le logo fixe par un système graphique nommé Afterglow, directement extrait des plâtres en cascade et des niches lumineuses de la salle Art déco dessinée par Herbert J. Rowse en 1939. Le système tient en quatre modules baptisés Arc, Glow, Wave et Beam, déclinés en dégradés concentriques et en bandes rayonnantes qui servent aussi bien la signalétique du bâtiment que les gabarits d'animation et les formats sociaux. Le studio a mené de front identité, direction photo, film et motion, et couvre sous une seule grammaire l'orchestre, la salle et le programme jeunesse, <a href="https://www.designweek.co.uk/how-smiling-wolf-tuned-into-the-future-of-the-liverpool-philharmonic/" target="_blank" rel="noopener">Design Week</a> détaillant l'articulation entre stratégie, web et déploiement. L'opération s'inscrit dans une série de commandes culturelles décrochées par le studio dans le Nord-Ouest anglais, <a href="https://www.designweek.co.uk/smiling-wolf-leads-major-north-west-cultural-rebrands/" target="_blank" rel="noopener">documentée ici même</a>.</div>
+    <div class="learn reveal"><p>Quand une marque possède un bâtiment, l&#x27;architecture est déjà son système graphique, il suffit de savoir le lire avant de le dessiner.</p></div>
+    <div class="reveal"><a class="src" href="https://www.designweek.co.uk/how-smiling-wolf-tuned-into-the-future-of-the-liverpool-philharmonic/" target="_blank" rel="noopener">Design Week <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="mode" style="--rc:#a3ad72">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://images-prod.anothermag.com/1518/azure/another-prod/470/8/478223.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://images-prod.anothermag.com/1518/azure/another-prod/470/8/478215.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://images-prod.anothermag.com/1518/azure/another-prod/470/8/478214.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Mode</span><span class="tag__n">02</span></div>
+    <h2 class="reveal">Bottega Veneta tresse son intrecciato en popeline de soie pour le printemps été 2027</h2>
+    <div class="ctx reveal">À Milan, <a href="https://theimpression.com/bottega-veneta-spring-2027-fashion-show-review/" target="_blank" rel="noopener">Bottega Veneta</a> a montré une collection printemps été 2027 qui sort l'intrecciato du cuir : la tunique d'ouverture est tressée en bandes de popeline de soie, et un manteau bordeaux est monté en lanières de nappa assez fines pour laisser passer le jour à contre-jour. <a href="https://www.anothermag.com/fashion-beauty/17511/bottega-veneta-louise-trotter-spring-summer-2027-ss27-review" target="_blank" rel="noopener">Louise Trotter</a> applique la même opération au reste du vestiaire, en remplaçant le coton des chemises par du taffetas de soie pour gagner en légèreté, en amincissant les peaux au maximum et en laissant crochet, franges et broderies florales volontairement irréguliers, raphia brut à l'appui sur les sacs. Elle résume la démarche en un mot, le de-robing, et en une position de marque directe, l'artisanat comme logo, dans une maison construite sur un signe technique plutôt que sur un monogramme. Sur une <a href="https://numero.com/en/fashion/fashion-week-en/milan-fashion-week-spring-summer-2027-shows/" target="_blank" rel="noopener">semaine milanaise</a> dominée par les exercices de style, c'est le vestiaire où la décision esthétique passe entièrement par le choix de matière.</div>
+    <div class="learn reveal"><p>Un logo se copie en une nuit, un geste de tressage non, et c&#x27;est là que la valeur de marque se déplace.</p></div>
+    <div class="reveal"><a class="src" href="https://www.anothermag.com/fashion-beauty/17511/bottega-veneta-louise-trotter-spring-summer-2027-ss27-review" target="_blank" rel="noopener">AnOther Magazine <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="luxe" style="--rc:#b57a8c">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://www.journalduluxe.fr/files/rolex0001_b863a53a3f9cfebacd815a0cc767f0c5.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.journalduluxe.fr/files/rolex-comex-1-copie-1_ea3c342eba3b2ec8bf7c937f64cf0ff7.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.journalduluxe.fr/files/comex-rolex-dos_b58de2f722ab646165f21f59a9dbebb8.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Luxe</span><span class="tag__n">03</span></div>
+    <h2 class="reveal">Rolex et la COMEX, la valve à hélium née d&#x27;un problème de plongée à saturation</h2>
+    <div class="ctx reveal">Alexis de Prévoisin retrace dans <a href="https://www.journalduluxe.fr/fr/montres-joaillerie/comex-rolex-quand-client-devient-laboratoire-de-marque-alexis-de-prevoisin" target="_blank" rel="noopener">Le Journal du Luxe</a> une collaboration industrielle devenue norme technique : en plongée à saturation, l'hélium s'infiltre dans le boîtier et menace de faire sauter le verre à la décompression, problème que Rolex résout en 1967 par une valve d'échappement logée dans la carrure, conçue avec les plongeurs de la Compagnie maritime d'expertises fondée à Marseille en 1961. Le partenariat est formalisé en 1971, l'étanchéité passe à 1 220 mètres en 1978, et les missions Hydra servent de banc d'essai réel, jusqu'aux 701 mètres simulés en caisson par Théo Mavrostomos pendant 43 jours en 1992. Les montres livrées n'étaient pas des produits commerciaux mais du matériel d'équipement, cadran marqué COMEX et numéro d'inventaire gravé au dos, ce qui fait aujourd'hui de la traçabilité leur valeur principale : une Submariner 5514 COMEX de 1975 est passée chez <a href="https://www.phillips.com/detail/rolex/CH080322/36" target="_blank" rel="noopener">Phillips</a> en novembre 2022 à 163 800 francs suisses, contre une estimation haute de 120 000. La rayure d'usage fait office d'archive, et une restauration non documentée détruit la valeur qu'elle prétend préserver.</div>
+    <div class="learn reveal"><p>Le meilleur laboratoire d&#x27;une marque n&#x27;est pas son bureau d&#x27;études, c&#x27;est le client qui casse le produit en conditions réelles.</p></div>
+    <div class="reveal"><a class="src" href="https://www.journalduluxe.fr/fr/montres-joaillerie/comex-rolex-quand-client-devient-laboratoire-de-marque-alexis-de-prevoisin" target="_blank" rel="noopener">Le Journal du Luxe <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="craft" style="--rc:#b8956a">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://static.dezeen.com/uploads/2026/09/jesse-butterfield-a-veiled-boundary-exhibition_dezeen_2364_col_4.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.dezeen.com/uploads/2026/09/jesse-butterfield-a-veiled-boundary-exhibition_dezeen_2364_col_8-852x1136.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.dezeen.com/uploads/2026/09/jesse-butterfield-a-veiled-boundary-exhibition_dezeen_2364_col_11-852x1136.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Craft &amp; matière</span><span class="tag__n">04</span></div>
+    <h2 class="reveal">Jesse Butterfield coud du papier fait main et martèle l&#x27;acier jusqu&#x27;à la finesse de la feuille</h2>
+    <div class="ctx reveal"><a href="https://www.dezeen.com/2026/09/25/jesse-butterfield-a-veiled-boundary/" target="_blank" rel="noopener">Jesse Butterfield</a> a montré A Veiled Boundary dans le programme <a href="https://londondesignfestival.com/activities/perfectly-imperfect-brompton-design-district" target="_blank" rel="noopener">Perfectly Imperfect du Brompton Design District</a>, du 12 au 20 septembre, avec deux familles d'objets construites sur une même inversion de matière. Les luminaires Sew Paper sont des abat-jour en papier chiffon cousu à la main, tendus sur des armatures d'acier inoxydable fines, les feuilles étant sélectionnées avec <a href="https://cabanamagazine.com/blogs/atlas-of-craftsmanship/paper-fit-for-a-king" target="_blank" rel="noopener">The Paper Foundation</a> de Mark Cropper, papetier de sixième génération installé à Burneside, pour leur drapé et leur comportement en transmission lumineuse. Les tabourets Stool Des Pois partent de maquettes en papier pliées, puis passent à la tôle chauffée et martelée jusqu'à une minceur comparable, le motif à pois naissant d'un noircissement volontaire du métal. Butterfield conserve cette fois les marques de surface qu'il ponçait auparavant, ce qui rend chaque pièce non reproductible à l'identique.</div>
+    <div class="learn reveal"><p>Quand la copie parfaite devient gratuite, la trace de la main redevient la seule signature que personne ne peut générer.</p></div>
+    <div class="reveal"><a class="src" href="https://www.dezeen.com/2026/09/25/jesse-butterfield-a-veiled-boundary/" target="_blank" rel="noopener">Dezeen <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="architecture" style="--rc:#8d9aa3">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://drawingmatter.org/wp-content/uploads/2021/05/York-Minster_John-Harvey.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://drawingmatter.org/wp-content/uploads/2021/05/York-Minster-Tracing-floors.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://drawingmatter.org/wp-content/uploads/2021/05/Strasbourg-Cathedral-848x1200.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Architecture</span><span class="pepite">Pépite</span><span class="tag__n">05</span></div>
+    <h2 class="reveal">York et Wells, les planchers de plâtre où les maçons gothiques traçaient à l&#x27;échelle 1</h2>
+    <div class="ctx reveal"><a href="https://drawingmatter.org/medieval-masons-and-tracing-floors/" target="_blank" rel="noopener">Drawing Matter</a> revient sur les deux seuls planchers de traçage conservés en Angleterre, dans la loge des maçons de la cathédrale d'York et à Wells, des sols couverts de fines couches de plâtre de Paris sur lesquelles le maître maçon gravait ses tracés en grandeur nature, avant de reporter les courbes sur des gabarits de bois ou de métal qui commandaient ensuite la taille de chaque pierre. La couche était refaite et piétinée à intervalles réguliers, si bien que la surface accumule des arcs et des lignes sans rapport entre eux, datés de la période perpendiculaire et relevés en 1977 par l'historien John Harvey, dont le travail est documenté par <a href="https://www-users.york.ac.uk/~arch40/plasterfloor.htm" target="_blank" rel="noopener">l'université d'York</a>. Le local se trouve dans les combles d'un vestibule reliant le transept nord à la salle capitulaire, position qui indique un lieu de conception et non un atelier de taille, à la différence des grands parchemins de Strasbourg où le dessin commence à se détacher du chantier. Le programme <a href="https://www.tracingthepast.org.uk/2020/10/28/wells-tracing-floor-ecaade-2020/" target="_blank" rel="noopener">Tracing the Past</a>, à l'université de Liverpool, relit aujourd'hui le plancher de Wells par photogrammétrie, RTI et scan laser pour séparer les couches de tracés superposés.</div>
+    <div class="learn reveal"><p>Le gothique n&#x27;a pas été dessiné à l&#x27;échelle, il a été tracé en grandeur nature, et c&#x27;est exactement là, du fichier au gabarit, que la fabrication numérique ramène l&#x27;architecture.</p></div>
+    <div class="reveal"><a class="src" href="https://drawingmatter.org/medieval-masons-and-tracing-floors/" target="_blank" rel="noopener">Drawing Matter <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="scenographie" style="--rc:#7fbdb0">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://static.dezeen.com/uploads/2026/09/apple-music-hall-battersea-power-station_dezeen_2364_col_0-852x479.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.dezeen.com/uploads/2026/09/apple-music-hall-battersea-power-station_dezeen_2364_col_3-852x568.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.dezeen.com/uploads/2026/09/apple-music-hall-battersea-power-station_dezeen_2364_col_6-852x639.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Scénographie &amp; expérience</span><span class="tag__n">06</span></div>
+    <h2 class="reveal">Apple ouvre dans la Battersea Power Station une salle de 600 places conçue comme un studio de captation</h2>
+    <div class="ctx reveal"><a href="https://www.apple.com/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london/" target="_blank" rel="noopener">Apple</a> a inauguré le 21 septembre l'Apple Music Hall, salle de 600 places installée à l'extrémité nord de la Battersea Power Station, face à la Turbine Hall A, et dessinée en interne par l'équipe Apple Places dirigée par Kristina Raspe. La scénographie reprend le vocabulaire industriel de l'édifice de Giles Gilbert Scott, brique apparente et poutres d'acier laissées visibles en fond de salle, et le croise avec quatre arches lumineuses streamline et des balcons de bronze Art déco qui servent de loges. Le détail décisif est ailleurs, comme le détaille <a href="https://www.dezeen.com/2026/09/23/apple-music-hall-battersea-power-station/" target="_blank" rel="noopener">Dezeen</a> : la salle intègre un système de 48 enceintes réparties tout autour du public, une scène de 11,5 mètres reconfigurable en frontal ou en circulaire, seize caméras câblées vers une régie dédiée et deux studios de mixage à l'arrière du plateau. Un artiste entre pour un concert et repart avec un master Spatial Audio, un mix prêt pour la diffusion et un montage multicaméra, produits par le lieu lui-même.</div>
+    <div class="learn reveal"><p>Un lieu de marque ne se mesure plus au nombre de gens qu&#x27;il fait entrer mais au nombre de fichiers exploitables qu&#x27;il fait sortir.</p></div>
+    <div class="reveal"><a class="src" href="https://www.dezeen.com/2026/09/23/apple-music-hall-battersea-power-station/" target="_blank" rel="noopener">Dezeen <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="photographie" style="--rc:#6fa3bd">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://aperture.org/wp-content/uploads/2026/02/EGGWI0782.1DY_UNFRAMED-scaled.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://aperture.org/wp-content/uploads/2026/02/EGGWI0854.1DY_UNFRAMED-1024x671.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://aperture.org/wp-content/uploads/2026/02/EGGWI0962.1DY_UNFRAMED-scaled.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Photographie</span><span class="pepite">Pépite</span><span class="tag__n">07</span></div>
+    <h2 class="reveal">Les derniers tirages dye transfer de William Eggleston, faits sur le stock Kodak arrêté en 1994</h2>
+    <div class="ctx reveal">Le dye transfer décompose un négatif en trois sélections, les reporte sur des matrices de gélatine chargées de cyan, de magenta et de jaune, puis les roule successivement sur un papier fibre gélatiné, à la main, en pleine lumière et au repérage près. Kodak a cessé de fabriquer les consommables en 1994, et <a href="https://www.davidzwirner.com/exhibitions/2026/william-eggleston-the-last-dyes" target="_blank" rel="noopener">William Eggleston et ses fils ont racheté puis stocké tout ce qui restait sur le marché</a>, le papier étant de loin le plus rare. Ce que raconte <a href="https://aperture.org/editorial/the-emotional-saturation-of-william-egglestons-last-dyes/" target="_blank" rel="noopener">Rebecca Bengal</a> est un compte à rebours matériel : la réserve ne permettait plus qu'une cinquantaine d'images en éditions de cinq, au format 20 x 24 pouces, tirées par <a href="https://www.phillips.com/article/159564427/how-guy-stricherz-and-irene-malli-became-unrivaled-dye-transfer-printers" target="_blank" rel="noopener">Guy Stricherz et Irene Malli</a>, le couple du laboratoire CVI de Vashon Island qui tirait pour Eggleston depuis vingt-cinq ans. Le procédé, héritier direct de l'imbibition <a href="https://www.eastman.org/technicolor/technology/dye-transfer-printing" target="_blank" rel="noopener">documentée par le George Eastman Museum</a>, s'éteint par épuisement de stock, pas par désaffection esthétique.</div>
+    <div class="learn reveal"><p>Une esthétique n&#x27;est pas un style, c&#x27;est une chaîne d&#x27;approvisionnement, et elle meurt le jour où le dernier consommable est consommé.</p></div>
+    <div class="reveal"><a class="src" href="https://aperture.org/editorial/the-emotional-saturation-of-william-egglestons-last-dyes/" target="_blank" rel="noopener">Aperture <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="film" style="--rc:#c47a72">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://www.artofvfx.com/wp-content/uploads/2026/09/TheDogStars_OutpostVFX_ITW_01A.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.artofvfx.com/wp-content/uploads/2026/09/TheDogStars_OutpostVFX_ITW_05A.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.artofvfx.com/wp-content/uploads/2026/09/TheDogStars_OutpostVFX_ITW_08B-1280x537.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Film &amp; motion</span><span class="tag__n">08</span></div>
+    <h2 class="reveal">Outpost VFX reconstruit le Colorado à partir de plateaux italiens pour The Dog Stars de Ridley Scott</h2>
+    <div class="ctx reveal">Le 24 septembre, <a href="https://www.artofvfx.com/the-dog-stars-sebastien-raets-vfx-supervisor-outpost-vfx/" target="_blank" rel="noopener">The Art of VFX</a> publie l'entretien avec Sebastien Raets, superviseur chez <a href="https://www.outpost-vfx.com/" target="_blank" rel="noopener">Outpost VFX</a>, sur les cent cinquante plans livrés en onze mois pour le film de Ridley Scott. Tourné en Italie mais situé dans le Colorado, le film a imposé de reconstruire intégralement le terrain en s'appuyant sur des vues aériennes, sur les tracés géométriques des parcelles agricoles et sur des références de paysages avant et après réensauvagement, pendant que l'équipe LiDAR scannait l'aéroport de Grand Junction et les trois avions réellement présents sur le plateau pour en dupliquer des variantes en images de synthèse. Les intérieurs de cockpit reposent sur un réseau de cinq caméras assemblé en une image large, et l'incendie de la tour de contrôle, les débris et l'effondrement sont entièrement numériques, calés sur de la documentation de bâtiments aéroportuaires en feu et sur des essais pratiques de maquettes. Plusieurs séquences passent par un traitement jour pour nuit qui efface les ombres dures du soleil et réinjecte l'interaction lumineuse par le rendu, méthode détaillée en parallèle dans l'<a href="https://www.artofvfx.com/the-dog-stars-charley-henley-production-vfx-supervisor/" target="_blank" rel="noopener">entretien avec Charley Henley</a>.</div>
+    <div class="learn reveal"><p>Le décor naturel n&#x27;est plus un lieu que l&#x27;on cherche, c&#x27;est une donnée que l&#x27;on reconstruit.</p></div>
+    <div class="reveal"><a class="src" href="https://www.artofvfx.com/the-dog-stars-sebastien-raets-vfx-supervisor-outpost-vfx/" target="_blank" rel="noopener">The Art of VFX <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="fantasy" style="--rc:#9b7ec9">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://museumcrush.org/wp-content/uploads/2019/05/SRY_SSG_A_68.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://museumcrush.org/wp-content/uploads/2019/05/SRY_SSG_A_2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://museumcrush.org/wp-content/uploads/2019/05/SRY_SSG_A_7.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Fantasy art &amp; illustration</span><span class="pepite">Pépite</span><span class="tag__n">09</span></div>
+    <h2 class="reveal">Sidney Sime, le fonds de Worplesdon et la fantasy dessinée avant d&#x27;être écrite</h2>
+    <div class="ctx reveal">Ancien mineur du Lancashire passé par la Liverpool School of Art, Sidney Herbert Sime (1865-1941) a fabriqué la grammaire visuelle de la fantasy avant que le genre ait un nom, en donnant un corps aux panthéons inventés de Lord Dunsany. À sa mort, sa veuve Mary a légué plus de 800 peintures, dessins et documents à des administrateurs locaux, qui ont bâti la <a href="https://sidneysimegallery.org.uk/" target="_blank" rel="noopener">Sime Gallery</a> adossée au Memorial Hall de Worplesdon, restaurée grâce à une dotation de 42 000 livres du National Lottery Heritage Fund en 2018, et dont plus de 180 huiles sont aujourd'hui numérisées. La technique se lit directement sur les planches de <a href="https://archive.org/details/godsofpeganawith00dunsuoft" target="_blank" rel="noopener">The Gods of Pegāna</a>, tirées en photogravure, où le trait dense, les fissures en mosaïque et les motifs géométriques étendus au ciel entier remplacent le modelé par la texture. Le point de bascule est <a href="https://www.gutenberg.org/ebooks/7477" target="_blank" rel="noopener">The Book of Wonder</a>, publié chez Heinemann en 1912 : Dunsany propose à Sime de dessiner ce qu'il veut, puis écrit douze des quatorze récits pour expliquer les images déjà faites, inversion que rappelle le dossier de <a href="https://hyperallergic.com/the-fantastical-visions-of-a-forgotten-early-20th-century-illustrator/" target="_blank" rel="noopener">Hyperallergic</a>.</div>
+    <div class="learn reveal"><p>L&#x27;image d&#x27;abord, le récit ensuite : le pipeline que la génération d&#x27;images impose aujourd&#x27;hui aux studios a été réglé en 1912, et il produisait déjà des mondes tenables.</p></div>
+    <div class="reveal"><a class="src" href="https://museumcrush.org/the-forgotten-gallery-in-surrey-holding-the-dark-and-sinister-paintings-of-sidney-h-sime/" target="_blank" rel="noopener">Museum Crush <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="gaming" style="--rc:#cd8659">
+  <div class="media media--2 reveal"><div class="shot"><img src="https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/bltab484a7e8d02b2e1/6ab157cae144f32450aeb670/kojimaspacesuitfeatured.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blt3a588ae5d1222998/6aa2d0d730e74303430a3414/New_Project(37).png" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Gaming &amp; worldbuilding</span><span class="tag__n">10</span></div>
+    <h2 class="reveal">Hideo Kojima détaille les trois mois de recherche d&#x27;un éditeur après le retrait de Sony sur Physint</h2>
+    <div class="ctx reveal">Sony a coupé le financement de Physint sans préavis, laissant Kojima Productions avec des effectifs dimensionnés pour deux productions simultanées et un prêt bancaire en cours, soit un problème de trésorerie avant d'être un problème créatif. Plutôt que de licencier, le studio a basculé l'équipe de Physint sur OD pendant la recherche d'un partenaire, et a changé d'argumentaire en cours de route : le projet a cessé d'être présenté comme un jeu à financer pour devenir une propriété intellectuelle déclinable en film, série et streaming, avant que <a href="https://www.gamedeveloper.com/business/xbox-to-publish-kojima-productions-physint-after-playstation-ditches-project" target="_blank" rel="noopener">Xbox n'en reprenne l'édition</a>. Kojima explique avoir tranché pour Microsoft moins sur le montant que sur l'infrastructure fournie, support technique, marketing et campagnes de playtest. Le schéma recoupe les retraits d'éditeur subis par <a href="https://www.gamedeveloper.com/business/io-interactive-to-lay-off-employees-after-xbox-pulls-support-for-untitled-fantasy-game" target="_blank" rel="noopener">IO Interactive</a> sur Project Fantasy et par <a href="https://www.gamedeveloper.com/business/avalanche-confirms-layoffs-and-studio-closure-after-halting-contraband-development" target="_blank" rel="noopener">Avalanche Studios</a> sur Contraband, à ceci près qu'ici le studio a tenu.</div>
+    <div class="learn reveal"><p>Un projet ne se vend plus comme un jeu à financer mais comme une propriété intellectuelle à exploiter sur plusieurs écrans, et c&#x27;est cette reformulation qui a sauvé le studio.</p></div>
+    <div class="reveal"><a class="src" href="https://www.gamedeveloper.com/business/kojima-productions-survival-story-may-sound-strikingly-familiar-to-struggling-devs" target="_blank" rel="noopener">Game Developer <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="ui" style="--rc:#8592c9">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://media.nngroup.com/media/articles/opengraph_images/PACED_1.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://media.nngroup.com/media/editor/2026/09/23/screenshot-2026-09-23-at-44658pm.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://media.nngroup.com/media/editor/2026/09/23/screenshot-2026-09-23-at-45139pm.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">UI &amp; design d&#x27;interface</span><span class="tag__n">11</span></div>
+    <h2 class="reveal">Le Nielsen Norman Group publie PACED, un cadre pour décider quand une interface doit signaler l&#x27;usage de l&#x27;IA</h2>
+    <div class="ctx reveal">Le <a href="https://www.nngroup.com/" target="_blank" rel="noopener">Nielsen Norman Group</a> a publié le 25 septembre <a href="https://www.nngroup.com/articles/disclose-ai-paced/" target="_blank" rel="noopener">PACED</a>, un cadre en cinq axes, cadre réglementaire, audience, contexte, attentes et degré d'usage, pour décider si une interface doit indiquer qu'un contenu a été produit avec de l'IA. Taylor Dykes s'appuie sur une revue de 47 études qui ne relève aucune pénalité de confiance systématique : la réaction dépend du type de contenu et du public, pas du fait même de la mention. Deux résultats sont directement opérationnels pour la conception, écrire que l'IA a généré déclenche un rejet nettement plus fort qu'écrire qu'elle a édité, et une divulgation volontaire est bien mieux reçue que la même information découverte par un détecteur tiers. La note accompagne un <a href="https://www.nngroup.com/articles/ai-functionality-study-guide/" target="_blank" rel="noopener">guide d'étude</a> publié le même jour sur la façon dont les utilisateurs se représentent le fonctionnement de l'IA.</div>
+    <div class="learn reveal"><p>Le label IA n&#x27;est pas une case légale à cocher, c&#x27;est un composant d&#x27;interface dont le verbe exact décide de la confiance.</p></div>
+    <div class="reveal"><a class="src" href="https://www.nngroup.com/articles/disclose-ai-paced/" target="_blank" rel="noopener">Nielsen Norman Group <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="ia" style="--rc:#6fbd97">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://campaignbrief.com/wp-content/uploads/2026/09/TVN07261.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://campaignbrief.com/wp-content/uploads/2026/09/CN0A1010.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://campaignbrief.com/wp-content/uploads/2026/09/CN0A0305.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">IA &amp; création</span><span class="tag__n">12</span></div>
+    <h2 class="reveal">WPP ouvre Devon&#x27;s Point à Londres, 3 100 m² où le plateau physique et l&#x27;IA générative cohabitent</h2>
+    <div class="ctx reveal">Le 23 septembre, <a href="https://www.wpp.com/en/news/2026/09/wpp-launches-flagship-production-hub-in-east-london" target="_blank" rel="noopener">WPP</a> a ouvert Devon's Point à Bromley-by-Bow, 3 100 m² organisés autour d'un plateau principal de 650 m² équipé d'un mur LED de 16 par 14 mètres, d'un studio cuisine à extraction industrielle, d'une infinity cove avec captation de mouvement, de quatre suites de montage et d'étalonnage, d'un atelier de construction de décors et d'un magasin d'accessoires réfrigéré. La pièce la plus instructive est l'AI Grey Box, un plateau neutre où les comédiens jouent pendant que décors et figurants sont générés ensuite, ce qui déplace la dépense du repérage et du voyage vers la direction artistique et le compositing. Le bâtiment héberge <a href="https://www.wearehex.ai/" target="_blank" rel="noopener">HEX</a>, le studio de technologie créative du groupe qui couvre IA et film, gaming, expérientiel et robotique. <a href="https://www.campaignlive.com/article/wpp-production-opens-ai-powered-studio-devons-point/1970727" target="_blank" rel="noopener">Campaign</a> indique une capacité de 500 personnes et des tournages déjà engagés pour Ford et Dyson, dans une division qui rassemble près de 10 000 professionnels de la production.</div>
+    <div class="learn reveal"><p>L&#x27;industrie a cessé d&#x27;opposer le plateau et le modèle génératif, elle les installe désormais dans le même bâtiment.</p></div>
+    <div class="reveal"><a class="src" href="https://www.campaignlive.com/article/wpp-production-opens-ai-powered-studio-devons-point/1970727" target="_blank" rel="noopener">Campaign <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="philosophie" style="--rc:#a8a196">
+  <div class="media media--2 reveal"><div class="shot"><img src="https://s26162.pcdn.co/wp-content/uploads/2026/09/pain.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://s26162.pcdn.co/wp-content/uploads/2026/09/Moby_Dick_p510_illustration-300x300.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Philosophie</span><span class="tag__n">13</span></div>
+    <h2 class="reveal">Ed Simon fait de la métaphore le seul instrument de ce qui résiste à la description</h2>
+    <div class="ctx reveal">Paru le 21 septembre sur <a href="https://lithub.com/" target="_blank" rel="noopener">Literary Hub</a>, <a href="https://lithub.com/whereof-one-cannot-speak-on-the-limits-of-language-to-describe-pain/" target="_blank" rel="noopener">Whereof One Cannot Speak</a> part d'une thèse d'Elaine Scarry, selon laquelle la douleur ne se décrit pas mais détruit activement le langage de celui qui l'éprouve. Ed Simon suit les conséquences de cet effondrement, l'échelle clinique de zéro à dix qui standardise la mesure sans rien transmettre, puis Wittgenstein, Sontag, Dickinson et Kafka qui fabriquent des images atteignant leur cible sans jamais coïncider avec l'objet. L'essai en tire une règle de travail : devant un contenu qui résiste à la description directe, la métaphore n'est pas un ornement rhétorique mais le seul protocole de transmission disponible, et sa justesse se juge à ce qu'elle fait éprouver, non à sa fidélité. La revue publiait le même jour le récit du tailleur de pierre <a href="https://lithub.com/on-finding-the-beauty-in-a-block-of-stone/" target="_blank" rel="noopener">Simon Warrack</a> sur l'apprentissage du regard, autre version du même problème, celui de ce qu'un savoir-faire sait faire et ne sait pas dire.</div>
+    <div class="learn reveal"><p>Quand une expérience résiste à la description, la métaphore cesse d&#x27;être un ornement et devient le seul instrument de mesure qui reste.</p></div>
+    <div class="reveal"><a class="src" href="https://lithub.com/whereof-one-cannot-speak-on-the-limits-of-language-to-describe-pain/" target="_blank" rel="noopener">Literary Hub <span>&#8599;</span></a></div>
+  </div>
+</section>
+</main>
+<footer>
+  <span class="kicker">Veille créative · édition n°07 · vendredi 25 septembre 2026</span>
+  <a class="btn" href="index.html">Toutes les éditions</a>
+</footer>
+<script>
+(function(){
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('on'); io.unobserve(e.target);} });
+  },{rootMargin:'0px 0px -12% 0px',threshold:.06});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  var bar=document.querySelector('.progress');
+  if(bar){
+    var tick=function(){
+      var h=document.documentElement.scrollHeight-window.innerHeight;
+      bar.style.width=(h>0?(window.scrollY/h)*100:0)+'%';
+    };
+    window.addEventListener('scroll',tick,{passive:true});
+    window.addEventListener('resize',tick); tick();
+  }
+})();
+</script>
+</body>
+</html>
