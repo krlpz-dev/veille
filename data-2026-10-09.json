@@ -1,0 +1,219 @@
+{
+ "date": "2026-10-09",
+ "meta": {
+  "title_en": "GEOMETRY FIRST",
+  "deck_en": "Deux horlogers reprennent Ebel à un groupe américain, Melbourne redore à la main les 75 000 sphères de laiton d'une salle de 1984, et Autodesk remet la géométrie avant le prompt dans Flow Studio. Trois façons de dire que la maîtrise technique redevient le poste décisif.",
+  "highlights": [
+   "F.P. Journe et Chanel reprennent 95 % d'Ebel à Movado pour 66,5 millions de dollars.",
+   "Melbourne rouvre son State Theatre de 1984 après dépose et redorure à la main de 75 000 sphères de laiton.",
+   "Autodesk place un éditeur 3D et un canvas nodal en amont de la génération vidéo dans Flow Studio."
+  ],
+  "topics_fr": [
+   "Une typographie pour 128 pixels",
+   "Cinq robes de musée remises au patron",
+   "Journe et Chanel rachètent Ebel",
+   "Du laser au marteau des cuivriers",
+   "75 000 sphères de laiton redorées",
+   "Es Devlin au Design Museum",
+   "Deux cents ans d'appareils à la Villette",
+   "Kodacolor, la couleur en relief",
+   "Un prix de concept art réservé aux humains",
+   "Reprendre le code d'un autre",
+   "Le select natif devient stylable",
+   "La géométrie avant le prompt",
+   "La chambre noire ne choisit rien"
+  ],
+  "hero_image": "https://d8j0ntlcm91z4.cloudfront.net/user_39FfQeMIWqiQLLKAWDtgFuU9Tem/hf_20261009_183512_01378208-a29d-4641-bad7-557471381196.png",
+  "hero_credit": "Image générée pour cette édition"
+ },
+ "intro": "Treize entrées, une par rubrique. Les pépites hors actualité sont portées cette semaine par la mode, le film et la philosophie.",
+ "entrees": [
+  {
+   "rubrique": "direction-artistique",
+   "titre": "Love And Money signe l'identité d'Orchid et Chunky Roll, une typographie d'interface dessinée pour un écran de 128 pixels",
+   "type": "actualite",
+   "source_nom": "It's Nice That",
+   "source_url": "https://www.itsnicethat.com/articles/love-and-money-telepathic-instruments-orchid-graphic-design-project-061026",
+   "images": [
+    "https://m.itsnicethat.com/original_images/love-and-money-graphic-design-itsnicethat-11.jpg?class=w1080",
+    "https://m.itsnicethat.com/original_images/love-and-money-graphic-design-itsnicethat-12.jpg?class=w1080",
+    "https://m.itsnicethat.com/original_images/love-and-money-graphic-design-itsnicethat-7.jpg?class=w1080",
+    "https://m.itsnicethat.com/original_images/love-and-money-graphic-design-itsnicethat-5.png?class=w1080"
+   ],
+   "contexte_html": "<p>Le studio de <a href=\"https://underconsideration.com/brandnewconference/Speakers_A2_Danny_Pemberton.php\" target=\"_blank\" rel=\"noopener\">Danny Pemberton</a> et Charl Laubscher a construit la marque d'<a href=\"https://musictech.com/news/gear/telepathic-instruments-orchid-global-release/\" target=\"_blank\" rel=\"noopener\">Orchid</a>, le générateur d'accords de Telepathic Instruments, en partant du <a href=\"https://pangrampangram.com/blogs/journal/editorial-new-backstage\" target=\"_blank\" rel=\"noopener\">PP Editorial New de Pangram Pangram</a>, dont les lettres ont été redessinées avec des ligatures manuelles et des fûts qui se fondent les uns dans les autres. La décision esthétique est explicitement contre-courant : là où la vague Superbloom fait éclore, le logotype se décompose, calqué sur l'extinction d'une note de synthétiseur. Côté machine, le <a href=\"https://www.itsnicethat.com/articles/love-and-money-telepathic-instruments-orchid-graphic-design-project-061026\" target=\"_blank\" rel=\"noopener\">dossier publié par It's Nice That</a> détaille Chunky Roll, la police d'interface conçue pour un écran de 128 x 128 pixels : 14 à 18 pixels de hauteur utile espacement compris, et des pixels de deux unités de haut sur une de large pour garder les contrepoinçons ouverts tout en obtenant deux graisses distinctes. Le vocabulaire visuel vient d'un oscilloscope analogique des années 1970 programmé pour tracer une fleur à partir du signal audio, le design produit étant mené en parallèle par Ignacio Germade, boîtiers transparents en référence directe à la Game Boy.</p>",
+   "learning": "À l'heure des identités générées sans limite, c'est un écran de 128 pixels qui impose encore la décision esthétique la plus nette."
+  },
+  {
+   "rubrique": "mode",
+   "titre": "Exploding Fashion relève au patron cinq robes de musée pour retrouver les gestes perdus de la coupe",
+   "type": "pepite",
+   "source_nom": "MoMu, Fashion Museum Antwerp",
+   "source_url": "https://www.momu.be/en/magazine/interview-alistair-oneill-exploding-fashion",
+   "images": [
+    "https://d4r8ypmqnkoz0.cloudfront.net/stories/_default_1/ExplodingFashion_Image6_2.jpg",
+    "https://d4r8ypmqnkoz0.cloudfront.net/stories/_slider_1/ExplodingFashion_Image3.jpg",
+    "https://d4r8ypmqnkoz0.cloudfront.net/stories/_slider_1/ExplodingFashion_Image7.jpg",
+    "https://d4r8ypmqnkoz0.cloudfront.net/stories/_slider_1/ExplodingFashion_Image8.jpg"
+   ],
+   "contexte_html": "<p>Le projet <a href=\"https://www.momu.be/en/exhibitions/exploding-fashion\" target=\"_blank\" rel=\"noopener\">Exploding Fashion</a>, mené par Alistair O'Neill à <a href=\"https://fashionexhibitionmaking.arts.ac.uk/exploding-fashion-from-2d-to-3d-to-3d-animation/\" target=\"_blank\" rel=\"noopener\">Central Saint Martins</a>, a relevé au patron cinq pièces conservées en musée, de Vionnet à Comme des Garçons, en photographiant les objets à la verticale, en mesurant et traçant chaque panneau séparément, puis en montant une toile avant la robe finale. La robe de Charles James n'a livré sa tenue qu'au repassage : ses quatre godets de devant ne tombent juste qu'une fois la jupe pressée, et l'ourlet réclame un lestage, deux informations qu'aucune vitrine ne donne puisqu'on n'y touche pas la pièce. Pour la robe Comme des Garçons de l'automne-hiver 1983-1984, il a fallu redescendre jusqu'au pied-de-biche : le zigzag tirait le jersey et frisait les bords, un pied rouleur a rétabli la tension, et le jersey de laine d'origine, quasiment sans élasticité, ne se trouvait plus qu'en substituts synthétiques chez les filateurs. Chaque reconstruction a ensuite été réanimée en 3D pour restituer le mouvement sur le corps, et <a href=\"https://www.momu.be/en/magazine/interview-alistair-oneill-exploding-fashion\" target=\"_blank\" rel=\"noopener\">O'Neill</a> en tire une formule sèche, développée dans <a href=\"https://www.accartbooks.com/uk/book/exploding-fashion/datasheet/\" target=\"_blank\" rel=\"noopener\">le livre issu de la recherche</a> : le modéliste est un ingénieur, pas l'exécutant d'un dessin.</p>",
+   "learning": "Une archive qu'on ne refait pas n'est pas un savoir-faire, c'est une image : numériser conserve la forme, seul le remontage transmet le geste."
+  },
+  {
+   "rubrique": "luxe",
+   "titre": "F.P. Journe et Chanel rachètent 95 % d'Ebel à Movado pour 66,5 millions de dollars",
+   "type": "actualite",
+   "source_nom": "SJX Watches",
+   "source_url": "https://watchesbysjx.com/2026/10/fp-journe-chanel-ebel.html",
+   "images": [
+    "https://watchesbysjx.com/wp-content/uploads/2026/10/FP-Journe-Chanel-Acquire-Ebel-3x2-header.jpg",
+    "https://watchesbysjx.com/wp-content/uploads/2026/10/fp-journe-chanel-movado-pierre-jacques.jpg"
+   ],
+   "contexte_html": "<p>Movado Group cède 95 % d'<a href=\"https://www.timeandwatches.com/2026/10/fp-journe-chanel-acquire-ebel.html\" target=\"_blank\" rel=\"noopener\">Ebel</a> à un consortium mené par Montres Journe, associé à Chanel et à Pierre Jacques, ancien dirigeant de De Bethune qui prendra la direction de la maison. Marques, propriété intellectuelle, stocks et la <a href=\"https://fondationlecorbusier.fr/en/?p=15415\" target=\"_blank\" rel=\"noopener\">Villa Turque</a>, construite en 1916 par Charles-Edouard Jeanneret pour un fabricant de montres de La Chaux-de-Fonds, basculent dans une filiale suisse avant la vente. Le prix raconte l'érosion d'un actif : <a href=\"https://www.lvmh.com/news-documents/press-releases/lvmh-sells-ebel/\" target=\"_blank\" rel=\"noopener\">LVMH avait cédé Ebel</a> pour 61,5 millions de francs, et la maison repart aujourd'hui pour 66,5 millions de dollars. Chanel applique une méthode constante depuis sa prise de <a href=\"https://watchesbysjx.com/2018/09/business-news-chanel-buys-20-of-f-p-journe.html\" target=\"_blank\" rel=\"noopener\">20 % au capital de F.P. Journe</a> en 2018 et son entrée chez <a href=\"https://www.businessoffashion.com/news/luxury/chanel-sets-sights-on-luxury-watchmaking-with-kenissi-investment/\" target=\"_blank\" rel=\"noopener\">Kenissi</a> : financer l'outil de production et les horlogers, sans absorber les marques.</p>",
+   "learning": "La prochaine consolidation horlogère viendra des horlogers, pas des conglomérats : ceux qui savent fabriquer rachètent les noms que les groupes ont laissés se vider."
+  },
+  {
+   "rubrique": "craft",
+   "titre": "Manuel Bano porte sa collection OBJ du laser au marteau des cuivriers de Santa Clara del Cobre, à PAD London",
+   "type": "actualite",
+   "source_nom": "Wallpaper*",
+   "source_url": "https://www.wallpaper.com/design-interiors/manuel-bano-collectible-design-pad-london-2026",
+   "images": [
+    "https://cdn.mos.cms.futurecdn.net/SqUsxhpNoUgnBbFjMVCrCT.png",
+    "https://cdn.mos.cms.futurecdn.net/Efi3uBVGahXS276JFvnygk.jpg",
+    "https://cdn.mos.cms.futurecdn.net/ojTNCttKpZvpecYRNnBYZZ.jpg",
+    "https://cdn.mos.cms.futurecdn.net/hrcnKdV2z6ANdvsZUXtBFP.jpg"
+   ],
+   "contexte_html": "<p><a href=\"https://www.manuelbano.com/\" target=\"_blank\" rel=\"noopener\">Manuel Bano</a>, installé à Mexico et cofondateur de <a href=\"https://ewe-studio.com/\" target=\"_blank\" rel=\"noopener\">EWE Studio</a> avec Héctor Esrawe et Age Salajõe, présente sa collection OBJ chez <a href=\"https://objectswithnarratives.com/\" target=\"_blank\" rel=\"noopener\">Objects with Narratives</a> à <a href=\"https://www.padesignart.com/en/london/\" target=\"_blank\" rel=\"noopener\">PAD London</a>, du 13 au 18 octobre 2026 à Berkeley Square. La série est née pendant la pandémie sur la découpeuse laser d'un ami, avec la lampe de table OBJ-01, puis s'est déplacée vers l'acier inoxydable, le laiton, l'acier oxydé et le cuivre de récupération. Le basculement décisif tient au cuivre, introduit par le designer Brian Thoreen : Bano travaille désormais avec l'artisan Raúl Rauda à <a href=\"https://en.wikipedia.org/wiki/Santa_Clara_del_Cobre\" target=\"_blank\" rel=\"noopener\">Santa Clara del Cobre</a>, bourg du Michoacán dont la métallurgie remonte au savoir-faire purépecha, où la tôle est coupée, pliée, étirée et martelée à la main. Il décrit une méthode inverse de l'expérimentation : la forme est connue dès le départ, le reste est affinage, du miroir mural OBJ-08 au lustre OBJ-09 et à la table OBJ-12.</p>",
+   "learning": "La machine donne la forme, la main donne la valeur, et c'est la main qui est devenue le poste rare."
+  },
+  {
+   "rubrique": "architecture",
+   "titre": "Melbourne rouvre le State Theatre de 1984 après dépose et redorure de ses 75 000 sphères de laiton",
+   "type": "actualite",
+   "source_nom": "Dezeen",
+   "source_url": "https://www.dezeen.com/2026/10/09/ian-potter-state-theatre-melbourne/",
+   "images": [
+    "https://static.dezeen.com/uploads/2026/10/ian-potter-state-theatre-nh-architecture-snohetta_dezeen_2364_col_1-852x568.jpg",
+    "https://static.dezeen.com/uploads/2026/10/ian-potter-state-theatre-nh-architecture-snohetta_dezeen_2364_col_3-852x568.jpg",
+    "https://static.dezeen.com/uploads/2026/10/ian-potter-state-theatre-nh-architecture-snohetta_dezeen_2364_col_7-852x567.jpg",
+    "https://static.dezeen.com/uploads/2026/10/ian-potter-state-theatre-nh-architecture-snohetta_dezeen_2364_col_9-852x1278.jpg"
+   ],
+   "contexte_html": "<p>Le Ian Potter State Theatre d'Arts Centre Melbourne, salle de 2 000 places livrée en 1984 par Roy Grounds avec un intérieur du décorateur John Truscott, a rouvert le 9 octobre après trente mois de chantier menés par <a href=\"https://architectureau.com/directory/nh-architecture/\" target=\"_blank\" rel=\"noopener\">NH Architecture</a> et le bureau melbournien de <a href=\"https://snohetta.com/projects/arts-centre-melbourne\" target=\"_blank\" rel=\"noopener\">Snøhetta</a>. La méthode a été documentaire avant d'être architecturale : relevé exhaustif de l'existant avec <a href=\"https://artsprecinct.melbourne/news/melbournes-state-theatre-to-reopen-6-months-early/\" target=\"_blank\" rel=\"noopener\">Heritage Victoria</a>, puis arbitrage pièce par pièce entre conservation, restauration, adaptation et reproduction, ce qui a permis de déposer panneau par panneau le plafond en cascade de 75 000 sphères de laiton gravées, de les nettoyer et de les remettre en place, le doreur d'origine Marcus Walkley revenant former une équipe pour redorer à la main les nouveaux éléments.</p><p>L'acoustique a été refaite par ajout, non par substitution : plus de vingt grands panneaux moulés sur mesure portant plus de 27 000 bossages concaves et convexes diffusent le son en plafond, des tasseaux de bois absorbent en fond de salle, et un plancher bois dur remplace le tapis rouge pour rendre une surface réfléchissante. Les fauteuils ont été redessinés avec les scénographes <a href=\"https://schulershook.com/\" target=\"_blank\" rel=\"noopener\">Schuler Shook</a> et fabriqués par Poltrona Frau, la ventilation passe sous les sièges, et 200 enceintes, 60 amplificateurs et plus de 12 km de câble sont intégrés dans les habillages ; une excavation de 14 mètres sous la salle a dégagé un studio de répétition, détail rapporté par <a href=\"https://architectureau.com/articles/arts-centre-melbournes-refurbished-ian-potter-state-theatre-reopens/\" target=\"_blank\" rel=\"noopener\">ArchitectureAU</a>.</p>",
+   "learning": "Le patrimoine qu'on restaure à grands frais n'est plus le XIXe siècle, c'est 1984, et il réclame exactement les mêmes doreurs."
+  },
+  {
+   "rubrique": "scenographie",
+   "titre": "Es Devlin ouvre Other Worlds au Design Museum de Londres, une rétrospective scénographiée comme une représentation",
+   "type": "actualite",
+   "source_nom": "Cool Hunting",
+   "source_url": "https://coolhunting.com/culture/es-devlins-other-worlds-at-londons-design-museum/",
+   "images": [
+    "https://coolhunting.com/wp-content/uploads/2026/10/Es-Devlin-photographed-in-Es-Devlin-Other-Worlds-at-the-Design-Museum_Photo-credit-Daniel-Devlin-@susakpress-4-1024x683.jpg",
+    "https://coolhunting.com/wp-content/uploads/2026/10/Es-Devlin-photographed-in-Es-Devlin-Other-Worlds-at-the-Design-Museum_Photo-credit-Luke-Hayes-3-683x1024.jpg",
+    "https://coolhunting.com/wp-content/uploads/2026/10/Es-Devlin-photographed-amongst-her-archive_Photo-credit-Daniel-Devlin-@susakpress-1024x683.jpg",
+    "https://coolhunting.com/wp-content/uploads/2026/10/Es-Devlin-photographed-in-Es-Devlin-Other-Worlds-at-the-Design-Museum_Photo-credit-Luke-Hayes-1-1024x683.jpg"
+   ],
+   "contexte_html": "<p>Le <a href=\"https://designmuseum.org/exhibitions/es-devlin-other-worlds\" target=\"_blank\" rel=\"noopener\">Design Museum</a> a ouvert le 2 octobre Es Devlin: Other Worlds, première rétrospective européenne de la scénographe, visible jusqu'au 4 avril 2027, sous le commissariat de Danielle Thom. L'entrée est traitée en dispositif de salle plutôt qu'en parcours de musée : créneaux minutés de quinze minutes, groupes d'une cinquantaine de personnes rassemblés dans une pièce rouge, puis reconstitution quasi exacte de son studio londonien où lumière, son et film montent vers un retournement mis en scène, comme le raconte la critique de <a href=\"https://coolhunting.com/culture/es-devlins-other-worlds-at-londons-design-museum/\" target=\"_blank\" rel=\"noopener\">Cool Hunting</a>.</p><p>Le coeur documentaire tient dans le 30-Year Desk, une table courbe fabriquée pour l'exposition qui présente trente maquettes tournantes et des centaines de croquis prélevés sur environ 5 000 pièces d'archives, du Lehman Trilogy de 2018 à la cérémonie de clôture de Londres 2012 et au Nevada Ark conçu pour U2 au Sphere ; <a href=\"https://www.wallpaper.com/design-interiors/design-events/es-devlin-design-museum-london\" target=\"_blank\" rel=\"noopener\">Wallpaper</a> décrit la séquence studio, pratique, bibliothèque comme volontairement linéaire. Un tunnel rouge débouche sur une plateforme miroir où An Infinite Library fait tourner plus de 2 000 ouvrages sur une étagère triangulaire de huit mètres réfléchie par un disque circulaire. La signalétique, l'identité et le film sont signés <a href=\"https://www.pentagram.com/work/es-devlin-other-worlds-exhibition-at-the-design-museum-london\" target=\"_blank\" rel=\"noopener\">Pentagram</a> sous la direction de Marina Willer, avec un caractère dédié, Es Allianz, adaptation contemporaine de l'Helvetica choisie délibérément sobre pour que la typographie ne concurrence pas les objets.</p>",
+   "learning": "La scénographie a cessé d'être un service rendu au spectacle : elle est devenue le spectacle que l'on vient voir."
+  },
+  {
+   "rubrique": "photographie",
+   "titre": "Le Salon Photo et Vidéo expose 200 ans d'appareils avec le musée Nicéphore Niépce, de la chambre de 1826 au Mavica à disquette",
+   "type": "actualite",
+   "source_nom": "Phototrend",
+   "source_url": "https://phototrend.fr/2026/10/salon-photo-video-2026-grande-expo-200-ans-appareils-photo/",
+   "images": [
+    "https://phototrend.fr/wp-content/uploads/2026/10/grande-expo-salon-photo-video-2026-chambre-decouverte.jpg",
+    "https://phototrend.fr/wp-content/uploads/2026/10/grande-expo-salon-photo-video-2026-daguerreotype-.jpg",
+    "https://phototrend.fr/wp-content/uploads/2026/10/grande-expo-salon-photo-video-2026-leica-ii.jpg",
+    "https://phototrend.fr/wp-content/uploads/2026/10/marjolaine-vuarnesson-atelier-collodion.jpg"
+   ],
+   "contexte_html": "<p>Du 8 au 11 octobre, le <a href=\"https://www.lesalondelaphoto.com/\" target=\"_blank\" rel=\"noopener\">Salon Photo &amp; Vidéo</a> installe à la Grande Halle de la Villette 200 ans derrière l'objectif, exposition construite avec le <a href=\"https://www.pop.culture.gouv.fr/notice/museo/M0166\" target=\"_blank\" rel=\"noopener\">musée Nicéphore Niépce</a> de Chalon-sur-Saône, qui prête la chambre dite de la Découverte attribuée à Niépce vers 1826, celle de l'héliographie et du <a href=\"https://en.wikipedia.org/wiki/View_from_the_Window_at_Le_Gras\" target=\"_blank\" rel=\"noopener\">Point de vue du Gras</a>. Le parcours tient par ses ruptures de procédé : chambre à daguerréotype des années 1840, Brownie Kodak à un dollar en 1900 sur film souple Eastman, Gaumont Block-Notes pliant de 1903 dont l'obturateur s'arme en faisant glisser le cache d'objectif, Leica II de 1932 et son Leitz 50 mm qui installe le 24x36. Les fabricants ouvrent leurs propres réserves pour le versant numérique, avec le Sony Mavica MVC-FD5 de 1997 et son CCD de 0,31 Mpx enregistrant sur disquette, le Nikon D1 de 1999 et son APS-C 2,7 Mpx, le Sigma SD9 de 2002 et son capteur à trois couches. Le <a href=\"https://phototrend.fr/2026/10/salon-photo-video-2026-programme/\" target=\"_blank\" rel=\"noopener\">programme</a> adosse à cette archéologie un studio de collodion humide tenu par Marjolaine Vuarnesson, avec portraits sur plaque de verre ou de métal et démonstration quotidienne du procédé de 1851.</p>",
+   "learning": "Aucun support photographique n'a tenu plus de deux générations : la compétence durable n'est pas de maîtriser un procédé, c'est de savoir en changer sans perdre son regard."
+  },
+  {
+   "rubrique": "film",
+   "titre": "Kodacolor, 1928 : la couleur gravée en relief dans la pellicule, décodée aujourd'hui par réseau de neurones",
+   "type": "pepite",
+   "source_nom": "Timeline of Historical Film Colors, Université de Zurich",
+   "source_url": "https://filmcolors.org/timeline-entry/1240/",
+   "images": [
+    "https://filmcolors.org/wp-content/uploads/2013/05/Gschwind_KodacolorLenticular_orig.jpg",
+    "https://filmcolors.org/wp-content/uploads/2013/05/Gschwind_KodacolorLenticular_macro.jpg",
+    "https://filmcolors.org/wp-content/uploads/2013/05/Gschwind_KodacolorLenticular_color.jpg",
+    "https://filmcolors.org/wp-content/uploads/2013/05/Kodacolor_clean_withScale1.jpg"
+   ],
+   "contexte_html": "<p>Le 30 juillet 1928, Kodak lance <a href=\"https://www.filmatlas.com/entry/491\" target=\"_blank\" rel=\"noopener\">Kodacolor</a>, un 16 mm noir et blanc inversible dont le support acétate porte des lenticules gravées en relief : un filtre à trois bandes rouge, vert et bleu posé sur l'objectif 25 mm f/1,9 du Cine-Kodak inscrit trois enregistrements distincts derrière chaque micro-lentille, et le même filtre monté sur le Kodascope les recombine à la projection. Aucun colorant dans l'émulsion, la couleur est purement géométrique, documentée en détail dans la <a href=\"https://filmcolors.org/timeline-entry/1240/\" target=\"_blank\" rel=\"noopener\">Timeline of Historical Film Colors</a> et dans les coupes au microscope du programme <a href=\"https://www.film.uzh.ch/en/research/projects/verbund/ERC-Advanced-Grant-FilmColors.html\" target=\"_blank\" rel=\"noopener\">ERC FilmColors</a>.</p><p>Le procédé meurt de son économie et non de sa qualité : chaque bobine est un original unique que Kodak n'a jamais su copier, les essais d'adaptation en salle échouent, et le Kodachrome soustractif l'enterre en 1935. Les bobines survivantes, notamment au <a href=\"https://en.wikipedia.org/wiki/Kinemathek_Bern\" target=\"_blank\" rel=\"noopener\">Lichtspiel de Berne</a>, sont aujourd'hui relues par un scanner dédié chez <a href=\"https://scan2screen.com/2024/06/12/scanning-and-reconstructing-lenticular-film/\" target=\"_blank\" rel=\"noopener\">Scan2Screen</a> puis recolorisées par apprentissage profond, l'opérateur corrigeant à la main les frontières de lenticules sous forme de vecteurs éditables, <a href=\"https://github.com/LenticularFilmHITL/doLCEHITL\" target=\"_blank\" rel=\"noopener\">code ouvert à l'appui</a>.</p>",
+   "learning": "Une couleur inscrite en géométrie plutôt qu'en pigment ne se décolore pas, elle attend simplement son décodeur."
+  },
+  {
+   "rubrique": "fantasy",
+   "titre": "ILM et Lucasfilm placent sept artistes en finale des Concept Art Awards 2026, dont le règlement réserve les prix aux oeuvres faites par des humains",
+   "type": "actualite",
+   "source_nom": "Industrial Light & Magic",
+   "source_url": "https://ilm.com/ilm-lucasfilm-2026-concept-art-awards-finalists",
+   "images": [
+    "https://www.ilm.com/wp-content/uploads/2026/10/mandalorian-grogu-star-wars-brett-northcutt-ilm-concept-art-awards-1-1024x436.jpg",
+    "https://www.ilm.com/wp-content/uploads/2026/10/mandalorian-grogu-star-wars-aaron-mcbride-ilm-concept-art-awards-1024x493.jpg",
+    "https://www.ilm.com/wp-content/uploads/2026/10/mandalorian-grogu-star-wars-jama-jurabaev-lucasfilm-concept-art-awards-1024x426.jpg",
+    "https://www.ilm.com/wp-content/uploads/2026/10/maul-shadow-lord-star-wars-aaron-cobb-lucasfilm-animation-concept-art-awards-1024x738.jpg"
+   ],
+   "contexte_html": "<p>L'<a href=\"https://ilm.com/ilm-lucasfilm-2026-concept-art-awards-finalists\" target=\"_blank\" rel=\"noopener\">annonce publiée le 9 octobre par ILM</a> aligne sept artistes d'<a href=\"https://ilm.com/\" target=\"_blank\" rel=\"noopener\">Industrial Light &amp; Magic</a> et de Lucasfilm en finale des <a href=\"https://www.conceptartassociation.com/caa-2026\" target=\"_blank\" rel=\"noopener\">Concept Art Awards 2026</a>, répartis sur quatre disciplines distinctes : keyframe, personnage, environnement et véhicule. Brett Northcutt y défend le keyframe et Aaron McBride le design de personnage sur The Mandalorian and Grogu, Richard Lim le véhicule, Jama Jurabaev et Anton Grandert l'environnement, Aaron Cobb et Ben Bryant la série animée Star Wars: Maul Shadow Lord. Le règlement de la <a href=\"https://www.conceptartassociation.com/\" target=\"_blank\" rel=\"noopener\">Concept Art Association</a> impose cette année que toute oeuvre soumise ait été créée par des artistes humains, sur une fenêtre d'éligibilité courant du 19 août 2025 au 17 août 2026. La remise a lieu le 24 octobre au Pasadena Civic Auditorium pendant LightBox Expo, un an après <a href=\"https://www.creativebloq.com/art/digital-art/the-concept-art-awards-2025\" target=\"_blank\" rel=\"noopener\">l'édition 2025</a> dominée par Wicked et KPop Demon Hunters.</p>",
+   "learning": "Quand un prix de concept art doit écrire noir sur blanc que les oeuvres doivent être humaines, la main cesse d'être une évidence et devient un argument de vente."
+  },
+  {
+   "rubrique": "gaming",
+   "titre": "Blackbird Interactive détaille la reprise technique d'Escape the Backrooms, d'un projet Blueprints solo au portage Switch 2",
+   "type": "actualite",
+   "source_nom": "Game Developer",
+   "source_url": "https://www.gamedeveloper.com/production/co-dev-case-study-how-blackbird-interactive-and-secret-mode-helped-escape-the-backrooms-ride-the-backrooms-hype-wave",
+   "images": [
+    "https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blt6b0e02a1ca615f6b/6ac50cb9db91d718576c4723/backroomscodevfeatured.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+    "https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blt2fbf9253c3811f7a/6ac50b775a08ce0e48df46dd/Screenshot_8.jpg?width=1400&auto=webp&quality=80&disable=upscale",
+    "https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/bltc02aa133e8b7f2ff/6ac50bae3c18bab0e037cfe6/Screenshot_6.jpg?width=1400&auto=webp&quality=80&disable=upscale"
+   ],
+   "contexte_html": "<p><a href=\"https://www.gamedeveloper.com/production/co-dev-case-study-how-blackbird-interactive-and-secret-mode-helped-escape-the-backrooms-ride-the-backrooms-hype-wave\" target=\"_blank\" rel=\"noopener\">Game Developer</a> publie le journal de bord de <a href=\"https://www.blackbirdinteractive.com/backrooms\" target=\"_blank\" rel=\"noopener\">Blackbird Interactive</a>, appelé en septembre 2025 par l'éditeur <a href=\"https://wearesecretmode.com/news/escape-the-backrooms-console-launch\" target=\"_blank\" rel=\"noopener\">Secret Mode</a> pour reprendre <a href=\"https://en.wikipedia.org/wiki/Escape_the_Backrooms\" target=\"_blank\" rel=\"noopener\">Escape the Backrooms</a>, un projet Unreal Engine 4 dont presque toute la logique tenait dans des Blueprints écrits par un développeur solo, sans pipeline de build automatisé ni documentation d'architecture. L'équipe a d'abord rétro-ingéniéré les plugins, SDK et branches moteur pour simplement ouvrir le projet, avant de constater que le matchmaking pair-à-pair ne survivait pas à certaines configurations de NAT et de pare-feu sur consoles, un défaut que les API Steam masquaient sur PC. Le passage à Epic Online Services a débloqué le crossplay complet via un système de codes de lobby, au prix d'un report des versions PS5 et Xbox, regroupées ensuite avec le <a href=\"https://www.gematsu.com/2026/07/escape-the-backrooms-now-available-for-switch-2\" target=\"_blank\" rel=\"noopener\">portage Switch 2 de juillet 2026</a>. Parti d'un producteur et d'un lead engineer, l'effectif a doublé après le lancement console.</p>",
+   "learning": "Le savoir-faire qui se vend maintenant n'est plus de concevoir un jeu, c'est de rendre industrialisable celui qu'un autre a bricolé."
+  },
+  {
+   "rubrique": "ui",
+   "titre": "Le bilan plateforme de web.dev acte le select natif stylable dans Safari 27 et remplace font-stretch par font-width",
+   "type": "actualite",
+   "source_nom": "web.dev, Chrome for Developers",
+   "source_url": "https://web.dev/blog/web-platform-09-2026",
+   "images": [],
+   "contexte_html": "<p>Le récapitulatif mensuel publié le 2 octobre par <a href=\"https://web.dev/blog/web-platform-09-2026\" target=\"_blank\" rel=\"noopener\">web.dev</a> recense ce qui a quitté l'expérimental en septembre, et deux lignes comptent pour l'interface : le <code>select</code> natif devient stylable via <code>appearance: base-select</code> et <code>::picker(select)</code> dans <a href=\"https://webkit.org/blog/17967/news-from-wwdc26-webkit-in-safari-27-beta/\" target=\"_blank\" rel=\"noopener\">Safari 27</a> après <a href=\"https://developer.chrome.com/blog/new-in-chrome-152\" target=\"_blank\" rel=\"noopener\">Chrome</a>, avec du HTML riche admis dans les <code>option</code>, ce qui referme vingt ans de menus déroulants reconstruits en div. Côté typographie d'écran, <code>font-stretch</code> est rétrogradé en alias historique au profit de <code>font-width</code>, propriété et descripteur <code>@font-face</code>, ce qui aligne le vocabulaire CSS sur celui des axes de fontes variables. Le reste relève du réglage fin : <code>progress()</code> pour interpoler une valeur bornée sans media query, <code>alpha()</code> pour ne toucher qu'à la transparence d'une couleur d'origine, <code>revert-rule</code> pour annuler une règle précise de la cascade, <code>light-dark()</code> étendu aux images, et l'ancrage de défilement piloté par <code>overflow-anchor</code>. Suivent en bêta <code>random()</code>, le raccourci <code>corner</code>, <code>scroll-snap-type: pair</code> et <code>image-animation</code>, dans le prolongement des vingt chantiers retenus par <a href=\"https://webkit.org/blog/17818/announcing-interop-2026/\" target=\"_blank\" rel=\"noopener\">Interop 2026</a>.</p>",
+   "learning": "Le jour où le composant natif devient stylable, la moitié d'un design system devient de la dette."
+  },
+  {
+   "rubrique": "ia",
+   "titre": "Flow Studio place un éditeur 3D et un canvas nodal en amont de la génération vidéo",
+   "type": "actualite",
+   "source_nom": "Autodesk News",
+   "source_url": "https://adsknews.autodesk.com/en/news/direct-ai-3d-editor-canvas-flow-studio/",
+   "images": [
+    "https://adsknews.autodesk.com/app/uploads/2026/08/Autodesk_Flow-Studio-FINAL-For-Stills.00_01_56_16.Still038.png",
+    "https://adsknews.autodesk.com/app/uploads/2026/08/Autodesk_Flow-Studio-FINAL-For-Stills.00_00_46_15.Still014.png",
+    "https://adsknews.autodesk.com/app/uploads/2026/08/Autodesk_Flow-Studio-FINAL-For-Stills.00_00_59_12.Still015.png",
+    "https://adsknews.autodesk.com/app/uploads/2026/08/Autodesk_Flow-Studio-FINAL-For-Stills.00_01_25_05.Still024.png"
+   ],
+   "contexte_html": "<p>Autodesk a greffé sur <a href=\"https://adsknews.autodesk.com/en/news/direct-ai-3d-editor-canvas-flow-studio/\" target=\"_blank\" rel=\"noopener\">Flow Studio</a> un 3D Editor et un Canvas nodal : la scène se bloque en 3D, placement des personnages, pistes et keyframes de caméra, timing, mondes générés et plans en prise de vue réelle, avant que Veo, Kling, Seedance, Gemini, Nano Banana ou Marble de World Labs ne produisent le rendu, le Canvas servant à itérer en 2D sur les plans en parallèle. Le dispositif a été remis en avant le 7 octobre par <a href=\"https://beforesandafters.com/2026/10/07/step-into-the-directors-seat-with-3d-editor-in-flow-studio/\" target=\"_blank\" rel=\"noopener\">befores &amp; afters</a>, qui le présente comme un siège de réalisateur plutôt qu'une boîte à prompts.</p><p>Le même déplacement se lit dans la recherche : le 2 octobre, Stability AI et l'université de l'Illinois ont publié <a href=\"https://aiweekly.co/alerts/stability-ais-4director-steers-video-models-with-rigid-3d-meshes\" target=\"_blank\" rel=\"noopener\">4Director</a>, qui abandonne les indices 2D au profit de géométrie explicite : chaque objet est reconstruit une fois en maillage canonique depuis l'image d'entrée, puis déplacé par une transformation rigide par image, rendu en vidéo de profondeur et injecté dans Wan2.1-VACE-14B via un Motion Adapter entraînable, avec 3,65 degrés d'erreur de rotation revendiqués. Pour un studio, la conséquence est opérationnelle : le prompt redevient un paramètre de rendu, et la valeur remonte en amont, là où l'on tient la scène, les trajectoires et les axes.</p>",
+   "learning": "La vidéo générative cesse d'être un oracle pour redevenir un plateau, et celui qui tient la géométrie tient la mise en scène."
+  },
+  {
+   "rubrique": "philosophie",
+   "titre": "La camera obscura avant la photographie, et l'objection de Reynolds sur le défaut de sélection",
+   "type": "pepite",
+   "source_nom": "The Public Domain Review",
+   "source_url": "https://publicdomainreview.org/essay/the-early-modern-camera-obscura",
+   "images": [
+    "https://pdr-assets.b-cdn.net/essays/the-early-modern-camera-obscura/01-RP-F-2001-7-509-6-edit.jpg?width=1200&height=765",
+    "https://pdr-assets.b-cdn.net/essays/the-early-modern-camera-obscura/04-athanasiikirche00kirc_0130-edit.jpg?width=1200&height=765",
+    "https://pdr-assets.b-cdn.net/essays/the-early-modern-camera-obscura/08-encyclopedie.jpg?width=1200&height=765",
+    "https://pdr-assets.b-cdn.net/essays/the-early-modern-camera-obscura/13-elementarytreati00gano_0_0500-edit.jpg?width=1200&height=765"
+   ],
+   "contexte_html": "<p><a href=\"https://publicdomainreview.org/contributors/#julie-park\" target=\"_blank\" rel=\"noopener\">Julie Park</a> décrit dans <a href=\"https://publicdomainreview.org/essay/the-early-modern-camera-obscura\" target=\"_blank\" rel=\"noopener\">The Public Domain Review</a> trois siècles d'un appareil qui produisait une image exacte et pourtant ingardable : la chambre noire renverse la scène, en sature les couleurs, exagère les mouvements, et ne conserve rien. La description technique est précise, de la première image imprimée chez Gemma Frisius en 1545 aux instructions de montage du <a href=\"https://archive.org/details/naturalmagickbyj00port/page/n7/mode/2up\" target=\"_blank\" rel=\"noopener\">Natural Magick</a> de della Porta, jusqu'à la tente portative de Kepler dans les années 1620, un abri noir pour une personne, percé d'un trou d'un pouce et demi, muni d'un fût à lentilles convexe et concave, que l'opérateur faisait pivoter pour relever le paysage au trait et par degrés. Joshua Reynolds possédait un de ces appareils et lui refusait pourtant le statut d'artiste : il manque à la machine le pouvoir de choisir ses matériaux et d'élever son style, là où le peintre exerce une domination complète sur le clair et l'obscur traités comme matière. L'essai renvoie à <a href=\"https://mitpress.mit.edu/9780262531078/techniques-of-the-observer/\" target=\"_blank\" rel=\"noopener\">Techniques of the Observer</a> de Jonathan Crary et au livre de Park, <a href=\"https://press.uchicago.edu/ucp/books/book/chicago/M/bo192110828.html\" target=\"_blank\" rel=\"noopener\">My Dark Room</a>, pour situer ce moment où l'appareil cesse d'être un instrument d'optique pour devenir un modèle de l'intérieur mental.</p>",
+   "learning": "Un appareil qui capte tout ne choisit rien, et le métier a toujours été dans le choix."
+  }
+ ]
+}
