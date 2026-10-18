@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Veille créative n°09 · 16.10.2026</title>
+<meta name="description" content="Arsenal clôt quatre ans et demi de dessin avec un blackletter tracé lettre par lettre, Nvidia divise par deux la charge de son rendu neuronal et confie la direction artistique au...">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#0a0a0b; --bg-2:#111113; --ink:#f4f4f0; --muted:#8b8b85;
+  --line:rgba(255,255,255,.13); --accent:#D9FF3D;
+  --serif:'Unbounded','Outfit','Helvetica Neue',sans-serif;
+  --sans:'Inter','Helvetica Neue',Arial,sans-serif;
+  --pad:clamp(20px,5vw,72px);
+}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-weight:500;font-size:15px;line-height:1.62;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+::selection{background:var(--accent);color:#000}
+.kicker{font-size:10.5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.grain{position:fixed;inset:0;pointer-events:none;z-index:60;opacity:.05;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/><feColorMatrix type='saturate' values='0'/></filter><rect width='240' height='240' filter='url(%23n)' opacity='0.5'/></svg>");background-size:240px;mix-blend-mode:overlay}
+.bar{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;
+  justify-content:space-between;gap:16px;padding:14px var(--pad);
+  background:linear-gradient(to bottom,rgba(10,10,11,.92),rgba(10,10,11,0));
+  backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px)}
+.bar__id{font-size:10.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--ink);text-decoration:none;opacity:.85;transition:opacity .3s}
+.bar__id:hover{opacity:1}
+.btn{display:inline-block;font-size:10px;font-weight:600;letter-spacing:.2em;
+  text-transform:uppercase;text-decoration:none;padding:9px 15px;border-radius:2px;
+  border:1px solid var(--accent);color:var(--accent);
+  background:color-mix(in srgb,var(--accent) 30%,transparent);
+  transition:background .35s ease,color .35s ease,transform .35s ease}
+.btn:hover{background:var(--accent);color:#0a0a0b;transform:translateY(-1px)}
+.progress{position:fixed;top:0;left:0;height:2px;width:0;background:var(--accent);z-index:70;
+  transition:width .12s linear}
+.hide-s{display:inline}
+footer{padding:clamp(48px,9vh,104px) var(--pad);border-top:1px solid var(--line);
+  display:flex;flex-wrap:wrap;gap:14px 26px;justify-content:space-between;align-items:center}
+@media (max-width:680px){
+  .hide-s{display:none}
+  .bar{padding:11px 16px}
+  .bar__id{font-size:9.5px;letter-spacing:.14em}
+  .btn{padding:8px 11px;font-size:9px;letter-spacing:.13em;white-space:nowrap}
+}
+.reveal{opacity:0;transform:translateY(26px);
+  transition:opacity 1s cubic-bezier(.22,.7,.24,1),transform 1s cubic-bezier(.22,.7,.24,1)}
+.reveal.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none;transition:none}
+}
+
+main{scroll-snap-type:y proximity}
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;
+  padding:0 var(--pad) clamp(38px,7vh,86px);overflow:hidden;scroll-snap-align:start}
+.hero__img{position:absolute;inset:0;z-index:0}
+.hero__img img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.16) brightness(.62);
+  transform:scale(1.06);animation:drift 22s ease-out forwards}
+@keyframes drift{to{transform:scale(1)}}
+.hero__veil{position:absolute;inset:0;z-index:1;
+  background:radial-gradient(120% 90% at 20% 100%,rgba(10,10,11,.35),rgba(10,10,11,.94) 72%),
+             linear-gradient(to top,rgba(10,10,11,.98),rgba(10,10,11,.2) 55%,rgba(10,10,11,.72))}
+.hero__in{position:relative;z-index:2;max-width:1180px;width:100%}
+.hero__no{font-family:var(--serif);font-weight:800;font-size:11px;letter-spacing:.32em;
+  color:var(--accent);margin:0 0 18px}
+.hero h1{font-family:var(--serif);font-weight:900;letter-spacing:-.02em;line-height:.92;
+  font-size:clamp(38px,8.2vw,116px);margin:0 0 22px;text-transform:uppercase}
+.hero__meta{display:flex;flex-wrap:wrap;gap:10px 22px;margin-bottom:22px}
+.hero__deck{max-width:62ch;font-size:15px;color:#cfcfc8;margin:0}
+.hero__scroll{position:absolute;left:var(--pad);bottom:14px;z-index:2;font-size:9.5px;
+  letter-spacing:.24em;text-transform:uppercase;color:var(--muted);animation:blink 3.2s infinite}
+@keyframes blink{0%,100%{opacity:.35}50%{opacity:.9}}
+
+.sommaire{padding:clamp(64px,12vh,140px) var(--pad);border-top:1px solid var(--line);
+  scroll-snap-align:start}
+.sommaire__in{max-width:1180px;margin:0 auto}
+.sommaire p.intro{font-size:clamp(17px,2.1vw,25px);line-height:1.42;max-width:32ch;
+  font-family:var(--serif);font-weight:400;margin:18px 0 clamp(38px,6vh,64px)}
+.som__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  column-gap:clamp(24px,5vw,80px)}
+.som__row{display:flex;gap:14px;align-items:baseline;padding:11px 0;border-top:1px solid var(--line);
+  text-decoration:none;transition:padding-left .35s ease}
+.som__row:hover{padding-left:8px}
+.som__n{font-family:var(--serif);font-size:10px;font-weight:600;color:var(--muted);min-width:22px}
+.som__t{font-size:14px;font-weight:500;flex:1}
+.som__r{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
+  text-align:right;white-space:nowrap}
+.som__row:hover .som__t{color:var(--accent)}
+
+.entry{min-height:100svh;display:grid;align-items:center;
+  grid-template-columns:minmax(0,.86fr) minmax(0,1fr);
+  gap:clamp(28px,4.5vw,74px);padding:clamp(72px,11vh,124px) var(--pad);
+  border-top:1px solid var(--line);scroll-snap-align:start}
+.media{display:grid;gap:8px;width:100%;aspect-ratio:3/4;max-height:78vh;margin:0 auto}
+.media--1{grid-template-rows:1fr}
+.media--2{grid-template-rows:1.75fr 1fr}
+.media--3{grid-template-rows:1.75fr 1fr;grid-template-columns:1fr 1fr}
+.media--3 .shot:first-child{grid-column:1 / -1}
+.shot{position:relative;overflow:hidden;background:var(--bg-2)}
+.shot img{width:100%;height:100%;object-fit:cover;transform:scale(1.03);
+  transition:transform 1.4s cubic-bezier(.22,.7,.24,1)}
+.shot:hover img{transform:scale(1.08)}
+.txt{max-width:56ch}
+.tag{display:flex;align-items:center;gap:10px;margin-bottom:20px;flex-wrap:wrap}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--rc)}
+.tag__r{font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--rc)}
+.tag__n{font-family:var(--serif);font-size:10px;font-weight:600;color:var(--muted);margin-left:auto}
+.pepite{font-size:9px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
+  color:#0a0a0b;background:var(--rc);padding:3px 8px;border-radius:2px}
+.entry h2{font-family:var(--serif);font-weight:800;letter-spacing:-.015em;line-height:1.08;
+  font-size:clamp(23px,2.9vw,40px);margin:0 0 22px}
+.ctx{font-size:15px;line-height:1.68;color:#d6d6d0;margin:0 0 26px}
+.ctx a{color:var(--ink);text-decoration:none;background-image:linear-gradient(var(--rc),var(--rc));
+  background-size:100% 1px;background-repeat:no-repeat;background-position:0 100%;
+  padding-bottom:1px;transition:background-size .4s ease,color .3s ease}
+.ctx a:hover{color:var(--rc);background-size:100% 2px}
+.ctx em{font-style:italic;color:#eaeae4}
+.learn{border-left:2px solid var(--rc);padding:2px 0 2px 16px;margin:0 0 24px}
+.learn p{margin:0;font-family:var(--serif);font-weight:400;font-size:clamp(15px,1.6vw,20px);
+  line-height:1.34;color:var(--ink)}
+.src{display:inline-flex;align-items:center;gap:9px;font-size:10px;font-weight:600;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--muted);text-decoration:none;
+  transition:color .3s ease,gap .3s ease}
+.src:hover{color:var(--rc);gap:14px}
+
+@media (max-width:1080px){
+  .entry{grid-template-columns:1fr;gap:30px;align-items:start}
+  .media{aspect-ratio:4/3;max-height:none}
+  .media--3{grid-template-rows:1.5fr 1fr}
+  .txt{max-width:none}
+  body{font-size:15.5px}
+  .ctx{font-size:15.5px}
+}
+@media (max-width:680px){
+  .som__grid{grid-template-columns:1fr}
+  .som__r{display:none}
+  .media{aspect-ratio:3/4;gap:6px}
+  .hero{padding-bottom:64px}
+  .entry{padding-top:88px;padding-bottom:56px}
+  main{scroll-snap-type:none}
+}
+</style>
+</head>
+<body>
+<div class="progress"></div>
+<div class="grain"></div>
+<header class="bar">
+  <a class="bar__id" href="index.html">Veille créative<span class="hide-s"> · Karl Petzold</span></a>
+  <a class="btn" href="index.html">Toutes les éditions</a>
+</header>
+<main>
+  <section class="hero">
+    <div class="hero__img"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_39FfQeMIWqiQLLKAWDtgFuU9Tem/hf_20261016_164031_a1b5316f-e937-4ab7-9ad4-49d6030701ac.png" alt="" referrerpolicy="no-referrer"></div>
+    <div class="hero__veil"></div>
+    <div class="hero__in">
+      <p class="hero__no">Édition n°09</p>
+      <h1>FIXED POINT</h1>
+      <div class="hero__meta"><span class="kicker">vendredi 16 octobre 2026</span><span class="kicker">Treize entrées</span></div>
+      <p class="hero__deck">Arsenal clôt quatre ans et demi de dessin avec un blackletter tracé lettre par lettre, Nvidia divise par deux la charge de son rendu neuronal et confie la direction artistique au masque plutôt qu&#x27;au prompt, et Paris scelle place de la République le sol exact des deux premiers humains photographiés en 1838. Trois manières de dire que la contrainte précise vaut mieux que la consigne vague.</p>
+    </div>
+    <span class="hero__scroll">Défiler</span>
+  </section>
+  <section class="sommaire">
+    <div class="sommaire__in">
+      <span class="kicker">Au sommaire</span>
+      <p class="intro">Treize entrées, une par rubrique. Les pépites hors actualité sont portées cette semaine par le craft, la scénographie et l&#x27;interface.</p>
+      <div class="som__grid"><a class="som__row reveal" href="#direction-artistique"><span class="som__n">01</span><span class="som__t">Quatre ans et demi pour un blackletter</span><span class="som__r">Direction artistique &amp; campagnes</span></a><a class="som__row reveal" href="#mode"><span class="som__n">02</span><span class="som__t">Un musée collectionne deux passations</span><span class="som__r">Mode</span></a><a class="som__row reveal" href="#luxe"><span class="som__n">03</span><span class="som__t">Urwerk change de motoriste</span><span class="som__r">Luxe</span></a><a class="som__row reveal" href="#craft"><span class="som__n">04</span><span class="som__t">Le pochoir fumé d&#x27;Ise</span><span class="som__r">Craft &amp; matière</span></a><a class="som__row reveal" href="#architecture"><span class="som__n">05</span><span class="som__t">Un Wright sans vide technique</span><span class="som__r">Architecture</span></a><a class="som__row reveal" href="#scenographie"><span class="som__n">06</span><span class="som__t">Le brevet du panorama, 1787</span><span class="som__r">Scénographie &amp; expérience</span></a><a class="som__row reveal" href="#photographie"><span class="som__n">07</span><span class="som__t">Retrouver le sol de 1838</span><span class="som__r">Photographie</span></a><a class="som__row reveal" href="#film"><span class="som__n">08</span><span class="som__t">Le mur LED remis en option</span><span class="som__r">Film &amp; motion</span></a><a class="som__row reveal" href="#fantasy"><span class="som__n">09</span><span class="som__t">Marvel lâche le modèle</span><span class="som__r">Fantasy art &amp; illustration</span></a><a class="som__row reveal" href="#gaming"><span class="som__n">10</span><span class="som__t">RimWorld quitte Unity</span><span class="som__r">Gaming &amp; worldbuilding</span></a><a class="som__row reveal" href="#ui"><span class="som__n">11</span><span class="som__t">Huit commandes pour tout</span><span class="som__r">UI &amp; design d&#x27;interface</span></a><a class="som__row reveal" href="#ia"><span class="som__n">12</span><span class="som__t">Le masque plutôt que le prompt</span><span class="som__r">IA &amp; création</span></a><a class="som__row reveal" href="#philosophie"><span class="som__n">13</span><span class="som__t">Construire ou remplacer une capacité</span><span class="som__r">Philosophie</span></a></div>
+    </div>
+  </section>
+  
+<section class="entry" id="direction-artistique" style="--rc:#c9a24a">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://m.itsnicethat.com/original_images/Arsenal_Rocastle_16x9_001.png?class=w1080" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://m.itsnicethat.com/original_images/Arsenal_Rocastle_16x9_010.png?class=w1080" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://m.itsnicethat.com/original_images/Arsenal_Rocastle_4x5_001.png?class=w1080" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Direction artistique &amp; campagnes</span><span class="tag__n">01</span></div>
+    <h2 class="reveal">Arsenal complète son système typographique avec Rocastle, un blackletter dessiné pendant plus de quatre ans par David Rudnick</h2>
+    <div class="ctx reveal"><p><a href="https://x.com/David_Rudnick" target="_blank" rel="noopener">David Rudnick</a>, avec Léa Bruneau au sein du studio terrain, livre Rocastle, troisième et dernière famille du système typographique d'Arsenal, <a href="https://x.com/David_Rudnick/status/2109727092850266603" target="_blank" rel="noopener">annoncée aux supporters avant toute documentation</a>. Le système se construit depuis quatre ans et demi sur trois piliers, Northbank pour l'équipe et le match, Chapman pour le territoire du club, Rocastle pour la culture, c'est-à-dire la zone où le football croise la mode, l'art et la musique. Rocastle compte trois graisses, et presque chaque lettre a été tracée comme un glyphe unique plutôt que dérivée d'un squelette commun, au terme de milliers d'itérations et d'une recherche sur la construction historique du blackletter.</p><p>La contrainte était de produire un caractère reconnaissable par des fans habitués depuis des décennies aux lettres gothiques du wordmark, sans tomber dans la pièce décorative ni sacrifier la lisibilité. La graisse principale fait courir une ligne continue à travers chaque lettre, et le jeu inclut The Capital, un A autonome conçu pour accompagner le blason, comme le détaille <a href="https://www.creativereview.co.uk/arsenal-football-club-rocastle-typeface-david-rudnick/" target="_blank" rel="noopener">Creative Review</a>. Le club réserve Rocastle à un usage rare, et Rudnick qualifie le chantier de difficulté maximale, le seul G ayant occupé une phase entière du dessin.</p></div>
+    <div class="learn reveal"><p>Un système de marque sérieux ne se mesure plus en nombre de déclinaisons mais en années de dessin, et la rareté d&#x27;usage devient le vrai signe de valeur.</p></div>
+    <div class="reveal"><a class="src" href="https://www.itsnicethat.com/features/david-rudnick-johnnie-campbell-arsenal-rocastle-typeface-graphic-design-spotlight-121026" target="_blank" rel="noopener">It&#x27;s Nice That <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="mode" style="--rc:#a3ad72">
+  <div class="media media--2 reveal"><div class="shot"><img src="https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000,format=auto/m/ea7e/8612/4651/e2d2/fb11/c317/4c9a/5aa6/7138/0a5c/0a5c.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://media.fashionnetwork.com/cdn-cgi/image/fit=cover,width=600,height=600,format=auto/m/77a6/bc5e/b101/4dd0/061b/ef89/449e/4f65/7ae7/2837/2837.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Mode</span><span class="tag__n">02</span></div>
+    <h2 class="reveal">Le Fashion Museum de Bath fait entrer en collection les débuts de Sarah Burton chez Givenchy et le dernier costume d&#x27;homme de Giorgio Armani</h2>
+    <div class="ctx reveal"><p>Le <a href="https://www.fashionmuseum.co.uk/dress-year-2025" target="_blank" rel="noopener">Fashion Museum de Bath</a> a désigné le 14 octobre deux pièces pour sa <a href="https://en.wikipedia.org/wiki/Dress_of_the_Year" target="_blank" rel="noopener">Dress of the Year</a>, sélection qui alimente une collection publique depuis 1963 : la robe en maille jaune jonquille de Sarah Burton pour Givenchy, montrée à Paris en mars 2025 pour ses premiers pas dans la maison, et un costume trois pièces souplement coupé de la collection homme printemps-été 2026 de Giorgio Armani, présentée à Milan en juin 2025, quelques semaines avant sa mort. L'arbitrage revient à Jess Cartner-Morley, du Guardian, la conservatrice en chef Elisabeth Murray cosignant la décision.</p><p>Le <a href="https://newsroom.bathnes.gov.uk/news/fashion-museum-bath-announces-60th-dress-year-celebrating-british-fashion-talent" target="_blank" rel="noopener">conseil de Bath and North East Somerset</a> prévoit par ailleurs d'installer le <a href="https://en.wikipedia.org/wiki/Fashion_Museum,_Bath" target="_blank" rel="noopener">musée</a> dans l'ancienne poste de la ville à l'horizon 2030, le temps de redéployer des réserves qui comptent parmi les plus denses d'Europe. En retenant un début et une fin plutôt qu'une saison forte, l'institution acte que la pièce historique de 2025 n'est pas un volume ni un imprimé, mais deux transferts d'autorité. Le costume d'Armani ferme quarante-cinq ans de veste désentoilée, dépouillée de sa toile tailleur et de son rembourrage d'épaule, qui a réécrit la façon dont un vêtement tombe sur le corps.</p></div>
+    <div class="learn reveal"><p>Un musée ne collectionne plus des saisons, il collectionne des passations, et ce qui fait date dans un vestiaire est désormais le changement de main.</p></div>
+    <div class="reveal"><a class="src" href="https://fr.fashionnetwork.com/news/Givenchy-et-armani-sacres-par-le-musee-de-la-mode-de-bath,1875010.html" target="_blank" rel="noopener">FashionNetwork <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="luxe" style="--rc:#b57a8c">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://watchesbysjx.com/wp-content/uploads/2026/10/Urwerk-UR-300-Time-Quantum-hero.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://watchesbysjx.com/wp-content/uploads/2026/10/Urwerk-UR-300-Time-Quantum-movement.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://watchesbysjx.com/wp-content/uploads/2026/10/Urwerk-UR-300-Time-Quantum-tech.jpeg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Luxe</span><span class="tag__n">03</span></div>
+    <h2 class="reveal">Urwerk lance l&#x27;UR-300 Time Quantum et bascule des bases Zenith aux calibres Vaucher</h2>
+    <div class="ctx reveal"><p><a href="https://www.urwerk.com/" target="_blank" rel="noopener">Urwerk</a> relance ses heures errantes avec l'UR-300 Time Quantum, dont le module d'affichage tient à une pièce formée par LIGA qui avance de 180 degrés par heure, pendant qu'une came fixe ramène la crémaillère de 72 degrés, soit une rotation nette de 108 degrés. Au changement d'heure, la crémaillère décroche de la came et libère d'un coup les 72 degrés retenus, ce qui inverse les deux atomes et fait pivoter les cubes des heures. Le boîtier en titane grade 5 mesure 45,2 sur 58,8 mm pour 18,25 mm de haut, nu ou revêtu d'AlTiN, à 168 000 francs suisses hors taxes, 25 pièces par exécution, étanchéité 30 m.</p><p>Le fait industriel est ailleurs : le calibre UR-30.01V est bâti sur une base 3000 de <a href="https://www.europastar.com/magazine/highlights/1004086531-movements-private-label-by-vaucher-manufacture.html" target="_blank" rel="noopener">Vaucher Manufacture Fleurier</a>, qui remplace les Elite de Zenith employées jusqu'ici, avec double barillet, balancier libre, 4 Hz, 44 heures de réserve et turbines amortissant le remontage unidirectionnel. <a href="https://watchesbysjx.com/2026/10/urwerk-ur-300-time-quantum.html" target="_blank" rel="noopener">SJX</a> détaille aussi la contrainte d'usage, un cran à réarmer avant tout réglage en arrière sous peine de bloquer le saut suivant.</p></div>
+    <div class="learn reveal"><p>Changer de motoriste sans changer de signature : la valeur d&#x27;une maison tient au module qu&#x27;elle possède, pas à la base qu&#x27;elle achète.</p></div>
+    <div class="reveal"><a class="src" href="https://watchesbysjx.com/2026/10/urwerk-ur-300-time-quantum.html" target="_blank" rel="noopener">SJX Watches <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="craft" style="--rc:#b8956a">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://isekatagami.or.jp/wp/wp-content/themes/isekata_theme/assets/img/about/process_about_img.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://isekatagami.or.jp/wp/wp-content/themes/isekata_theme/assets/img/about/process_tech_img01.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://isekatagami.or.jp/wp/wp-content/themes/isekata_theme/assets/img/about/process_tech_img02.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Craft &amp; matière</span><span class="pepite">Pépite</span><span class="tag__n">04</span></div>
+    <h2 class="reveal">Ise katagami, le pochoir en papier fumé qui imprime encore 99 % des kimonos komon</h2>
+    <div class="ctx reveal"><p>Le <a href="https://isekatagami.or.jp/en/en_process/" target="_blank" rel="noopener">procédé documenté par la coopérative d'Ise katagami</a> commence par le support : trois feuilles de washi de Mino collées au tanin de kaki en alternant le sens du fil, tendues et séchées au soleil, puis fumées une semaine, retrempées et fumées de nouveau, jusqu'à obtenir un papier brun qui ne bouge plus. La gravure se décline en quatre gestes mesurables : le shimabori tire jusqu'à onze rayures par centimètre, à trois passes de lame chacune ; le tsukibori pousse un ciseau de 1 à 2 mm à travers cinq à huit feuilles empilées sur une plaque perforée ; le kiribori perce environ cent trous au centimètre carré ; le dogubori frappe le motif avec des poinçons gravés à l'avance, dont certains graveurs possèdent <a href="https://kougeihin.jp/en/craft/1503/" target="_blank" rel="noopener">jusqu'à trois mille exemplaires</a>.</p><p>Attesté dès la fin de Muromachi, protégé par le domaine de Kishū à l'époque d'Edo autour des villages de Shiroko et Jike, l'atelier d'Ise est resté un monopole industriel : 99 % des kimonos komon du pays sont teints avec des pochoirs expédiés de Suzuka, et la <a href="https://isekatagami.or.jp/en/en_history/" target="_blank" rel="noopener">filière</a> a été classée outil d'artisanat traditionnel par le METI le 27 avril 1983. La <a href="https://isekatagami.or.jp/en/ise-katagami-dyeing-with-stencils/" target="_blank" rel="noopener">teinture au pochoir</a> sépare ainsi deux métiers que l'Occident a fusionnés, celui qui dessine et perce la matrice et celui qui l'applique, et les matrices elles-mêmes sont devenues pièces de collection, du <a href="https://risdmuseum.org/art-design/collection/katagami-pattern-paper-stencil-07020" target="_blank" rel="noopener">fonds katagami du RISD Museum</a> aux cabinets d'estampes européens qui y ont puisé leur vocabulaire ornemental.</p></div>
+    <div class="learn reveal"><p>Le pochoir est le premier fichier source : un motif réutilisable à l&#x27;infini dont toute la valeur tient à la précision de l&#x27;outil qui l&#x27;a gravé.</p></div>
+    <div class="reveal"><a class="src" href="https://isekatagami.or.jp/en/en_process/" target="_blank" rel="noopener">Ise Katagami Cooperative Association, Suzuka <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="architecture" style="--rc:#8d9aa3">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://static.dezeen.com/uploads/2026/10/planetarium-frank-lloyd-wright-florida-southern-college_dezeen_2364_hero-852x479.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.dezeen.com/uploads/2026/10/planetarium-frank-lloyd-wright-florida-southern-college_dezeen_2364_col_1-852x568.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.dezeen.com/uploads/2026/10/planetarium-frank-lloyd-wright-florida-southern-college_dezeen_2364_col_16-852x568.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Architecture</span><span class="tag__n">05</span></div>
+    <h2 class="reveal">Le seul planétarium construit par Frank Lloyd Wright rouvre en Floride après cinq ans de restauration</h2>
+    <div class="ctx reveal"><p>Fermé depuis 2004 à la panne de son projecteur, le planétarium du Polk County Science Building de <a href="https://flsouthern.edu/frank-lloyd-wright-home/history" target="_blank" rel="noopener">Florida Southern College</a> vient de rouvrir au terme d'un chantier mené en deux phases par <a href="https://mcwb-arch.com/" target="_blank" rel="noopener">MCWB Architects</a>, architecte résident du campus depuis vingt ans. L'enveloppe d'abord, à partir de 2021 : réfection de la toiture, des solins, des enduits ruinés en partie haute, et remplacement de plus de 280 blocs textiles coulés à la main sur le périmètre, reproduits à l'identique. L'intérieur ensuite, à partir de 2023 : dépose d'un local informatique greffé dans les années 1980, retour du plâtre et des peintures d'origine, sol repris en Cherokee Red, et remise en cercle des sièges en contreplaqué restaurés par des artisans locaux.</p><p>La difficulté tenait au système constructif de <a href="https://www.dezeen.com/tag/frank-lloyd-wright/" target="_blank" rel="noopener">Wright</a> lui-même : sols et plafonds en béton sont porteurs et finis, sans aucun vide technique où dissimuler ventilation, câblage ou sonorisation. Les réseaux neufs ont donc été tracés dans l'épaisseur disponible plutôt que masqués, méthode déjà éprouvée sur les autres bâtiments du campus pilotés par le <a href="https://mcwb-arch.com/?p=1124" target="_blank" rel="noopener">Campus Heritage Plan</a> de 2007 financé par la Getty Foundation, et parente des arbitrages en cours à <a href="https://www.dezeen.com/2026/04/01/fallingwater-frank-lloyd-wright-architectural-preservation-studio/" target="_blank" rel="noopener">Fallingwater</a>.</p></div>
+    <div class="learn reveal"><p>Un bâtiment sans vide technique vous oblige à concevoir vos réseaux comme de l&#x27;architecture, pas comme de la plomberie.</p></div>
+    <div class="reveal"><a class="src" href="https://www.dezeen.com/2026/10/15/florida-southern-college-frank-lloyd-wright-planetarium-restoration/" target="_blank" rel="noopener">Dezeen <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="scenographie" style="--rc:#7fbdb0">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://pdr-assets.b-cdn.net/essays/unlimiting-the-bounds-the-panorama-and-the-balloon-view/28081063653_a69d5a3ac5_o.jpg?width=1200&amp;height=765" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://pdr-assets.b-cdn.net/essays/unlimiting-the-bounds-the-panorama-and-the-balloon-view/28708485436_24a6788339_z.jpg?width=1200&amp;height=765" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://pdr-assets.b-cdn.net/essays/unlimiting-the-bounds-the-panorama-and-the-balloon-view/28081241544_8b6ce4aef1_b.jpg?width=1200&amp;height=765" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Scénographie &amp; expérience</span><span class="pepite">Pépite</span><span class="tag__n">06</span></div>
+    <h2 class="reveal">Le panorama de Robert Barker, 1787, ou comment un brevet a fixé les règles de l&#x27;immersion</h2>
+    <div class="ctx reveal"><p>Cet <a href="https://publicdomainreview.org/essay/unlimiting-the-bounds-the-panorama-and-the-balloon-view" target="_blank" rel="noopener">essai de The Public Domain Review</a> rappelle que le brevet déposé par Robert Barker en 1787 ne protège pas une image mais un dispositif de vue : éclairage par le haut, plateforme centrale isolée placée exactement à mi-hauteur de la toile, entrée par le dessous, ventilation sans aucune fenêtre, et vélum qui masque les bords de la peinture en même temps que la source lumineuse. La <a href="https://commons.wikimedia.org/wiki/File:Cross-section-of-the-rotund_0.jpg" target="_blank" rel="noopener">coupe de la Rotonde de Leicester Square</a>, où la vue de Londres est exposée en 1801, montre un bâtiment entier conçu comme un appareil d'optique, là où la première tentative de Barker, Édimbourg depuis Calton Hill en 1792, était encore comparée aux spectacles illusionnistes de l'<a href="https://www.royalacademy.org.uk/art-artists/archive/printed-handbill-for-loutherbourgs-eidophusikon" target="_blank" rel="noopener">Eidophusikon de Loutherbourg</a>.</p><p>Le principe se durcit ensuite : au <a href="https://commons.wikimedia.org/wiki/File:Detail_from_Rudolph_Ackermann%27s_painting_of_1829_Colosseum.jpg" target="_blank" rel="noopener">Colosseum de Regent's Park</a> en 1829, la plateforme cesse d'être neutre, on rebâtit la lanterne de Saint-Paul autour du visiteur pour justifier son point de vue, et le lointain londonien est peint, pas réel. Les comptes rendus signalent déjà désorientation et nausée, effet mécanique de la suppression du cadre et de l'impossibilité d'embrasser la toile d'un seul regard. L'économie suit : environ 313 personnes seulement étaient montées en ballon en Angleterre avant 1836, quand le Colosseum dépassait ce chiffre en une journée, mécanique documentée par <a href="https://www.zonebooks.org/books/86-the-panorama-history-of-a-mass-medium" target="_blank" rel="noopener">The Panorama de Stephan Oettermann</a> et <a href="https://mitpress.mit.edu/books/illusions-motion" target="_blank" rel="noopener">Illusions in Motion</a>.</p></div>
+    <div class="learn reveal"><p>L&#x27;immersion ne se joue pas dans l&#x27;image mais dans le dispositif, et depuis 1787 la recette n&#x27;a pas changé : fixer le corps, cacher la source de lumière, supprimer le bord.</p></div>
+    <div class="reveal"><a class="src" href="https://publicdomainreview.org/essay/unlimiting-the-bounds-the-panorama-and-the-balloon-view" target="_blank" rel="noopener">The Public Domain Review <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="photographie" style="--rc:#6fa3bd">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://cdn.loeildelaphotographie.com/wp-content/uploads/2026/10/01-reproduction-photographique-de-la-plaque-huit-heures-du-matin-1937-dapres-le-daguerreotype-de-louis-daguerre-1838-credit-getty-research-institute-x540q80.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://cdn.loeildelaphotographie.com/wp-content/uploads/2026/10/02-le-detail-le-cireur-de-chaussures-et-son-client-1937-dapres-le-daguerreotype-de-louis-daguerre-1838-credit-getty-research-institute.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://cdn.loeildelaphotographie.com/wp-content/uploads/2026/10/03-la-plaque-originale-aujourdhui-apres-la-tentative-de-restauration-de-1974-2026-photo-bastian-krack-credit-bayerisches-nationalmuseum-munich.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Photographie</span><span class="tag__n">07</span></div>
+    <h2 class="reveal">Paris scelle place de la République une plaque de bronze à l&#x27;emplacement exact des premiers humains photographiés, en 1838</h2>
+    <div class="ctx reveal"><p>La <a href="https://www.paris.fr/pages/un-detail-imprevu-fait-revivre-un-cliche-historique-36437" target="_blank" rel="noopener">Ville de Paris</a> a scellé dans le sol de la place de la République une plaque de bronze coulée en quatre pièces à la fonderie Brut de Fonte, à Romainville, qui marque l'emplacement exact du cireur de chaussures et de son client photographiés par Daguerre au printemps 1838 depuis sa fenêtre du boulevard du Temple. Ces deux figures ne doivent leur existence qu'à une pose de quatre à cinq minutes sur une plaque argentée de 13 sur 16 centimètres, assez longue pour effacer la foule en mouvement et ne retenir que les corps immobiles. La <a href="https://presse.paris.fr/agenda/pres-de-200-ans-apres-la-ville-de-paris-devoile-une-plaque-en-hommage-a-la-toute-premiere-photo-d-etres-humains" target="_blank" rel="noopener">pose a été dévoilée le 15 octobre</a>, au terme de deux ans de recherche menée par Maximilien Van Aertryck, Axel Danielson et Kalle Boman, qui ont dû commencer par rétablir l'image dans le bon sens, la reproduction courante étant inversée latéralement comme toutes les plaques de Daguerre.</p><p>Deux agences d'architecture, Rumlab en Suède et Mater Studio en France, ont travaillé séparément à partir d'un scan 3D de la place, de l'atlas Vasserot superposé au cadastre actuel et de trois immeubles encore debout, puis ont convergé sur le même point. La <a href="https://en.wikipedia.org/wiki/Boulevard_du_Temple_(photograph)" target="_blank" rel="noopener">plaque d'origine</a>, offerte à Louis Ier de Bavière en octobre 1839, a été abîmée pendant la guerre puis presque entièrement effacée par une tentative de restauration dans les années 1970, de sorte que l'image ne circule plus que par copies. <a href="https://loeildelaphotographie.com/en/louis-daguerre-un-detail-imprevu-an-unexpected-detail/" target="_blank" rel="noopener">L'Oeil de la Photographie</a> publie le dossier de fabrication complet, du recalage photogrammétrique au modelage et aux soudures du bronze.</p></div>
+    <div class="learn reveal"><p>Deux cents ans plus tard, la preuve d&#x27;une image ne tient plus à ce qu&#x27;elle montre mais à la capacité de retrouver le sol depuis lequel elle a été prise.</p></div>
+    <div class="reveal"><a class="src" href="https://loeildelaphotographie.com/en/louis-daguerre-un-detail-imprevu-an-unexpected-detail/" target="_blank" rel="noopener">L&#x27;Oeil de la Photographie <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="film" style="--rc:#c47a72">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://www.artofvfx.com/wp-content/uploads/2026/10/TheLastAirbender_S2_MarionAdam_ITW_01.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.artofvfx.com/wp-content/uploads/2026/10/TheLastAirbender_S2_MarionAdam_ITW_11.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.artofvfx.com/wp-content/uploads/2026/10/TheLastAirbender_S2_MarionAdam_ITW_05.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Film &amp; motion</span><span class="tag__n">08</span></div>
+    <h2 class="reveal">Avatar: The Last Airbender saison 2 abandonne le mur LED de la saison 1 pour des décors construits et 1 930 plans répartis par spécialité</h2>
+    <div class="ctx reveal"><p>Pour la saison 2 d'<a href="https://www.artofvfx.com/avatar-the-last-airbender-season-2-marion-spates-production-vfx-supervisor-adam-chaszen-production-vfx-producer/" target="_blank" rel="noopener">Avatar: The Last Airbender</a>, le superviseur VFX Marion Spates a renoncé au mur LED utilisé en saison 1 et remis la série sur des décors construits, complétés au bleu, avec une règle assumée : bâtir petit mais crédible à l'image plutôt que grand et remplacé en post. Les 1 930 plans ont été répartis par spécialité, <a href="https://www.framestore.com/?language=en" target="_blank" rel="noopener">Framestore</a> sur le bison volant Appa et sa nouvelle amplitude émotionnelle, <a href="https://www.rodeofx.com/cities/montreal/" target="_blank" rel="noopener">Rodeo FX</a> sur la perception sismique de Toph, traitée en CG intégral après match-move des plaques et référencée sur du sonar sous-marin plutôt que sur le noir et blanc du dessin animé.</p><p>Ba Sing Se, environ 16 km de rayon et plan oblong en terrasses, a été scindée entre <a href="https://www.eyelinestudios.com/research/luxpostfacto.html" target="_blank" rel="noopener">Eyeline</a> pour les murailles et le palais et <a href="https://image-engine.com/" target="_blank" rel="noopener">Image Engine</a> pour la zone agraire et les extensions intra-muros, les outils de scatter étant alimentés par les relevés des décors réels de Port Moody. Le feu bleu d'Azula est simulé comme un feu ordinaire puis coloré au compositing avec l'étalonneur Siggy Ferstl, fumée assombrie et étincelles ajoutées. Dans la bibliothèque des esprits, des versions basse résolution du contenu tournaient sur des panneaux LED placés devant la console pour l'éclairage interactif, déclenchées en direct à chaque prise puis resynchronisées sur les images finales.</p></div>
+    <div class="learn reveal"><p>Le mur LED n&#x27;est plus une destination, c&#x27;est une option qu&#x27;on arbitre plan par plan.</p></div>
+    <div class="reveal"><a class="src" href="https://www.artofvfx.com/avatar-the-last-airbender-season-2-marion-spates-production-vfx-supervisor-adam-chaszen-production-vfx-producer/" target="_blank" rel="noopener">The Art of VFX <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="fantasy" style="--rc:#9b7ec9">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://www.gamespot.com/wp-content/uploads/2026/10/MDD-8007_UYTGHGFVG_1920x1080_04_76d1ec.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.gamespot.com/wp-content/uploads/2026/10/MDD-8007_UYTGHGFVG_1920x1080_01_7b9e57.jpg?w=636" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.gamespot.com/wp-content/uploads/2026/10/Rise-from-the-Nether_EN_HRR.jpg?w=636" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Fantasy art &amp; illustration</span><span class="tag__n">09</span></div>
+    <h2 class="reveal">Magic concède à ses illustrateurs le droit de redessiner les créatures Marvel</h2>
+    <div class="ctx reveal"><p>Dans un entretien publié le 16 octobre, la directrice artistique Merideth Mulroney détaille ce que Marvel a concédé pour <a href="https://www.gamespot.com/articles/we-couldnt-do-this-right-out-of-the-gate-mtg-team-talks-darkhold-destiny-and-creating-a-new-marvel-character/" target="_blank" rel="noopener">Darkhold Destiny</a>, troisième extension Universes Beyond tirée de la licence : le droit de refaire les costumes et de réinterpréter les créatures carte par carte. Son arbitrage le plus net porte sur les démons, ramenés de la combinaison intégrale à la peau nue pour rendre aux illustrateurs la part d'étrangeté que le canon leur retirait. Le set mise sur des types de créatures génériques plutôt que sur des personnages nommés, ce qui élargit mécaniquement la marge d'interprétation du studio là où un légendaire la verrouille.</p><p>Annoncée au <a href="https://www.comicsbeat.com/nycc-26-wotc-announces-latest-magic-marvel-collaboration-darkhold-destiny/" target="_blank" rel="noopener">NYCC le 9 octobre</a> pour une sortie le 9 avril 2027, la gamme détaillée par <a href="https://variety.com/2026/gaming/news/magic-the-gathering-marvel-darkhold-destiny-doomsday-cards-1236906955/" target="_blank" rel="noopener">Variety</a> mobilise plus de trente illustrateurs sur le seul Secret Lair d'accompagnement, et <a href="https://www.marvel.com/articles/culture-lifestyle/magic-the-gathering-marvel-darkhold-destiny-original-story-tie-in-comic" target="_blank" rel="noopener">Marvel</a> crédite nommément RIFU sur Doctor Strange, Bastien L. Deharme sur Hela et Yohann Schepacz sur le Darkhold.</p></div>
+    <div class="learn reveal"><p>Une licence ne produit d&#x27;images fortes que le jour où elle accepte de lâcher le modèle.</p></div>
+    <div class="reveal"><a class="src" href="https://www.gamespot.com/articles/we-couldnt-do-this-right-out-of-the-gate-mtg-team-talks-darkhold-destiny-and-creating-a-new-marvel-character/" target="_blank" rel="noopener">GameSpot <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="gaming" style="--rc:#cd8659">
+  <div class="media media--2 reveal"><div class="shot"><img src="https://www.gamingonlinux.com/uploads/articles/tagline_images/799372588id29985gol_og.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://uploads.golmedia.net/uploads/articles/article_media/14960282171792135855gol2.webp" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Gaming &amp; worldbuilding</span><span class="tag__n">10</span></div>
+    <h2 class="reveal">Ahwoo et RocketWerkz ouvrent le code de BRUTAL, framework C# sans éditeur ni scene graph, socle du moteur Waylith de RimWorld</h2>
+    <div class="ctx reveal"><p>Le 15 octobre, <a href="https://forums.ahwoo.com/forums/brutal/news/brutal-goes-open-source-ahwoo-and-rocketwerkz-release-their-game-dev-framework.1391/" target="_blank" rel="noopener">Ahwoo</a> et <a href="https://en.wikipedia.org/wiki/RocketWerkz" target="_blank" rel="noopener">RocketWerkz</a> ont publié le code de <a href="https://github.com/ahwootech/BRUTAL" target="_blank" rel="noopener">BRUTAL</a>, quatre ans de travail sur une couche d'interopérabilité qui expose les API natives à C#. Ce n'est pas un moteur et ne le sera pas : ni éditeur, ni scene graph, ni renderer, seulement des liaisons Vulkan 1.3 avec le Vulkan Memory Allocator, OpenGL, GLFW, SDL, Jolt, Box2D, FMOD, RakNet, Dear ImGui, la compilation de shaders ShaderC et Slang, des collections et des chaînes sans allocation, chaque dossier livré en paquet NuGet distinct, sur .NET 10, Windows et Linux.</p><p>La licence est dérivée du MIT, sans royalties ni partage de revenus, avec attribution obligatoire : mention au générique, logo avant le gameplay et fichier NOTICE.txt, le logo étant levé pour les projets non lucratifs. Six projets dans trois studios tournent déjà dessus, dont <a href="https://en.wikipedia.org/wiki/Kitten_Space_Agency" target="_blank" rel="noopener">Kitten Space Agency</a>, Torpedia, Art of the Rail, le prochain jeu de Felipe Falanghe et surtout le moteur Waylith qui remplace Unity dans <a href="https://ludeon.com/blog/2026/10/announcing-the-waylith-engine-and-update-1-7/" target="_blank" rel="noopener">RimWorld 1.7</a>, où <a href="https://ludeon.com" target="_blank" rel="noopener">Ludeon</a> mesure deux à quatre fois les performances de la version Unity. Rian Drake, responsable de l'ingénierie BRUTAL, assume l'absence de garde-fous : l'équipe qui atteint une limite modifie le code plutôt que de la contourner.</p></div>
+    <div class="learn reveal"><p>Quand le coût de fabriquer ses propres fondations descend sous celui de dépendre d&#x27;un moteur tiers, la souveraineté technique redevient une décision de production, pas un luxe.</p></div>
+    <div class="reveal"><a class="src" href="https://www.gamingonlinux.com/2026/10/brutal-the-framework-behind-rimworlds-waylith-engine-releases-its-source-code/" target="_blank" rel="noopener">GamingOnLinux <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="ui" style="--rc:#8592c9">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://digibarn.com/collections/software/xerox-star/figure1a-big.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://digibarn.com/collections/software/xerox-star/figure2-big.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://digibarn.com/collections/software/xerox-star/figure3-big.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">UI &amp; design d&#x27;interface</span><span class="pepite">Pépite</span><span class="tag__n">11</span></div>
+    <h2 class="reveal">Le dossier de conception du Xerox Star, Byte, avril 1982 : commandes universelles, feuilles de propriétés, divulgation progressive</h2>
+    <div class="ctx reveal"><p>Le <a href="https://digibarn.com/collections/software/xerox-star/index.html" target="_blank" rel="noopener">DigiBarn Computer Museum</a> conserve les planches du Xerox 8010 Star telles qu'elles paraissent dans <a href="https://www.guidebookgallery.org/articles/designingthestaruserinterface" target="_blank" rel="noopener">Designing the Star User Interface</a>, l'article que Smith, Irby, Kimball, Verplank et Harslem publient dans Byte en avril 1982, pages 242 à 282. La machine tient sur un écran bitmap à 72 points par pouce, 10,5 sur 13,5 pouces, repeint environ 39 fois par seconde, avec 512 Ko de mémoire et un Ethernet à 10 Mbit/s. Le bureau est une grille de 14 sur 11 cases d'un pouce, soit 154 emplacements d'icônes, et huit commandes génériques, MOVE, COPY, DELETE, SHOW PROPERTIES, COPY PROPERTIES, AGAIN, UNDO et HELP, s'appliquent à tous les types d'objets sans changer de sens.</p><p>Les feuilles de propriétés et les feuilles d'options matérialisent la divulgation progressive : elles n'exposent que les attributs pertinents pour l'objet sélectionné, ce qui supprime le menu global et maintient une interaction sans modes, nom puis verbe. L'équipe a testé six dessins de souris à deux boutons et un à un bouton avant de retenir deux boutons, contre les trois de l'Alto et du NLS. Le jeu d'icônes vient de <a href="https://digibarn.com/collections/software/xerox-star/xerox-world-according-to-norm.html" target="_blank" rel="noopener">Norm Cox</a>, qui décrit un medium granuleux en pixels noirs sur fond bleu et quatre propositions concurrentes soumises à des tests utilisateurs, et qui plaide dans son <a href="https://history.siggraph.org/?p=123523" target="_blank" rel="noopener">entretien SIGGRAPH de 1993</a> pour l'entrée des designers en amont du développement plutôt qu'en finition.</p></div>
+    <div class="learn reveal"><p>Huit commandes valables partout valent mieux que mille commandes contextuelles, et c&#x27;est précisément ce que les interfaces d&#x27;agents n&#x27;ont pas encore compris.</p></div>
+    <div class="reveal"><a class="src" href="https://digibarn.com/collections/software/xerox-star/index.html" target="_blank" rel="noopener">DigiBarn Computer Museum <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="ia" style="--rc:#6fbd97">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/dlss-5-faster-ai-model-hogwarts-legacy-rtx-spark-laptops/dlss-5-faster-ai-model-hogwarts-legacy-rtx-spark-laptops-ogimage.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://images.nvidia.com/aem-dam/Solutions/geforce/news/dlss-4-5-crossout-remastered-modern-warfare-4-frame-gen-beta/hogwarts-legacy-nvidia-dlss-5-3d-guided-neural-rendering-geforce-rtx-50-series-comparison-001-on.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://images.nvidia.com/aem-dam/Solutions/geforce/news/dlss-4-5-crossout-remastered-modern-warfare-4-frame-gen-beta/hogwarts-legacy-nvidia-dlss-5-3d-guided-neural-rendering-geforce-rtx-50-series-comparison-001-off.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">IA &amp; création</span><span class="tag__n">12</span></div>
+    <h2 class="reveal">Nvidia ramène le modèle de rendu neuronal de DLSS 5 à 118 millions de paramètres et libère 20 % de VRAM en 4K</h2>
+    <div class="ctx reveal"><p>Le 13 octobre, Nvidia a détaillé la révision d'octobre de son étage de <a href="https://research.nvidia.com/labs/adlr/DLSS5/" target="_blank" rel="noopener">3D-Guided Neural Rendering</a>, un modèle de diffusion une étape travaillant en espace pixel, placé en fin de pipeline et conditionné par l'image rendue, les vecteurs de mouvement du moteur, l'état temporel propagé et des valeurs de direction artistique. Le réseau descend à environ 118 millions de paramètres, soit 24 % de moins, divise par deux la charge GPU de la version de septembre, réduit de 20 % l'empreinte VRAM en 4K et affiche un facteur dix de gain depuis l'annonce de mars, pour un rendu jugé équivalent. Il arrive le 16 octobre dans <a href="https://www.nvidia.com/en-us/geforce/news/dlss-5-faster-ai-model-hogwarts-legacy-rtx-spark-laptops/" target="_blank" rel="noopener">NBA 2K27</a>, avec jusqu'à 1,4x de fréquence d'images.</p><p>Le point décisif pour un studio est la grammaire de contrôle : l'image du moteur fixe ce qui doit rester, le SDK expose ce que le modèle peut modifier, et <a href="https://www.nvidia.com/en-gb/geforce/rtx-remix" target="_blank" rel="noopener">RTX Remix</a>, qui bascule le 23 octobre, donne du masquage et un preset de rendu neuronal assignable objet par objet. Nvidia revendique explicitement une préservation de l'intention artistique par <a href="https://videocardz.com/newz/nvidia-says-dlss-5-is-designed-to-preserve-artistic-intent-with-per-scene-controls" target="_blank" rel="noopener">réglages par scène</a>, et la supervision d'entraînement s'appuie sur des attributs de scène dérivés du renderer plutôt que sur un prompt.</p></div>
+    <div class="learn reveal"><p>La génération entre dans le moteur temps réel non pas comme auteur mais comme couche de finition contrainte par la géométrie, et c&#x27;est le masque, pas le prompt, qui devient l&#x27;outil de direction artistique.</p></div>
+    <div class="reveal"><a class="src" href="https://www.nvidia.com/en-us/geforce/news/dlss-5-faster-ai-model-hogwarts-legacy-rtx-spark-laptops/" target="_blank" rel="noopener">Nvidia GeForce News <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="philosophie" style="--rc:#a8a196">
+  <div class="media media--1 reveal"><div class="shot"><img src="https://images.aeonmedia.co/images/b060a785-e136-4e8e-bd82-6085cc21e62a/essay-final-nn11563596.jpg?width=3840&amp;quality=75&amp;format=auto" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Philosophie</span><span class="tag__n">13</span></div>
+    <h2 class="reveal">Un essai d&#x27;Aeon oppose les outils qui construisent une capacité et ceux qui la remplacent</h2>
+    <div class="ctx reveal"><p>Dans un essai publié le 13 octobre sur <a href="https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies" target="_blank" rel="noopener">Aeon</a>, <a href="https://lithub.com/author/melaniechallenger" target="_blank" rel="noopener">Melanie Challenger</a> pose un critère de tri entre les outils : ceux qui renforcent une capacité, et ceux qui se substituent aux actions par lesquelles cette capacité se forme. L'argument remonte à Descartes, puis à Norbert Wiener et à <a href="https://en.wikipedia.org/wiki/The_Human_Use_of_Human_Beings" target="_blank" rel="noopener">The Human Use of Human Beings</a>, où l'humain cesse d'être un corps pour devenir un motif d'information, avant d'être retourné par la biologie : un organisme s'entretient lui-même, une machine produit autre chose qu'elle-même.</p><p>Les preuves avancées sont physiologiques et chiffrées : cinq pour cent de volume musculaire perdu en une semaine d'immobilisation, déclin accéléré de la mémoire spatiale chez des usagers de GPS suivis trois ans, perte de confiance à travailler sans assistance chez ceux qui recopient un texte généré au lieu de le réviser après un premier jet. La thèse recoupe l'anthropologie du geste d'<a href="https://en.wikipedia.org/wiki/Andr%C3%A9_Leroi-Gourhan" target="_blank" rel="noopener">André Leroi-Gourhan</a>, dont Nathan Schlanger rappelait récemment la méthode des <a href="https://www.jhiblog.org/2026/09/10/andre-leroi-gourhans-technological-sequences-an-interview-with-nathan-schlanger/" target="_blank" rel="noopener">séquences techniques</a> : la compétence tient dans la chaîne d'actions, pas dans le résultat livré.</p></div>
+    <div class="learn reveal"><p>Un savoir-faire ne survit pas à l&#x27;outil qui le remplace, seulement à celui qui l&#x27;exige encore.</p></div>
+    <div class="reveal"><a class="src" href="https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies" target="_blank" rel="noopener">Aeon <span>&#8599;</span></a></div>
+  </div>
+</section>
+</main>
+<footer>
+  <span class="kicker">Veille créative · édition n°09 · vendredi 16 octobre 2026</span>
+  <a class="btn" href="index.html">Toutes les éditions</a>
+</footer>
+<script>
+(function(){
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('on'); io.unobserve(e.target);} });
+  },{rootMargin:'0px 0px -12% 0px',threshold:.06});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  var bar=document.querySelector('.progress');
+  if(bar){
+    var tick=function(){
+      var h=document.documentElement.scrollHeight-window.innerHeight;
+      bar.style.width=(h>0?(window.scrollY/h)*100:0)+'%';
+    };
+    window.addEventListener('scroll',tick,{passive:true});
+    window.addEventListener('resize',tick); tick();
+  }
+})();
+</script>
+</body>
+</html>

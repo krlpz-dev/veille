@@ -1,0 +1,220 @@
+{
+ "date": "2026-10-16",
+ "meta": {
+  "title_en": "FIXED POINT",
+  "deck_en": "Arsenal clôt quatre ans et demi de dessin avec un blackletter tracé lettre par lettre, Nvidia divise par deux la charge de son rendu neuronal et confie la direction artistique au masque plutôt qu'au prompt, et Paris scelle place de la République le sol exact des deux premiers humains photographiés en 1838. Trois manières de dire que la contrainte précise vaut mieux que la consigne vague.",
+  "highlights": [
+   "Arsenal clôt un système typographique de quatre ans et demi avec un blackletter dessiné lettre par lettre.",
+   "Nvidia ramène son rendu neuronal à 118 millions de paramètres et place le masque au centre de la direction artistique.",
+   "Paris scelle au sol l'emplacement exact des deux premiers humains photographiés, retrouvé par recalage photogrammétrique."
+  ],
+  "topics_fr": [
+   "Quatre ans et demi pour un blackletter",
+   "Un musée collectionne deux passations",
+   "Urwerk change de motoriste",
+   "Le pochoir fumé d'Ise",
+   "Un Wright sans vide technique",
+   "Le brevet du panorama, 1787",
+   "Retrouver le sol de 1838",
+   "Le mur LED remis en option",
+   "Marvel lâche le modèle",
+   "RimWorld quitte Unity",
+   "Huit commandes pour tout",
+   "Le masque plutôt que le prompt",
+   "Construire ou remplacer une capacité"
+  ],
+  "hero_image": "https://d8j0ntlcm91z4.cloudfront.net/user_39FfQeMIWqiQLLKAWDtgFuU9Tem/hf_20261016_164031_a1b5316f-e937-4ab7-9ad4-49d6030701ac.png",
+  "hero_credit": "Image générée pour cette édition"
+ },
+ "intro": "Treize entrées, une par rubrique. Les pépites hors actualité sont portées cette semaine par le craft, la scénographie et l'interface.",
+ "entrees": [
+  {
+   "rubrique": "direction-artistique",
+   "titre": "Arsenal complète son système typographique avec Rocastle, un blackletter dessiné pendant plus de quatre ans par David Rudnick",
+   "type": "actualite",
+   "source_nom": "It's Nice That",
+   "source_url": "https://www.itsnicethat.com/features/david-rudnick-johnnie-campbell-arsenal-rocastle-typeface-graphic-design-spotlight-121026",
+   "images": [
+    "https://m.itsnicethat.com/original_images/Arsenal_Rocastle_16x9_001.png?class=w1080",
+    "https://m.itsnicethat.com/original_images/Arsenal_Rocastle_16x9_010.png?class=w1080",
+    "https://m.itsnicethat.com/original_images/Arsenal_Rocastle_4x5_001.png?class=w1080",
+    "https://m.itsnicethat.com/original_images/Arsenal_Rocastle_16x9_005.png?class=w1080"
+   ],
+   "contexte_html": "<p><a href=\"https://x.com/David_Rudnick\" target=\"_blank\" rel=\"noopener\">David Rudnick</a>, avec Léa Bruneau au sein du studio terrain, livre Rocastle, troisième et dernière famille du système typographique d'Arsenal, <a href=\"https://x.com/David_Rudnick/status/2109727092850266603\" target=\"_blank\" rel=\"noopener\">annoncée aux supporters avant toute documentation</a>. Le système se construit depuis quatre ans et demi sur trois piliers, Northbank pour l'équipe et le match, Chapman pour le territoire du club, Rocastle pour la culture, c'est-à-dire la zone où le football croise la mode, l'art et la musique. Rocastle compte trois graisses, et presque chaque lettre a été tracée comme un glyphe unique plutôt que dérivée d'un squelette commun, au terme de milliers d'itérations et d'une recherche sur la construction historique du blackletter.</p><p>La contrainte était de produire un caractère reconnaissable par des fans habitués depuis des décennies aux lettres gothiques du wordmark, sans tomber dans la pièce décorative ni sacrifier la lisibilité. La graisse principale fait courir une ligne continue à travers chaque lettre, et le jeu inclut The Capital, un A autonome conçu pour accompagner le blason, comme le détaille <a href=\"https://www.creativereview.co.uk/arsenal-football-club-rocastle-typeface-david-rudnick/\" target=\"_blank\" rel=\"noopener\">Creative Review</a>. Le club réserve Rocastle à un usage rare, et Rudnick qualifie le chantier de difficulté maximale, le seul G ayant occupé une phase entière du dessin.</p>",
+   "learning": "Un système de marque sérieux ne se mesure plus en nombre de déclinaisons mais en années de dessin, et la rareté d'usage devient le vrai signe de valeur."
+  },
+  {
+   "rubrique": "mode",
+   "titre": "Le Fashion Museum de Bath fait entrer en collection les débuts de Sarah Burton chez Givenchy et le dernier costume d'homme de Giorgio Armani",
+   "type": "actualite",
+   "source_nom": "FashionNetwork",
+   "source_url": "https://fr.fashionnetwork.com/news/Givenchy-et-armani-sacres-par-le-musee-de-la-mode-de-bath,1875010.html",
+   "images": [
+    "https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000,format=auto/m/ea7e/8612/4651/e2d2/fb11/c317/4c9a/5aa6/7138/0a5c/0a5c.jpg",
+    "https://media.fashionnetwork.com/cdn-cgi/image/fit=cover,width=600,height=600,format=auto/m/77a6/bc5e/b101/4dd0/061b/ef89/449e/4f65/7ae7/2837/2837.jpg"
+   ],
+   "contexte_html": "<p>Le <a href=\"https://www.fashionmuseum.co.uk/dress-year-2025\" target=\"_blank\" rel=\"noopener\">Fashion Museum de Bath</a> a désigné le 14 octobre deux pièces pour sa <a href=\"https://en.wikipedia.org/wiki/Dress_of_the_Year\" target=\"_blank\" rel=\"noopener\">Dress of the Year</a>, sélection qui alimente une collection publique depuis 1963 : la robe en maille jaune jonquille de Sarah Burton pour Givenchy, montrée à Paris en mars 2025 pour ses premiers pas dans la maison, et un costume trois pièces souplement coupé de la collection homme printemps-été 2026 de Giorgio Armani, présentée à Milan en juin 2025, quelques semaines avant sa mort. L'arbitrage revient à Jess Cartner-Morley, du Guardian, la conservatrice en chef Elisabeth Murray cosignant la décision.</p><p>Le <a href=\"https://newsroom.bathnes.gov.uk/news/fashion-museum-bath-announces-60th-dress-year-celebrating-british-fashion-talent\" target=\"_blank\" rel=\"noopener\">conseil de Bath and North East Somerset</a> prévoit par ailleurs d'installer le <a href=\"https://en.wikipedia.org/wiki/Fashion_Museum,_Bath\" target=\"_blank\" rel=\"noopener\">musée</a> dans l'ancienne poste de la ville à l'horizon 2030, le temps de redéployer des réserves qui comptent parmi les plus denses d'Europe. En retenant un début et une fin plutôt qu'une saison forte, l'institution acte que la pièce historique de 2025 n'est pas un volume ni un imprimé, mais deux transferts d'autorité. Le costume d'Armani ferme quarante-cinq ans de veste désentoilée, dépouillée de sa toile tailleur et de son rembourrage d'épaule, qui a réécrit la façon dont un vêtement tombe sur le corps.</p>",
+   "learning": "Un musée ne collectionne plus des saisons, il collectionne des passations, et ce qui fait date dans un vestiaire est désormais le changement de main."
+  },
+  {
+   "rubrique": "luxe",
+   "titre": "Urwerk lance l'UR-300 Time Quantum et bascule des bases Zenith aux calibres Vaucher",
+   "type": "actualite",
+   "source_nom": "SJX Watches",
+   "source_url": "https://watchesbysjx.com/2026/10/urwerk-ur-300-time-quantum.html",
+   "images": [
+    "https://watchesbysjx.com/wp-content/uploads/2026/10/Urwerk-UR-300-Time-Quantum-hero.jpg",
+    "https://watchesbysjx.com/wp-content/uploads/2026/10/Urwerk-UR-300-Time-Quantum-movement.jpg",
+    "https://watchesbysjx.com/wp-content/uploads/2026/10/Urwerk-UR-300-Time-Quantum-tech.jpeg",
+    "https://watchesbysjx.com/wp-content/uploads/2026/10/Urwerk-UR-300-Time-Quantum-atom.jpg"
+   ],
+   "contexte_html": "<p><a href=\"https://www.urwerk.com/\" target=\"_blank\" rel=\"noopener\">Urwerk</a> relance ses heures errantes avec l'UR-300 Time Quantum, dont le module d'affichage tient à une pièce formée par LIGA qui avance de 180 degrés par heure, pendant qu'une came fixe ramène la crémaillère de 72 degrés, soit une rotation nette de 108 degrés. Au changement d'heure, la crémaillère décroche de la came et libère d'un coup les 72 degrés retenus, ce qui inverse les deux atomes et fait pivoter les cubes des heures. Le boîtier en titane grade 5 mesure 45,2 sur 58,8 mm pour 18,25 mm de haut, nu ou revêtu d'AlTiN, à 168 000 francs suisses hors taxes, 25 pièces par exécution, étanchéité 30 m.</p><p>Le fait industriel est ailleurs : le calibre UR-30.01V est bâti sur une base 3000 de <a href=\"https://www.europastar.com/magazine/highlights/1004086531-movements-private-label-by-vaucher-manufacture.html\" target=\"_blank\" rel=\"noopener\">Vaucher Manufacture Fleurier</a>, qui remplace les Elite de Zenith employées jusqu'ici, avec double barillet, balancier libre, 4 Hz, 44 heures de réserve et turbines amortissant le remontage unidirectionnel. <a href=\"https://watchesbysjx.com/2026/10/urwerk-ur-300-time-quantum.html\" target=\"_blank\" rel=\"noopener\">SJX</a> détaille aussi la contrainte d'usage, un cran à réarmer avant tout réglage en arrière sous peine de bloquer le saut suivant.</p>",
+   "learning": "Changer de motoriste sans changer de signature : la valeur d'une maison tient au module qu'elle possède, pas à la base qu'elle achète."
+  },
+  {
+   "rubrique": "craft",
+   "titre": "Ise katagami, le pochoir en papier fumé qui imprime encore 99 % des kimonos komon",
+   "type": "pepite",
+   "source_nom": "Ise Katagami Cooperative Association, Suzuka",
+   "source_url": "https://isekatagami.or.jp/en/en_process/",
+   "images": [
+    "https://isekatagami.or.jp/wp/wp-content/themes/isekata_theme/assets/img/about/process_about_img.jpg",
+    "https://isekatagami.or.jp/wp/wp-content/themes/isekata_theme/assets/img/about/process_tech_img01.jpg",
+    "https://isekatagami.or.jp/wp/wp-content/themes/isekata_theme/assets/img/about/process_tech_img02.jpg",
+    "https://isekatagami.or.jp/wp/wp-content/themes/isekata_theme/assets/img/about/process_tech_img03.jpg"
+   ],
+   "contexte_html": "<p>Le <a href=\"https://isekatagami.or.jp/en/en_process/\" target=\"_blank\" rel=\"noopener\">procédé documenté par la coopérative d'Ise katagami</a> commence par le support : trois feuilles de washi de Mino collées au tanin de kaki en alternant le sens du fil, tendues et séchées au soleil, puis fumées une semaine, retrempées et fumées de nouveau, jusqu'à obtenir un papier brun qui ne bouge plus. La gravure se décline en quatre gestes mesurables : le shimabori tire jusqu'à onze rayures par centimètre, à trois passes de lame chacune ; le tsukibori pousse un ciseau de 1 à 2 mm à travers cinq à huit feuilles empilées sur une plaque perforée ; le kiribori perce environ cent trous au centimètre carré ; le dogubori frappe le motif avec des poinçons gravés à l'avance, dont certains graveurs possèdent <a href=\"https://kougeihin.jp/en/craft/1503/\" target=\"_blank\" rel=\"noopener\">jusqu'à trois mille exemplaires</a>.</p><p>Attesté dès la fin de Muromachi, protégé par le domaine de Kishū à l'époque d'Edo autour des villages de Shiroko et Jike, l'atelier d'Ise est resté un monopole industriel : 99 % des kimonos komon du pays sont teints avec des pochoirs expédiés de Suzuka, et la <a href=\"https://isekatagami.or.jp/en/en_history/\" target=\"_blank\" rel=\"noopener\">filière</a> a été classée outil d'artisanat traditionnel par le METI le 27 avril 1983. La <a href=\"https://isekatagami.or.jp/en/ise-katagami-dyeing-with-stencils/\" target=\"_blank\" rel=\"noopener\">teinture au pochoir</a> sépare ainsi deux métiers que l'Occident a fusionnés, celui qui dessine et perce la matrice et celui qui l'applique, et les matrices elles-mêmes sont devenues pièces de collection, du <a href=\"https://risdmuseum.org/art-design/collection/katagami-pattern-paper-stencil-07020\" target=\"_blank\" rel=\"noopener\">fonds katagami du RISD Museum</a> aux cabinets d'estampes européens qui y ont puisé leur vocabulaire ornemental.</p>",
+   "learning": "Le pochoir est le premier fichier source : un motif réutilisable à l'infini dont toute la valeur tient à la précision de l'outil qui l'a gravé."
+  },
+  {
+   "rubrique": "architecture",
+   "titre": "Le seul planétarium construit par Frank Lloyd Wright rouvre en Floride après cinq ans de restauration",
+   "type": "actualite",
+   "source_nom": "Dezeen",
+   "source_url": "https://www.dezeen.com/2026/10/15/florida-southern-college-frank-lloyd-wright-planetarium-restoration/",
+   "images": [
+    "https://static.dezeen.com/uploads/2026/10/planetarium-frank-lloyd-wright-florida-southern-college_dezeen_2364_hero-852x479.jpg",
+    "https://static.dezeen.com/uploads/2026/10/planetarium-frank-lloyd-wright-florida-southern-college_dezeen_2364_col_1-852x568.jpg",
+    "https://static.dezeen.com/uploads/2026/10/planetarium-frank-lloyd-wright-florida-southern-college_dezeen_2364_col_16-852x568.jpg",
+    "https://static.dezeen.com/uploads/2026/10/planetarium-frank-lloyd-wright-florida-southern-college_dezeen_2364_col_23-852x568.jpg"
+   ],
+   "contexte_html": "<p>Fermé depuis 2004 à la panne de son projecteur, le planétarium du Polk County Science Building de <a href=\"https://flsouthern.edu/frank-lloyd-wright-home/history\" target=\"_blank\" rel=\"noopener\">Florida Southern College</a> vient de rouvrir au terme d'un chantier mené en deux phases par <a href=\"https://mcwb-arch.com/\" target=\"_blank\" rel=\"noopener\">MCWB Architects</a>, architecte résident du campus depuis vingt ans. L'enveloppe d'abord, à partir de 2021 : réfection de la toiture, des solins, des enduits ruinés en partie haute, et remplacement de plus de 280 blocs textiles coulés à la main sur le périmètre, reproduits à l'identique. L'intérieur ensuite, à partir de 2023 : dépose d'un local informatique greffé dans les années 1980, retour du plâtre et des peintures d'origine, sol repris en Cherokee Red, et remise en cercle des sièges en contreplaqué restaurés par des artisans locaux.</p><p>La difficulté tenait au système constructif de <a href=\"https://www.dezeen.com/tag/frank-lloyd-wright/\" target=\"_blank\" rel=\"noopener\">Wright</a> lui-même : sols et plafonds en béton sont porteurs et finis, sans aucun vide technique où dissimuler ventilation, câblage ou sonorisation. Les réseaux neufs ont donc été tracés dans l'épaisseur disponible plutôt que masqués, méthode déjà éprouvée sur les autres bâtiments du campus pilotés par le <a href=\"https://mcwb-arch.com/?p=1124\" target=\"_blank\" rel=\"noopener\">Campus Heritage Plan</a> de 2007 financé par la Getty Foundation, et parente des arbitrages en cours à <a href=\"https://www.dezeen.com/2026/04/01/fallingwater-frank-lloyd-wright-architectural-preservation-studio/\" target=\"_blank\" rel=\"noopener\">Fallingwater</a>.</p>",
+   "learning": "Un bâtiment sans vide technique vous oblige à concevoir vos réseaux comme de l'architecture, pas comme de la plomberie."
+  },
+  {
+   "rubrique": "scenographie",
+   "titre": "Le panorama de Robert Barker, 1787, ou comment un brevet a fixé les règles de l'immersion",
+   "type": "pepite",
+   "source_nom": "The Public Domain Review",
+   "source_url": "https://publicdomainreview.org/essay/unlimiting-the-bounds-the-panorama-and-the-balloon-view",
+   "images": [
+    "https://pdr-assets.b-cdn.net/essays/unlimiting-the-bounds-the-panorama-and-the-balloon-view/28081063653_a69d5a3ac5_o.jpg?width=1200&height=765",
+    "https://pdr-assets.b-cdn.net/essays/unlimiting-the-bounds-the-panorama-and-the-balloon-view/28708485436_24a6788339_z.jpg?width=1200&height=765",
+    "https://pdr-assets.b-cdn.net/essays/unlimiting-the-bounds-the-panorama-and-the-balloon-view/28081241544_8b6ce4aef1_b.jpg?width=1200&height=765",
+    "https://pdr-assets.b-cdn.net/essays/unlimiting-the-bounds-the-panorama-and-the-balloon-view/28591234882_ee359c1da7_b.jpg?width=1200&height=765"
+   ],
+   "contexte_html": "<p>Cet <a href=\"https://publicdomainreview.org/essay/unlimiting-the-bounds-the-panorama-and-the-balloon-view\" target=\"_blank\" rel=\"noopener\">essai de The Public Domain Review</a> rappelle que le brevet déposé par Robert Barker en 1787 ne protège pas une image mais un dispositif de vue : éclairage par le haut, plateforme centrale isolée placée exactement à mi-hauteur de la toile, entrée par le dessous, ventilation sans aucune fenêtre, et vélum qui masque les bords de la peinture en même temps que la source lumineuse. La <a href=\"https://commons.wikimedia.org/wiki/File:Cross-section-of-the-rotund_0.jpg\" target=\"_blank\" rel=\"noopener\">coupe de la Rotonde de Leicester Square</a>, où la vue de Londres est exposée en 1801, montre un bâtiment entier conçu comme un appareil d'optique, là où la première tentative de Barker, Édimbourg depuis Calton Hill en 1792, était encore comparée aux spectacles illusionnistes de l'<a href=\"https://www.royalacademy.org.uk/art-artists/archive/printed-handbill-for-loutherbourgs-eidophusikon\" target=\"_blank\" rel=\"noopener\">Eidophusikon de Loutherbourg</a>.</p><p>Le principe se durcit ensuite : au <a href=\"https://commons.wikimedia.org/wiki/File:Detail_from_Rudolph_Ackermann%27s_painting_of_1829_Colosseum.jpg\" target=\"_blank\" rel=\"noopener\">Colosseum de Regent's Park</a> en 1829, la plateforme cesse d'être neutre, on rebâtit la lanterne de Saint-Paul autour du visiteur pour justifier son point de vue, et le lointain londonien est peint, pas réel. Les comptes rendus signalent déjà désorientation et nausée, effet mécanique de la suppression du cadre et de l'impossibilité d'embrasser la toile d'un seul regard. L'économie suit : environ 313 personnes seulement étaient montées en ballon en Angleterre avant 1836, quand le Colosseum dépassait ce chiffre en une journée, mécanique documentée par <a href=\"https://www.zonebooks.org/books/86-the-panorama-history-of-a-mass-medium\" target=\"_blank\" rel=\"noopener\">The Panorama de Stephan Oettermann</a> et <a href=\"https://mitpress.mit.edu/books/illusions-motion\" target=\"_blank\" rel=\"noopener\">Illusions in Motion</a>.</p>",
+   "learning": "L'immersion ne se joue pas dans l'image mais dans le dispositif, et depuis 1787 la recette n'a pas changé : fixer le corps, cacher la source de lumière, supprimer le bord."
+  },
+  {
+   "rubrique": "photographie",
+   "titre": "Paris scelle place de la République une plaque de bronze à l'emplacement exact des premiers humains photographiés, en 1838",
+   "type": "actualite",
+   "source_nom": "L'Oeil de la Photographie",
+   "source_url": "https://loeildelaphotographie.com/en/louis-daguerre-un-detail-imprevu-an-unexpected-detail/",
+   "images": [
+    "https://cdn.loeildelaphotographie.com/wp-content/uploads/2026/10/01-reproduction-photographique-de-la-plaque-huit-heures-du-matin-1937-dapres-le-daguerreotype-de-louis-daguerre-1838-credit-getty-research-institute-x540q80.jpg",
+    "https://cdn.loeildelaphotographie.com/wp-content/uploads/2026/10/02-le-detail-le-cireur-de-chaussures-et-son-client-1937-dapres-le-daguerreotype-de-louis-daguerre-1838-credit-getty-research-institute.jpg",
+    "https://cdn.loeildelaphotographie.com/wp-content/uploads/2026/10/03-la-plaque-originale-aujourdhui-apres-la-tentative-de-restauration-de-1974-2026-photo-bastian-krack-credit-bayerisches-nationalmuseum-munich.jpg",
+    "https://cdn.loeildelaphotographie.com/wp-content/uploads/2026/10/09-recalage-photographique-limage-de-daguerre-superposee-aux-batiments-actuels-2025-par-alexander-haggstrom-credit-rumlab.jpg"
+   ],
+   "contexte_html": "<p>La <a href=\"https://www.paris.fr/pages/un-detail-imprevu-fait-revivre-un-cliche-historique-36437\" target=\"_blank\" rel=\"noopener\">Ville de Paris</a> a scellé dans le sol de la place de la République une plaque de bronze coulée en quatre pièces à la fonderie Brut de Fonte, à Romainville, qui marque l'emplacement exact du cireur de chaussures et de son client photographiés par Daguerre au printemps 1838 depuis sa fenêtre du boulevard du Temple. Ces deux figures ne doivent leur existence qu'à une pose de quatre à cinq minutes sur une plaque argentée de 13 sur 16 centimètres, assez longue pour effacer la foule en mouvement et ne retenir que les corps immobiles. La <a href=\"https://presse.paris.fr/agenda/pres-de-200-ans-apres-la-ville-de-paris-devoile-une-plaque-en-hommage-a-la-toute-premiere-photo-d-etres-humains\" target=\"_blank\" rel=\"noopener\">pose a été dévoilée le 15 octobre</a>, au terme de deux ans de recherche menée par Maximilien Van Aertryck, Axel Danielson et Kalle Boman, qui ont dû commencer par rétablir l'image dans le bon sens, la reproduction courante étant inversée latéralement comme toutes les plaques de Daguerre.</p><p>Deux agences d'architecture, Rumlab en Suède et Mater Studio en France, ont travaillé séparément à partir d'un scan 3D de la place, de l'atlas Vasserot superposé au cadastre actuel et de trois immeubles encore debout, puis ont convergé sur le même point. La <a href=\"https://en.wikipedia.org/wiki/Boulevard_du_Temple_(photograph)\" target=\"_blank\" rel=\"noopener\">plaque d'origine</a>, offerte à Louis Ier de Bavière en octobre 1839, a été abîmée pendant la guerre puis presque entièrement effacée par une tentative de restauration dans les années 1970, de sorte que l'image ne circule plus que par copies. <a href=\"https://loeildelaphotographie.com/en/louis-daguerre-un-detail-imprevu-an-unexpected-detail/\" target=\"_blank\" rel=\"noopener\">L'Oeil de la Photographie</a> publie le dossier de fabrication complet, du recalage photogrammétrique au modelage et aux soudures du bronze.</p>",
+   "learning": "Deux cents ans plus tard, la preuve d'une image ne tient plus à ce qu'elle montre mais à la capacité de retrouver le sol depuis lequel elle a été prise."
+  },
+  {
+   "rubrique": "film",
+   "titre": "Avatar: The Last Airbender saison 2 abandonne le mur LED de la saison 1 pour des décors construits et 1 930 plans répartis par spécialité",
+   "type": "actualite",
+   "source_nom": "The Art of VFX",
+   "source_url": "https://www.artofvfx.com/avatar-the-last-airbender-season-2-marion-spates-production-vfx-supervisor-adam-chaszen-production-vfx-producer/",
+   "images": [
+    "https://www.artofvfx.com/wp-content/uploads/2026/10/TheLastAirbender_S2_MarionAdam_ITW_01.jpg",
+    "https://www.artofvfx.com/wp-content/uploads/2026/10/TheLastAirbender_S2_MarionAdam_ITW_11.jpg",
+    "https://www.artofvfx.com/wp-content/uploads/2026/10/TheLastAirbender_S2_MarionAdam_ITW_05.jpg",
+    "https://www.artofvfx.com/wp-content/uploads/2026/10/TheLastAirbender_S2_MarionAdam_ITW_09.jpg"
+   ],
+   "contexte_html": "<p>Pour la saison 2 d'<a href=\"https://www.artofvfx.com/avatar-the-last-airbender-season-2-marion-spates-production-vfx-supervisor-adam-chaszen-production-vfx-producer/\" target=\"_blank\" rel=\"noopener\">Avatar: The Last Airbender</a>, le superviseur VFX Marion Spates a renoncé au mur LED utilisé en saison 1 et remis la série sur des décors construits, complétés au bleu, avec une règle assumée : bâtir petit mais crédible à l'image plutôt que grand et remplacé en post. Les 1 930 plans ont été répartis par spécialité, <a href=\"https://www.framestore.com/?language=en\" target=\"_blank\" rel=\"noopener\">Framestore</a> sur le bison volant Appa et sa nouvelle amplitude émotionnelle, <a href=\"https://www.rodeofx.com/cities/montreal/\" target=\"_blank\" rel=\"noopener\">Rodeo FX</a> sur la perception sismique de Toph, traitée en CG intégral après match-move des plaques et référencée sur du sonar sous-marin plutôt que sur le noir et blanc du dessin animé.</p><p>Ba Sing Se, environ 16 km de rayon et plan oblong en terrasses, a été scindée entre <a href=\"https://www.eyelinestudios.com/research/luxpostfacto.html\" target=\"_blank\" rel=\"noopener\">Eyeline</a> pour les murailles et le palais et <a href=\"https://image-engine.com/\" target=\"_blank\" rel=\"noopener\">Image Engine</a> pour la zone agraire et les extensions intra-muros, les outils de scatter étant alimentés par les relevés des décors réels de Port Moody. Le feu bleu d'Azula est simulé comme un feu ordinaire puis coloré au compositing avec l'étalonneur Siggy Ferstl, fumée assombrie et étincelles ajoutées. Dans la bibliothèque des esprits, des versions basse résolution du contenu tournaient sur des panneaux LED placés devant la console pour l'éclairage interactif, déclenchées en direct à chaque prise puis resynchronisées sur les images finales.</p>",
+   "learning": "Le mur LED n'est plus une destination, c'est une option qu'on arbitre plan par plan."
+  },
+  {
+   "rubrique": "fantasy",
+   "titre": "Magic concède à ses illustrateurs le droit de redessiner les créatures Marvel",
+   "type": "actualite",
+   "source_nom": "GameSpot",
+   "source_url": "https://www.gamespot.com/articles/we-couldnt-do-this-right-out-of-the-gate-mtg-team-talks-darkhold-destiny-and-creating-a-new-marvel-character/",
+   "images": [
+    "https://www.gamespot.com/wp-content/uploads/2026/10/MDD-8007_UYTGHGFVG_1920x1080_04_76d1ec.jpg",
+    "https://www.gamespot.com/wp-content/uploads/2026/10/MDD-8007_UYTGHGFVG_1920x1080_01_7b9e57.jpg?w=636",
+    "https://www.gamespot.com/wp-content/uploads/2026/10/Rise-from-the-Nether_EN_HRR.jpg?w=636",
+    "https://www.gamespot.com/wp-content/uploads/2026/10/Penance-Stare_EN_HRR.jpg?w=636"
+   ],
+   "contexte_html": "<p>Dans un entretien publié le 16 octobre, la directrice artistique Merideth Mulroney détaille ce que Marvel a concédé pour <a href=\"https://www.gamespot.com/articles/we-couldnt-do-this-right-out-of-the-gate-mtg-team-talks-darkhold-destiny-and-creating-a-new-marvel-character/\" target=\"_blank\" rel=\"noopener\">Darkhold Destiny</a>, troisième extension Universes Beyond tirée de la licence : le droit de refaire les costumes et de réinterpréter les créatures carte par carte. Son arbitrage le plus net porte sur les démons, ramenés de la combinaison intégrale à la peau nue pour rendre aux illustrateurs la part d'étrangeté que le canon leur retirait. Le set mise sur des types de créatures génériques plutôt que sur des personnages nommés, ce qui élargit mécaniquement la marge d'interprétation du studio là où un légendaire la verrouille.</p><p>Annoncée au <a href=\"https://www.comicsbeat.com/nycc-26-wotc-announces-latest-magic-marvel-collaboration-darkhold-destiny/\" target=\"_blank\" rel=\"noopener\">NYCC le 9 octobre</a> pour une sortie le 9 avril 2027, la gamme détaillée par <a href=\"https://variety.com/2026/gaming/news/magic-the-gathering-marvel-darkhold-destiny-doomsday-cards-1236906955/\" target=\"_blank\" rel=\"noopener\">Variety</a> mobilise plus de trente illustrateurs sur le seul Secret Lair d'accompagnement, et <a href=\"https://www.marvel.com/articles/culture-lifestyle/magic-the-gathering-marvel-darkhold-destiny-original-story-tie-in-comic\" target=\"_blank\" rel=\"noopener\">Marvel</a> crédite nommément RIFU sur Doctor Strange, Bastien L. Deharme sur Hela et Yohann Schepacz sur le Darkhold.</p>",
+   "learning": "Une licence ne produit d'images fortes que le jour où elle accepte de lâcher le modèle."
+  },
+  {
+   "rubrique": "gaming",
+   "titre": "Ahwoo et RocketWerkz ouvrent le code de BRUTAL, framework C# sans éditeur ni scene graph, socle du moteur Waylith de RimWorld",
+   "type": "actualite",
+   "source_nom": "GamingOnLinux",
+   "source_url": "https://www.gamingonlinux.com/2026/10/brutal-the-framework-behind-rimworlds-waylith-engine-releases-its-source-code/",
+   "images": [
+    "https://www.gamingonlinux.com/uploads/articles/tagline_images/799372588id29985gol_og.jpg",
+    "https://uploads.golmedia.net/uploads/articles/article_media/14960282171792135855gol2.webp"
+   ],
+   "contexte_html": "<p>Le 15 octobre, <a href=\"https://forums.ahwoo.com/forums/brutal/news/brutal-goes-open-source-ahwoo-and-rocketwerkz-release-their-game-dev-framework.1391/\" target=\"_blank\" rel=\"noopener\">Ahwoo</a> et <a href=\"https://en.wikipedia.org/wiki/RocketWerkz\" target=\"_blank\" rel=\"noopener\">RocketWerkz</a> ont publié le code de <a href=\"https://github.com/ahwootech/BRUTAL\" target=\"_blank\" rel=\"noopener\">BRUTAL</a>, quatre ans de travail sur une couche d'interopérabilité qui expose les API natives à C#. Ce n'est pas un moteur et ne le sera pas : ni éditeur, ni scene graph, ni renderer, seulement des liaisons Vulkan 1.3 avec le Vulkan Memory Allocator, OpenGL, GLFW, SDL, Jolt, Box2D, FMOD, RakNet, Dear ImGui, la compilation de shaders ShaderC et Slang, des collections et des chaînes sans allocation, chaque dossier livré en paquet NuGet distinct, sur .NET 10, Windows et Linux.</p><p>La licence est dérivée du MIT, sans royalties ni partage de revenus, avec attribution obligatoire : mention au générique, logo avant le gameplay et fichier NOTICE.txt, le logo étant levé pour les projets non lucratifs. Six projets dans trois studios tournent déjà dessus, dont <a href=\"https://en.wikipedia.org/wiki/Kitten_Space_Agency\" target=\"_blank\" rel=\"noopener\">Kitten Space Agency</a>, Torpedia, Art of the Rail, le prochain jeu de Felipe Falanghe et surtout le moteur Waylith qui remplace Unity dans <a href=\"https://ludeon.com/blog/2026/10/announcing-the-waylith-engine-and-update-1-7/\" target=\"_blank\" rel=\"noopener\">RimWorld 1.7</a>, où <a href=\"https://ludeon.com\" target=\"_blank\" rel=\"noopener\">Ludeon</a> mesure deux à quatre fois les performances de la version Unity. Rian Drake, responsable de l'ingénierie BRUTAL, assume l'absence de garde-fous : l'équipe qui atteint une limite modifie le code plutôt que de la contourner.</p>",
+   "learning": "Quand le coût de fabriquer ses propres fondations descend sous celui de dépendre d'un moteur tiers, la souveraineté technique redevient une décision de production, pas un luxe."
+  },
+  {
+   "rubrique": "ui",
+   "titre": "Le dossier de conception du Xerox Star, Byte, avril 1982 : commandes universelles, feuilles de propriétés, divulgation progressive",
+   "type": "pepite",
+   "source_nom": "DigiBarn Computer Museum",
+   "source_url": "https://digibarn.com/collections/software/xerox-star/index.html",
+   "images": [
+    "https://digibarn.com/collections/software/xerox-star/figure1a-big.jpg",
+    "https://digibarn.com/collections/software/xerox-star/figure2-big.jpg",
+    "https://digibarn.com/collections/software/xerox-star/figure3-big.jpg",
+    "https://digibarn.com/collections/software/xerox-star/figure4-big.jpg"
+   ],
+   "contexte_html": "<p>Le <a href=\"https://digibarn.com/collections/software/xerox-star/index.html\" target=\"_blank\" rel=\"noopener\">DigiBarn Computer Museum</a> conserve les planches du Xerox 8010 Star telles qu'elles paraissent dans <a href=\"https://www.guidebookgallery.org/articles/designingthestaruserinterface\" target=\"_blank\" rel=\"noopener\">Designing the Star User Interface</a>, l'article que Smith, Irby, Kimball, Verplank et Harslem publient dans Byte en avril 1982, pages 242 à 282. La machine tient sur un écran bitmap à 72 points par pouce, 10,5 sur 13,5 pouces, repeint environ 39 fois par seconde, avec 512 Ko de mémoire et un Ethernet à 10 Mbit/s. Le bureau est une grille de 14 sur 11 cases d'un pouce, soit 154 emplacements d'icônes, et huit commandes génériques, MOVE, COPY, DELETE, SHOW PROPERTIES, COPY PROPERTIES, AGAIN, UNDO et HELP, s'appliquent à tous les types d'objets sans changer de sens.</p><p>Les feuilles de propriétés et les feuilles d'options matérialisent la divulgation progressive : elles n'exposent que les attributs pertinents pour l'objet sélectionné, ce qui supprime le menu global et maintient une interaction sans modes, nom puis verbe. L'équipe a testé six dessins de souris à deux boutons et un à un bouton avant de retenir deux boutons, contre les trois de l'Alto et du NLS. Le jeu d'icônes vient de <a href=\"https://digibarn.com/collections/software/xerox-star/xerox-world-according-to-norm.html\" target=\"_blank\" rel=\"noopener\">Norm Cox</a>, qui décrit un medium granuleux en pixels noirs sur fond bleu et quatre propositions concurrentes soumises à des tests utilisateurs, et qui plaide dans son <a href=\"https://history.siggraph.org/?p=123523\" target=\"_blank\" rel=\"noopener\">entretien SIGGRAPH de 1993</a> pour l'entrée des designers en amont du développement plutôt qu'en finition.</p>",
+   "learning": "Huit commandes valables partout valent mieux que mille commandes contextuelles, et c'est précisément ce que les interfaces d'agents n'ont pas encore compris."
+  },
+  {
+   "rubrique": "ia",
+   "titre": "Nvidia ramène le modèle de rendu neuronal de DLSS 5 à 118 millions de paramètres et libère 20 % de VRAM en 4K",
+   "type": "actualite",
+   "source_nom": "Nvidia GeForce News",
+   "source_url": "https://www.nvidia.com/en-us/geforce/news/dlss-5-faster-ai-model-hogwarts-legacy-rtx-spark-laptops/",
+   "images": [
+    "https://www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/dlss-5-faster-ai-model-hogwarts-legacy-rtx-spark-laptops/dlss-5-faster-ai-model-hogwarts-legacy-rtx-spark-laptops-ogimage.jpg",
+    "https://images.nvidia.com/aem-dam/Solutions/geforce/news/dlss-4-5-crossout-remastered-modern-warfare-4-frame-gen-beta/hogwarts-legacy-nvidia-dlss-5-3d-guided-neural-rendering-geforce-rtx-50-series-comparison-001-on.jpg",
+    "https://images.nvidia.com/aem-dam/Solutions/geforce/news/dlss-4-5-crossout-remastered-modern-warfare-4-frame-gen-beta/hogwarts-legacy-nvidia-dlss-5-3d-guided-neural-rendering-geforce-rtx-50-series-comparison-001-off.jpg",
+    "https://images.nvidia.com/aem-dam/Solutions/geforce/news/dlss-4-5-crossout-remastered-modern-warfare-4-frame-gen-beta/nvidia-rtx-remix-dlss-5-3d-guided-neural-rendering-user-interface-002.jpg"
+   ],
+   "contexte_html": "<p>Le 13 octobre, Nvidia a détaillé la révision d'octobre de son étage de <a href=\"https://research.nvidia.com/labs/adlr/DLSS5/\" target=\"_blank\" rel=\"noopener\">3D-Guided Neural Rendering</a>, un modèle de diffusion une étape travaillant en espace pixel, placé en fin de pipeline et conditionné par l'image rendue, les vecteurs de mouvement du moteur, l'état temporel propagé et des valeurs de direction artistique. Le réseau descend à environ 118 millions de paramètres, soit 24 % de moins, divise par deux la charge GPU de la version de septembre, réduit de 20 % l'empreinte VRAM en 4K et affiche un facteur dix de gain depuis l'annonce de mars, pour un rendu jugé équivalent. Il arrive le 16 octobre dans <a href=\"https://www.nvidia.com/en-us/geforce/news/dlss-5-faster-ai-model-hogwarts-legacy-rtx-spark-laptops/\" target=\"_blank\" rel=\"noopener\">NBA 2K27</a>, avec jusqu'à 1,4x de fréquence d'images.</p><p>Le point décisif pour un studio est la grammaire de contrôle : l'image du moteur fixe ce qui doit rester, le SDK expose ce que le modèle peut modifier, et <a href=\"https://www.nvidia.com/en-gb/geforce/rtx-remix\" target=\"_blank\" rel=\"noopener\">RTX Remix</a>, qui bascule le 23 octobre, donne du masquage et un preset de rendu neuronal assignable objet par objet. Nvidia revendique explicitement une préservation de l'intention artistique par <a href=\"https://videocardz.com/newz/nvidia-says-dlss-5-is-designed-to-preserve-artistic-intent-with-per-scene-controls\" target=\"_blank\" rel=\"noopener\">réglages par scène</a>, et la supervision d'entraînement s'appuie sur des attributs de scène dérivés du renderer plutôt que sur un prompt.</p>",
+   "learning": "La génération entre dans le moteur temps réel non pas comme auteur mais comme couche de finition contrainte par la géométrie, et c'est le masque, pas le prompt, qui devient l'outil de direction artistique."
+  },
+  {
+   "rubrique": "philosophie",
+   "titre": "Un essai d'Aeon oppose les outils qui construisent une capacité et ceux qui la remplacent",
+   "type": "actualite",
+   "source_nom": "Aeon",
+   "source_url": "https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies",
+   "images": [
+    "https://images.aeonmedia.co/images/b060a785-e136-4e8e-bd82-6085cc21e62a/essay-final-nn11563596.jpg?width=3840&quality=75&format=auto"
+   ],
+   "contexte_html": "<p>Dans un essai publié le 13 octobre sur <a href=\"https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies\" target=\"_blank\" rel=\"noopener\">Aeon</a>, <a href=\"https://lithub.com/author/melaniechallenger\" target=\"_blank\" rel=\"noopener\">Melanie Challenger</a> pose un critère de tri entre les outils : ceux qui renforcent une capacité, et ceux qui se substituent aux actions par lesquelles cette capacité se forme. L'argument remonte à Descartes, puis à Norbert Wiener et à <a href=\"https://en.wikipedia.org/wiki/The_Human_Use_of_Human_Beings\" target=\"_blank\" rel=\"noopener\">The Human Use of Human Beings</a>, où l'humain cesse d'être un corps pour devenir un motif d'information, avant d'être retourné par la biologie : un organisme s'entretient lui-même, une machine produit autre chose qu'elle-même.</p><p>Les preuves avancées sont physiologiques et chiffrées : cinq pour cent de volume musculaire perdu en une semaine d'immobilisation, déclin accéléré de la mémoire spatiale chez des usagers de GPS suivis trois ans, perte de confiance à travailler sans assistance chez ceux qui recopient un texte généré au lieu de le réviser après un premier jet. La thèse recoupe l'anthropologie du geste d'<a href=\"https://en.wikipedia.org/wiki/Andr%C3%A9_Leroi-Gourhan\" target=\"_blank\" rel=\"noopener\">André Leroi-Gourhan</a>, dont Nathan Schlanger rappelait récemment la méthode des <a href=\"https://www.jhiblog.org/2026/09/10/andre-leroi-gourhans-technological-sequences-an-interview-with-nathan-schlanger/\" target=\"_blank\" rel=\"noopener\">séquences techniques</a> : la compétence tient dans la chaîne d'actions, pas dans le résultat livré.</p>",
+   "learning": "Un savoir-faire ne survit pas à l'outil qui le remplace, seulement à celui qui l'exige encore."
+  }
+ ]
+}
