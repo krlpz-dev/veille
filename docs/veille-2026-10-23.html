@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Veille créative n°10 · 23.10.2026</title>
+<meta name="description" content="Apple Music fait produire son logo par des ondes sonores dans un bain d&#x27;huile minérale, un rapport mené auprès de 101 dirigeants de studios chiffre à 3 sur 10 l&#x27;ancrage réel de...">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#0a0a0b; --bg-2:#111113; --ink:#f4f4f0; --muted:#8b8b85;
+  --line:rgba(255,255,255,.13); --accent:#D9FF3D;
+  --serif:'Unbounded','Outfit','Helvetica Neue',sans-serif;
+  --sans:'Inter','Helvetica Neue',Arial,sans-serif;
+  --pad:clamp(20px,5vw,72px);
+}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-weight:500;font-size:15px;line-height:1.62;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+::selection{background:var(--accent);color:#000}
+.kicker{font-size:10.5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.grain{position:fixed;inset:0;pointer-events:none;z-index:60;opacity:.05;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/><feColorMatrix type='saturate' values='0'/></filter><rect width='240' height='240' filter='url(%23n)' opacity='0.5'/></svg>");background-size:240px;mix-blend-mode:overlay}
+.bar{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;
+  justify-content:space-between;gap:16px;padding:14px var(--pad);
+  background:linear-gradient(to bottom,rgba(10,10,11,.92),rgba(10,10,11,0));
+  backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px)}
+.bar__id{font-size:10.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--ink);text-decoration:none;opacity:.85;transition:opacity .3s}
+.bar__id:hover{opacity:1}
+.btn{display:inline-block;font-size:10px;font-weight:600;letter-spacing:.2em;
+  text-transform:uppercase;text-decoration:none;padding:9px 15px;border-radius:2px;
+  border:1px solid var(--accent);color:var(--accent);
+  background:color-mix(in srgb,var(--accent) 30%,transparent);
+  transition:background .35s ease,color .35s ease,transform .35s ease}
+.btn:hover{background:var(--accent);color:#0a0a0b;transform:translateY(-1px)}
+.progress{position:fixed;top:0;left:0;height:2px;width:0;background:var(--accent);z-index:70;
+  transition:width .12s linear}
+.hide-s{display:inline}
+footer{padding:clamp(48px,9vh,104px) var(--pad);border-top:1px solid var(--line);
+  display:flex;flex-wrap:wrap;gap:14px 26px;justify-content:space-between;align-items:center}
+@media (max-width:680px){
+  .hide-s{display:none}
+  .bar{padding:11px 16px}
+  .bar__id{font-size:9.5px;letter-spacing:.14em}
+  .btn{padding:8px 11px;font-size:9px;letter-spacing:.13em;white-space:nowrap}
+}
+.reveal{opacity:0;transform:translateY(26px);
+  transition:opacity 1s cubic-bezier(.22,.7,.24,1),transform 1s cubic-bezier(.22,.7,.24,1)}
+.reveal.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none;transition:none}
+}
+
+main{scroll-snap-type:y proximity}
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;
+  padding:0 var(--pad) clamp(38px,7vh,86px);overflow:hidden;scroll-snap-align:start}
+.hero__img{position:absolute;inset:0;z-index:0}
+.hero__img img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.16) brightness(.62);
+  transform:scale(1.06);animation:drift 22s ease-out forwards}
+@keyframes drift{to{transform:scale(1)}}
+.hero__veil{position:absolute;inset:0;z-index:1;
+  background:radial-gradient(120% 90% at 20% 100%,rgba(10,10,11,.35),rgba(10,10,11,.94) 72%),
+             linear-gradient(to top,rgba(10,10,11,.98),rgba(10,10,11,.2) 55%,rgba(10,10,11,.72))}
+.hero__in{position:relative;z-index:2;max-width:1180px;width:100%}
+.hero__no{font-family:var(--serif);font-weight:800;font-size:11px;letter-spacing:.32em;
+  color:var(--accent);margin:0 0 18px}
+.hero h1{font-family:var(--serif);font-weight:900;letter-spacing:-.02em;line-height:.92;
+  font-size:clamp(38px,8.2vw,116px);margin:0 0 22px;text-transform:uppercase}
+.hero__meta{display:flex;flex-wrap:wrap;gap:10px 22px;margin-bottom:22px}
+.hero__deck{max-width:62ch;font-size:15px;color:#cfcfc8;margin:0}
+.hero__scroll{position:absolute;left:var(--pad);bottom:14px;z-index:2;font-size:9.5px;
+  letter-spacing:.24em;text-transform:uppercase;color:var(--muted);animation:blink 3.2s infinite}
+@keyframes blink{0%,100%{opacity:.35}50%{opacity:.9}}
+
+.sommaire{padding:clamp(64px,12vh,140px) var(--pad);border-top:1px solid var(--line);
+  scroll-snap-align:start}
+.sommaire__in{max-width:1180px;margin:0 auto}
+.sommaire p.intro{font-size:clamp(17px,2.1vw,25px);line-height:1.42;max-width:32ch;
+  font-family:var(--serif);font-weight:400;margin:18px 0 clamp(38px,6vh,64px)}
+.som__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  column-gap:clamp(24px,5vw,80px)}
+.som__row{display:flex;gap:14px;align-items:baseline;padding:11px 0;border-top:1px solid var(--line);
+  text-decoration:none;transition:padding-left .35s ease}
+.som__row:hover{padding-left:8px}
+.som__n{font-family:var(--serif);font-size:10px;font-weight:600;color:var(--muted);min-width:22px}
+.som__t{font-size:14px;font-weight:500;flex:1}
+.som__r{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
+  text-align:right;white-space:nowrap}
+.som__row:hover .som__t{color:var(--accent)}
+
+.entry{min-height:100svh;display:grid;align-items:center;
+  grid-template-columns:minmax(0,.86fr) minmax(0,1fr);
+  gap:clamp(28px,4.5vw,74px);padding:clamp(72px,11vh,124px) var(--pad);
+  border-top:1px solid var(--line);scroll-snap-align:start}
+.media{display:grid;gap:8px;width:100%;aspect-ratio:3/4;max-height:78vh;margin:0 auto}
+.media--1{grid-template-rows:1fr}
+.media--2{grid-template-rows:1.75fr 1fr}
+.media--3{grid-template-rows:1.75fr 1fr;grid-template-columns:1fr 1fr}
+.media--3 .shot:first-child{grid-column:1 / -1}
+.shot{position:relative;overflow:hidden;background:var(--bg-2)}
+.shot img{width:100%;height:100%;object-fit:cover;transform:scale(1.03);
+  transition:transform 1.4s cubic-bezier(.22,.7,.24,1)}
+.shot:hover img{transform:scale(1.08)}
+.txt{max-width:56ch}
+.tag{display:flex;align-items:center;gap:10px;margin-bottom:20px;flex-wrap:wrap}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--rc)}
+.tag__r{font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--rc)}
+.tag__n{font-family:var(--serif);font-size:10px;font-weight:600;color:var(--muted);margin-left:auto}
+.pepite{font-size:9px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
+  color:#0a0a0b;background:var(--rc);padding:3px 8px;border-radius:2px}
+.entry h2{font-family:var(--serif);font-weight:800;letter-spacing:-.015em;line-height:1.08;
+  font-size:clamp(23px,2.9vw,40px);margin:0 0 22px}
+.ctx{font-size:15px;line-height:1.68;color:#d6d6d0;margin:0 0 26px}
+.ctx a{color:var(--ink);text-decoration:none;background-image:linear-gradient(var(--rc),var(--rc));
+  background-size:100% 1px;background-repeat:no-repeat;background-position:0 100%;
+  padding-bottom:1px;transition:background-size .4s ease,color .3s ease}
+.ctx a:hover{color:var(--rc);background-size:100% 2px}
+.ctx em{font-style:italic;color:#eaeae4}
+.learn{border-left:2px solid var(--rc);padding:2px 0 2px 16px;margin:0 0 24px}
+.learn p{margin:0;font-family:var(--serif);font-weight:400;font-size:clamp(15px,1.6vw,20px);
+  line-height:1.34;color:var(--ink)}
+.src{display:inline-flex;align-items:center;gap:9px;font-size:10px;font-weight:600;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--muted);text-decoration:none;
+  transition:color .3s ease,gap .3s ease}
+.src:hover{color:var(--rc);gap:14px}
+
+@media (max-width:1080px){
+  .entry{grid-template-columns:1fr;gap:30px;align-items:start}
+  .media{aspect-ratio:4/3;max-height:none}
+  .media--3{grid-template-rows:1.5fr 1fr}
+  .txt{max-width:none}
+  body{font-size:15.5px}
+  .ctx{font-size:15.5px}
+}
+@media (max-width:680px){
+  .som__grid{grid-template-columns:1fr}
+  .som__r{display:none}
+  .media{aspect-ratio:3/4;gap:6px}
+  .hero{padding-bottom:64px}
+  .entry{padding-top:88px;padding-bottom:56px}
+  main{scroll-snap-type:none}
+}
+</style>
+</head>
+<body>
+<div class="progress"></div>
+<div class="grain"></div>
+<header class="bar">
+  <a class="bar__id" href="index.html">Veille créative<span class="hide-s"> · Karl Petzold</span></a>
+  <a class="btn" href="index.html">Toutes les éditions</a>
+</header>
+<main>
+  <section class="hero">
+    <div class="hero__img"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_39FfQeMIWqiQLLKAWDtgFuU9Tem/hf_20261023_165726_1c78b08f-d713-489d-a4ff-2f1a24569569.png" alt="" referrerpolicy="no-referrer"></div>
+    <div class="hero__veil"></div>
+    <div class="hero__in">
+      <p class="hero__no">Édition n°10</p>
+      <h1>THE APPARATUS</h1>
+      <div class="hero__meta"><span class="kicker">vendredi 23 octobre 2026</span><span class="kicker">Treize entrées</span></div>
+      <p class="hero__deck">Apple Music fait produire son logo par des ondes sonores dans un bain d&#x27;huile minérale, un rapport mené auprès de 101 dirigeants de studios chiffre à 3 sur 10 l&#x27;ancrage réel de l&#x27;IA dans les pipelines, et 1083 descend son jean à 99 euros en supprimant la teinture et cinquante-quatre déclinaisons. Trois façons de dire que la valeur s&#x27;est déplacée vers le dispositif, pas vers le résultat.</p>
+    </div>
+    <span class="hero__scroll">Défiler</span>
+  </section>
+  <section class="sommaire">
+    <div class="sommaire__in">
+      <span class="kicker">Au sommaire</span>
+      <p class="intro">Treize entrées, une par rubrique. Les pépites hors actualité sont portées cette semaine par le luxe, l&#x27;architecture et le fantasy art.</p>
+      <div class="som__grid"><a class="som__row reveal" href="#direction-artistique"><span class="som__n">01</span><span class="som__t">Un logo tracé par le son</span><span class="som__r">Direction artistique &amp; campagnes</span></a><a class="som__row reveal" href="#mode"><span class="som__n">02</span><span class="som__t">Un jean à 99 euros sans teinture</span><span class="som__r">Mode</span></a><a class="som__row reveal" href="#luxe"><span class="som__n">03</span><span class="som__t">Le secret était la courbe de refroidissement</span><span class="som__r">Luxe</span></a><a class="som__row reveal" href="#craft"><span class="som__n">04</span><span class="som__t">L&#x27;aluminium qui se décroche du mur</span><span class="som__r">Craft &amp; matière</span></a><a class="som__row reveal" href="#architecture"><span class="som__n">05</span><span class="som__t">Des planches de 3 cm pour une voûte</span><span class="som__r">Architecture</span></a><a class="som__row reveal" href="#scenographie"><span class="som__n">06</span><span class="som__t">Un bâtiment pour une seule toile</span><span class="som__r">Scénographie &amp; expérience</span></a><a class="som__row reveal" href="#photographie"><span class="som__n">07</span><span class="som__t">Photographier ce qu&#x27;on a cultivé</span><span class="som__r">Photographie</span></a><a class="som__row reveal" href="#film"><span class="som__n">08</span><span class="som__t">Le trait du cartoon comme rendu</span><span class="som__r">Film &amp; motion</span></a><a class="som__row reveal" href="#fantasy"><span class="som__n">09</span><span class="som__t">Un point, on essuie, on recommence</span><span class="som__r">Fantasy art &amp; illustration</span></a><a class="som__row reveal" href="#gaming"><span class="som__n">10</span><span class="som__t">Changer de plomberie sans fermer</span><span class="som__r">Gaming &amp; worldbuilding</span></a><a class="som__row reveal" href="#ui"><span class="som__n">11</span><span class="som__t">Ce qu&#x27;on pourra dessiner en 2027</span><span class="som__r">UI &amp; design d&#x27;interface</span></a><a class="som__row reveal" href="#ia"><span class="som__n">12</span><span class="som__t">L&#x27;IA notée 3 sur 10 en pipeline</span><span class="som__r">IA &amp; création</span></a><a class="som__row reveal" href="#philosophie"><span class="som__n">13</span><span class="som__t">L&#x27;intuition est une perception</span><span class="som__r">Philosophie</span></a></div>
+    </div>
+  </section>
+  
+<section class="entry" id="direction-artistique" style="--rc:#c9a24a">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://media.creativeboom.com/f0483d4b-6893-4edc-bad5-edb4885a88f9/conversions/b62c93fdc8522ade2ae9125200ea39fa538362f8-medium.webp" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://media.creativeboom.com/8b5c14b0-8c37-429b-801e-309c8d962804/conversions/681de3bb4b0aea401245f747b133687dc02bbb7d-medium.webp" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://media.creativeboom.com/c1de6c79-e8d6-41b8-bf40-31fc220dd014/conversions/016ac7b11af6d3a395e1c99a0143efdcd39a499f-medium.webp" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Direction artistique &amp; campagnes</span><span class="tag__n">01</span></div>
+    <h2 class="reveal">Apple Music refond son identité à partir d&#x27;ondes sonores filmées dans un bain d&#x27;huile minérale</h2>
+    <div class="ctx reveal"><p>Apple Music a dévoilé le 21 octobre une identité produite par cymatique plutôt que dessinée à l'écran : une composition de Fred again.. et de Nest Acoustics a été découpée note par note, chaque note envoyée dans un transducteur immergé dans un bain d'huile minérale, choisie pour sa viscosité, et les répliques du logo et du logotype moulées en acrylique ont été plongées dans le liquide pour que la réfraction déforme les formes en direct. <a href="https://www.fastcompany.com/91627164/for-the-new-apple-music-logo-designers-lean-into-the-science-of-sound" target="_blank" rel="noopener">Fast Company</a> détaille le banc d'essai, un rig et un logiciel développés sur mesure par <a href="https://www.designrush.com/agency/profile/tbwa-media-arts-lab" target="_blank" rel="noopener">TBWA\Media Arts Lab</a>, et la contrainte qui a cadré des mois de réglage : trop de notes simultanées ou trop aiguës agitent l'huile au point de rendre le signe illisible.</p><p>Le logotype associe le symbole Apple à une version grasse et bas de casse de SF Pro, la fonte système, avec <a href="https://fonts.adobe.com/foundries/plau" target="_blank" rel="noopener">Plau</a> en conseil typographique et reconstruction vectorielle, et la même composition devient la signature sonore de la marque. Le film de fabrication est produit par <a href="https://www.itsnicethat.com/articles/optical-arts-advertisements-and-idents-film-animation-project-020926" target="_blank" rel="noopener">Optical Arts</a>, avec les effets de <a href="https://lbbonline.com/profile/time-based-arts" target="_blank" rel="noopener">Time Based Arts</a> et la réalisation de Joe Jackson. Le logotype avait été testé en septembre sur l'Apple Music Hall à Londres, et selon <a href="https://9to5mac.com/2026/10/21/apple-music-unveils-new-design-rebrand-with-logo-made-by-sound/" target="_blank" rel="noopener">9to5Mac</a> le déploiement in-app suit avec iOS 27.2, raccordé au langage Liquid Glass.</p></div>
+    <div class="learn reveal"><p>Quand tout le monde peut générer une image, la valeur passe du rendu au dispositif physique qui l&#x27;a produite.</p></div>
+    <div class="reveal"><a class="src" href="https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/" target="_blank" rel="noopener">Creative Boom <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="mode" style="--rc:#a3ad72">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000,format=auto/m/7b37/d687/140d/9772/6b69/38c8/1e62/fba1/567b/9b8a/9b8a.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000,format=auto/m/69ec/4124/1b1d/f069/9b91/cc40/e902/cbf0/0005/0525/0525.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000,format=auto/m/2915/6ee2/dc49/25b7/baec/bbc2/8e14/38a6/a79e/c3bf/c3bf.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Mode</span><span class="tag__n">02</span></div>
+    <h2 class="reveal">1083 sort un jean à 99 euros en supprimant l&#x27;étape de teinture et en passant de 60 à 6 déclinaisons par modèle</h2>
+    <div class="ctx reveal"><p><a href="https://www.1083.fr/evenements.html" target="_blank" rel="noopener">1083</a> dévoilera Néo au salon <a href="https://www.mifexpo.fr/en/exposants/sas-lequipe-1083-1391/" target="_blank" rel="noopener">MIF Expo</a>, du 11 au 15 novembre, un jean à 99 euros quand la marque vend habituellement entre 130 et 170 euros. Le prix repose sur trois décisions de fabrication et non sur un rabais commercial : un fil de coton recyclé issu de chutes déjà teintes, qui supprime l'étape de teinture, une distribution monocanale à marge réduite, et le passage de 60 déclinaisons par modèle, tailles, demi-tailles et trois longueurs, à six tailles XS-XXL en une seule longueur.</p><p>Le premier lot reste modeste, 400 pièces pour 600 mètres de tissu, mais cette rationalisation autorise des volumes dix fois supérieurs sur un même patron. Le reste de la gamme tient à 120-170 euros parce que le coût de production est monté de 30-35 euros en 2013 à 40-50 euros aujourd'hui. L'entreprise écoule environ 50 000 pièces par an pour 7 à 8 millions d'euros de chiffre d'affaires, avec 22 salariés dont 20 à l'atelier industriel des Vosges, et elle a réinternalisé la coupe après la défaillance de son sous-traitant, dans la logique déjà suivie lors de la <a href="https://fr.fashionnetwork.com/news/1083-fait-de-tissage-de-france-un-atelier-de-jeans,1380949.html" target="_blank" rel="noopener">reprise de Tissage de France</a>, aux côtés d'acteurs comme <a href="https://franceterretextile.fr/france-terre-textile-au-salon-mif-expo/" target="_blank" rel="noopener">France Terre Textile</a>.</p></div>
+    <div class="learn reveal"><p>Faire baisser un prix de fabrication française ne passe plus par la matière, mais par le renoncement aux déclinaisons.</p></div>
+    <div class="reveal"><a class="src" href="https://fr.fashionnetwork.com/news/1083-lance-un-jean-a-99-euros-en-repensant-son-modele-de-production,1876566.html" target="_blank" rel="noopener">FashionNetwork <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="luxe" style="--rc:#b57a8c">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://sites.courtauld.ac.uk/illuminating-objects/wp-content/uploads/sites/7/2017/06/Chalcedony-and-Aventurine-Glass-Bowl.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://sites.courtauld.ac.uk/illuminating-objects/wp-content/uploads/sites/7/2017/07/image4-300x226.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://sites.courtauld.ac.uk/illuminating-objects/wp-content/uploads/sites/7/2017/07/image9-300x283.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Luxe</span><span class="pepite">Pépite</span><span class="tag__n">03</span></div>
+    <h2 class="reveal">Avventurina, le verre au cuivre réduit de Murano verrouillé par les Miotti pendant un siècle et demi</h2>
+    <div class="ctx reveal"><p>La coupe en verre calcédoine et avventurina du XVIIIe siècle conservée à la <a href="https://sites.courtauld.ac.uk/illuminating-objects/illuminating-objects-home/venetian-chalcedony-adventurine-glass-bowl/" target="_blank" rel="noopener">Courtauld Gallery</a> mesure 5,7 sur 12,9 cm et documente un procédé que Murano a tenu secret pendant cent cinquante ans. On charge 4 à 6 % en masse d'oxyde de cuivre dans un groisil recyclé, on fond sous atmosphère réductrice avec de l'oxyde de plomb comme fondant et de la calcine de fer ou d'étain comme réducteur, puis on laisse refroidir plusieurs jours pour que le cuivre précipite en microcristaux métalliques triangulaires et hexagonaux. Le verrier concasse ensuite le bloc, ramollit les éclats à la bouche du four, les roule sur une paraison de calcédoine, maille au marbre pour les affleurer et souffle pour les étirer en ovales. Les objets donnés par Pietro Bigaglia, Domenico Bussolin et Lorenzo Radi, dont deux blocs bruts d'avventurina, sont au <a href="https://museovetro.visitmuve.it/en/il-museo/layout-and-collections/glass-19th-century/" target="_blank" rel="noopener">Museo del Vetro</a> de Murano.</p><p>La chaîne documentaire est serrée : première mention en 1614 dans une lettre de Philipp Hainhofer, qui parle de pierres à étoiles d'or vendues par Luca Trono, apparition du terme pasta venturina dans un inventaire de joaillier vénitien en 1626, plus ancienne recette connue transcrite par Giovanni Darduin en 1644 d'après son père Nicolò, puis captation du carnet par les Miotti, qui gardent le procédé jusqu'à l'extinction du four de Stefano Miotti vers 1805. Bigaglia le reconstitue en 1825 et 1826 et ajoute un enrobage de cristal qui permet enfin le travail à chaud, le réchauffage en atmosphère oxydante redissolvant sinon les cristaux. La revue de <a href="https://www.tib-op.org/ojs/index.php/glass-europe/article/view/2629" target="_blank" rel="noopener">Laurent Cormier dans Glass Europe</a> montre que l'analyse chimique ne distingue presque pas l'avventurina d'un rouge au cuivre ordinaire, et le relevé de <a href="https://www.britglass.org.uk/knowledge-base/digital-library-and-information-services/aventurine-glass-recipes" target="_blank" rel="noopener">Moretti et Hreglich</a> recense une centaine de carnets de recettes du XVIIe au XIXe siècle sans que la formule suffise à refaire le verre.</p></div>
+    <div class="learn reveal"><p>La formule circulait depuis 1644 et personne ne savait refaire le verre, parce que la barrière n&#x27;était pas la recette mais la courbe de refroidissement, exactement là où se situent encore les vrais actifs industriels.</p></div>
+    <div class="reveal"><a class="src" href="https://sites.courtauld.ac.uk/illuminating-objects/illuminating-objects-home/venetian-chalcedony-adventurine-glass-bowl/" target="_blank" rel="noopener">The Courtauld Gallery, Illuminating Objects <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="craft" style="--rc:#b8956a">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://cdn.mos.cms.futurecdn.net/rj4fxeyXqq7oGd2KPTvPf.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://cdn.mos.cms.futurecdn.net/zBFddW6dRfS8qNFcrACHdD.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://cdn.mos.cms.futurecdn.net/9xRdbXgXkF9PBaPztxbquC.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Craft &amp; matière</span><span class="tag__n">04</span></div>
+    <h2 class="reveal">Joshi Greene détourne un rail de suspension industriel en système mural, mobilier en aluminium assemblé sans soudure</h2>
+    <div class="ctx reveal"><p><a href="https://www.wallpaper.com/design-interiors/joshi-greene-los-angeles-designers" target="_blank" rel="noopener">Wallpaper*</a> publie le 18 octobre le portrait de <a href="https://joshi-greene.com/" target="_blank" rel="noopener">Joshi Greene</a>, studio de Los Angeles fondé par Elora Joshi et Andrew Greene, qui reprend un rail de suspension du commerce, celui des bureaux, des hôpitaux et des accrochages de galerie, et le transforme en système mural modulaire en aluminium. La filiation est explicite avec le peg rail shaker du XIXe siècle : on suspend le mobilier au mur plutôt que de repercer à chaque déplacement. Chaise, horloge, patère, étagère, miroir et vase sont tous en aluminium adouci, la chaise Meeting en aluminium anodisé.</p><p>La contrainte de fabrication commande la forme. Le duo a écarté la soudure pour tout produire en interne, vite et à coût bas, ce qui impose un vocabulaire d'assemblages mécaniques et de profilés plutôt que de volumes clos. L'ensemble a été montré au sein de Convey pendant la <a href="https://www.wallpaper.com/tag/milan" target="_blank" rel="noopener">Milan Design Week 2026</a>, et le studio vise désormais les restaurants et les boutiques, là où le rail industriel retourne à son usage d'origine. Le texte de Rosa Bertoli cite un répertoire de références assumé : design japonais, minimalisme britannique des années 1990, objets d'Asie du Sud.</p></div>
+    <div class="learn reveal"><p>Le mobilier le plus intelligent de demain ne se répare pas, il se décroche.</p></div>
+    <div class="reveal"><a class="src" href="https://www.wallpaper.com/design-interiors/joshi-greene-los-angeles-designers" target="_blank" rel="noopener">Wallpaper* <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="architecture" style="--rc:#8d9aa3">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://mdpi-res.com/buildings/buildings-13-00885/article_deploy/html/images/buildings-13-00885-g001-550.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://mdpi-res.com/buildings/buildings-13-00885/article_deploy/html/images/buildings-13-00885-g002-550.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://mdpi-res.com/buildings/buildings-13-00885/article_deploy/html/images/buildings-13-00885-g004-550.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Architecture</span><span class="pepite">Pépite</span><span class="tag__n">05</span></div>
+    <h2 class="reveal">Le toit Zollinger, voûte en losanges faite de planches de 3 x 20 cm, brevetée en 1921 et redécoupée joint par joint</h2>
+    <div class="ctx reveal"><p>Déposé le 14 octobre 1921 et accordé le 28 décembre 1923, le brevet de <a href="https://en.wikipedia.org/wiki/Friedrich_Zollinger" target="_blank" rel="noopener">Friedrich Zollinger</a>, Stadtbaumeister de Merseburg, supprime la ferme de charpente et la remplace par un réseau de losanges fait de planches de 3 x 20 cm longues de 2 à 2,50 m. Chaque lamelle oblique reçoit à ses deux bouts une entaille biaise, la Schmiege, et vient se boulonner au milieu d'une lamelle continue percée d'un trou oblong, pour que le boulon travaille au cisaillement et non en flexion, comme le détaille la notice de <a href="https://www.baunetzwissen.de/geneigtes-dach/fachwissen/dachtragwerke/zollingerdach-4958920" target="_blank" rel="noopener">Baunetz Wissen</a>. Le gain est de l'ordre de 40 % de bois en moins qu'une charpente traditionnelle : la Deutsche Zollbau-Licenz-Gesellschaft puis l'Europäische Zollbau-Syndikat annonçaient 850 000 m2 couverts dès 1926, et 1 250 logements montés à Merseburg entre 1922 et 1929.</p><p>L'étude publiée dans <a href="https://www.mdpi.com/2075-5309/13/4/885" target="_blank" rel="noopener">Buildings</a> reprend le dossier au point précis où le système avait calé, le noeud : elle classe les assemblages historiques par excentricité, capacité portante et facilité de montage, puis propose une platine acier de 3 mm et des boulons M12 classe 5.6 en double cisaillement sur des lamelles lamellé-collé de 6/16 cm, pour un prototype de 10,75 m de portée monté en moins d'une semaine par trois ouvriers et quasiment sans échafaudage. Une <a href="https://app.iass2024.org/files/IASS_2024_Paper_250.pdf" target="_blank" rel="noopener">équipe de l'UPC Barcelone</a> a poussé le même noeud vers la double courbure, usinable sur fraiseuse CNC 3 axes, avec une platine plate de 5 mm mesurée à 10,83 kNm/rad de raideur en rotation, soit mille fois celle de la platine circulaire.</p></div>
+    <div class="learn reveal"><p>Quand la grosse section manque, c&#x27;est la géométrie qui remplace la matière, et le losange de planches courtes de 1921 est l&#x27;ancêtre direct du gridshell usiné en CNC.</p></div>
+    <div class="reveal"><a class="src" href="https://www.mdpi.com/2075-5309/13/4/885" target="_blank" rel="noopener">Buildings, MDPI <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="scenographie" style="--rc:#7fbdb0">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://static.designboom.com/wp-content/uploads/2026/10/david-chipperfield-architects-anselm-kiefer-pavillon-studio-menges-tugushi-germany-designboom-1800.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.designboom.com/wp-content/uploads/2026/10/david-chipperfield-architects-anselm-kiefer-pavillon-studio-menges-tugushi-germany-designboom-01.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.designboom.com/wp-content/uploads/2026/10/david-chipperfield-architects-anselm-kiefer-pavillon-studio-menges-tugushi-germany-designboom-02.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Scénographie &amp; expérience</span><span class="tag__n">06</span></div>
+    <h2 class="reveal">David Chipperfield construit à Künzelsau un bâtiment de 140 m2 pour une seule toile d&#x27;Anselm Kiefer</h2>
+    <div class="ctx reveal"><p>Le 13 octobre, le <a href="https://www.wuerth.com/wuerth-group/homepage.php" target="_blank" rel="noopener">groupe Würth</a> a ouvert à Künzelsau un pavillon de 140 m2 signé <a href="https://davidchipperfield.com/" target="_blank" rel="noopener">David Chipperfield Architects</a>, conçu pour accueillir une seule oeuvre, <em>Schwarze Flocken</em> de 2007, signée <a href="https://gagosian.com/artists/anselm-kiefer/" target="_blank" rel="noopener">Anselm Kiefer</a>, 11 m de haut sur 7 m de large, huile, émulsion, shellac, terre et branchages, trop grande pour les salles du musée. Le volume est monolithique, béton bouchardé à l'extérieur, maçonnerie de brique doublée d'un enduit de terre à l'intérieur, poutres en bois massif apparentes en couverture.</p><p>La lumière vient de lanterneaux intercalés entre les poutres, donc variable selon l'heure et la saison, avec Kardorff Ingenieure en conception lumière et Mayer-Vorfelder und Dinkelacker à la structure, comme le détaille <a href="https://www.designboom.com/architecture/anselm-kiefer-monumental-painting-pavilion-david-chipperfield-schwarze-flocken/" target="_blank" rel="noopener">designboom</a>. Pas de climatisation active : l'inertie de l'enveloppe suffit à tenir le hors-gel, un choix d'exploitation autant qu'un choix esthétique. Kiefer a arbitré lui-même les proportions de la salle, la position des ouvertures et la couleur des murs.</p></div>
+    <div class="learn reveal"><p>Quand l&#x27;oeuvre ne rentre plus dans le musée, c&#x27;est le bâtiment qui devient le socle.</p></div>
+    <div class="reveal"><a class="src" href="https://www.designboom.com/architecture/anselm-kiefer-monumental-painting-pavilion-david-chipperfield-schwarze-flocken/" target="_blank" rel="noopener">designboom <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="photographie" style="--rc:#6fa3bd">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://cdn.loeildelaphotographie.com/wp-content/uploads/2026/10/iris-raven-girl-copy.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://cdn.loeildelaphotographie.com/wp-content/uploads/2026/10/dahlia-emory-paul-copy.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://cdn.loeildelaphotographie.com/wp-content/uploads/2026/10/tulip-rococo-copy.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Photographie</span><span class="tag__n">07</span></div>
+    <h2 class="reveal">Sharon Core expose neuf tirages pigmentaires de fleurs qu&#x27;elle cultive elle-même et abandonne la chambre pour le numérique</h2>
+    <div class="ctx reveal"><p><a href="https://www.yanceyrichardson.com/artists/sharon-core" target="_blank" rel="noopener">Sharon Core</a> montre depuis le 22 octobre et jusqu'au 19 décembre neuf tirages jet d'encre pigmentaire chez <a href="https://www.yanceyrichardson.com/exhibitions/sharon-core5" target="_blank" rel="noopener">Yancey Richardson</a>, datés de 2022 à 2024, du 60 x 46 cm au 104 x 80 cm pour l'iris Raven Girl. Chaque plante sort de son propre jardin, choisie parmi des variétés rares aux lignées pluriséculaires et saisie à un stade précis du cycle, de la première floraison au pétale desséché, sur fond blanc franc où la silhouette commande seule le cadre, en recadrage serré et couleur saturée.</p><p>La rupture est technique : la série est produite en numérique, alors que <a href="https://www.hydecollection.org/exhibition/sharon-core-1606-to-the-sixties/" target="_blank" rel="noopener">1606-1907</a> rebâtissait physiquement en studio les natures mortes de Rachel Ruysch, Renoir et Van Gogh, accessoires d'époque et fleurs anciennes cultivées sous serre, sans la moindre retouche logicielle. Le rendu glisse du tableau vers la planche de laboratoire et revendique la filiation de <a href="https://www.famsf.org/exhibitions/plant-kingdoms-photography-charles-jones" target="_blank" rel="noopener">Charles Jones</a> et d'Edward Steichen pour mieux la contredire.</p></div>
+    <div class="learn reveal"><p>Quand l&#x27;image devient triviale à générer, la valeur remonte en amont, du côté de celui qui possède physiquement le sujet.</p></div>
+    <div class="reveal"><a class="src" href="https://loeildelaphotographie.com/en/yancey-richardson-sharon-core-flowering/" target="_blank" rel="noopener">L&#x27;Oeil de la Photographie <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="film" style="--rc:#c47a72">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://www.artofvfx.com/wp-content/uploads/2026/10/CoyotevsAcme_DNEG_ITW_07A.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.artofvfx.com/wp-content/uploads/2026/10/CoyotevsAcme_DNEG_ITW_01B.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.artofvfx.com/wp-content/uploads/2026/10/CoyotevsAcme_DNEG_ITW_09.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Film &amp; motion</span><span class="tag__n">08</span></div>
+    <h2 class="reveal">Coyote vs. Acme : DNEG fabrique le trait de Wile E. Coyote avec un réseau Houdini et des shaders toon sous Clarisse</h2>
+    <div class="ctx reveal"><p>Le superviseur VFX Alexander Seaman et le directeur de l'animation Keith Roberts détaillent sur <a href="https://www.artofvfx.com/coyote-vs-acme-alexander-seaman-vfx-supervisor-and-keith-roberts-animation-director-dneg/" target="_blank" rel="noopener">The Art of VFX</a> dix-huit mois de production chez DNEG : un peu plus de 1 000 plans, 126 animateurs, environ 160 accessoires toon dessinés en lignes grossières et aplats, certains réduits à deux pièces. Le trait n'est pas peint en compositing mais généré : un réseau Houdini trace les contours sur les rigs 3D, et des règles automatiques pilotent l'épaisseur, l'amorce et l'effilement selon la vitesse d'animation et la distance caméra, les lignes les plus lourdes s'orientant dans le sens du mouvement. <a href="https://www.fxguide.com/fxpodcasts/dneg-on-making-cartoon-logic-work-in-coyote-vs-acme/" target="_blank" rel="noopener">fxguide</a> précise le reste de la chaîne : shaders toon écrits dans Clarisse, premiers rendus volontairement plats pour vérifier la lisibilité, puis éclairage traité sous Nuke avec des formes de roto et des accents placés à la main plutôt qu'un modelé lumineux complet.</p><p>Les décisions de cadre suivent la même logique de faux-semblant : la caméra de rendu de Wile E. Coyote utilise souvent une focale différente de celle de la prise de vues réelle, pour contrôler sa perspective et sa silhouette. L'animation est tournée en ones ou en twos selon le plan, avec des timings hybrides par partie de corps, et <a href="https://www.animationscoop.com/animation-supervisor-ben-anderson-on-treating-coyote-vs-acme-like-a-2d-chuck-jones/" target="_blank" rel="noopener">Ben Anderson</a> ajoute un léger boil sur les poses tenues et des traits de vitesse en brosse sèche construits sur des rigs planaires à textures animées. La séquence du désert a été bloquée sous Unreal Engine avant la production VFX, et le marionnettiste Dave Barclay manipulait sur le plateau un Wile E. en mousse à l'échelle 1, tête pivotante et sourcils mobiles, dont la prise servait de plaque de référence avant effacement par les équipes de paint et de roto.</p></div>
+    <div class="learn reveal"><p>Le cartoon n&#x27;est pas un style qu&#x27;on applique en fin de chaîne, c&#x27;est un pipeline qu&#x27;on construit, et la ligne dessinée devient un département de rendu à part entière.</p></div>
+    <div class="reveal"><a class="src" href="https://www.artofvfx.com/coyote-vs-acme-alexander-seaman-vfx-supervisor-and-keith-roberts-animation-director-dneg/" target="_blank" rel="noopener">The Art of VFX <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="fantasy" style="--rc:#9b7ec9">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://static.wixstatic.com/media/3d6df1_05167c7dcefe41fd8903697a12a9ced3%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/3d6df1_05167c7dcefe41fd8903697a12a9ced3%7Emv2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.wixstatic.com/media/3d6df1_c10cba1710ee45bc98a55d5f7f9cc763.jpg/v1/fill/w_259,h_274,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/3d6df1_c10cba1710ee45bc98a55d5f7f9cc763.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://static.wixstatic.com/media/3d6df1_e1ba4293bb42412c9ce681fbf77f0a08.jpg/v1/fill/w_259,h_363,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/3d6df1_e1ba4293bb42412c9ce681fbf77f0a08.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Fantasy art &amp; illustration</span><span class="pepite">Pépite</span><span class="tag__n">09</span></div>
+    <h2 class="reveal">Virgil Finlay, le pointillé à la plume lithographique comme réponse au papier de pulp</h2>
+    <div class="ctx reveal"><p>La notice que la <a href="https://www.korshakcollection.com/virgil-finlay" target="_blank" rel="noopener">Korshak Collection</a> consacre à Virgil Finlay, 1914-1971, documente un procédé entier : plume lithographique trempée dans l'encre, un point posé, pointe essuyée, recommencer, jusqu'à obtenir des gris continus par densité de points. Le second registre est le scratchboard, carton à dessin recouvert d'une mince couche d'encre noire que Finlay gratte à la pointe fine pour dégager des blancs, puis reprend à la plume. Le dossier réuni par <a href="https://georgepetros.com/writings/jxtpz/finlay.htm" target="_blank" rel="noopener">George Petros</a> ajoute le hachurage croisé réservé aux étoiles, aux feux et aux explosions, pour imiter la gamme d'une eau-forte ou d'une photographie, et le tarif réel, sept à onze dollars par dessin, pour plus de 2 400 illustrations de pulps.</p><p>La raison technique est économique. Le papier de pulp, bois mécanique bon marché, ne tient pas un similigravé propre, et le rédacteur de Weird Tales craignait que le pointillé ne passe pas à l'impression. Toute une industrie du support a vécu de cette contrainte : les <a href="https://swh.princeton.edu/~graphicarts/2010/01/charles_j_rosss_stipple_paper.html" target="_blank" rel="noopener">papiers Ross</a>, brevetés le 3 octobre 1882 comme relief stipple paper, donnaient un gris par simple frottement de crayon gras sur des points en relief, et le Ross Drawing Board comme le Rossco Stip figurent encore aux catalogues de 1950. Les 2 600 pièces de Finlay comptent parmi les 80 originaux de 50 illustrateurs réunis par <a href="https://exhibitions.lib.udel.edu/icons-of-the-fantastic-1" target="_blank" rel="noopener">Icons of the Fantastic</a> à l'University of Delaware.</p></div>
+    <div class="learn reveal"><p>Le papier le moins cher du marché a fabriqué la signature graphique la plus reconnaissable du fantastique, quand nos pipelines d&#x27;images n&#x27;ont plus aucune contrainte qui les force à inventer une écriture.</p></div>
+    <div class="reveal"><a class="src" href="https://www.korshakcollection.com/virgil-finlay" target="_blank" rel="noopener">Korshak Collection <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="gaming" style="--rc:#cd8659">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://gzw.madfinger.games/cms/gray_zone_warfare_rogue_ops_devlog_new_features_16x9_A2_1998598981/gray_zone_warfare_rogue_ops_devlog_new_features_16x9_A2_1998598981.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://gzw.madfinger.games/cms/MKT_Technical_improvements_in_05_Assets_for_devlog_A_1ae138024b/MKT_Technical_improvements_in_05_Assets_for_devlog_A_1ae138024b.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://gzw.madfinger.games/cms/MKT_Technical_improvements_in_05_Assets_for_devlog_B_6451e91795/MKT_Technical_improvements_in_05_Assets_for_devlog_B_6451e91795.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Gaming &amp; worldbuilding</span><span class="tag__n">10</span></div>
+    <h2 class="reveal">Gray Zone Warfare passe sous Unreal Engine 5.7 et bascule sa réplication réseau sur Iris</h2>
+    <div class="ctx reveal"><p><a href="https://www.madfingergames.com" target="_blank" rel="noopener">MADFINGER Games</a> détaille dans le <a href="https://www.grayzonewarfare.com/news/new-features-rogue-ops-devlog" target="_blank" rel="noopener">devlog Rogue Ops</a> la migration de <a href="https://www.grayzonewarfare.com/" target="_blank" rel="noopener">Gray Zone Warfare</a> vers Unreal Engine 5.7, avec le remplacement de la réplication réseau historique par Iris, le nouveau système de réplication du moteur. Le studio chiffre le gain à environ 10 % de FPS côté client comme côté serveur, documente la réduction des hitches sur les 1 % low et maintient la consommation RAM et VRAM au niveau de la 0.4, la charge serveur libérée étant réaffectée aux calculs d'IA.</p><p>Le reste relève du travail d'exploitation : fuites mémoire colmatées, crashes client et serveur de la 0.4 corrigés, régression de performance sur les GPU AMD RDNA 4 traitée, erreur Easy Anti-Cheat sous Linux levée. Côté systèmes, le Hideout ouvre trois salles, Laboratory, Electronics Workshop et Utility Room, à trois niveaux d'amélioration chacune, avec un artisanat quasi instantané opposé à une production et un démontage lents, trois paliers d'outils de piratage, une distribution du butin dépendante de la localisation et un taux d'apparition abaissé sur les objets de valeur. Déploiement en Supporter Preview le 19 octobre et sortie complète le 22, à la suite d'un cycle de <a href="https://www.grayzonewarfare.com/news/player-driven-improvements-rogue-ops" target="_blank" rel="noopener">retours joueurs</a> et d'un volet <a href="https://www.grayzonewarfare.com/news/new-content-rogue-ops-devlog" target="_blank" rel="noopener">contenu</a> publiés séparément.</p></div>
+    <div class="learn reveal"><p>Un live service se juge désormais à sa capacité à changer de plomberie sans arrêter le service.</p></div>
+    <div class="reveal"><a class="src" href="https://www.grayzonewarfare.com/news/new-features-rogue-ops-devlog" target="_blank" rel="noopener">Gray Zone Warfare, MADFINGER Games <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="ui" style="--rc:#8592c9">
+  <div class="media media--3 reveal"><div class="shot"><img src="https://www.joshwcomeau.com/images/og-interop-2027.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.joshwcomeau.com/images/interop-2027/corner-shape-options.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.joshwcomeau.com/images/interop-2027/row-rule.png" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">UI &amp; design d&#x27;interface</span><span class="tag__n">11</span></div>
+    <h2 class="reveal">Interop 2027 ouvre son classement, Chrome 155 livre déjà corner-shape, border-shape et @function</h2>
+    <div class="ctx reveal"><p>La phase de classement d'<a href="https://web.dev/blog/interop-2027-proposals" target="_blank" rel="noopener">Interop 2027</a> est ouverte, et <a href="https://www.joshwcomeau.com/css/interop-2027/" target="_blank" rel="noopener">Josh Comeau</a> a publié le 20 octobre ses dix priorités, toutes tournées vers le dessin d'interface : <code>corner-shape</code> et ses valeurs <code>squircle</code>, <code>bevel</code>, <code>notch</code>, <code>scoop</code>, le <code>border-shape</code> bas niveau qui trace un contour en arcs et courbes de Bézier animables, les gap decorations, <code>rule</code>, <code>row-rule</code>, <code>column-rule</code>, qui suppriment les div de séparation dans une grille, et <code>@function</code> avec son descripteur <code>result</code>. Le vote passe par l'<a href="https://interop-rank.jakearchibald.com/" target="_blank" rel="noopener">outil de classement de Jake Archibald</a>, où chaque proposition porte un numéro d'issue, de 1349 à 1453.</p><p>L'asymétrie d'implémentation est le vrai sujet : <a href="https://chromestatus.com/release-notes/155" target="_blank" rel="noopener">Chrome 155</a> et Edge 154 expédient neuf de ces dix fonctionnalités, Firefox 157 et Safari 27 aucune, et <code>inherit()</code>, qui autoriserait <code>calc(inherit() - 4px)</code> pour les rayons imbriqués, n'existe dans aucun moteur. Deux entrées sortent du registre décoratif : <code>reading-flow</code> et <code>reading-order</code> alignent l'ordre de tabulation sur l'ordre visuel d'une grille, et <code>interpolate-size: allow-keywords</code> couplé à <code>calc-size()</code> anime vers <code>auto</code>, ce qui règle l'accordéon <code>&lt;details&gt;</code> sans JavaScript. <a href="https://adactio.com/journal/22805" target="_blank" rel="noopener">Jeremy Keith</a> a publié son propre classement la même semaine.</p></div>
+    <div class="learn reveal"><p>Les formes, les séparateurs et l&#x27;ordre de lecture redeviennent du CSS déclaratif, et ceux qui classent ces propositions cette semaine décident de ce qu&#x27;on pourra dessiner en 2027.</p></div>
+    <div class="reveal"><a class="src" href="https://www.joshwcomeau.com/css/interop-2027/" target="_blank" rel="noopener">Josh W. Comeau <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="ia" style="--rc:#6fbd97">
+  <div class="media media--2 reveal"><div class="shot"><img src="https://www.videogameschronicle.com/files/2026/10/Vivrato-AI-Adoption-Lifecycle-Mapping-VAIA.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div><div class="shot"><img src="https://www.videogameschronicle.com/files/2024/01/game-developer-1-768x433-1.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">IA &amp; création</span><span class="tag__n">12</span></div>
+    <h2 class="reveal">Un rapport sur 101 dirigeants de studios chiffre l&#x27;ancrage réel de l&#x27;IA dans les pipelines à 3 sur 10</h2>
+    <div class="ctx reveal"><p>Le cabinet <a href="https://www.gamespress.com/Vivrato-VAIA-Report-94-of-Studio-Leaders-Report-AI-Adoption-While-Pipe" target="_blank" rel="noopener">Vivrato</a>, fondé par Adam Boyes, a conduit d'avril à septembre 2026 cent un entretiens confidentiels avec des dirigeants de studios d'Europe et d'Amérique du Nord, en appliquant à chacun la même grille de 44 questions sur les mêmes neuf étapes de production, de la pré-production au live ops et à la monétisation. Les résultats, publiés le 20 octobre et détaillés par <a href="https://www.videogameschronicle.com/news/report-finds-that-94-of-studios-use-ai-but-more-than-half-say-it-isnt-deeply-embedded-into-production/" target="_blank" rel="noopener">Video Games Chronicle</a>, dissocient l'usage et l'intégration : 97 % des dirigeants déclarent un recours à l'IA, 94 % sur au moins une étape, mais la médiane de son ancrage dans le pipeline complet s'établit à 3 sur 10 et 52 % se notent à 3 ou moins.</p><p>Sur l'art, les assets et l'animation, l'écart géographique est franc, 70 % d'usage déclaré en Europe contre 53 % en Amérique du Nord, le reste tenant à des briques non génératives comme la prédiction de churn ou l'automatisation du test. À lire en regard du basculement d'<a href="https://kotaku.com/epic-games-forces-shocked-developers-into-ai-first-mode-for-delayed-shooter-featuring-marvel-and-star-wars-characters-2000744620" target="_blank" rel="noopener">Epic Games</a> en mode AI-first sur son jeu Disney, sans code écrit à la main et avec des workflows art entièrement générés, et de travaux comme <a href="https://arxiv.org/abs/2610.24738" target="_blank" rel="noopener">LayerEditor</a>, déposé le 17 octobre, qui cherche à faire sortir de l'édition générative des calques RGBA ordonnés et réutilisables plutôt que des pixels plats.</p></div>
+    <div class="learn reveal"><p>L&#x27;IA est partout dans les studios et nulle part dans leurs pipelines, et elle y restera un atelier annexe tant qu&#x27;elle produira des images au lieu d&#x27;assets structurés.</p></div>
+    <div class="reveal"><a class="src" href="https://www.videogameschronicle.com/news/report-finds-that-94-of-studios-use-ai-but-more-than-half-say-it-isnt-deeply-embedded-into-production/" target="_blank" rel="noopener">Video Games Chronicle <span>&#8599;</span></a></div>
+  </div>
+</section>
+<section class="entry" id="philosophie" style="--rc:#a8a196">
+  <div class="media media--1 reveal"><div class="shot"><img src="https://images.aeonmedia.co/images/ebbfc9dd-2883-4780-837a-43887f0fbdb5/pessay-ar211874.jpg?width=3840&amp;quality=75&amp;format=auto" alt="" loading="lazy" referrerpolicy="no-referrer"></div></div>
+  <div class="txt">
+    <div class="tag reveal"><span class="dot"></span><span class="tag__r">Philosophie</span><span class="tag__n">13</span></div>
+    <h2 class="reveal">Marc A Moffett défend l&#x27;intuition comme un acte de perception, pas comme un raisonnement abrégé</h2>
+    <div class="ctx reveal"><p>Dans <a href="https://aeon.co" target="_blank" rel="noopener">Aeon</a>, le 20 octobre, le philosophe Marc A Moffett soutient que l'intuition ordinaire, celle qui fait sentir qu'un inconnu est inquiétant ou qu'un courriel est frauduleux, et l'intuition rationnelle que le philosophe convoque dans le dilemme du tramway relèvent d'une seule et même capacité. Son <a href="https://aeon.co/essays/sometimes-you-just-know-somethings-off-but-how" target="_blank" rel="noopener">essai</a> traite ces verdicts immédiats comme des états présentatifs, c'est-à-dire des contenus qui se donnent comme réels sans passer par une chaîne d'arguments, au même titre qu'une perception.</p><p>L'originalité de l'argument tient au déplacement qu'il opère : ce qui fonde l'intuition n'est pas une qualité de sensation intérieure, mais une posture cognitive. Moffett s'appuie sur la déréalisation, où la texture de l'expérience reste intacte alors que le monde cesse de se donner comme réel, pour écarter les lectures phénoménologiques et conclure que croire, ici, consiste à céder à ce qui se montre plutôt qu'à déduire. L'intuition cesse donc de concurrencer le concept et devient ce qui rend son application raisonnable, thèse qui prolonge la série de textes publiés par la revue sur le goût réduit à de la donnée, de <a href="https://aeon.co/essays/if-computers-count-all-the-petals-who-tastes-the-cherries" target="_blank" rel="noopener">Liam Spradlin</a>, et sur l'intelligence réduite à de l'optimisation, de <a href="https://aeon.co/essays/why-real-intelligence-is-something-more-than-optimisation" target="_blank" rel="noopener">Sasha Mudd</a>.</p></div>
+    <div class="learn reveal"><p>Dans un métier où chaque décision devra bientôt s&#x27;expliquer devant une machine, l&#x27;oeil exercé reste la seule compétence qui n&#x27;a pas à montrer son raisonnement pour avoir raison.</p></div>
+    <div class="reveal"><a class="src" href="https://aeon.co/essays/sometimes-you-just-know-somethings-off-but-how" target="_blank" rel="noopener">Aeon <span>&#8599;</span></a></div>
+  </div>
+</section>
+</main>
+<footer>
+  <span class="kicker">Veille créative · édition n°10 · vendredi 23 octobre 2026</span>
+  <a class="btn" href="index.html">Toutes les éditions</a>
+</footer>
+<script>
+(function(){
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('on'); io.unobserve(e.target);} });
+  },{rootMargin:'0px 0px -12% 0px',threshold:.06});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  var bar=document.querySelector('.progress');
+  if(bar){
+    var tick=function(){
+      var h=document.documentElement.scrollHeight-window.innerHeight;
+      bar.style.width=(h>0?(window.scrollY/h)*100:0)+'%';
+    };
+    window.addEventListener('scroll',tick,{passive:true});
+    window.addEventListener('resize',tick); tick();
+  }
+})();
+</script>
+</body>
+</html>

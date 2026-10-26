@@ -1,0 +1,216 @@
+{
+ "date": "2026-10-23",
+ "meta": {
+  "title_en": "THE APPARATUS",
+  "deck_en": "Apple Music fait produire son logo par des ondes sonores dans un bain d'huile minérale, un rapport mené auprès de 101 dirigeants de studios chiffre à 3 sur 10 l'ancrage réel de l'IA dans les pipelines, et 1083 descend son jean à 99 euros en supprimant la teinture et cinquante-quatre déclinaisons. Trois façons de dire que la valeur s'est déplacée vers le dispositif, pas vers le résultat.",
+  "highlights": [
+   "Apple Music fait dessiner son logo par des ondes sonores dans un bain d'huile minérale.",
+   "Cent un dirigeants de studios notent à 3 sur 10 l'ancrage réel de l'IA dans leurs pipelines.",
+   "1083 atteint 99 euros en supprimant la teinture et en passant de 60 à 6 déclinaisons par modèle."
+  ],
+  "topics_fr": [
+   "Un logo tracé par le son",
+   "Un jean à 99 euros sans teinture",
+   "Le secret était la courbe de refroidissement",
+   "L'aluminium qui se décroche du mur",
+   "Des planches de 3 cm pour une voûte",
+   "Un bâtiment pour une seule toile",
+   "Photographier ce qu'on a cultivé",
+   "Le trait du cartoon comme rendu",
+   "Un point, on essuie, on recommence",
+   "Changer de plomberie sans fermer",
+   "Ce qu'on pourra dessiner en 2027",
+   "L'IA notée 3 sur 10 en pipeline",
+   "L'intuition est une perception"
+  ],
+  "hero_image": "https://d8j0ntlcm91z4.cloudfront.net/user_39FfQeMIWqiQLLKAWDtgFuU9Tem/hf_20261023_165726_1c78b08f-d713-489d-a4ff-2f1a24569569.png",
+  "hero_credit": "Image générée pour cette édition"
+ },
+ "intro": "Treize entrées, une par rubrique. Les pépites hors actualité sont portées cette semaine par le luxe, l'architecture et le fantasy art.",
+ "entrees": [
+  {
+   "rubrique": "direction-artistique",
+   "titre": "Apple Music refond son identité à partir d'ondes sonores filmées dans un bain d'huile minérale",
+   "type": "actualite",
+   "source_nom": "Creative Boom",
+   "source_url": "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/",
+   "images": [
+    "https://media.creativeboom.com/f0483d4b-6893-4edc-bad5-edb4885a88f9/conversions/b62c93fdc8522ade2ae9125200ea39fa538362f8-medium.webp",
+    "https://media.creativeboom.com/8b5c14b0-8c37-429b-801e-309c8d962804/conversions/681de3bb4b0aea401245f747b133687dc02bbb7d-medium.webp",
+    "https://media.creativeboom.com/c1de6c79-e8d6-41b8-bf40-31fc220dd014/conversions/016ac7b11af6d3a395e1c99a0143efdcd39a499f-medium.webp",
+    "https://media.creativeboom.com/5d05d09b-fc2f-4f94-ae1f-2172ecc87c00/conversions/23c966b05a9c6dab1187204f1fabe39d737b9873-medium.webp"
+   ],
+   "contexte_html": "<p>Apple Music a dévoilé le 21 octobre une identité produite par cymatique plutôt que dessinée à l'écran : une composition de Fred again.. et de Nest Acoustics a été découpée note par note, chaque note envoyée dans un transducteur immergé dans un bain d'huile minérale, choisie pour sa viscosité, et les répliques du logo et du logotype moulées en acrylique ont été plongées dans le liquide pour que la réfraction déforme les formes en direct. <a href=\"https://www.fastcompany.com/91627164/for-the-new-apple-music-logo-designers-lean-into-the-science-of-sound\" target=\"_blank\" rel=\"noopener\">Fast Company</a> détaille le banc d'essai, un rig et un logiciel développés sur mesure par <a href=\"https://www.designrush.com/agency/profile/tbwa-media-arts-lab\" target=\"_blank\" rel=\"noopener\">TBWA\\Media Arts Lab</a>, et la contrainte qui a cadré des mois de réglage : trop de notes simultanées ou trop aiguës agitent l'huile au point de rendre le signe illisible.</p><p>Le logotype associe le symbole Apple à une version grasse et bas de casse de SF Pro, la fonte système, avec <a href=\"https://fonts.adobe.com/foundries/plau\" target=\"_blank\" rel=\"noopener\">Plau</a> en conseil typographique et reconstruction vectorielle, et la même composition devient la signature sonore de la marque. Le film de fabrication est produit par <a href=\"https://www.itsnicethat.com/articles/optical-arts-advertisements-and-idents-film-animation-project-020926\" target=\"_blank\" rel=\"noopener\">Optical Arts</a>, avec les effets de <a href=\"https://lbbonline.com/profile/time-based-arts\" target=\"_blank\" rel=\"noopener\">Time Based Arts</a> et la réalisation de Joe Jackson. Le logotype avait été testé en septembre sur l'Apple Music Hall à Londres, et selon <a href=\"https://9to5mac.com/2026/10/21/apple-music-unveils-new-design-rebrand-with-logo-made-by-sound/\" target=\"_blank\" rel=\"noopener\">9to5Mac</a> le déploiement in-app suit avec iOS 27.2, raccordé au langage Liquid Glass.</p>",
+   "learning": "Quand tout le monde peut générer une image, la valeur passe du rendu au dispositif physique qui l'a produite."
+  },
+  {
+   "rubrique": "mode",
+   "titre": "1083 sort un jean à 99 euros en supprimant l'étape de teinture et en passant de 60 à 6 déclinaisons par modèle",
+   "type": "actualite",
+   "source_nom": "FashionNetwork",
+   "source_url": "https://fr.fashionnetwork.com/news/1083-lance-un-jean-a-99-euros-en-repensant-son-modele-de-production,1876566.html",
+   "images": [
+    "https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000,format=auto/m/7b37/d687/140d/9772/6b69/38c8/1e62/fba1/567b/9b8a/9b8a.jpg",
+    "https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000,format=auto/m/69ec/4124/1b1d/f069/9b91/cc40/e902/cbf0/0005/0525/0525.jpg",
+    "https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000,format=auto/m/2915/6ee2/dc49/25b7/baec/bbc2/8e14/38a6/a79e/c3bf/c3bf.jpg"
+   ],
+   "contexte_html": "<p><a href=\"https://www.1083.fr/evenements.html\" target=\"_blank\" rel=\"noopener\">1083</a> dévoilera Néo au salon <a href=\"https://www.mifexpo.fr/en/exposants/sas-lequipe-1083-1391/\" target=\"_blank\" rel=\"noopener\">MIF Expo</a>, du 11 au 15 novembre, un jean à 99 euros quand la marque vend habituellement entre 130 et 170 euros. Le prix repose sur trois décisions de fabrication et non sur un rabais commercial : un fil de coton recyclé issu de chutes déjà teintes, qui supprime l'étape de teinture, une distribution monocanale à marge réduite, et le passage de 60 déclinaisons par modèle, tailles, demi-tailles et trois longueurs, à six tailles XS-XXL en une seule longueur.</p><p>Le premier lot reste modeste, 400 pièces pour 600 mètres de tissu, mais cette rationalisation autorise des volumes dix fois supérieurs sur un même patron. Le reste de la gamme tient à 120-170 euros parce que le coût de production est monté de 30-35 euros en 2013 à 40-50 euros aujourd'hui. L'entreprise écoule environ 50 000 pièces par an pour 7 à 8 millions d'euros de chiffre d'affaires, avec 22 salariés dont 20 à l'atelier industriel des Vosges, et elle a réinternalisé la coupe après la défaillance de son sous-traitant, dans la logique déjà suivie lors de la <a href=\"https://fr.fashionnetwork.com/news/1083-fait-de-tissage-de-france-un-atelier-de-jeans,1380949.html\" target=\"_blank\" rel=\"noopener\">reprise de Tissage de France</a>, aux côtés d'acteurs comme <a href=\"https://franceterretextile.fr/france-terre-textile-au-salon-mif-expo/\" target=\"_blank\" rel=\"noopener\">France Terre Textile</a>.</p>",
+   "learning": "Faire baisser un prix de fabrication française ne passe plus par la matière, mais par le renoncement aux déclinaisons."
+  },
+  {
+   "rubrique": "luxe",
+   "titre": "Avventurina, le verre au cuivre réduit de Murano verrouillé par les Miotti pendant un siècle et demi",
+   "type": "pepite",
+   "source_nom": "The Courtauld Gallery, Illuminating Objects",
+   "source_url": "https://sites.courtauld.ac.uk/illuminating-objects/illuminating-objects-home/venetian-chalcedony-adventurine-glass-bowl/",
+   "images": [
+    "https://sites.courtauld.ac.uk/illuminating-objects/wp-content/uploads/sites/7/2017/06/Chalcedony-and-Aventurine-Glass-Bowl.jpg",
+    "https://sites.courtauld.ac.uk/illuminating-objects/wp-content/uploads/sites/7/2017/07/image4-300x226.jpg",
+    "https://sites.courtauld.ac.uk/illuminating-objects/wp-content/uploads/sites/7/2017/07/image9-300x283.jpg"
+   ],
+   "contexte_html": "<p>La coupe en verre calcédoine et avventurina du XVIIIe siècle conservée à la <a href=\"https://sites.courtauld.ac.uk/illuminating-objects/illuminating-objects-home/venetian-chalcedony-adventurine-glass-bowl/\" target=\"_blank\" rel=\"noopener\">Courtauld Gallery</a> mesure 5,7 sur 12,9 cm et documente un procédé que Murano a tenu secret pendant cent cinquante ans. On charge 4 à 6 % en masse d'oxyde de cuivre dans un groisil recyclé, on fond sous atmosphère réductrice avec de l'oxyde de plomb comme fondant et de la calcine de fer ou d'étain comme réducteur, puis on laisse refroidir plusieurs jours pour que le cuivre précipite en microcristaux métalliques triangulaires et hexagonaux. Le verrier concasse ensuite le bloc, ramollit les éclats à la bouche du four, les roule sur une paraison de calcédoine, maille au marbre pour les affleurer et souffle pour les étirer en ovales. Les objets donnés par Pietro Bigaglia, Domenico Bussolin et Lorenzo Radi, dont deux blocs bruts d'avventurina, sont au <a href=\"https://museovetro.visitmuve.it/en/il-museo/layout-and-collections/glass-19th-century/\" target=\"_blank\" rel=\"noopener\">Museo del Vetro</a> de Murano.</p><p>La chaîne documentaire est serrée : première mention en 1614 dans une lettre de Philipp Hainhofer, qui parle de pierres à étoiles d'or vendues par Luca Trono, apparition du terme pasta venturina dans un inventaire de joaillier vénitien en 1626, plus ancienne recette connue transcrite par Giovanni Darduin en 1644 d'après son père Nicolò, puis captation du carnet par les Miotti, qui gardent le procédé jusqu'à l'extinction du four de Stefano Miotti vers 1805. Bigaglia le reconstitue en 1825 et 1826 et ajoute un enrobage de cristal qui permet enfin le travail à chaud, le réchauffage en atmosphère oxydante redissolvant sinon les cristaux. La revue de <a href=\"https://www.tib-op.org/ojs/index.php/glass-europe/article/view/2629\" target=\"_blank\" rel=\"noopener\">Laurent Cormier dans Glass Europe</a> montre que l'analyse chimique ne distingue presque pas l'avventurina d'un rouge au cuivre ordinaire, et le relevé de <a href=\"https://www.britglass.org.uk/knowledge-base/digital-library-and-information-services/aventurine-glass-recipes\" target=\"_blank\" rel=\"noopener\">Moretti et Hreglich</a> recense une centaine de carnets de recettes du XVIIe au XIXe siècle sans que la formule suffise à refaire le verre.</p>",
+   "learning": "La formule circulait depuis 1644 et personne ne savait refaire le verre, parce que la barrière n'était pas la recette mais la courbe de refroidissement, exactement là où se situent encore les vrais actifs industriels."
+  },
+  {
+   "rubrique": "craft",
+   "titre": "Joshi Greene détourne un rail de suspension industriel en système mural, mobilier en aluminium assemblé sans soudure",
+   "type": "actualite",
+   "source_nom": "Wallpaper*",
+   "source_url": "https://www.wallpaper.com/design-interiors/joshi-greene-los-angeles-designers",
+   "images": [
+    "https://cdn.mos.cms.futurecdn.net/rj4fxeyXqq7oGd2KPTvPf.png",
+    "https://cdn.mos.cms.futurecdn.net/zBFddW6dRfS8qNFcrACHdD.jpg",
+    "https://cdn.mos.cms.futurecdn.net/9xRdbXgXkF9PBaPztxbquC.jpg",
+    "https://cdn.mos.cms.futurecdn.net/R3KbVAv4o7H52KmHf3LkGD.jpg"
+   ],
+   "contexte_html": "<p><a href=\"https://www.wallpaper.com/design-interiors/joshi-greene-los-angeles-designers\" target=\"_blank\" rel=\"noopener\">Wallpaper*</a> publie le 18 octobre le portrait de <a href=\"https://joshi-greene.com/\" target=\"_blank\" rel=\"noopener\">Joshi Greene</a>, studio de Los Angeles fondé par Elora Joshi et Andrew Greene, qui reprend un rail de suspension du commerce, celui des bureaux, des hôpitaux et des accrochages de galerie, et le transforme en système mural modulaire en aluminium. La filiation est explicite avec le peg rail shaker du XIXe siècle : on suspend le mobilier au mur plutôt que de repercer à chaque déplacement. Chaise, horloge, patère, étagère, miroir et vase sont tous en aluminium adouci, la chaise Meeting en aluminium anodisé.</p><p>La contrainte de fabrication commande la forme. Le duo a écarté la soudure pour tout produire en interne, vite et à coût bas, ce qui impose un vocabulaire d'assemblages mécaniques et de profilés plutôt que de volumes clos. L'ensemble a été montré au sein de Convey pendant la <a href=\"https://www.wallpaper.com/tag/milan\" target=\"_blank\" rel=\"noopener\">Milan Design Week 2026</a>, et le studio vise désormais les restaurants et les boutiques, là où le rail industriel retourne à son usage d'origine. Le texte de Rosa Bertoli cite un répertoire de références assumé : design japonais, minimalisme britannique des années 1990, objets d'Asie du Sud.</p>",
+   "learning": "Le mobilier le plus intelligent de demain ne se répare pas, il se décroche."
+  },
+  {
+   "rubrique": "architecture",
+   "titre": "Le toit Zollinger, voûte en losanges faite de planches de 3 x 20 cm, brevetée en 1921 et redécoupée joint par joint",
+   "type": "pepite",
+   "source_nom": "Buildings, MDPI",
+   "source_url": "https://www.mdpi.com/2075-5309/13/4/885",
+   "images": [
+    "https://mdpi-res.com/buildings/buildings-13-00885/article_deploy/html/images/buildings-13-00885-g001-550.jpg",
+    "https://mdpi-res.com/buildings/buildings-13-00885/article_deploy/html/images/buildings-13-00885-g002-550.jpg",
+    "https://mdpi-res.com/buildings/buildings-13-00885/article_deploy/html/images/buildings-13-00885-g004-550.jpg"
+   ],
+   "contexte_html": "<p>Déposé le 14 octobre 1921 et accordé le 28 décembre 1923, le brevet de <a href=\"https://en.wikipedia.org/wiki/Friedrich_Zollinger\" target=\"_blank\" rel=\"noopener\">Friedrich Zollinger</a>, Stadtbaumeister de Merseburg, supprime la ferme de charpente et la remplace par un réseau de losanges fait de planches de 3 x 20 cm longues de 2 à 2,50 m. Chaque lamelle oblique reçoit à ses deux bouts une entaille biaise, la Schmiege, et vient se boulonner au milieu d'une lamelle continue percée d'un trou oblong, pour que le boulon travaille au cisaillement et non en flexion, comme le détaille la notice de <a href=\"https://www.baunetzwissen.de/geneigtes-dach/fachwissen/dachtragwerke/zollingerdach-4958920\" target=\"_blank\" rel=\"noopener\">Baunetz Wissen</a>. Le gain est de l'ordre de 40 % de bois en moins qu'une charpente traditionnelle : la Deutsche Zollbau-Licenz-Gesellschaft puis l'Europäische Zollbau-Syndikat annonçaient 850 000 m2 couverts dès 1926, et 1 250 logements montés à Merseburg entre 1922 et 1929.</p><p>L'étude publiée dans <a href=\"https://www.mdpi.com/2075-5309/13/4/885\" target=\"_blank\" rel=\"noopener\">Buildings</a> reprend le dossier au point précis où le système avait calé, le noeud : elle classe les assemblages historiques par excentricité, capacité portante et facilité de montage, puis propose une platine acier de 3 mm et des boulons M12 classe 5.6 en double cisaillement sur des lamelles lamellé-collé de 6/16 cm, pour un prototype de 10,75 m de portée monté en moins d'une semaine par trois ouvriers et quasiment sans échafaudage. Une <a href=\"https://app.iass2024.org/files/IASS_2024_Paper_250.pdf\" target=\"_blank\" rel=\"noopener\">équipe de l'UPC Barcelone</a> a poussé le même noeud vers la double courbure, usinable sur fraiseuse CNC 3 axes, avec une platine plate de 5 mm mesurée à 10,83 kNm/rad de raideur en rotation, soit mille fois celle de la platine circulaire.</p>",
+   "learning": "Quand la grosse section manque, c'est la géométrie qui remplace la matière, et le losange de planches courtes de 1921 est l'ancêtre direct du gridshell usiné en CNC."
+  },
+  {
+   "rubrique": "scenographie",
+   "titre": "David Chipperfield construit à Künzelsau un bâtiment de 140 m2 pour une seule toile d'Anselm Kiefer",
+   "type": "actualite",
+   "source_nom": "designboom",
+   "source_url": "https://www.designboom.com/architecture/anselm-kiefer-monumental-painting-pavilion-david-chipperfield-schwarze-flocken/",
+   "images": [
+    "https://static.designboom.com/wp-content/uploads/2026/10/david-chipperfield-architects-anselm-kiefer-pavillon-studio-menges-tugushi-germany-designboom-1800.jpg",
+    "https://static.designboom.com/wp-content/uploads/2026/10/david-chipperfield-architects-anselm-kiefer-pavillon-studio-menges-tugushi-germany-designboom-01.jpg",
+    "https://static.designboom.com/wp-content/uploads/2026/10/david-chipperfield-architects-anselm-kiefer-pavillon-studio-menges-tugushi-germany-designboom-02.jpg",
+    "https://static.designboom.com/wp-content/uploads/2026/10/david-chipperfield-architects-anselm-kiefer-pavillon-studio-menges-tugushi-germany-designboom-03.jpg"
+   ],
+   "contexte_html": "<p>Le 13 octobre, le <a href=\"https://www.wuerth.com/wuerth-group/homepage.php\" target=\"_blank\" rel=\"noopener\">groupe Würth</a> a ouvert à Künzelsau un pavillon de 140 m2 signé <a href=\"https://davidchipperfield.com/\" target=\"_blank\" rel=\"noopener\">David Chipperfield Architects</a>, conçu pour accueillir une seule oeuvre, <em>Schwarze Flocken</em> de 2007, signée <a href=\"https://gagosian.com/artists/anselm-kiefer/\" target=\"_blank\" rel=\"noopener\">Anselm Kiefer</a>, 11 m de haut sur 7 m de large, huile, émulsion, shellac, terre et branchages, trop grande pour les salles du musée. Le volume est monolithique, béton bouchardé à l'extérieur, maçonnerie de brique doublée d'un enduit de terre à l'intérieur, poutres en bois massif apparentes en couverture.</p><p>La lumière vient de lanterneaux intercalés entre les poutres, donc variable selon l'heure et la saison, avec Kardorff Ingenieure en conception lumière et Mayer-Vorfelder und Dinkelacker à la structure, comme le détaille <a href=\"https://www.designboom.com/architecture/anselm-kiefer-monumental-painting-pavilion-david-chipperfield-schwarze-flocken/\" target=\"_blank\" rel=\"noopener\">designboom</a>. Pas de climatisation active : l'inertie de l'enveloppe suffit à tenir le hors-gel, un choix d'exploitation autant qu'un choix esthétique. Kiefer a arbitré lui-même les proportions de la salle, la position des ouvertures et la couleur des murs.</p>",
+   "learning": "Quand l'oeuvre ne rentre plus dans le musée, c'est le bâtiment qui devient le socle."
+  },
+  {
+   "rubrique": "photographie",
+   "titre": "Sharon Core expose neuf tirages pigmentaires de fleurs qu'elle cultive elle-même et abandonne la chambre pour le numérique",
+   "type": "actualite",
+   "source_nom": "L'Oeil de la Photographie",
+   "source_url": "https://loeildelaphotographie.com/en/yancey-richardson-sharon-core-flowering/",
+   "images": [
+    "https://cdn.loeildelaphotographie.com/wp-content/uploads/2026/10/iris-raven-girl-copy.jpg",
+    "https://cdn.loeildelaphotographie.com/wp-content/uploads/2026/10/dahlia-emory-paul-copy.jpg",
+    "https://cdn.loeildelaphotographie.com/wp-content/uploads/2026/10/tulip-rococo-copy.jpg"
+   ],
+   "contexte_html": "<p><a href=\"https://www.yanceyrichardson.com/artists/sharon-core\" target=\"_blank\" rel=\"noopener\">Sharon Core</a> montre depuis le 22 octobre et jusqu'au 19 décembre neuf tirages jet d'encre pigmentaire chez <a href=\"https://www.yanceyrichardson.com/exhibitions/sharon-core5\" target=\"_blank\" rel=\"noopener\">Yancey Richardson</a>, datés de 2022 à 2024, du 60 x 46 cm au 104 x 80 cm pour l'iris Raven Girl. Chaque plante sort de son propre jardin, choisie parmi des variétés rares aux lignées pluriséculaires et saisie à un stade précis du cycle, de la première floraison au pétale desséché, sur fond blanc franc où la silhouette commande seule le cadre, en recadrage serré et couleur saturée.</p><p>La rupture est technique : la série est produite en numérique, alors que <a href=\"https://www.hydecollection.org/exhibition/sharon-core-1606-to-the-sixties/\" target=\"_blank\" rel=\"noopener\">1606-1907</a> rebâtissait physiquement en studio les natures mortes de Rachel Ruysch, Renoir et Van Gogh, accessoires d'époque et fleurs anciennes cultivées sous serre, sans la moindre retouche logicielle. Le rendu glisse du tableau vers la planche de laboratoire et revendique la filiation de <a href=\"https://www.famsf.org/exhibitions/plant-kingdoms-photography-charles-jones\" target=\"_blank\" rel=\"noopener\">Charles Jones</a> et d'Edward Steichen pour mieux la contredire.</p>",
+   "learning": "Quand l'image devient triviale à générer, la valeur remonte en amont, du côté de celui qui possède physiquement le sujet."
+  },
+  {
+   "rubrique": "film",
+   "titre": "Coyote vs. Acme : DNEG fabrique le trait de Wile E. Coyote avec un réseau Houdini et des shaders toon sous Clarisse",
+   "type": "actualite",
+   "source_nom": "The Art of VFX",
+   "source_url": "https://www.artofvfx.com/coyote-vs-acme-alexander-seaman-vfx-supervisor-and-keith-roberts-animation-director-dneg/",
+   "images": [
+    "https://www.artofvfx.com/wp-content/uploads/2026/10/CoyotevsAcme_DNEG_ITW_07A.jpg",
+    "https://www.artofvfx.com/wp-content/uploads/2026/10/CoyotevsAcme_DNEG_ITW_01B.jpg",
+    "https://www.artofvfx.com/wp-content/uploads/2026/10/CoyotevsAcme_DNEG_ITW_09.jpg",
+    "https://www.artofvfx.com/wp-content/uploads/2026/10/CoyotevsAcme_DNEG_ITW_04B.jpg"
+   ],
+   "contexte_html": "<p>Le superviseur VFX Alexander Seaman et le directeur de l'animation Keith Roberts détaillent sur <a href=\"https://www.artofvfx.com/coyote-vs-acme-alexander-seaman-vfx-supervisor-and-keith-roberts-animation-director-dneg/\" target=\"_blank\" rel=\"noopener\">The Art of VFX</a> dix-huit mois de production chez DNEG : un peu plus de 1 000 plans, 126 animateurs, environ 160 accessoires toon dessinés en lignes grossières et aplats, certains réduits à deux pièces. Le trait n'est pas peint en compositing mais généré : un réseau Houdini trace les contours sur les rigs 3D, et des règles automatiques pilotent l'épaisseur, l'amorce et l'effilement selon la vitesse d'animation et la distance caméra, les lignes les plus lourdes s'orientant dans le sens du mouvement. <a href=\"https://www.fxguide.com/fxpodcasts/dneg-on-making-cartoon-logic-work-in-coyote-vs-acme/\" target=\"_blank\" rel=\"noopener\">fxguide</a> précise le reste de la chaîne : shaders toon écrits dans Clarisse, premiers rendus volontairement plats pour vérifier la lisibilité, puis éclairage traité sous Nuke avec des formes de roto et des accents placés à la main plutôt qu'un modelé lumineux complet.</p><p>Les décisions de cadre suivent la même logique de faux-semblant : la caméra de rendu de Wile E. Coyote utilise souvent une focale différente de celle de la prise de vues réelle, pour contrôler sa perspective et sa silhouette. L'animation est tournée en ones ou en twos selon le plan, avec des timings hybrides par partie de corps, et <a href=\"https://www.animationscoop.com/animation-supervisor-ben-anderson-on-treating-coyote-vs-acme-like-a-2d-chuck-jones/\" target=\"_blank\" rel=\"noopener\">Ben Anderson</a> ajoute un léger boil sur les poses tenues et des traits de vitesse en brosse sèche construits sur des rigs planaires à textures animées. La séquence du désert a été bloquée sous Unreal Engine avant la production VFX, et le marionnettiste Dave Barclay manipulait sur le plateau un Wile E. en mousse à l'échelle 1, tête pivotante et sourcils mobiles, dont la prise servait de plaque de référence avant effacement par les équipes de paint et de roto.</p>",
+   "learning": "Le cartoon n'est pas un style qu'on applique en fin de chaîne, c'est un pipeline qu'on construit, et la ligne dessinée devient un département de rendu à part entière."
+  },
+  {
+   "rubrique": "fantasy",
+   "titre": "Virgil Finlay, le pointillé à la plume lithographique comme réponse au papier de pulp",
+   "type": "pepite",
+   "source_nom": "Korshak Collection",
+   "source_url": "https://www.korshakcollection.com/virgil-finlay",
+   "images": [
+    "https://static.wixstatic.com/media/3d6df1_05167c7dcefe41fd8903697a12a9ced3%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/3d6df1_05167c7dcefe41fd8903697a12a9ced3%7Emv2.jpg",
+    "https://static.wixstatic.com/media/3d6df1_c10cba1710ee45bc98a55d5f7f9cc763.jpg/v1/fill/w_259,h_274,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/3d6df1_c10cba1710ee45bc98a55d5f7f9cc763.jpg",
+    "https://static.wixstatic.com/media/3d6df1_e1ba4293bb42412c9ce681fbf77f0a08.jpg/v1/fill/w_259,h_363,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/3d6df1_e1ba4293bb42412c9ce681fbf77f0a08.jpg"
+   ],
+   "contexte_html": "<p>La notice que la <a href=\"https://www.korshakcollection.com/virgil-finlay\" target=\"_blank\" rel=\"noopener\">Korshak Collection</a> consacre à Virgil Finlay, 1914-1971, documente un procédé entier : plume lithographique trempée dans l'encre, un point posé, pointe essuyée, recommencer, jusqu'à obtenir des gris continus par densité de points. Le second registre est le scratchboard, carton à dessin recouvert d'une mince couche d'encre noire que Finlay gratte à la pointe fine pour dégager des blancs, puis reprend à la plume. Le dossier réuni par <a href=\"https://georgepetros.com/writings/jxtpz/finlay.htm\" target=\"_blank\" rel=\"noopener\">George Petros</a> ajoute le hachurage croisé réservé aux étoiles, aux feux et aux explosions, pour imiter la gamme d'une eau-forte ou d'une photographie, et le tarif réel, sept à onze dollars par dessin, pour plus de 2 400 illustrations de pulps.</p><p>La raison technique est économique. Le papier de pulp, bois mécanique bon marché, ne tient pas un similigravé propre, et le rédacteur de Weird Tales craignait que le pointillé ne passe pas à l'impression. Toute une industrie du support a vécu de cette contrainte : les <a href=\"https://swh.princeton.edu/~graphicarts/2010/01/charles_j_rosss_stipple_paper.html\" target=\"_blank\" rel=\"noopener\">papiers Ross</a>, brevetés le 3 octobre 1882 comme relief stipple paper, donnaient un gris par simple frottement de crayon gras sur des points en relief, et le Ross Drawing Board comme le Rossco Stip figurent encore aux catalogues de 1950. Les 2 600 pièces de Finlay comptent parmi les 80 originaux de 50 illustrateurs réunis par <a href=\"https://exhibitions.lib.udel.edu/icons-of-the-fantastic-1\" target=\"_blank\" rel=\"noopener\">Icons of the Fantastic</a> à l'University of Delaware.</p>",
+   "learning": "Le papier le moins cher du marché a fabriqué la signature graphique la plus reconnaissable du fantastique, quand nos pipelines d'images n'ont plus aucune contrainte qui les force à inventer une écriture."
+  },
+  {
+   "rubrique": "gaming",
+   "titre": "Gray Zone Warfare passe sous Unreal Engine 5.7 et bascule sa réplication réseau sur Iris",
+   "type": "actualite",
+   "source_nom": "Gray Zone Warfare, MADFINGER Games",
+   "source_url": "https://www.grayzonewarfare.com/news/new-features-rogue-ops-devlog",
+   "images": [
+    "https://gzw.madfinger.games/cms/gray_zone_warfare_rogue_ops_devlog_new_features_16x9_A2_1998598981/gray_zone_warfare_rogue_ops_devlog_new_features_16x9_A2_1998598981.jpg",
+    "https://gzw.madfinger.games/cms/MKT_Technical_improvements_in_05_Assets_for_devlog_A_1ae138024b/MKT_Technical_improvements_in_05_Assets_for_devlog_A_1ae138024b.png",
+    "https://gzw.madfinger.games/cms/MKT_Technical_improvements_in_05_Assets_for_devlog_B_6451e91795/MKT_Technical_improvements_in_05_Assets_for_devlog_B_6451e91795.png",
+    "https://gzw.madfinger.games/cms/gray_zone_warfare_rogue_ops_devlog_new_features_1920x401_d3aa8fcb21/gray_zone_warfare_rogue_ops_devlog_new_features_1920x401_d3aa8fcb21.png"
+   ],
+   "contexte_html": "<p><a href=\"https://www.madfingergames.com\" target=\"_blank\" rel=\"noopener\">MADFINGER Games</a> détaille dans le <a href=\"https://www.grayzonewarfare.com/news/new-features-rogue-ops-devlog\" target=\"_blank\" rel=\"noopener\">devlog Rogue Ops</a> la migration de <a href=\"https://www.grayzonewarfare.com/\" target=\"_blank\" rel=\"noopener\">Gray Zone Warfare</a> vers Unreal Engine 5.7, avec le remplacement de la réplication réseau historique par Iris, le nouveau système de réplication du moteur. Le studio chiffre le gain à environ 10 % de FPS côté client comme côté serveur, documente la réduction des hitches sur les 1 % low et maintient la consommation RAM et VRAM au niveau de la 0.4, la charge serveur libérée étant réaffectée aux calculs d'IA.</p><p>Le reste relève du travail d'exploitation : fuites mémoire colmatées, crashes client et serveur de la 0.4 corrigés, régression de performance sur les GPU AMD RDNA 4 traitée, erreur Easy Anti-Cheat sous Linux levée. Côté systèmes, le Hideout ouvre trois salles, Laboratory, Electronics Workshop et Utility Room, à trois niveaux d'amélioration chacune, avec un artisanat quasi instantané opposé à une production et un démontage lents, trois paliers d'outils de piratage, une distribution du butin dépendante de la localisation et un taux d'apparition abaissé sur les objets de valeur. Déploiement en Supporter Preview le 19 octobre et sortie complète le 22, à la suite d'un cycle de <a href=\"https://www.grayzonewarfare.com/news/player-driven-improvements-rogue-ops\" target=\"_blank\" rel=\"noopener\">retours joueurs</a> et d'un volet <a href=\"https://www.grayzonewarfare.com/news/new-content-rogue-ops-devlog\" target=\"_blank\" rel=\"noopener\">contenu</a> publiés séparément.</p>",
+   "learning": "Un live service se juge désormais à sa capacité à changer de plomberie sans arrêter le service."
+  },
+  {
+   "rubrique": "ui",
+   "titre": "Interop 2027 ouvre son classement, Chrome 155 livre déjà corner-shape, border-shape et @function",
+   "type": "actualite",
+   "source_nom": "Josh W. Comeau",
+   "source_url": "https://www.joshwcomeau.com/css/interop-2027/",
+   "images": [
+    "https://www.joshwcomeau.com/images/og-interop-2027.png",
+    "https://www.joshwcomeau.com/images/interop-2027/corner-shape-options.png",
+    "https://www.joshwcomeau.com/images/interop-2027/row-rule.png"
+   ],
+   "contexte_html": "<p>La phase de classement d'<a href=\"https://web.dev/blog/interop-2027-proposals\" target=\"_blank\" rel=\"noopener\">Interop 2027</a> est ouverte, et <a href=\"https://www.joshwcomeau.com/css/interop-2027/\" target=\"_blank\" rel=\"noopener\">Josh Comeau</a> a publié le 20 octobre ses dix priorités, toutes tournées vers le dessin d'interface : <code>corner-shape</code> et ses valeurs <code>squircle</code>, <code>bevel</code>, <code>notch</code>, <code>scoop</code>, le <code>border-shape</code> bas niveau qui trace un contour en arcs et courbes de Bézier animables, les gap decorations, <code>rule</code>, <code>row-rule</code>, <code>column-rule</code>, qui suppriment les div de séparation dans une grille, et <code>@function</code> avec son descripteur <code>result</code>. Le vote passe par l'<a href=\"https://interop-rank.jakearchibald.com/\" target=\"_blank\" rel=\"noopener\">outil de classement de Jake Archibald</a>, où chaque proposition porte un numéro d'issue, de 1349 à 1453.</p><p>L'asymétrie d'implémentation est le vrai sujet : <a href=\"https://chromestatus.com/release-notes/155\" target=\"_blank\" rel=\"noopener\">Chrome 155</a> et Edge 154 expédient neuf de ces dix fonctionnalités, Firefox 157 et Safari 27 aucune, et <code>inherit()</code>, qui autoriserait <code>calc(inherit() - 4px)</code> pour les rayons imbriqués, n'existe dans aucun moteur. Deux entrées sortent du registre décoratif : <code>reading-flow</code> et <code>reading-order</code> alignent l'ordre de tabulation sur l'ordre visuel d'une grille, et <code>interpolate-size: allow-keywords</code> couplé à <code>calc-size()</code> anime vers <code>auto</code>, ce qui règle l'accordéon <code>&lt;details&gt;</code> sans JavaScript. <a href=\"https://adactio.com/journal/22805\" target=\"_blank\" rel=\"noopener\">Jeremy Keith</a> a publié son propre classement la même semaine.</p>",
+   "learning": "Les formes, les séparateurs et l'ordre de lecture redeviennent du CSS déclaratif, et ceux qui classent ces propositions cette semaine décident de ce qu'on pourra dessiner en 2027."
+  },
+  {
+   "rubrique": "ia",
+   "titre": "Un rapport sur 101 dirigeants de studios chiffre l'ancrage réel de l'IA dans les pipelines à 3 sur 10",
+   "type": "actualite",
+   "source_nom": "Video Games Chronicle",
+   "source_url": "https://www.videogameschronicle.com/news/report-finds-that-94-of-studios-use-ai-but-more-than-half-say-it-isnt-deeply-embedded-into-production/",
+   "images": [
+    "https://www.videogameschronicle.com/files/2026/10/Vivrato-AI-Adoption-Lifecycle-Mapping-VAIA.jpg",
+    "https://www.videogameschronicle.com/files/2024/01/game-developer-1-768x433-1.jpg"
+   ],
+   "contexte_html": "<p>Le cabinet <a href=\"https://www.gamespress.com/Vivrato-VAIA-Report-94-of-Studio-Leaders-Report-AI-Adoption-While-Pipe\" target=\"_blank\" rel=\"noopener\">Vivrato</a>, fondé par Adam Boyes, a conduit d'avril à septembre 2026 cent un entretiens confidentiels avec des dirigeants de studios d'Europe et d'Amérique du Nord, en appliquant à chacun la même grille de 44 questions sur les mêmes neuf étapes de production, de la pré-production au live ops et à la monétisation. Les résultats, publiés le 20 octobre et détaillés par <a href=\"https://www.videogameschronicle.com/news/report-finds-that-94-of-studios-use-ai-but-more-than-half-say-it-isnt-deeply-embedded-into-production/\" target=\"_blank\" rel=\"noopener\">Video Games Chronicle</a>, dissocient l'usage et l'intégration : 97 % des dirigeants déclarent un recours à l'IA, 94 % sur au moins une étape, mais la médiane de son ancrage dans le pipeline complet s'établit à 3 sur 10 et 52 % se notent à 3 ou moins.</p><p>Sur l'art, les assets et l'animation, l'écart géographique est franc, 70 % d'usage déclaré en Europe contre 53 % en Amérique du Nord, le reste tenant à des briques non génératives comme la prédiction de churn ou l'automatisation du test. À lire en regard du basculement d'<a href=\"https://kotaku.com/epic-games-forces-shocked-developers-into-ai-first-mode-for-delayed-shooter-featuring-marvel-and-star-wars-characters-2000744620\" target=\"_blank\" rel=\"noopener\">Epic Games</a> en mode AI-first sur son jeu Disney, sans code écrit à la main et avec des workflows art entièrement générés, et de travaux comme <a href=\"https://arxiv.org/abs/2610.24738\" target=\"_blank\" rel=\"noopener\">LayerEditor</a>, déposé le 17 octobre, qui cherche à faire sortir de l'édition générative des calques RGBA ordonnés et réutilisables plutôt que des pixels plats.</p>",
+   "learning": "L'IA est partout dans les studios et nulle part dans leurs pipelines, et elle y restera un atelier annexe tant qu'elle produira des images au lieu d'assets structurés."
+  },
+  {
+   "rubrique": "philosophie",
+   "titre": "Marc A Moffett défend l'intuition comme un acte de perception, pas comme un raisonnement abrégé",
+   "type": "actualite",
+   "source_nom": "Aeon",
+   "source_url": "https://aeon.co/essays/sometimes-you-just-know-somethings-off-but-how",
+   "images": [
+    "https://images.aeonmedia.co/images/ebbfc9dd-2883-4780-837a-43887f0fbdb5/pessay-ar211874.jpg?width=3840&quality=75&format=auto"
+   ],
+   "contexte_html": "<p>Dans <a href=\"https://aeon.co\" target=\"_blank\" rel=\"noopener\">Aeon</a>, le 20 octobre, le philosophe Marc A Moffett soutient que l'intuition ordinaire, celle qui fait sentir qu'un inconnu est inquiétant ou qu'un courriel est frauduleux, et l'intuition rationnelle que le philosophe convoque dans le dilemme du tramway relèvent d'une seule et même capacité. Son <a href=\"https://aeon.co/essays/sometimes-you-just-know-somethings-off-but-how\" target=\"_blank\" rel=\"noopener\">essai</a> traite ces verdicts immédiats comme des états présentatifs, c'est-à-dire des contenus qui se donnent comme réels sans passer par une chaîne d'arguments, au même titre qu'une perception.</p><p>L'originalité de l'argument tient au déplacement qu'il opère : ce qui fonde l'intuition n'est pas une qualité de sensation intérieure, mais une posture cognitive. Moffett s'appuie sur la déréalisation, où la texture de l'expérience reste intacte alors que le monde cesse de se donner comme réel, pour écarter les lectures phénoménologiques et conclure que croire, ici, consiste à céder à ce qui se montre plutôt qu'à déduire. L'intuition cesse donc de concurrencer le concept et devient ce qui rend son application raisonnable, thèse qui prolonge la série de textes publiés par la revue sur le goût réduit à de la donnée, de <a href=\"https://aeon.co/essays/if-computers-count-all-the-petals-who-tastes-the-cherries\" target=\"_blank\" rel=\"noopener\">Liam Spradlin</a>, et sur l'intelligence réduite à de l'optimisation, de <a href=\"https://aeon.co/essays/why-real-intelligence-is-something-more-than-optimisation\" target=\"_blank\" rel=\"noopener\">Sasha Mudd</a>.</p>",
+   "learning": "Dans un métier où chaque décision devra bientôt s'expliquer devant une machine, l'oeil exercé reste la seule compétence qui n'a pas à montrer son raisonnement pour avoir raison."
+  }
+ ]
+}
